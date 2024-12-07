@@ -6,7 +6,7 @@
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
-4) 
+
 **3.** Заходим в приложение v2rayNG и в правом верхнем углу нажимаем на ➕, а затем выбираем Импорт из буфера обмена.
    
 **4.** Выбираем нужный вам сервер и затем нажимаем на кнопку ▶️ в правом нижнем углу.
@@ -28,7 +28,7 @@
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
-4) 
+
 **4.** Нажимаем на кнопку Добавить из буфера обмена.
    
 **5.** Перейдите в Настройки, измените Вариант маршрутизации на Афганистан.
