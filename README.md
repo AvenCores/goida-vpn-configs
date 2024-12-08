@@ -2,13 +2,17 @@
 
 ![maxresdefault](https://github.com/user-attachments/assets/974afd3d-de2b-400c-b835-a849687ae20c)
 
-<div style="text-align: center; font-size: 24px;">
+<div style="font-size: 24px;">
+
+<center>
 
 [**Смотреть на YouTube**](https://youtu.be/CLqlIS7ioIc)  
 
 [**Смотреть на Dzen**](https://dzen.ru/video/watch/6754a44048271914968ebfff)  
 
 [**Смотреть VK Video**](https://vk.com/video-200297343_456239231)  
+
+</center>
 
 </div>
 
