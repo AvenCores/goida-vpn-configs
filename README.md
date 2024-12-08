@@ -2,11 +2,16 @@
 
 ![maxresdefault](https://github.com/user-attachments/assets/974afd3d-de2b-400c-b835-a849687ae20c)
 
-[Смотреть на YouTube](https://youtu.be/CLqlIS7ioIc)
+<div align="center">
 
-[Смотреть на Dzen](https://dzen.ru/video/watch/6754a44048271914968ebfff)
+[**Смотреть на YouTube**](https://youtu.be/CLqlIS7ioIc)  
 
-[Смотреть VK Video](https://vk.com/video-200297343_456239231)
+[**Смотреть на Dzen**](https://dzen.ru/video/watch/6754a44048271914968ebfff)  
+
+[**Смотреть VK Video**](https://vk.com/video-200297343_456239231)  
+
+</div>
+
 
 # ⚠ Если "не работает" VPN
 
