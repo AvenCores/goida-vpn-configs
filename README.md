@@ -2,7 +2,7 @@
 
 ![maxresdefault](https://github.com/user-attachments/assets/974afd3d-de2b-400c-b835-a849687ae20c)
 
-<div align="center">
+<div style="text-align: center; font-size: 24px;">
 
 [**Смотреть на YouTube**](https://youtu.be/CLqlIS7ioIc)  
 
