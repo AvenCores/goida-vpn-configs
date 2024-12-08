@@ -1,3 +1,17 @@
+# 🎦 Видео гайд по установке и решению проблем
+
+![maxresdefault](https://github.com/user-attachments/assets/974afd3d-de2b-400c-b835-a849687ae20c)
+
+[Смотреть на YouTube](https://youtu.be/CLqlIS7ioIc)
+
+[Смотреть на Dzen](https://dzen.ru/video/watch/6754a44048271914968ebfff)
+
+[Смотреть VK Video](https://vk.com/video-200297343_456239231)
+
+# ⚠ Если "не работает" VPN
+
+Ссылка на видео с демонстрацией фикса - [Ссылка](https://t.me/avencoreschat/25254)
+
 # 🤖 Гайд для Android
 **1.** Скачиваем v2rayNG - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.16/v2rayNG_1.9.16_arm64-v8a.apk)
 
