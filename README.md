@@ -1,3 +1,5 @@
+</div>
+
 # 🎦 Видео гайд по установке и решению проблем
 
 ![maxresdefault](https://github.com/user-attachments/assets/974afd3d-de2b-400c-b835-a849687ae20c)
@@ -17,20 +19,24 @@
 Ссылка на видео с демонстрацией фикса - [Ссылка](https://t.me/avencoreschat/25254)
 
 # 🤖 Гайд для Android
-**1.** Скачиваем v2rayNG - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.16/v2rayNG_1.9.16_arm64-v8a.apk)
+**1.** Скачиваем v2rayNG - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.31/v2rayNG_1.9.31_universal.apk)
 
 **2.** Копируем в буфер обмена: 
 
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
-2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
-3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
+2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
+3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
+4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
+5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
+6) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
+7) `https://panel.maviks.eu/sub/Njk2MjgzNjk4MSwxNzM1NjM1Nzgx1DGKNkRQqd`
 
 **3.** Заходим в приложение v2rayNG и в правом верхнем углу нажимаем на ➕, а затем выбираем Импорт из буфера обмена.
    
 **4.** Выбираем нужный вам сервер и затем нажимаем на кнопку ▶️ в правом нижнем углу.
 
 # 🤖 Гайд для Android TV
-**1.** Скачиваем v2rayNG - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.16/v2rayNG_1.9.16_armeabi-v7a.apk)
+**1.** Скачиваем v2rayNG - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.31/v2rayNG_1.9.31_universal.apk)
 
 **2.** Скачиваем QR-коды - [Ссылка](https://t.me/avencoreschat/25613)
 
@@ -45,8 +51,12 @@
 
 **3.** Копируем в буфер обмена: 
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
-2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
-3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
+2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
+3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
+4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
+5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
+6) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
+7) `https://panel.maviks.eu/sub/Njk2MjgzNjk4MSwxNzM1NjM1Nzgx1DGKNkRQqd`
 
 **4.** Нажимаем на кнопку Добавить из буфера обмена.
    
