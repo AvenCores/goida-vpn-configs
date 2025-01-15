@@ -45,7 +45,7 @@
 **4.** Выбираем нужный вам сервер и затем нажимаем на кнопку ▶️ в правом нижнем углу.
 
 # 🖥 Гайд для Windows, Linux
-**1.** Скачиваем NekoRay - Windows (https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip) / Linux (https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-linux-x64.AppImage)
+**1.** Скачиваем NekoRay - [Windows](https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip) / [Linux](https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-linux-x64.AppImage)
 
 **2.** Копируем в буфер обмена: 
 
