@@ -44,7 +44,28 @@
 
 **4.** Выбираем нужный вам сервер и затем нажимаем на кнопку ▶️ в правом нижнем углу.
 
-# 🤖 Гайд для Windows, Linux, iOS, MacOS
+# 🖥 Гайд для Windows, Linux
+**1.** Скачиваем NekoRay - Windows (https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip) / Linux (https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-linux-x64.AppImage)
+
+**2.** Копируем в буфер обмена: 
+
+1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
+2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
+3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
+4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
+5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
+6) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
+7) `https://panel.maviks.eu/sub/Njk2MjgzNjk4MSwxNzM1NjM1Nzgx1DGKNkRQqd`
+   
+**3.** Нажимаем на Сервер, а затем Импортировать из буфера.
+
+**4.** Наживаем на URL Test в правом верхнем углу и дожидаемся конца теста.
+
+**5.** Ставим галочку на против Режим TUN.
+
+**6.** Выбираем тест с наименьшим Ping, а затем нажимаем ЛКМ и Запустить.
+
+# 🤖 Гайд для iOS, MacOS
 **1.** Скачиваем Hiddidy - [Ссылка](https://hiddify.com/)
 
 **2.** Нажимаем Новый профиль.
