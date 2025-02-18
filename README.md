@@ -34,6 +34,8 @@
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
+4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
+5) `https://hideshots.eu/sub.txt`
 
  - [ ] **Архивные**
 
@@ -42,8 +44,6 @@
 6) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
 7) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn_v2rayng_and_hiddify.txt`
 8) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_v2rayng.txt`
-9) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
-10) `https://hideshots.eu/sub.txt`
 
 **3.** Заходим в приложение **v2rayNG** и в правом верхнем углу нажимаем на ➕, а затем выбираем **Импорт из буфера обмена**.
    
@@ -75,6 +75,8 @@
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
+4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
+5) `https://hideshots.eu/sub.txt`
 
  - [ ] **Архивные**
 
@@ -83,8 +85,6 @@
 6) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
 7) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn.txt`
 8) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_full.txt`
-9) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
-10) `https://hideshots.eu/sub.txt`
 
 **3.** Нажимаем на **Сервер**, а затем **Импортировать из буфера**.
 
@@ -113,6 +113,8 @@
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
+4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
+5) `https://hideshots.eu/sub.txt`
 
  - [ ] **Архивные**
 
@@ -121,8 +123,6 @@
 6) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
 7) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn_v2rayng_and_hiddify.txt`
 8) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_v2rayng.txt`
-9) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
-10) `https://hideshots.eu/sub.txt`
 
 **4.** Нажимаем на кнопку **Добавить из буфера обмена**.
    
