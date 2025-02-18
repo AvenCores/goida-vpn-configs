@@ -25,7 +25,7 @@
 *Ссылка на видео с демонстрацией фикса* - [Ссылка](https://t.me/avencoreschat/25254)
 
 # 📱 Гайд для Android
-**1.** Скачиваем **v2rayNG** - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.31/v2rayNG_1.9.31_universal.apk)
+**1.** Скачиваем **v2rayNG** - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.33/v2rayNG_1.9.33_universal.apk)
 
 **2.** Копируем в буфер обмена: 
 
@@ -50,7 +50,7 @@
 **4.** Выбираем нужный вам сервер и затем нажимаем на кнопку ▶️ в правом нижнем углу.
 
 # 📺 Гайд для Android TV
-**1.** Скачиваем v2rayNG - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.31/v2rayNG_1.9.31_universal.apk)
+**1.** Скачиваем v2rayNG - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.33/v2rayNG_1.9.33_universal.apk)
 
 **2.** Скачиваем **QR-коды** - [Ссылка](https://t.me/avencoreschat/35201)
 
