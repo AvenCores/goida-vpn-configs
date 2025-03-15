@@ -45,6 +45,7 @@
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
 4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
+6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 
  - [ ] **Архивные**
 
@@ -86,6 +87,7 @@
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
 4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
+6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 
  - [ ] **Архивные**
 
@@ -124,6 +126,7 @@
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
 4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
+6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 
  - [ ] **Архивные**
 
