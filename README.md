@@ -50,11 +50,11 @@
 
  - [ ] **Архивные**
 
-8) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
-9) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
-10) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
-11) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn_v2rayng_and_hiddify.txt`
-12) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_v2rayng.txt`
+1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
+2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
+3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
+4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn_v2rayng_and_hiddify.txt`
+5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_v2rayng.txt`
 
 **3.** Заходим в приложение **v2rayNG** и в правом верхнем углу нажимаем на ➕, а затем выбираем **Импорт из буфера обмена**.
    
@@ -93,11 +93,11 @@
 
  - [ ] **Архивные**
 
-8) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
-9) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
-10) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
-11) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn.txt`
-12) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_full.txt`
+1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
+2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
+3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
+4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn.txt`
+5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_full.txt`
 
 **3.** Нажимаем на **Сервер**, а затем **Импортировать из буфера**.
 
@@ -133,11 +133,11 @@
 
  - [ ] **Архивные**
 
-8) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
-9) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
-10) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
-11) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn_v2rayng_and_hiddify.txt`
-12) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_v2rayng.txt`
+1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
+2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
+3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
+4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn_v2rayng_and_hiddify.txt`
+5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_v2rayng.txt`
 
 **4.** Нажимаем на кнопку **Добавить из буфера обмена**.
    
