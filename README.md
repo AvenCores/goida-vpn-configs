@@ -46,7 +46,7 @@
 4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
-7) `https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt`
+7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
 
  - [ ] **Архивные**
 
@@ -89,7 +89,7 @@
 4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
-7) `https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt`
+7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
 
  - [ ] **Архивные**
 
@@ -129,7 +129,7 @@
 4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
-7) `https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt`
+7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
 
  - [ ] **Архивные**
 
