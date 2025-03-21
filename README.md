@@ -1,3 +1,4 @@
+
 [![Youtube](https://user-images.githubusercontent.com/64781822/185656066-cdb875f1-ade6-4499-ae50-79a4f61fdc3e.png)](https://www.youtube.com/@avencores/) [![Telegram](https://user-images.githubusercontent.com/64781822/185657127-657c530b-3849-4931-ab91-63d6f0508330.png)](https://t.me/avencoresyt) [![VK](https://user-images.githubusercontent.com/64781822/185657778-21a240e2-da1f-4b72-b37e-447c9adebfcb.png)](https://vk.com/avencoresvk)
 
 
@@ -75,6 +76,13 @@
 **2.** Выбираем вкладку **Группы**.
 
 **3.** Нажимаем на **иконку кружка со стрелкой** в **правом верхнем углу**.
+
+# ⚠ Исправляем ошибку MSVCP и VCRUNTIME на Windows 10/11
+**1.** Нажимаем **Win+R** и пишешь **control** .
+**2.** Выбираешь **Программы и компоненты**.
+**3.** В поиск (справа сверху) пишешь слово **Visual** и удаляешь что что касается **Microsoft Visual**.
+**4.** Скачиваешь архив и распаковываем - [Ссылка](https://dl.comss.org/download/Visual-C-Runtimes-All-in-One-Nov-2024.zip)
+**5.** Запускаем от *имени Администратора* **install_bat.all** и ждем пока все установиться.
 
 # 🖥 Гайд для Windows, Linux
 **1.** Скачиваем **NekoRay** - [Windows](https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip) / [Linux](https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-linux-x64.AppImage)
