@@ -48,6 +48,7 @@
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
+8) `https://shadowmere.xyz/api/b64sub/`
 
  - [ ] **Архивные**
 
@@ -64,7 +65,7 @@
 # 📺 Гайд для Android TV
 **1.** Скачиваем **v2rayNG** - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.39/v2rayNG_1.9.39_universal.apk)
 
-**2.** Скачиваем **QR-коды** вечно актуальных коннектов - [Ссылка](https://t.me/avencoreschat/48353)
+**2.** Скачиваем **QR-коды** вечно актуальных коннектов - [Ссылка](https://t.me/avencoreschat/48452)
 
 **3**. Заходим в приложение **v2rayNG** и в правом верхнем углу нажимаем на ➕, а затем выбираем **Импорт из QR-кода**, выбираем картинку нажав на иконку фото в правом верхнем углу.
 
@@ -102,6 +103,7 @@
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
+8) `https://shadowmere.xyz/api/b64sub/`
 
  - [ ] **Архивные**
 
@@ -142,6 +144,7 @@
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
+8) `https://shadowmere.xyz/api/b64sub/`
 
  - [ ] **Архивные**
 
