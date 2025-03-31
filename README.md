@@ -39,7 +39,7 @@
 
 **2.** Копируем в буфер обмена: 
 
- - [Рекомендованные] **Вечно актуальные**
+ - [ Рекомендованные ] **Вечно актуальные**
 
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
