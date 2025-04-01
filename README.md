@@ -43,7 +43,7 @@
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
-4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
+4) `https://xray.abvpn.ru/vless/588f094b-431b-422c-b80b-007945037072/6542271205.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
@@ -102,7 +102,7 @@
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
-4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
+4) `https://xray.abvpn.ru/vless/588f094b-431b-422c-b80b-007945037072/6542271205.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
@@ -141,7 +141,7 @@
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
-4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
+4) `https://xray.abvpn.ru/vless/588f094b-431b-422c-b80b-007945037072/6542271205.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
@@ -178,7 +178,7 @@
 1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/one_file_vpn.txt`
 2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/two_file_vpn.txt`
 3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/three_file_vpn.txt`
-4) `https://xray.abvpn.ru/vless/37208d52-8823-412d-944e-0a8ef08a5079/6397639568.json#abvpn`
+4) `https://xray.abvpn.ru/vless/588f094b-431b-422c-b80b-007945037072/6542271205.json#abvpn`
 5) `https://hideshots.eu/sub.txt`
 6) `https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt`
 7) `https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt`
