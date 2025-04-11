@@ -15,6 +15,7 @@ local_file5 = "githubmirror/5.txt"
 local_file6 = "githubmirror/6.txt"
 local_file7 = "githubmirror/7.txt"
 local_file8 = "githubmirror/8.txt"
+local_file9 = "githubmirror/9.txt"
 
 # Если локальная папка не существует, создаём её
 if not os.path.exists("githubmirror"):
@@ -52,6 +53,10 @@ LOCAL_FILE_PATH7 = local_file7
 URL8 = "https://shadowmere.xyz/api/b64sub/"
 REMOTE_FILE_PATH8 = "githubmirror/8.txt"
 LOCAL_FILE_PATH8 = local_file8
+
+URL9 = "https://robin.nscl.ir/"
+REMOTE_FILE_PATH9 = "githubmirror/9.txt"
+LOCAL_FILE_PATH9 = local_file9
 
 # URL и локальные/удалённые пути для VPN файлов (файлы публикуются в корне репозитория)
 URL_VPN1 = "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality"
@@ -347,6 +352,51 @@ def upload_to_github7():
         )
         print(f"Файл {REMOTE_FILE_PATH8} создан.")
 
+def fetch_data8():
+    response = requests.get(URL9)
+    response.raise_for_status()
+    return response.text
+
+def save_to_local_file9(content):
+    with open(LOCAL_FILE_PATH9, "w", encoding="utf-8") as file:
+        file.write(content)
+    print(f"Данные сохранены локально в {LOCAL_FILE_PATH9}")
+
+def upload_to_github8():
+    if not os.path.exists(LOCAL_FILE_PATH9):
+        print(f"Файл {LOCAL_FILE_PATH9} не найден.")
+        return
+    g = Github(GITHUB_TOKEN)
+    repo = g.get_repo(REPO_NAME_1)
+    with open(LOCAL_FILE_PATH9, "r", encoding="utf-8") as file:
+        content = file.read()
+    try:
+        file_in_repo = repo.get_contents(REMOTE_FILE_PATH9)
+        repo.update_file(
+            path=REMOTE_FILE_PATH9,
+            message=f"Update {datetime.now().isoformat()}",
+            content=content,
+            sha=file_in_repo.sha
+        )
+        print(f"Файл {REMOTE_FILE_PATH9} обновлён.")
+    except Exception as e:
+        repo.create_file(
+            path=REMOTE_FILE_PATH9,
+            message=f"Initial commit {datetime.now().isoformat()}",
+            content=content
+        )
+        print(f"Файл {REMOTE_FILE_PATH9} создан.")
+
+def fetch_data8():
+    response = requests.get(URL9)
+    response.raise_for_status()
+    return response.text
+
+def save_to_local_file8(content):
+    with open(LOCAL_FILE_PATH9, "w", encoding="utf-8") as file:
+        file.write(content)
+    print(f"Данные сохранены локально в {LOCAL_FILE_PATH9}")
+
 def fetch_vpn_data1():
     response = requests.get(URL_VPN1)
     response.raise_for_status()
@@ -490,6 +540,10 @@ def main():
         data7 = fetch_data7()
         save_to_local_file7(data7)
         upload_to_github7()
+
+        data8 = fetch_data8()
+        save_to_local_file8(data8)
+        upload_to_github8()
 
         # Обработка VPN файлов (3 файла)
         vpn_data1 = fetch_vpn_data1()

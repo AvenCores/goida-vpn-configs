@@ -63,6 +63,7 @@
 6) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt`
 7) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/7.txt`
 8) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/8.txt`
+9) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt`
 
  - [ ] **Архивные**
 
@@ -81,7 +82,7 @@
 # 📺 Гайд для Android TV
 **1.** Скачиваем **v2rayNG** - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.9.45/v2rayNG_1.9.45_universal.apk)
 
-**2.** Скачиваем **QR-коды** вечно актуальных коннектов - [Ссылка](https://t.me/avencoreschat/50690)
+**2.** Скачиваем **QR-коды** вечно актуальных коннектов - [Ссылка](https://github.com/AvenCores/goida-vpn-configs/tree/main/qr-codes)
 
 **3**. Заходим в приложение **v2rayNG** и в правом верхнем углу нажимаем на ➕, а затем выбираем **Импорт из QR-кода**, выбираем картинку нажав на иконку фото в правом верхнем углу.
 
@@ -122,6 +123,7 @@
 6) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt`
 7) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/7.txt`
 8) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/8.txt`
+9) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt`
 
  - [ ] **Архивные**
 
@@ -161,6 +163,7 @@
 6) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt`
 7) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/7.txt`
 8) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/8.txt`
+9) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt`
 
  - [ ] **Архивные**
 
@@ -198,6 +201,7 @@
 6) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt`
 7) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/7.txt`
 8) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/8.txt`
+9) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt`
 
  - [ ] **Архивные**
 
