@@ -1,14 +1,18 @@
-<p align="center">
-  <a href="https://www.youtube.com/@avencores/" target="_blank" style="margin-right: 20px;">
-    <img src="https://github.com/user-attachments/assets/338bcd74-e3c3-4700-87ab-7985058bd17e" alt="Youtube" height="40">
+<div style="display: inline-block; width: 33.3%; text-align: left;">
+  <a href="https://www.youtube.com/@avencores/" target="_blank">
+    <img src="https://github.com/user-attachments/assets/338bcd74-e3c3-4700-87ab-7985058bd17e" alt="YouTube" height="40">
   </a>
-  <a href="https://t.me/avencoresyt" target="_blank" style="margin-right: 20px;">
+</div>
+<div style="display: inline-block; width: 33.3%; text-align: center;">
+  <a href="https://t.me/avencoresyt" target="_blank">
     <img src="https://github.com/user-attachments/assets/939f8beb-a49a-48cf-89b9-d610ee5c4b26" alt="Telegram" height="40">
   </a>
+</div>
+<div style="display: inline-block; width: 33.3%; text-align: right;">
   <a href="https://vk.com/avencoresvk" target="_blank">
     <img src="https://github.com/user-attachments/assets/dc109dda-9045-4a06-95a5-3399f0e21dc4" alt="VK" height="40">
   </a>
-</p>
+</div>
 
 </div>
 
