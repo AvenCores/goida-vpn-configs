@@ -20,7 +20,7 @@
 
 # 🎦 Видео гайд по установке и решению проблем
 
-![maxresdefault](https://github.com/user-attachments/assets/974afd3d-de2b-400c-b835-a849687ae20c)
+![maxresdefault](https://github.com/user-attachments/assets/e36e2351-3b1a-4b90-87f7-cafbc74f238c)
 
 <div align="center">
 
