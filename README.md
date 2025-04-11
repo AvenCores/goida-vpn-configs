@@ -1,4 +1,4 @@
-[![Youtube](https://github.com/user-attachments/assets/253702ab-66f0-43e8-b27e-5f4aa9b1997c)](https://www.youtube.com/@avencores/) [![Telegram](https://github.com/user-attachments/assets/ce878739-d955-4a9a-9ce4-1c62c755bdd1)](https://t.me/avencoresyt) [![VK](https://github.com/user-attachments/assets/f1b07e3c-8797-4fd7-9dcd-7da17bd84d5c)](https://vk.com/avencoresvk)
+[![Youtube](https://github.com/user-attachments/assets/338bcd74-e3c3-4700-87ab-7985058bd17e)](https://www.youtube.com/@avencores/) [![Telegram](https://github.com/user-attachments/assets/939f8beb-a49a-48cf-89b9-d610ee5c4b26)](https://t.me/avencoresyt) [![VK](https://github.com/user-attachments/assets/dc109dda-9045-4a06-95a5-3399f0e21dc4)](https://vk.com/avencoresvk)
 
 
 </div>
