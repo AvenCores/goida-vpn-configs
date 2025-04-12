@@ -104,7 +104,7 @@
 
 **3.** В поиск (справа сверху) пишем слово **Visual** и удалям все что касается **Microsoft Visual**.
 
-**4.** Скачиваем архив и распаковываем - [Ссылка](https://dl.comss.org/download/Visual-C-Runtimes-All-in-One-Nov-2024.zip)
+**4.** Скачиваем архив и распаковываем - [Ссылка](https://dl.comss.org/download/Visual-C-Runtimes-All-in-One-Mar-2025.zip)
 
 **5.** Запускаем от *имени Администратора* **install_bat.all** и ждем пока все установиться.
 
