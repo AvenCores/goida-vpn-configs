@@ -2,6 +2,11 @@ import os
 import requests
 from github import Github
 from datetime import datetime
+import zoneinfo
+
+zone = zoneinfo.ZoneInfo("Europe/Moscow")
+thistime = datetime.now(zone)
+offset = thistime.strftime("%Y-%m-%d | %H:%M:%S")
 
 GITHUB_TOKEN = "" # github token https://github.com/settings/tokens
 REPO_NAME = ""  # username/repo_name
@@ -99,7 +104,7 @@ def upload_to_github():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH1)
         repo.update_file(
             path=REMOTE_FILE_PATH1,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -107,7 +112,7 @@ def upload_to_github():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH1,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH1} создан.")
@@ -134,7 +139,7 @@ def upload_to_github1():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH2)
         repo.update_file(
             path=REMOTE_FILE_PATH2,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -142,7 +147,7 @@ def upload_to_github1():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH2,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH2} создан.")
@@ -169,7 +174,7 @@ def upload_to_github2():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH3)
         repo.update_file(
             path=REMOTE_FILE_PATH3,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -177,7 +182,7 @@ def upload_to_github2():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH3,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH3} создан.")
@@ -204,7 +209,7 @@ def upload_to_github3():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH4)
         repo.update_file(
             path=REMOTE_FILE_PATH4,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -212,7 +217,7 @@ def upload_to_github3():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH4,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH4} создан.")
@@ -239,7 +244,7 @@ def upload_to_github4():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH5)
         repo.update_file(
             path=REMOTE_FILE_PATH5,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -247,7 +252,7 @@ def upload_to_github4():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH5,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH5} создан.")
@@ -274,7 +279,7 @@ def upload_to_github5():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH6)
         repo.update_file(
             path=REMOTE_FILE_PATH6,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -282,7 +287,7 @@ def upload_to_github5():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH6,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH6} создан.")
@@ -309,7 +314,7 @@ def upload_to_github6():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH7)
         repo.update_file(
             path=REMOTE_FILE_PATH7,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -317,7 +322,7 @@ def upload_to_github6():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH7,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH7} создан.")
@@ -344,7 +349,7 @@ def upload_to_github7():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH8)
         repo.update_file(
             path=REMOTE_FILE_PATH8,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -352,7 +357,7 @@ def upload_to_github7():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH8,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH8} создан.")
@@ -379,7 +384,7 @@ def upload_to_github8():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH9)
         repo.update_file(
             path=REMOTE_FILE_PATH9,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -387,7 +392,7 @@ def upload_to_github8():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH9,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH9} создан.")
@@ -414,7 +419,7 @@ def upload_to_github9():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH10)
         repo.update_file(
             path=REMOTE_FILE_PATH10,
-            message=f"Update {datetime.now().isoformat()}",
+            message=f"Update",
             content=content,
             sha=file_in_repo.sha
         )
@@ -422,7 +427,7 @@ def upload_to_github9():
     except Exception as e:
         repo.create_file(
             path=REMOTE_FILE_PATH10,
-            message=f"Initial commit {datetime.now().isoformat()}",
+            message=f"Initial commit {offset}",
             content=content
         )
         print(f"Файл {REMOTE_FILE_PATH10} создан.")
@@ -449,7 +454,7 @@ def upload_vpn_file1():
         file_in_repo = repo.get_contents(REMOTE_VPN_PATH1)
         repo.update_file(
             path=REMOTE_VPN_PATH1,
-            message=f"Update VPN {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -457,7 +462,7 @@ def upload_vpn_file1():
     except Exception as e:
         repo.create_file(
             path=REMOTE_VPN_PATH1,
-            message=f"Initial commit VPN {datetime.now().isoformat()}",
+            message=f"Initial commit VPN {offset}",
             content=content
         )
         print(f"Файл {REMOTE_VPN_PATH1} создан в VPN репозитории.")
@@ -484,7 +489,7 @@ def upload_vpn_file2():
         file_in_repo = repo.get_contents(REMOTE_VPN_PATH2)
         repo.update_file(
             path=REMOTE_VPN_PATH2,
-            message=f"Update VPN {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -492,7 +497,7 @@ def upload_vpn_file2():
     except Exception as e:
         repo.create_file(
             path=REMOTE_VPN_PATH2,
-            message=f"Initial commit VPN {datetime.now().isoformat()}",
+            message=f"Initial commit VPN {offset}",
             content=content
         )
         print(f"Файл {REMOTE_VPN_PATH2} создан в VPN репозитории.")
@@ -519,7 +524,7 @@ def upload_vpn_file3():
         file_in_repo = repo.get_contents(REMOTE_VPN_PATH3)
         repo.update_file(
             path=REMOTE_VPN_PATH3,
-            message=f"Update VPN {datetime.now().isoformat()}",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -527,7 +532,7 @@ def upload_vpn_file3():
     except Exception as e:
         repo.create_file(
             path=REMOTE_VPN_PATH3,
-            message=f"Initial commit VPN {datetime.now().isoformat()}",
+            message=f"Initial commit VPN {offset}",
             content=content
         )
         print(f"Файл {REMOTE_VPN_PATH3} создан в VPN репозитории.")
