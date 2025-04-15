@@ -419,7 +419,7 @@ def upload_to_github9():
         file_in_repo = repo.get_contents(REMOTE_FILE_PATH10)
         repo.update_file(
             path=REMOTE_FILE_PATH10,
-            message=f"Update",
+            message=f"Update time Europe/Moscow: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
