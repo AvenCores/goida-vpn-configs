@@ -11,18 +11,6 @@ offset = thistime.strftime("%Y-%m-%d | %H:%M:%S")
 GITHUB_TOKEN = "" # github token https://github.com/settings/tokens
 REPO_NAME = ""  # username/repo_name
 
-# Локальные пути для файлов (будут создаваться в папке githubmirror)
-local_file1 = "githubmirror/1.txt"
-local_file2 = "githubmirror/2.txt"
-local_file3 = "githubmirror/3.txt"
-local_file4 = "githubmirror/4.txt"
-local_file5 = "githubmirror/5.txt"
-local_file6 = "githubmirror/6.txt"
-local_file7 = "githubmirror/7.txt"
-local_file8 = "githubmirror/8.txt"
-local_file9 = "githubmirror/9.txt"
-local_file10 = "githubmirror/10.txt"
-
 # Если локальная папка не существует, создаём её
 if not os.path.exists("githubmirror"):
     os.mkdir("githubmirror")
@@ -30,43 +18,43 @@ if not os.path.exists("githubmirror"):
 # URL и пути для файлов (в репозитории файлы будут лежать в папке githubmirror)
 URL1 = "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality"
 REMOTE_FILE_PATH1 = "githubmirror/1.txt"  
-LOCAL_FILE_PATH1 = local_file1
+LOCAL_FILE_PATH1 = "githubmirror/1.txt"
 
 URL2 = "https://istanbulsydneyhotel.com/blogs/site/sni.php"
 REMOTE_FILE_PATH2 = "githubmirror/2.txt"
-LOCAL_FILE_PATH2 = local_file2
+LOCAL_FILE_PATH2 = "githubmirror/2.txt"
 
 URL3 = "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt"
 REMOTE_FILE_PATH3 = "githubmirror/3.txt"
-LOCAL_FILE_PATH3 = local_file3
+LOCAL_FILE_PATH3 = "githubmirror/3.txt"
 
 URL4 = "https://xray.abvpn.ru/vless/588f094b-431b-422c-b80b-007945037072/6542271205.json#abvpn"
 REMOTE_FILE_PATH4 = "githubmirror/4.txt"
-LOCAL_FILE_PATH4 = local_file4
+LOCAL_FILE_PATH4 = "githubmirror/4.txt"
 
 URL5 = "https://hideshots.eu/sub.txt"
 REMOTE_FILE_PATH5 = "githubmirror/5.txt"
-LOCAL_FILE_PATH5 = local_file5
+LOCAL_FILE_PATH5 = "githubmirror/5.txt"
 
 URL6 = "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt"
 REMOTE_FILE_PATH6 = "githubmirror/6.txt"
-LOCAL_FILE_PATH6 = local_file6
+LOCAL_FILE_PATH6 = "githubmirror/6.txt"
 
 URL7 = "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt"
 REMOTE_FILE_PATH7 = "githubmirror/7.txt"
-LOCAL_FILE_PATH7 = local_file7
+LOCAL_FILE_PATH7 = "githubmirror/7.txt"
 
 URL8 = "https://shadowmere.xyz/api/b64sub/"
 REMOTE_FILE_PATH8 = "githubmirror/8.txt"
-LOCAL_FILE_PATH8 = local_file8
+LOCAL_FILE_PATH8 = "githubmirror/8.txt"
 
 URL9 = "https://robin.nscl.ir/"
 REMOTE_FILE_PATH9 = "githubmirror/9.txt"
-LOCAL_FILE_PATH9 = local_file9
+LOCAL_FILE_PATH9 = "githubmirror/9.txt"
 
-URL10 = "https://gvpp.intfreed.ru/key/Y1p6eGV3Z3dfMTA2ODYyNDcyNiwxNzQ0MjI1MjY3qM1V5UaB1v"
+URL10 = "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44"
 REMOTE_FILE_PATH10 = "githubmirror/10.txt"
-LOCAL_FILE_PATH10 = local_file10
+LOCAL_FILE_PATH10 = "githubmirror/9.txt"
 
 # URL и локальные/удалённые пути для VPN файлов (файлы публикуются в корне репозитория)
 URL_VPN1 = "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality"
