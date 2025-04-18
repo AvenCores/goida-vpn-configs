@@ -66,14 +66,6 @@
 9) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt`
 10) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/10.txt`
 
- - [ ] **Архивные**
-
-1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
-2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
-3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
-4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn_v2rayng_and_hiddify.txt`
-5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_v2rayng.txt`
-
 **3.** Заходим в приложение **v2rayNG** и в правом верхнем углу нажимаем на ➕, а затем выбираем **Импорт из буфера обмена**.
    
 **4.** Нажимаем **справа сверху на три точки**, а затем **Проверка профилей группы**, после окончания проверки в этом же меню нажмите на **Сортировка по результатам теста**. 
@@ -127,14 +119,6 @@
 9) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt`
 10) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/10.txt`
 
- - [ ] **Архивные**
-
-1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
-2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
-3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
-4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn.txt`
-5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_full.txt`
-
 **3.** Нажимаем на **Сервер**, а затем **Импортировать из буфера**.
 
 **4.** Наживаем на **URL Test** в правом верхнем углу и дожидаемся конца теста.
@@ -168,14 +152,6 @@
 9) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt`
 10) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/10.txt`
 
- - [ ] **Архивные**
-
-1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
-2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
-3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
-4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn_v2rayng_and_hiddify.txt`
-5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_v2rayng.txt`
-
 **3**. Заходим в приложение **v2RayTun** и в правом верхнем углу нажимаем на ➕, а затем выбираем **Импорт из буфера обмена**.
 
 **4.** Нажимаем **справа сверху на три точки**, а затем **Проверка профилей конфигов**, после окончания проверки в этом же меню нажмите на **Сортировка по результатам теста**. 
@@ -206,14 +182,6 @@
 8) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/8.txt`
 9) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt`
 10) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/10.txt`
-
- - [ ] **Архивные**
-
-1) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/four_file_vpn.txt`
-2) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/five_file_vpn.txt`
-3) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/six_file_vpn.txt`
-4) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/seven_file_vpn_v2rayng_and_hiddify.txt`
-5) `https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/eight_file_vpn_v2rayng.txt`
 
 **4.** Нажимаем на кнопку **Добавить из буфера обмена**.
    

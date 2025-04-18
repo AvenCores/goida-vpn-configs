@@ -4,12 +4,13 @@ from github import Github
 from datetime import datetime
 import zoneinfo
 
+# Определение времени по МСК
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
 offset = thistime.strftime("%Y-%m-%d | %H:%M:%S")
 
-GITHUB_TOKEN = "" # github token https://github.com/settings/tokens
-REPO_NAME = ""  # username/repo_name
+GITHUB_TOKEN = "" # GitHub токен
+REPO_NAME_1 = ""  # Репозиторий для основных файлов
 
 # Если локальная папка не существует, создаём её
 if not os.path.exists("githubmirror"):
@@ -56,20 +57,7 @@ URL10 = "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/
 REMOTE_FILE_PATH10 = "githubmirror/10.txt"
 LOCAL_FILE_PATH10 = "githubmirror/9.txt"
 
-# URL и локальные/удалённые пути для VPN файлов (файлы публикуются в корне репозитория)
-URL_VPN1 = "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality"
-LOCAL_VPN_PATH1 = "one_file_vpn.txt"
-REMOTE_VPN_PATH1 = "one_file_vpn.txt"
-
-URL_VPN2 = "https://istanbulsydneyhotel.com/blogs/site/sni.php"
-LOCAL_VPN_PATH2 = "two_file_vpn.txt"
-REMOTE_VPN_PATH2 = "two_file_vpn.txt"
-
-URL_VPN3 = "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt"
-LOCAL_VPN_PATH3 = "three_file_vpn.txt"
-REMOTE_VPN_PATH3 = "three_file_vpn.txt"
-
-# Функции для обработки 8 URL
+# Функции для обработки 10 URL
 def fetch_data():
     response = requests.get(URL1)
     response.raise_for_status()
@@ -420,111 +408,6 @@ def upload_to_github9():
         )
         print(f"Файл {REMOTE_FILE_PATH10} создан.")
 
-def fetch_vpn_data1():
-    response = requests.get(URL_VPN1)
-    response.raise_for_status()
-    return response.text
-
-def save_vpn_file1(content):
-    with open(LOCAL_VPN_PATH1, "w", encoding="utf-8") as file:
-        file.write(content)
-    print(f"VPN данные сохранены локально в {LOCAL_VPN_PATH1}")
-
-def upload_vpn_file1():
-    if not os.path.exists(LOCAL_VPN_PATH1):
-        print(f"Файл {LOCAL_VPN_PATH1} не найден.")
-        return
-    g = Github(GITHUB_TOKEN)
-    repo = g.get_repo(REPO_NAME_1)
-    with open(LOCAL_VPN_PATH1, "r", encoding="utf-8") as file:
-        content = file.read()
-    try:
-        file_in_repo = repo.get_contents(REMOTE_VPN_PATH1)
-        repo.update_file(
-            path=REMOTE_VPN_PATH1,
-            message=f"Update time Europe/Moscow: {offset}",
-            content=content,
-            sha=file_in_repo.sha
-        )
-        print(f"Файл {REMOTE_VPN_PATH1} обновлён в VPN репозитории.")
-    except Exception as e:
-        repo.create_file(
-            path=REMOTE_VPN_PATH1,
-            message=f"Initial commit VPN {offset}",
-            content=content
-        )
-        print(f"Файл {REMOTE_VPN_PATH1} создан в VPN репозитории.")
-
-def fetch_vpn_data2():
-    response = requests.get(URL_VPN2)
-    response.raise_for_status()
-    return response.text
-
-def save_vpn_file2(content):
-    with open(LOCAL_VPN_PATH2, "w", encoding="utf-8") as file:
-        file.write(content)
-    print(f"VPN данные сохранены локально в {LOCAL_VPN_PATH2}")
-
-def upload_vpn_file2():
-    if not os.path.exists(LOCAL_VPN_PATH2):
-        print(f"Файл {LOCAL_VPN_PATH2} не найден.")
-        return
-    g = Github(GITHUB_TOKEN)
-    repo = g.get_repo(REPO_NAME_1)
-    with open(LOCAL_VPN_PATH2, "r", encoding="utf-8") as file:
-        content = file.read()
-    try:
-        file_in_repo = repo.get_contents(REMOTE_VPN_PATH2)
-        repo.update_file(
-            path=REMOTE_VPN_PATH2,
-            message=f"Update time Europe/Moscow: {offset}",
-            content=content,
-            sha=file_in_repo.sha
-        )
-        print(f"Файл {REMOTE_VPN_PATH2} обновлён в VPN репозитории.")
-    except Exception as e:
-        repo.create_file(
-            path=REMOTE_VPN_PATH2,
-            message=f"Initial commit VPN {offset}",
-            content=content
-        )
-        print(f"Файл {REMOTE_VPN_PATH2} создан в VPN репозитории.")
-
-def fetch_vpn_data3():
-    response = requests.get(URL_VPN3)
-    response.raise_for_status()
-    return response.text
-
-def save_vpn_file3(content):
-    with open(LOCAL_VPN_PATH3, "w", encoding="utf-8") as file:
-        file.write(content)
-    print(f"VPN данные сохранены локально в {LOCAL_VPN_PATH3}")
-
-def upload_vpn_file3():
-    if not os.path.exists(LOCAL_VPN_PATH3):
-        print(f"Файл {LOCAL_VPN_PATH3} не найден.")
-        return
-    g = Github(GITHUB_TOKEN)
-    repo = g.get_repo(REPO_NAME_1)
-    with open(LOCAL_VPN_PATH3, "r", encoding="utf-8") as file:
-        content = file.read()
-    try:
-        file_in_repo = repo.get_contents(REMOTE_VPN_PATH3)
-        repo.update_file(
-            path=REMOTE_VPN_PATH3,
-            message=f"Update time Europe/Moscow: {offset}",
-            content=content,
-            sha=file_in_repo.sha
-        )
-        print(f"Файл {REMOTE_VPN_PATH3} обновлён в VPN репозитории.")
-    except Exception as e:
-        repo.create_file(
-            path=REMOTE_VPN_PATH3,
-            message=f"Initial commit VPN {offset}",
-            content=content
-        )
-        print(f"Файл {REMOTE_VPN_PATH3} создан в VPN репозитории.")
-
 #############################
 # Главная функция: обработка всех файлов
 #############################
@@ -571,19 +454,6 @@ def main():
         data9 = fetch_data9()
         save_to_local_file9(data9)
         upload_to_github9()
-
-        # Обработка VPN файлов (3 файла)
-        vpn_data1 = fetch_vpn_data1()
-        save_vpn_file1(vpn_data1)
-        upload_vpn_file1()
-
-        vpn_data2 = fetch_vpn_data2()
-        save_vpn_file2(vpn_data2)
-        upload_vpn_file2()
-
-        vpn_data3 = fetch_vpn_data3()
-        save_vpn_file3(vpn_data3)
-        upload_vpn_file3()
 
     except Exception as e:
         print(f"Произошла ошибка: {e}")
