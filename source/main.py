@@ -49,7 +49,7 @@ URL8 = "https://shadowmere.xyz/api/b64sub/"
 REMOTE_FILE_PATH8 = "githubmirror/8.txt"
 LOCAL_FILE_PATH8 = "githubmirror/8.txt"
 
-URL9 = "https://robin.nscl.ir/"
+URL9 = "https://vpn.fail/free-proxy/v2ray"
 REMOTE_FILE_PATH9 = "githubmirror/9.txt"
 LOCAL_FILE_PATH9 = "githubmirror/9.txt"
 
