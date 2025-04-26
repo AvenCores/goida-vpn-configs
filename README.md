@@ -108,7 +108,7 @@
 **5.** Запускаем от *имени Администратора* **install_bat.all** и ждем пока все установиться.
 
 # 🖥 Гайд для Windows, Linux
-**1.** Скачиваем **NekoRay** - [Windows 10/11](https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-windows64.zip) / [Windows 7](https://github.com/parhelia512/nekoray-win7/releases/download/4.3.4/nekoray-4.3.4-2025-04-23-windows64.zip) / [Linux](https://github.com/MatsuriDayo/nekoray/releases/download/4.0.1/nekoray-4.0.1-2024-12-12-linux-x64.AppImage)
+**1.** Скачиваем **NekoRay** - [Windows 10/11](https://github.com/Mahdi-zarei/nekoray/releases/download/4.3.4/nekoray-4.3.4-2025-04-23-windows64.zip) / [Windows 7](https://github.com/parhelia512/nekoray-win7/releases/download/4.3.4/nekoray-4.3.4-2025-04-23-windows64.zip) / [Linux](https://github.com/Mahdi-zarei/nekoray/releases/download/4.3.4/nekoray-4.3.4-2025-04-23-linux64.zip)
 
 **2.** Копируем в буфер обмена: 
 
