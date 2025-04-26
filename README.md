@@ -24,11 +24,11 @@
 
 <div align="center">
 
-[**Смотреть на YouTube**](https://youtu.be/CLqlIS7ioIc)  
+[**Смотреть на YouTube**](https://youtu.be/sagz2YluM70)  
 
-[**Смотреть на Dzen**](https://dzen.ru/video/watch/6754a44048271914968ebfff)  
+[**Смотреть на Dzen**](https://dzen.ru/video/watch/680d58f28c6d3504e953bd6d)  
 
-[**Смотреть VK Video**](https://vk.com/video-200297343_456239231)  
+[**Смотреть VK Video**](https://vk.com/video-200297343_456239303)  
 
 </div>
 
