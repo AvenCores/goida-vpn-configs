@@ -55,7 +55,7 @@ LOCAL_FILE_PATH9 = "githubmirror/9.txt"
 
 URL10 = "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44"
 REMOTE_FILE_PATH10 = "githubmirror/10.txt"
-LOCAL_FILE_PATH10 = "githubmirror/9.txt"
+LOCAL_FILE_PATH10 = "githubmirror/10.txt"
 
 # Функции для обработки 10 URL
 def fetch_data():
