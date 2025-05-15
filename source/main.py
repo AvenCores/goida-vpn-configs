@@ -57,6 +57,10 @@ URL10 = "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/
 REMOTE_FILE_PATH10 = "githubmirror/10.txt"
 LOCAL_FILE_PATH10 = "githubmirror/10.txt"
 
+URL11 = "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed"
+REMOTE_FILE_PATH11 = "githubmirror/11.txt"
+LOCAL_FILE_PATH11 = "githubmirror/11.txt"
+
 # Функции для обработки 10 URL
 def fetch_data():
     response = requests.get(URL1)
@@ -408,6 +412,41 @@ def upload_to_github9():
         )
         print(f"Файл {REMOTE_FILE_PATH10} создан.")
 
+def fetch_data10():
+    response = requests.get(URL11)
+    response.raise_for_status()
+    return response.text
+
+def save_to_local_file10(content):
+    with open(LOCAL_FILE_PATH11, "w", encoding="utf-8") as file:
+        file.write(content)
+    print(f"Данные сохранены локально в {LOCAL_FILE_PATH11}")
+
+def upload_to_github10():
+    if not os.path.exists(LOCAL_FILE_PATH11):
+        print(f"Файл {LOCAL_FILE_PATH11} не найден.")
+        return
+    g = Github(GITHUB_TOKEN)
+    repo = g.get_repo(REPO_NAME_1)
+    with open(LOCAL_FILE_PATH11, "r", encoding="utf-8") as file:
+        content = file.read()
+    try:
+        file_in_repo = repo.get_contents(REMOTE_FILE_PATH11)
+        repo.update_file(
+            path=REMOTE_FILE_PATH11,
+            message=f"Update time Europe/Moscow: {offset}",
+            content=content,
+            sha=file_in_repo.sha
+        )
+        print(f"Файл {REMOTE_FILE_PATH11} обновлён.")
+    except Exception as e:
+        repo.create_file(
+            path=REMOTE_FILE_PATH11,
+            message=f"Initial commit {offset}",
+            content=content
+        )
+        print(f"Файл {REMOTE_FILE_PATH11} создан.")
+
 #############################
 # Главная функция: обработка всех файлов
 #############################
@@ -454,6 +493,10 @@ def main():
         data9 = fetch_data9()
         save_to_local_file9(data9)
         upload_to_github9()
+
+        data10 = fetch_data10()
+        save_to_local_file10(data10)
+        upload_to_github10()
 
     except Exception as e:
         print(f"Произошла ошибка: {e}")
