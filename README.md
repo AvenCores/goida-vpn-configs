@@ -14,6 +14,12 @@
       <img src="https://github.com/user-attachments/assets/dc109dda-9045-4a06-95a5-3399f0e21dc4" alt="VK" height="40">
     </a>
   </span>
+  </span>
+  <span style="display: inline-block; width: 33.3%; text-align: right;">
+    <a href="https://dzen.ru/avencores" target="_blank">
+      <img src="https://github.com/user-attachments/assets/bd55f5cf-963c-4eb8-9029-7b80c8c11411" alt="Dzen" height="40">
+    </a>
+  </span>
 </div>
 
 </div>
