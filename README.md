@@ -28,7 +28,7 @@
 
 [**Смотреть на Dzen**](https://dzen.ru/video/watch/680d58f28c6d3504e953bd6d)  
 
-[**Смотреть VK Video**](https://vk.com/video-200297343_456239303)  
+[**Смотреть на VK Video**](https://vk.com/video-200297343_456239303)  
 
 </div>
 
