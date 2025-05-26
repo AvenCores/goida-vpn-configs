@@ -9,8 +9,8 @@ zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
 offset = thistime.strftime("%Y-%m-%d | %H:%M:%S")
 
-GITHUB_TOKEN = "" # GitHub токен
-REPO_NAME_1 = ""  # Репозиторий для основных файлов
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") # GitHub токен
+REPO_NAME_1 = "AvenCores/goida-vpn-configs"  # Репозиторий для основных файлов
 
 # Если локальная папка не существует, создаём её
 if not os.path.exists("githubmirror"):
