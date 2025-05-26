@@ -22,5 +22,7 @@ jobs:
         run: cd source && pip install -r requirements.txt
 
       - name: Run script
+        env:
+          MY_PAT: ${{ secrets.MY_PAT }}
         run: |
           cd source && python main.py
