@@ -22,7 +22,5 @@ jobs:
         run: cd source && pip install -r requirements.txt
 
       - name: Run script
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd source && python main.py
