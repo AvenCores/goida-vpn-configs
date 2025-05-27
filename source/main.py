@@ -29,7 +29,7 @@ URL3 = "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v
 REMOTE_FILE_PATH3 = "githubmirror/3.txt"
 LOCAL_FILE_PATH3 = "githubmirror/3.txt"
 
-URL4 = "https://xray.abvpn.ru/vless/588f094b-431b-422c-b80b-007945037072/6542271205.json#abvpn"
+URL4 = "https://xray.abvpn.ru/vless/b8075e53-53a3-4fd6-a9ef-120152637542/5299441260.json#abvpn"
 REMOTE_FILE_PATH4 = "githubmirror/4.txt"
 LOCAL_FILE_PATH4 = "githubmirror/4.txt"
 
