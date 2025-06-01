@@ -77,7 +77,7 @@
 
 <summary>📱 Гайд для Android</summary>
 
-**1.** Скачиваем **v2rayNG** - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.2/v2rayNG_1.10.2_universal.apk)
+**1.** Скачиваем **v2rayNG** - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.4/v2rayNG_1.10.4_universal.apk)
 
 **2.** Копируем в буфер обмена: 
 
@@ -107,7 +107,7 @@
 
 <summary>📺 Гайд для Android TV</summary>
 
-**1.** Скачиваем **v2rayNG** - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.2/v2rayNG_1.10.2_universal.apk)
+**1.** Скачиваем **v2rayNG** - [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.4/v2rayNG_1.10.4_universal.apk)
 
 **2.** Скачиваем **QR-коды** вечно актуальных конфигов - [Ссылка](https://github.com/AvenCores/goida-vpn-configs/tree/main/qr-codes)
 
