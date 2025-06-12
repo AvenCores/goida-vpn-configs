@@ -271,7 +271,7 @@
 
 <summary>💻 Гайд для MacOS</summary>
 
-**1.** Скачиваем **Hiddify** - [Ссылка](https://hiddify.com/)
+**1.** Скачиваем **Hiddify** - [Ссылка](https://github.com/hiddify/hiddify-app/releases/latest/download/Hiddify-MacOS.dmg)
 
 **2.** Нажимаем **Новый профиль**.
 
