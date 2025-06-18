@@ -31,6 +31,8 @@ URLS = [
     "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed",
     "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all",
     "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt",
+    "https://github.com/Kwinshadow/TelegramV2rayCollector/blob/main/sublinks/mix.txt",
+    "https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt"
 ]
 
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
