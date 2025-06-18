@@ -28,7 +28,9 @@ URLS = [
     "https://shadowmere.xyz/api/b64sub/",
     "https://vpn.fail/free-proxy/v2ray",
     "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44",
-    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed"
+    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed",
+    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all",
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt",
 ]
 
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
