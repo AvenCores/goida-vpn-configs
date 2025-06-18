@@ -21,6 +21,7 @@ URLS = [
     "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality",
     "https://istanbulsydneyhotel.com/blogs/site/sni.php",
     "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
+    "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt",
     "https://hideshots.eu/sub.txt",
     "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
