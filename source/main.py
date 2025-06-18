@@ -83,7 +83,7 @@ def upload_to_github(local_path, remote_path):
     except Exception:
         repo.create_file(
             path=remote_path,
-            message=f"Initial commit {offset}",
+            message=f"Initial commit Europe/Moscow: {offset}",
             content=content
         )
         print(f"Файл {remote_path} создан.")
