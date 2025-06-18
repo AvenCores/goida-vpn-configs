@@ -18,21 +18,31 @@ if not os.path.exists("githubmirror"):
 
 # Список URL и локальных/удалённых путей
 URLS = [
-    "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality",
-    "https://istanbulsydneyhotel.com/blogs/site/sni.php",
-    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
-    "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt",
-    "https://hideshots.eu/sub.txt",
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",
-    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",
-    "https://shadowmere.xyz/api/b64sub/",
-    "https://vpn.fail/free-proxy/v2ray",
-    "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44",
-    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed",
-    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all",
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt",
-    "https://github.com/Kwinshadow/TelegramV2rayCollector/blob/main/sublinks/mix.txt",
-    "https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt"
+    "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality", #1
+    "https://istanbulsydneyhotel.com/blogs/site/sni.php", #2
+    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt", #3
+    "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt", #4
+    "https://hideshots.eu/sub.txt",  #5
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",  #6
+    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",  #7
+    "https://shadowmere.xyz/api/b64sub/",  #8
+    "https://vpn.fail/free-proxy/v2ray",   #9
+    "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44",  #10
+    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed",   #11
+    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all",   #12
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt",   #13
+    "https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt",   #14
+    "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes",   #15
+    "https://github.com/4n0nymou3/multi-proxy-config-fetcher/raw/refs/heads/main/configs/proxy_configs.txt",   #16
+    "https://github.com/freefq/free/raw/refs/heads/master/v2",    #17
+    "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt", #18
+    "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/full/5ubscrpt10n.txt",  #19
+    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_Sub.txt", #20
+    "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix",   #21
+    "https://raw.githubusercontent.com/mehran1404/Sub_Link/refs/heads/main/V2RAY-Sub.txt",  #22
+    "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt",   #23
+    "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri",   #24
+    "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt",  #25
 ]
 
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
