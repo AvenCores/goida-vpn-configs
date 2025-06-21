@@ -30,6 +30,8 @@
 
 <div align="center">
 
+> ⚠️ **Внимание:** Для iOS и iPadOS актуален только текстовый гайд ниже. Видеоинструкции доступны только для других платформ.
+
 [**Смотреть на YouTube**](https://youtu.be/sagz2YluM70)  
 
 [**Смотреть на Dzen**](https://dzen.ru/video/watch/680d58f28c6d3504e953bd6d)  
@@ -263,7 +265,7 @@
 ---
 <details>
 
-<summary>☎ Гайд для iOS, iPad</summary>
+<summary>☎ Гайд для iOS, iPadOS</summary>
 
 **1.** Скачиваем **V2Box - V2ray Client** - [Ссылка](https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690)
 
