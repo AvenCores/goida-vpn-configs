@@ -40,8 +40,6 @@ vless://289c0de5-81ba-4af8-aeb2-7e7e49f5c8a8@mr.reiisvezze2.ir:39387?security=no
 
 vless://3058e698-61fd-4d12-95bc-f1fe4c071713@104.17.148.22:443?path=%2FTelegram%40V2ray_Alpha&security=tls&alpn=http%2F1.1&encryption=none&host=hozori.ir&fp=randomized&type=ws&sni=hOZori.iR#%3E%3E%40outline_vpn%3A%3AUS%3A%3AUS%3A%3AUS%3A%3AUS
 
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.14.69:2096?encryption=none&security=tls&sni=carlotta.shoorekeeper.cloudns.org&alpn=http%2F1.1&fp=randomized&type=ws&host=carlotta.shoorekeeper.cloudns.org&path=%2Fproxyip%3Dzani.yaemiko.ggff.net#%40Golestan_VPN%20-%20%F0%9F%91%88%20%D8%AE%D8%B1%DB%8C%D8%AF%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF
-
 vless://38b41ed4-5fe2-4868-8016-8df32dcaed78@pic.zarashop0.ir:2087?mode=gun&security=tls&alpn=h2&encryption=none&fp=chrome&type=grpc&sni=pic.zarashop0.ir#%40appsooner%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%F0%9F%87%AB%F0%9F%87%AE
 
 vless://401374e6-df77-41fb-f638-dad8184f175b@94.247.142.103:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh23v5.hiddendom.shop#%3E%3E%40v2ray_configs_pool%3A%3AUS%3A%3AUS%3A%3AUS
@@ -49,6 +47,8 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@94.247.142.103:443?mode=gun&securit
 vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=di.dibdibini.dpdns.org&fp=random&type=ws&sni=di.dibdibini.dpdns.org#@meli_proxyy
 
 vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?path=%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560&security=none&encryption=none&host=di.dibdibini.dpdns.org&type=ws#@meli_proxyy
+
+vless://45d5d4b4-005e-472f-85d7-f248201d0bbd@151.101.3.8:80?mode=auto&path=%2Ftelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%2Ctelegram-KhOrOsVpN%3Fed%3D2560&security=&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%20%221000000%22%2C%20%22scMaxConcurrentPosts%22%3A%20100%2C%20%22scMinPostsIntervalMs%22%3A%2030%2C%20%22xPaddingBytes%22%3A%20%22100-1000%22%2C%20%22noGRPCHeader%22%3A%20false%7D&host=biaberimdaryakenarindafe.com&type=xhttp#%F0%9F%9F%A1%F0%9F%87%AB%F0%9F%87%AE7899502_trade_3971%28%3A27Day%29%283.89%20GB%29%2885%29%E2%9C%85
 
 vless://4d91916f-a7fd-419b-8b90-640bb8d1b9f4@104.17.147.22:443?path=%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=titantablomanahamrah.ir&fp=randomized&type=ws&sni=TITanTabLOmaNAHaMRaH.IR#@meli_proxyy
 
@@ -190,8 +190,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@azure-sto.edge
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MXlsb1FDOEQ5dzFXYWU3Rkh0STY1@azure-sto.edgeservers.org:48172/?POST%20#Server-4
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2OU1VaWk3VkR3TXFoN0h6@admin.c4.webramz.co:443#%40yejoriconfig
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2OU1VaWk3VkR3TXFoN0h6@admin.c4.webramz.co:443#@meli_proxyy
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.188:8080#%3E%3E%40V2rayNG3%3A%3ANL%3A%3ANL%3A%3ANL%3A%3ANL
@@ -293,8 +291,6 @@ ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.114.121.218:8881#%3E%3E%40v2ray_con
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@67.220.95.102:8882#%3E%3E%40shadowproxy66%3A%3AUS%3A%3AUS%3A%3AUS%3A%3AUSTime: 2025-06-25 14:05:03From @shadowproxy66MainChannel= @arshia_mod_fun 🥷Channel= @v2ray_Extractor 🥷
 
 trojan://19a78eeb-d83a-4364-b095-b7dd93436320@104.21.29.205:443?path=%2FHq0I4JMuzO0WLijID&security=tls&alpn=http%2F1.1&host=cvfgtre4.222560.xyz&fp=chrome&type=ws&sni=CVFgTrE4.222560.XyZ#%3E%3E%40v2ray_configs_pool%3A%3AUS
-
-trojan://3787016351714123776@magnetic-chicken.treefrog761.one:443?allowInsecure=0&sni=magnetic-chicken.treefrog761.one#👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Cologne (Innenstadt, Cologne)🅿️ping:32.29ms
 
 trojan://5458dada-aa7a-4d9b-bdfb-d22e30503e10@46.38.146.51:2096?path=%2Ftr%2Fv%2FtNtL%2Fgfdr&security=none&type=ws#🇩🇪All³ | @meli_proxyy
 
