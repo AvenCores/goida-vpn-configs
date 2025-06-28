@@ -22,7 +22,7 @@ URLS = [
     "https://istanbulsydneyhotel.com/blogs/site/sni.php", #2
     "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt", #3
     "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt", #4
-    "https://hideshots.eu/sub.txt",  #5
+    "https://raw.githubusercontent.com/AliDev-ir/FreeVPN/main/pcvpn",  #5
     "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",  #6
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",  #7
     "https://shadowmere.xyz/api/b64sub/",  #8
