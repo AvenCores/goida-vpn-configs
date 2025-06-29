@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Sun-29-Jun-2025 21:49
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Sun-29-Jun-2025 22:41
 
 
 
@@ -338,6 +338,7 @@ vless://634e1883-0f11-4ab5-9e41-90d0c0d22463@free.fastly80.hosting-ip.com:80?hos
 vless://b272917b-d154-423d-cdbe-9627f6099472@213.176.65.115:8501?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%F0%9F%92%A5Free_Netplus%20%F0%9F%92%A5
 
 vless://55520747-311e-4015-83ce-be46e2060ce3@138.2.107.107:443?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;host=nv.bgm2024.dpdns.org&amp;type=ws&amp;sni=nv.bgm2024.dpdns.org#Singapore%20Relay
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.166:8880?path=Telegram%40WangCai2%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=sg.laoyoutiao.link&amp;type=ws#Japan%20Relay
 vless://b5ee8f67-0f25-467b-aca4-01001f00d802@65.109.192.110:55953?security=reality&amp;encryption=none&amp;pbk=RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU&amp;host=divarcdn.com&amp;headerType=http&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;sni=stackoverflow.com&amp;sid=ec01ceda#1
 vless://4de73a98-0f31-4d2c-b845-fcb7a2bbe9bb@134.209.205.173:4000?mode=auto&amp;path=%2F&amp;security=reality&amp;encryption=none&amp;pbk=WvWpvjm0ynTr6YCICH5TmTEKicAq0JNGEZDWZvApgRM&amp;fp=chrome&amp;spx=%2F&amp;type=xhttp&amp;sni=zula.ir&amp;sid=d9ed58fe#2
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.159.248.125:8880?mode=gun&amp;security=none&amp;encryption=none&amp;type=grpc#3
@@ -650,11 +651,12 @@ vmess://eyJhZGQiOiI2Mi42MC4xNzUuMTEwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhv
 
 vmess://eyJhZGQiOiJpcmFuLmFpdGVhbXBsdXMuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InZhcnplc2gzLmNvbSIsImlkIjoiOGQwMDA4NzUtZGIyZS00NWE1LThlY2MtYzM3NmZkODQ3MmI3IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiODA4MSIsInBzIjoi4pyF2LPYsdmI2LHZh9in24zYqNuM2LTYqtix2K/Ysdqp2KfZhtin2YQ6cHJyb2ZpbGVfcHVycGxlQOKchSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
-vmess://eyJhZGQiOiIxNzIuNjYuMTY4LjIwOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibWFYTkV0VklQLXVzQS1WUDMubkVUS0gzLlNpVEUiLCJpZCI6IjU0MjhkY2MyLTk5NTAtNDQwNC1iOGE1LTlkYWM4MmFjYjIxMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MiLCJwb3J0IjoiNDQzIiwicHMiOiJVbml0ZWQgU3RhdGVzIE9WSCIsInNjeSI6ImF1dG8iLCJzbmkiOiJtYVhORXRWSVAtdXNBLVZQMy5uRVRLSDMuU2lURSIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
-vmess://eyJhZGQiOiJ1czAxLnNoLWNsb3VkZmxhcmUuc2JzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ1czAxLnNoLWNsb3VkZmxhcmUuc2JzIiwiaWQiOiJmMTA1OThlMi1jNjA2LTQ5NDUtYmZkZS1lNTczMDc1NmEyZGQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkNsb3VkRmxhcmUgUmVsYXllZCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ1czAxLnNoLWNsb3VkZmxhcmUuc2JzIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 vmess://eyJhZGQiOiIxMDQuMTcuMTc2LjE3MSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoia2U3aHozNmV3ei00NTE1MDE3NDczLm1hc2hhbGxhaGJldC5jb20iLCJpZCI6IjZjYmM5Yzc4LTFjYjEtNTdkNC1hOTk5LWUyZjRlMzRjMWUwMyIsIm5ldCI6IndzIiwicGF0aCI6Ii9uYXNuZXQvY2RuIiwicG9ydCI6IjgwODAiLCJwcyI6Ikdlcm1hbiBSZWxheSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiIxOTQuMjMzLjcyLjIyOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIxNjUwOTI2Mi1kYmUyLTQzYmEtOTljZS0wNzkxM2QyYTE4YjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjI3NTc1IiwicHMiOiJTaW5nYXBvcmUgQ29udGFibyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 vmess://eyJhZGQiOiIxOTIuNTMuMTEzLjE1NiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwMzZhMjhjMy01YzhkLTRkZjMtYTc5Yi05ZGE2MjI2NDBmMmIiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEwMDAyIiwicHMiOiJTaW5nYXBvcmUgQWthbWFpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiI0Ny43OS44OC4xMTMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMWRiODM4ZDAtZWNkMi00YjczLWE3ZjgtNWFmNmI0MDFkODMzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1MzcxMCIsInBzIjoiSmFwYW4gQWxpYmFiYSBDbG91ZCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiI1LjI1My40MS4xNDciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNGIxOTkyY2MtOGU3Yy00MDAzLWE0NWYtYTI4YzNlNmY2ZmE4IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyNzc1MCIsInBzIjoiSmFwYW4gUFEgSG9zdGluZyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+vmess://eyJhZGQiOiI1MS43OS4xMDIuMjUzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiI1MS43OS4xMDIuMjUzIiwiaWQiOiI1OGZlMTU0Mi01MjkwLTQwYWQtODE1YS03NzcwN2E4MWFmZTUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvSU9lYmhMTWhsMUNUYkZIYkw5NW15ZlJYMiIsInBvcnQiOiI4MCIsInBzIjoiQ2FuYWRhIE9WSCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
 
 vmess://eyJhZGQiOiIzNy4yMDIuMjI3LjEwNSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJjMjQ3NzYyNy02YjU4LTQwODQtYmI1OS05N2RlNTU1OTFiMzkiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQwMzAiLCJwcyI6IuKclO+4jvCdkJzwnZCh8J2QmvCdkKfwnZCn8J2QnvCdkKXinqpAQ29uZmlnVjJyYXlGb3JGcmVlIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiIzNy4yMDIuMjI3LjEwNSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJjMjQ3NzYyNy02YjU4LTQwODQtYmI1OS05N2RlNTU1OTFiMzkiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIi…
@@ -1225,11 +1227,6 @@ ss://634e1883-0f11-4ab5-9e41-90d0c0d22463@free.fastly80.hosting-ip.com:80?host=v
 ss://b272917b-d154-423d-cdbe-9627f6099472@213.176.65.115:8501?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%F0%9F%92%A5Free_Netplus%20%F0%9F%92%A5
 ss://eyJhZGQiOiJpcmFuLmFpdGVhbXBsdXMuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InZhcnplc2gzLmNvbSIsImlkIjoiOGQwMDA4NzUtZGIyZS00NWE1LThlY2MtYzM3NmZkODQ3MmI3IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiODA4MSIsInBzIjoi4pyF2LPYsdmI2LHZh9in24zYqNuM2LTYqtix2K/Ysdqp2KfZhtin2YQ6cHJyb2ZpbGVfcHVycGxlQOKchSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
-ss://YWVzLTI1Ni1nY206VEc6QEVua2VsdGVfbm90aWYmJlRHOkBOb3RpZl9DaGF0@116.206.124.41:34045#Thailand%20Bangmod
-ss://YWVzLTEyOC1nY206ckdEYmlGN2d0eDVUV3Q0cjRWam5lUT09@156.225.22.213:552#Hong%20Kong%20HFT
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVjVCQXpxTFpvc09mdUlya3lvYWRU@5.181.21.194:18660#Austria%20PQ
-ss://eyJhZGQiOiIxNzIuNjYuMTY4LjIwOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibWFYTkV0VklQLXVzQS1WUDMubkVUS0gzLlNpVEUiLCJpZCI6IjU0MjhkY2MyLTk5NTAtNDQwNC1iOGE1LTlkYWM4MmFjYjIxMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MiLCJwb3J0IjoiNDQzIiwicHMiOiJVbml0ZWQgU3RhdGVzIE9WSCIsInNjeSI6ImF1dG8iLCJzbmkiOiJtYVhORXRWSVAtdXNBLVZQMy5uRVRLSDMuU2lURSIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
-ss://eyJhZGQiOiJ1czAxLnNoLWNsb3VkZmxhcmUuc2JzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ1czAxLnNoLWNsb3VkZmxhcmUuc2JzIiwiaWQiOiJmMTA1OThlMi1jNjA2LTQ5NDUtYmZkZS1lNTczMDc1NmEyZGQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkNsb3VkRmxhcmUgUmVsYXllZCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ1czAxLnNoLWNsb3VkZmxhcmUuc2JzIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpya3FaRXU1eHQzYXlETENjM0JUSU5u@13.251.200.231:8443#Singapore+AWS
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206UHNXcGN3WDh2cFdDVkZ2M3MyV0VKbUhuZW81ZmhhOVVjb24wcm12T1NpOD06ODk4cUFpbEFOMzJWbkZLUldIaU0wbFJyVHV0MVM2RS9kQmpPUXdsRzBudz0%3D@direct.yangon.ca:8444#Canada%20Relay
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@149.22.95.183:443#Canada%20Datacamp
@@ -1241,6 +1238,11 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4U2VCNzZTajV1NENnOU12b0p3cTN1@68.183.179.190
 ss://eyJhZGQiOiIxOTQuMjMzLjcyLjIyOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIxNjUwOTI2Mi1kYmUyLTQzYmEtOTljZS0wNzkxM2QyYTE4YjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjI3NTc1IiwicHMiOiJTaW5nYXBvcmUgQ29udGFibyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 ss://eyJhZGQiOiIxOTIuNTMuMTEzLjE1NiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwMzZhMjhjMy01YzhkLTRkZjMtYTc5Yi05ZGE2MjI2NDBmMmIiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEwMDAyIiwicHMiOiJTaW5nYXBvcmUgQWthbWFpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
 ss://55520747-311e-4015-83ce-be46e2060ce3@138.2.107.107:443?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;host=nv.bgm2024.dpdns.org&amp;type=ws&amp;sni=nv.bgm2024.dpdns.org#Singapore%20Relay
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@149.22.87.204:443#Japan%20Datacamp
+ss://eyJhZGQiOiI0Ny43OS44OC4xMTMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMWRiODM4ZDAtZWNkMi00YjczLWE3ZjgtNWFmNmI0MDFkODMzIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1MzcxMCIsInBzIjoiSmFwYW4gQWxpYmFiYSBDbG91ZCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+ss://eyJhZGQiOiI1LjI1My40MS4xNDciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNGIxOTkyY2MtOGU3Yy00MDAzLWE0NWYtYTI4YzNlNmY2ZmE4IiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyNzc1MCIsInBzIjoiSmFwYW4gUFEgSG9zdGluZyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+ss://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.166:8880?path=Telegram%40WangCai2%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=sg.laoyoutiao.link&amp;type=ws#Japan%20Relay
+ss://eyJhZGQiOiI1MS43OS4xMDIuMjUzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiI1MS43OS4xMDIuMjUzIiwiaWQiOiI1OGZlMTU0Mi01MjkwLTQwYWQtODE1YS03NzcwN2E4MWFmZTUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvSU9lYmhMTWhsMUNUYkZIYkw5NW15ZlJYMiIsInBvcnQiOiI4MCIsInBzIjoiQ2FuYWRhIE9WSCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
 ss://b5ee8f67-0f25-467b-aca4-01001f00d802@65.109.192.110:55953?security=reality&amp;encryption=none&amp;pbk=RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU&amp;host=divarcdn.com&amp;headerType=http&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;sni=stackoverflow.com&amp;sid=ec01ceda#1
 ss://4de73a98-0f31-4d2c-b845-fcb7a2bbe9bb@134.209.205.173:4000?mode=auto&amp;path=%2F&amp;security=reality&amp;encryption=none&amp;pbk=WvWpvjm0ynTr6YCICH5TmTEKicAq0JNGEZDWZvApgRM&amp;fp=chrome&amp;spx=%2F&amp;type=xhttp&amp;sni=zula.ir&amp;sid=d9ed58fe#2
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@45.159.248.125:8880?mode=gun&amp;security=none&amp;encryption=none&amp;type=grpc#3
@@ -1584,7 +1586,6 @@ trojan://63db084a-e2ce-46db-9dd6-d4ed2c3d2663@sg01.freeflyingcloud.xyz:35702?sni
 
 
 
-trojan://telegram-id-privatevpns@35.158.252.0:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S102)
 trojan://telegram-id-privatevpns@35.181.206.161:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S104)
 trojan://telegram-id-privatevpns@63.178.144.147:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S101)
 trojan://telegram-id-privatevpns@18.159.150.95:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S102)
@@ -1604,6 +1605,7 @@ trojan://telegram-id-privatevpns@52.47.132.193:22222?security=tls&amp;alpn=http/
 trojan://telegram-id-privatevpns@15.188.133.79:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S104)
 trojan://telegram-id-privatevpns@3.77.229.34:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S101)
 trojan://telegram-id-privatevpns@3.121.17.118:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S102)
+trojan://telegram-id-privatevpns@13.38.152.226:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S103)
 
 
 
