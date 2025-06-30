@@ -7,7 +7,7 @@ import zoneinfo
 # Определение времени по МСК
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
-offset = thistime.strftime("%Y-%m-%d | %H:%M:%S")
+offset = thistime.strftime("%H:%M | %d.%m.%Y")
 
 GITHUB_TOKEN = os.environ.get("MY_TOKEN")  # GitHub токен
 REPO_NAME_1 = "AvenCores/goida-vpn-configs"  # Репозиторий для основных файлов
