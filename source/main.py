@@ -74,7 +74,7 @@ def upload_to_github(local_path, remote_path):
         file_in_repo = repo.get_contents(remote_path)
         repo.update_file(
             path=remote_path,
-            message=f"Update time Europe/Moscow: {offset}",
+            message=f"Обновление конфига по часовому поясу Европа/Москва: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
@@ -82,7 +82,7 @@ def upload_to_github(local_path, remote_path):
     except Exception:
         repo.create_file(
             path=remote_path,
-            message=f"Initial commit Europe/Moscow: {offset}",
+            message=f"Первый коммит по часовому поясу Европа/Москва: {offset}",
             content=content
         )
         print(f"Файл {remote_path} создан.")
