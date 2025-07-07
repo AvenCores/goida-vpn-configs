@@ -89,13 +89,13 @@ def upload_to_github(local_path, remote_path):
 
 
 def main():
-    try:
-        for url, local_path, remote_path in zip(URLS, LOCAL_PATHS, REMOTE_PATHS):
+    for url, local_path, remote_path in zip(URLS, LOCAL_PATHS, REMOTE_PATHS):
+        try:
             data = fetch_data(url)
             save_to_local_file(local_path, data)
             upload_to_github(local_path, remote_path)
-    except Exception as e:
-        print(f"Произошла ошибка: {e}")
+        except Exception as e:
+            print(f"Ошибка при обработке {url}: {e}")
 
 
 if __name__ == "__main__":
