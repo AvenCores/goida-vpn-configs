@@ -27,8 +27,8 @@ URLS = [
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",  #7
     "https://shadowmere.xyz/api/b64sub/",  #8
     "https://vpn.fail/free-proxy/v2ray",   #9
-    "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",  #10
-    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed",   #11
+    "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44",  #10
+    "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",   #11
     "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all",   #12
     "https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt",   #13
     "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes",   #14
