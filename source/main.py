@@ -10,7 +10,7 @@ thistime = datetime.now(zone)
 offset = thistime.strftime("%H:%M | %d.%m.%Y")
 
 GITHUB_TOKEN = os.environ.get("MY_TOKEN")  # GitHub токен
-REPO_NAME_1 = "AvenCores/goida-vpn-configs"  # Репозиторий для основных файлов
+REPO_NAME = "AvenCores/goida-vpn-configs"  # Репозиторий для основных файлов
 
 # Если локальная папка не существует, создаём её
 if not os.path.exists("githubmirror"):
@@ -65,7 +65,7 @@ def upload_to_github(local_path, remote_path):
         return
 
     g = Github(GITHUB_TOKEN)
-    repo = g.get_repo(REPO_NAME_1)
+    repo = g.get_repo(REPO_NAME)
 
     with open(local_path, "r", encoding="utf-8") as file:
         content = file.read()
