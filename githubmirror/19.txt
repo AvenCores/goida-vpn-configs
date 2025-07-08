@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Tue-08-Jul-2025 09:53
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Tue-08-Jul-2025 10:46
 
 
 
@@ -156,6 +156,8 @@ vless://9fe48260-9627-4f82-b9bf-ca03c1bcd142@cname.proxystore11.news:8443?type=x
 vless://f5df91f5-01df-4316-8613-e392df98c607@cname.proxystore11.news:2087?type=ws&amp;path=%2Fprx11&amp;host=prx11.proxystore11.news&amp;security=tls&amp;fp=chrome&amp;alpn=h3%2Ch2%2Chttp%2F1.1&amp;allowInsecure=1&amp;sni=prx11.proxystore11.news#%F0%9F%87%BA%F0%9F%87%B8+prx11+%F0%9F%92%A5%F0%9F%8C%88%F0%9F%8E%88
 vless://f5df91f5-01df-4316-8613-e392df98c607@cname.proxystore11.news:2087?type=ws&amp;path=%2Fprx11&amp;host=prx11.proxystore11.news&amp;s…
 vless://aaf7709c-4f6a-45d4-8c79-e9917dfca010@Irancloud.okamii.ir:2095?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#%F0%9F%8F%B3%EF%B8%8F+prx11+%F0%9F%92%96%F0%9F%8C%9F%F0%9F%94%A5
+vless://188f1242-b0c0-4992-b480-1da44dae1700@300232332.webnama.com.tr:1517?security=&amp;encryption=none&amp;host=testspeed-foreign.tci.ir&amp;headerType=http&amp;type=tcp#%F0%9F%8F%B3%EF%B8%8F+prx11+%F0%9F%92%96%F0%9F%94%A5%F0%9F%8C%BA
+vless://188f1242-b0c0-4992-b480-1da44dae1700@300232332.webnama.com.tr:1517?security=&amp;encryption=none&amp;host=testspeed-fore…
 
 
 
@@ -895,6 +897,8 @@ ss://f5df91f5-01df-4316-8613-e392df98c607@cname.proxystore11.news:2087?type=ws&a
 ss://eyJhZGQiOiJnZXJtYW55LXNvbHV0aW9uLmJuaXdyaW5nLnh5eiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZGl2YXJjZG4uY29tIiwiaWQiOiIzNDc0ZWJhOS02ZjQ2LTQxNGMtYTk0Zi1iZjI3OTI4YTY0YTAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiXC8iLCJwb3J0IjoiNzk3NyIsInBzIjoiXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IHByeDExIFx1ZDgzZFx1ZGQyNVx1ZDgzY1x1ZGYzYVx1ZDgzY1x1ZGYwOCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 ss://eyJhZGQiOiJnZXJtYW55LXNvbHV0aW9uLmJuaXdyaW5nLnh5eiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZGl2YXJjZG4uY29…
 ss://aaf7709c-4f6a-45d4-8c79-e9917dfca010@Irancloud.okamii.ir:2095?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#%F0%9F%8F%B3%EF%B8%8F+prx11+%F0%9F%92%96%F0%9F%8C%9F%F0%9F%94%A5
+ss://188f1242-b0c0-4992-b480-1da44dae1700@300232332.webnama.com.tr:1517?security=&amp;encryption=none&amp;host=testspeed-foreign.tci.ir&amp;headerType=http&amp;type=tcp#%F0%9F%8F%B3%EF%B8%8F+prx11+%F0%9F%92%96%F0%9F%94%A5%F0%9F%8C%BA
+ss://188f1242-b0c0-4992-b480-1da44dae1700@300232332.webnama.com.tr:1517?security=&amp;encryption=none&amp;host=testspeed-fore…
 
 
 
@@ -1473,7 +1477,6 @@ trojan://63db084a-e2ce-46db-9dd6-d4ed2c3d2663@sg01.freeflyingcloud.xyz:35702?sni
 
 
 
-trojan://telegram-id-privatevpns@18.157.144.163:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S101)
 trojan://telegram-id-privatevpns@63.178.31.204:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S102)
 trojan://telegram-id-privatevpns@15.236.126.225:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S103)
 trojan://telegram-id-privatevpns@51.44.102.57:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S104)
@@ -1489,6 +1492,7 @@ trojan://telegram-id-privatevpns@18.195.157.38:22222?security=tls&amp;alpn=http/
 trojan://telegram-id-privatevpns@63.178.143.137:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S102)
 trojan://telegram-id-privatevpns@13.37.72.82:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S103)
 trojan://telegram-id-privatevpns@13.38.221.138:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S104)
+trojan://telegram-id-privatevpns@18.193.215.48:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S101)
 
 
 
