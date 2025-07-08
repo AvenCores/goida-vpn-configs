@@ -56,12 +56,12 @@ def fetch_data(url):
 def save_to_local_file(path, content):
     with open(path, "w", encoding="utf-8") as file:
         file.write(content)
-    print(f"Данные сохранены локально в {path}")
+    print(f"📁 Данные сохранены локально в {path}")
 
 
 def upload_to_github(local_path, remote_path):
     if not os.path.exists(local_path):
-        print(f"Файл {local_path} не найден.")
+        print(f"❌ Файл {local_path} не найден.")
         return
 
     g = Github(GITHUB_TOKEN)
@@ -74,18 +74,18 @@ def upload_to_github(local_path, remote_path):
         file_in_repo = repo.get_contents(remote_path)
         repo.update_file(
             path=remote_path,
-            message=f"Обновление конфига по часовому поясу Европа/Москва: {offset}",
+            message=f"🚀 Обновление конфига по часовому поясу Европа/Москва: {offset}",
             content=content,
             sha=file_in_repo.sha
         )
-        print(f"Файл {remote_path} обновлён в репозитории.\n")
+        print(f"🚀 Файл {remote_path} обновлён в репозитории.\n")
     except Exception:
         repo.create_file(
             path=remote_path,
-            message=f"Первый коммит по часовому поясу Европа/Москва: {offset}",
+            message=f"🆕 Первый коммит по часовому поясу Европа/Москва: {offset}",
             content=content
         )
-        print(f"Файл {remote_path} создан.")
+        print(f"🆕 Файл {remote_path} создан.\n")
 
 
 def main():
@@ -95,7 +95,7 @@ def main():
             save_to_local_file(local_path, data)
             upload_to_github(local_path, remote_path)
         except Exception as e:
-            print(f"Ошибка при обработке {url}: {e}\n")
+            print(f"⚠️ Ошибка при обработке {url}: {e}\n")
 
 
 if __name__ == "__main__":
