@@ -78,7 +78,7 @@ def upload_to_github(local_path, remote_path):
             content=content,
             sha=file_in_repo.sha
         )
-        print(f"Файл {remote_path} обновлён.")
+        print(f"Файл {remote_path} обновлён в репозитории.\n")
     except Exception:
         repo.create_file(
             path=remote_path,
@@ -95,7 +95,7 @@ def main():
             save_to_local_file(local_path, data)
             upload_to_github(local_path, remote_path)
         except Exception as e:
-            print(f"Ошибка при обработке {url}: {e}")
+            print(f"Ошибка при обработке {url}: {e}\n")
 
 
 if __name__ == "__main__":
