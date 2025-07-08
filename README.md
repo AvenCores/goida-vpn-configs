@@ -193,7 +193,7 @@
 
 <summary>🖥 Гайд для Windows, Linux</summary>
 
-**1.** Скачиваем **NekoRay** - [Windows 10/11](https://github.com/Mahdi-zarei/nekoray/releases/download/4.3.6/nekoray-4.3.6-2025-07-07-windows64.zip) / [Windows 7](https://github.com/parhelia512/nekoray-win7/releases/download/4.3.5/nekoray-4.3.5-2025-05-16-windows64.zip) / [Linux](https://github.com/Mahdi-zarei/nekoray/releases/download/4.3.6/nekoray-4.3.6-2025-07-07-linux64.zip)
+**1.** Скачиваем **NekoRay** - [Windows 10/11](https://github.com/Mahdi-zarei/nekoray/releases/download/4.3.7/nekoray-4.3.7-2025-07-08-windows64.zip) / [Windows 7](https://github.com/parhelia512/nekoray-win7/releases/download/4.3.5/nekoray-4.3.5-2025-05-16-windows64.zip) / [Linux](https://github.com/Mahdi-zarei/nekoray/releases/download/4.3.7/nekoray-4.3.7-2025-07-08-linux64.zip)
 
 **2.** Копируем в буфер обмена: 
 
