@@ -1,28 +1,23 @@
 
-# Импорт стандартных и сторонних библиотек
 import os
-import requests  # Для HTTP-запросов
-from github import Github  # Для работы с GitHub API
+import requests
+from github import Github
 from datetime import datetime
-import zoneinfo  # Для работы с часовыми поясами
-
+import zoneinfo
 
 # Получение текущего времени по часовому поясу Европа/Москва
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
 offset = thistime.strftime("%H:%M | %d.%m.%Y")  # Формат времени для коммитов
 
-
 # Получение GitHub токена из переменных окружения
 GITHUB_TOKEN = os.environ.get("MY_TOKEN")
 # Имя репозитория для загрузки файлов
 REPO_NAME = "AvenCores/goida-vpn-configs"
 
-
 # Проверка и создание локальной папки для хранения файлов, если она отсутствует
 if not os.path.exists("githubmirror"):
     os.mkdir("githubmirror")
-
 
 # Список URL-адресов для скачивания конфигов
 URLS = [
@@ -55,23 +50,17 @@ URLS = [
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
-
-
 # Функция для скачивания данных по URL
 def fetch_data(url):
     response = requests.get(url)
     response.raise_for_status()  # Генерирует исключение при ошибке
     return response.text
 
-
-
 # Сохраняет полученные данные в локальный файл
 def save_to_local_file(path, content):
     with open(path, "w", encoding="utf-8") as file:
         file.write(content)
     print(f"📁 Данные сохранены локально в {path}")
-
-
 
 # Загружает файл в репозиторий GitHub (обновляет или создаёт новый)
 def upload_to_github(local_path, remote_path):
@@ -107,8 +96,6 @@ def upload_to_github(local_path, remote_path):
         )
         print(f"🆕 Файл {remote_path} создан.\n")
 
-
-
 # Основная функция: скачивает, сохраняет и загружает все конфиги
 def main():
     for url, local_path, remote_path in zip(URLS, LOCAL_PATHS, REMOTE_PATHS):
@@ -118,8 +105,6 @@ def main():
             upload_to_github(local_path, remote_path)  # Загрузка в GitHub
         except Exception as e:
             print(f"⚠️ Ошибка при обработке {url}: {e}\n")
-
-
 
 # Точка входа в программу
 if __name__ == "__main__":
