@@ -1,10 +1,26 @@
 import os
 import requests
+import random
+import time
 from github import Github
 from datetime import datetime
 import zoneinfo
 
-# Определение времени по МСК
+
+# Получение списка бесплатных http(s) прокси с открытого источника
+def fetch_proxy_list():
+    url = "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"
+    try:
+        resp = requests.get(url, timeout=15)
+        resp.raise_for_status()
+        proxies = [f"http://{line.strip()}" for line in resp.text.splitlines() if line.strip()]
+        print(f"🌐 Получено {len(proxies)} прокси из открытого источника.")
+        return proxies
+    except Exception as e:
+        print(f"⚠️ Не удалось получить список прокси: {e}")
+        return []
+
+PROXIES_LIST = fetch_proxy_list()
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
 offset = thistime.strftime("%H:%M | %d.%m.%Y")
@@ -47,10 +63,41 @@ REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 
+
 def fetch_data(url):
-    response = requests.get(url)
-    response.raise_for_status()
-    return response.text
+    global PROXIES_LIST
+    tries = 0
+    max_tries = 5
+    while tries < max_tries:
+        if not PROXIES_LIST:
+            PROXIES_LIST = fetch_proxy_list()
+            if not PROXIES_LIST:
+                print("❌ Нет доступных прокси. Пробую без прокси...")
+                break
+        proxy = random.choice(PROXIES_LIST)
+        proxies = {
+            'http': proxy,
+            'https': proxy,
+        }
+        try:
+            response = requests.get(url, proxies=proxies, timeout=15)
+            response.raise_for_status()
+            return response.text
+        except Exception as e:
+            print(f"⚠️ Ошибка через прокси {proxy}: {e}")
+            # Удаляем нерабочий прокси из списка
+            PROXIES_LIST.remove(proxy)
+            tries += 1
+            time.sleep(1)
+    # Если не удалось через прокси — пробуем напрямую
+    try:
+        response = requests.get(url, timeout=15)
+        response.raise_for_status()
+        print("✅ Получено без прокси.")
+        return response.text
+    except Exception as e:
+        print(f"❌ Ошибка при прямом подключении: {e}")
+        raise
 
 
 def save_to_local_file(path, content):
