@@ -28,7 +28,7 @@ URLS = [
     "https://raw.githubusercontent.com/AliDev-ir/FreeVPN/main/pcvpn",  #5
     "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",  #6
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",  #7
-    "https://shadowmere.xyz/api/b64sub/",  #8
+    "https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/mycustom1.txt",  #8
     "https://vpn.fail/free-proxy/v2ray",   #9
     "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44",  #10
     "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",   #11
