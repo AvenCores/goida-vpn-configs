@@ -48,7 +48,12 @@ LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 
 def fetch_data(url):
-    response = requests.get(url)
+    # Для https://shadowmere.xyz/api/b64sub/ добавляем User-Agent
+    if url == "https://shadowmere.xyz/api/b64sub/":
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"}
+        response = requests.get(url, headers=headers)
+    else:
+        response = requests.get(url)
     response.raise_for_status()
     return response.text
 
