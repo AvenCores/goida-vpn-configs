@@ -1,5 +1,3 @@
-import asyncio
-from playwright.sync_api import sync_playwright
 import os
 import requests
 from github import Github
@@ -49,29 +47,10 @@ REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 
-
-# Для shadowmere.xyz используем Playwright (headless браузер)
-def fetch_data_playwright(url):
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.goto(url)
-        content = page.content()
-        # Если нужен только текст, а не html:
-        try:
-            text = page.inner_text('body')
-        except Exception:
-            text = content
-        browser.close()
-        return text
-
 def fetch_data(url):
-    if url == "https://shadowmere.xyz/api/b64sub/":
-        return fetch_data_playwright(url)
-    else:
-        response = requests.get(url)
-        response.raise_for_status()
-        return response.text
+    response = requests.get(url)
+    response.raise_for_status()
+    return response.text
 
 
 def save_to_local_file(path, content):
