@@ -48,7 +48,7 @@ LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 
 def fetch_data(url):
-    # Для https://shadowmere.xyz/api/b64sub/ добавляем расширенные заголовки
+    # Для https://shadowmere.xyz/api/b64sub/ используем сессию и cookies
     if url == "https://shadowmere.xyz/api/b64sub/":
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
@@ -59,7 +59,10 @@ def fetch_data(url):
             "DNT": "1",
             "Upgrade-Insecure-Requests": "1"
         }
-        response = requests.get(url, headers=headers)
+        with requests.Session() as session:
+            # Получаем cookies с главной страницы
+            session.get("https://shadowmere.xyz/", headers=headers)
+            response = session.get(url, headers=headers)
     else:
         response = requests.get(url)
     response.raise_for_status()
