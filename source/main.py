@@ -73,18 +73,40 @@ REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 def fetch_data(url):
-    if WORKING_PROXY:
-        proxies = {
-            'http': WORKING_PROXY,
-            'https': WORKING_PROXY,
-        }
-        try:
-            response = requests.get(url, proxies=proxies, timeout=15)
-            response.raise_for_status()
-            print(f"✅ Получено через рабочий прокси {WORKING_PROXY}")
-            return response.text
-        except Exception as e:
-            print(f"⚠️ Ошибка через рабочий прокси {WORKING_PROXY}: {e}\nПробую без прокси...")
+    proxy = WORKING_PROXY
+    tried_proxies = set()
+    for _ in range(3):
+        if proxy:
+            proxies = {
+                'http': proxy,
+                'https': proxy,
+            }
+            try:
+                response = requests.get(url, proxies=proxies, timeout=15)
+                response.raise_for_status()
+                print(f"✅ Получено через рабочий прокси {proxy}")
+                return response.text
+            except Exception as e:
+                print(f"⚠️ Ошибка через рабочий прокси {proxy}: {e}\nПробую новый прокси...")
+                tried_proxies.add(proxy)
+                proxy = None
+        if not proxy:
+            # Пробуем найти новый рабочий прокси, исключая уже пробованные
+            url_proxylist = "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"
+            try:
+                resp = requests.get(url_proxylist, timeout=15)
+                resp.raise_for_status()
+                raw_proxies = [f"http://{line.strip()}" for line in resp.text.splitlines() if line.strip() and f"http://{line.strip()}" not in tried_proxies]
+                for new_proxy in random.sample(raw_proxies, min(500, len(raw_proxies))):
+                    if is_https_proxy_working(new_proxy):
+                        print(f"✅ Найден новый рабочий HTTPS прокси: {new_proxy}")
+                        proxy = new_proxy
+                        break
+                if not proxy:
+                    print("❌ Не найдено ни одного нового рабочего HTTPS прокси.")
+            except Exception as e:
+                print(f"⚠️ Не удалось получить список прокси: {e}")
+    # Если не удалось через прокси — пробуем напрямую
     try:
         response = requests.get(url, timeout=15)
         response.raise_for_status()
