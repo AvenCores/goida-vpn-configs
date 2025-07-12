@@ -1,3 +1,5 @@
+import asyncio
+from playwright.sync_api import sync_playwright
 import os
 import requests
 from github import Github
@@ -47,26 +49,29 @@ REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 
+
+# Для shadowmere.xyz используем Playwright (headless браузер)
+def fetch_data_playwright(url):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        page.goto(url)
+        content = page.content()
+        # Если нужен только текст, а не html:
+        try:
+            text = page.inner_text('body')
+        except Exception:
+            text = content
+        browser.close()
+        return text
+
 def fetch_data(url):
-    # Для https://shadowmere.xyz/api/b64sub/ используем сессию и cookies
     if url == "https://shadowmere.xyz/api/b64sub/":
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-            "Accept-Language": "ru,en-US;q=0.9,en;q=0.8",
-            "Connection": "keep-alive",
-            "Referer": "https://shadowmere.xyz/",
-            "DNT": "1",
-            "Upgrade-Insecure-Requests": "1"
-        }
-        with requests.Session() as session:
-            # Получаем cookies с главной страницы
-            session.get("https://shadowmere.xyz/", headers=headers)
-            response = session.get(url, headers=headers)
+        return fetch_data_playwright(url)
     else:
         response = requests.get(url)
-    response.raise_for_status()
-    return response.text
+        response.raise_for_status()
+        return response.text
 
 
 def save_to_local_file(path, content):

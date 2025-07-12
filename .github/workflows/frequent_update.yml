@@ -20,6 +20,7 @@ jobs:
 
       - name: Upgrade pip
         run: python -m pip install --upgrade pip
+        run: python -m playwright install
 
       - name: Install dependencies
         run: cd source && pip install --no-cache-dir -r requirements.txt
