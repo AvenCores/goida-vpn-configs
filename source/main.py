@@ -23,27 +23,25 @@ def is_https_proxy_working(proxy_url, test_url="https://www.google.com", timeout
         pass
     return False
 
-def fetch_proxy_list():
+
+def fetch_one_working_proxy():
     url = "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"
     try:
         resp = requests.get(url, timeout=15)
         resp.raise_for_status()
         raw_proxies = [f"http://{line.strip()}" for line in resp.text.splitlines() if line.strip()]
-        print(f"🌐 Получено {len(raw_proxies)} прокси из открытого источника. Фильтрация... (это может занять время)")
-        # Фильтруем только те, которые реально работают с HTTPS
-        filtered = []
-        for proxy in random.sample(raw_proxies, min(50, len(raw_proxies))):  # Проверяем только 50 случайных, чтобы не тормозить запуск
+        print(f"🌐 Получено {len(raw_proxies)} прокси из открытого источника. Поиск одного рабочего...")
+        for proxy in random.sample(raw_proxies, min(100, len(raw_proxies))):  # Проверяем до 100 случайных
             if is_https_proxy_working(proxy):
-                filtered.append(proxy)
-            if len(filtered) >= 10:
-                break
-        print(f"✅ Готово: {len(filtered)} рабочих HTTPS прокси.")
-        return filtered
+                print(f"✅ Найден рабочий HTTPS прокси: {proxy}")
+                return proxy
+        print("❌ Не найдено ни одного рабочего HTTPS прокси.")
+        return None
     except Exception as e:
         print(f"⚠️ Не удалось получить список прокси: {e}")
-        return []
+        return None
 
-PROXIES_LIST = fetch_proxy_list()
+WORKING_PROXY = fetch_one_working_proxy()
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
 offset = thistime.strftime("%H:%M | %d.%m.%Y")
@@ -88,34 +86,18 @@ LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 
 def fetch_data(url):
-    global PROXIES_LIST
-    tries = 0
-    max_tries = 3
-    while tries < max_tries:
-        if not PROXIES_LIST:
-            PROXIES_LIST = fetch_proxy_list()
-            if not PROXIES_LIST:
-                print("❌ Нет доступных прокси. Пробую без прокси...")
-                break
-        proxy = random.choice(PROXIES_LIST)
+    if WORKING_PROXY:
         proxies = {
-            'http': proxy,
-            'https': proxy,
+            'http': WORKING_PROXY,
+            'https': WORKING_PROXY,
         }
         try:
             response = requests.get(url, proxies=proxies, timeout=15)
             response.raise_for_status()
-            print(f"✅ Получено через рабочий прокси {proxy}")
+            print(f"✅ Получено через рабочий прокси {WORKING_PROXY}")
             return response.text
         except Exception as e:
-            print(f"⚠️ Ошибка через прокси {proxy}: {e}")
-            # Удаляем нерабочий прокси из списка
-            try:
-                PROXIES_LIST.remove(proxy)
-            except ValueError:
-                pass
-            tries += 1
-            time.sleep(1)
+            print(f"⚠️ Ошибка через рабочий прокси {WORKING_PROXY}: {e}\nПробую без прокси...")
     # Если не удалось через прокси — пробуем напрямую
     try:
         response = requests.get(url, timeout=15)
