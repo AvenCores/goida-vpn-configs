@@ -1,22 +1,30 @@
-import os
-import requests
-from github import Github
-from datetime import datetime
-import zoneinfo
 
-# Определение времени по МСК
+# Импорт стандартных и сторонних библиотек
+import os
+import requests  # Для HTTP-запросов
+from github import Github  # Для работы с GitHub API
+from datetime import datetime
+import zoneinfo  # Для работы с часовыми поясами
+
+
+# Получение текущего времени по часовому поясу Европа/Москва
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
-offset = thistime.strftime("%H:%M | %d.%m.%Y")
+offset = thistime.strftime("%H:%M | %d.%m.%Y")  # Формат времени для коммитов
 
-GITHUB_TOKEN = os.environ.get("MY_TOKEN")  # GitHub токен
-REPO_NAME = "AvenCores/goida-vpn-configs"  # Репозиторий для основных файлов
 
-# Если локальная папка не существует, создаём её
+# Получение GitHub токена из переменных окружения
+GITHUB_TOKEN = os.environ.get("MY_TOKEN")
+# Имя репозитория для загрузки файлов
+REPO_NAME = "AvenCores/goida-vpn-configs"
+
+
+# Проверка и создание локальной папки для хранения файлов, если она отсутствует
 if not os.path.exists("githubmirror"):
     os.mkdir("githubmirror")
 
-# Список URL и локальных/удалённых путей
+
+# Список URL-адресов для скачивания конфигов
 URLS = [
     "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality", #1
     "https://istanbulsydneyhotel.com/blogs/site/sni.php", #2
@@ -43,34 +51,45 @@ URLS = [
     "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt",  #23
 ]
 
+# Пути для сохранения файлов локально и в репозитории
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 
+
+# Функция для скачивания данных по URL
 def fetch_data(url):
     response = requests.get(url)
-    response.raise_for_status()
+    response.raise_for_status()  # Генерирует исключение при ошибке
     return response.text
 
 
+
+# Сохраняет полученные данные в локальный файл
 def save_to_local_file(path, content):
     with open(path, "w", encoding="utf-8") as file:
         file.write(content)
     print(f"📁 Данные сохранены локально в {path}")
 
 
+
+# Загружает файл в репозиторий GitHub (обновляет или создаёт новый)
 def upload_to_github(local_path, remote_path):
+    # Проверка наличия локального файла
     if not os.path.exists(local_path):
         print(f"❌ Файл {local_path} не найден.")
         return
 
+    # Авторизация и получение репозитория
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPO_NAME)
 
+    # Чтение содержимого локального файла
     with open(local_path, "r", encoding="utf-8") as file:
         content = file.read()
 
     try:
+        # Если файл уже есть в репозитории — обновляем
         file_in_repo = repo.get_contents(remote_path)
         repo.update_file(
             path=remote_path,
@@ -80,6 +99,7 @@ def upload_to_github(local_path, remote_path):
         )
         print(f"🚀 Файл {remote_path} обновлён в репозитории.\n")
     except Exception:
+        # Если файла нет — создаём новый
         repo.create_file(
             path=remote_path,
             message=f"🆕 Первый коммит по часовому поясу Европа/Москва: {offset}",
@@ -88,15 +108,19 @@ def upload_to_github(local_path, remote_path):
         print(f"🆕 Файл {remote_path} создан.\n")
 
 
+
+# Основная функция: скачивает, сохраняет и загружает все конфиги
 def main():
     for url, local_path, remote_path in zip(URLS, LOCAL_PATHS, REMOTE_PATHS):
         try:
-            data = fetch_data(url)
-            save_to_local_file(local_path, data)
-            upload_to_github(local_path, remote_path)
+            data = fetch_data(url)  # Скачивание данных
+            save_to_local_file(local_path, data)  # Сохранение локально
+            upload_to_github(local_path, remote_path)  # Загрузка в GitHub
         except Exception as e:
             print(f"⚠️ Ошибка при обработке {url}: {e}\n")
 
 
+
+# Точка входа в программу
 if __name__ == "__main__":
     main()
