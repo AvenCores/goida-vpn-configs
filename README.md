@@ -22,9 +22,9 @@
   </span>
 </div>
 
-</div>
-
 # 🎦 Видео гайд по установке и решению проблем
+
+</div>
 
 ![maxresdefault](https://github.com/user-attachments/assets/e36e2351-3b1a-4b90-87f7-cafbc74f238c)
 
