@@ -94,8 +94,16 @@ def upload_to_github(local_path, remote_path):
         # Пытаемся получить файл из репозитория
         file_in_repo = repo.get_contents(remote_path)
 
+        # Получаем содержимое удалённого файла, если возможно
+        remote_content = None
+        if getattr(file_in_repo, "encoding", None) == "base64":
+            try:
+                remote_content = file_in_repo.decoded_content.decode("utf-8")
+            except Exception:
+                remote_content = None
+
         # Обновляем файл, только если содержимое изменилось
-        if file_in_repo.decoded_content.decode("utf-8") != content:
+        if remote_content is None or remote_content != content:
             repo.update_file(
                 path=remote_path,
                 message=f"🚀 Обновление конфига ({offset})",
