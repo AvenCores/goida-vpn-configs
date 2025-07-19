@@ -33,7 +33,7 @@ URLS = [
     "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt", #4
     "https://raw.githubusercontent.com/AliDev-ir/FreeVPN/main/pcvpn",  #5
     "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",  #6
-    "https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt",  #7
+    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vless.txt",  #7
     "https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/mycustom1.txt",  #8
     "https://vpn.fail/free-proxy/v2ray",   #9
     "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44",  #10
@@ -44,7 +44,7 @@ URLS = [
     "https://github.com/4n0nymou3/multi-proxy-config-fetcher/raw/refs/heads/main/configs/proxy_configs.txt",   #15
     "https://github.com/freefq/free/raw/refs/heads/master/v2",    #16
     "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt", #17
-    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_Sub.txt", #18
+    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vmess.txt", #18
     "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix",   #19
     "https://raw.githubusercontent.com/mehran1404/Sub_Link/refs/heads/main/V2RAY-Sub.txt",  #20
     "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt",   #21
@@ -110,9 +110,9 @@ def upload_to_github(local_path, remote_path):
                 content=content,
                 sha=file_in_repo.sha
             )
-            print(f"🚀 Файл {remote_path} обновлён в репозитории.\n")
+            print(f"🚀 Файл {remote_path} обновлён в репозитории.")
         else:
-            print(f"🔄 Изменений для {remote_path} нет.\n")
+            print(f"🔄 Изменений для {remote_path} нет.")
     except GithubException as e:
         if e.status == 404:
             # Файл не найден – создаём новый
@@ -121,10 +121,10 @@ def upload_to_github(local_path, remote_path):
                 message=f"🆕 Первый коммит ({offset})",
                 content=content
             )
-            print(f"🆕 Файл {remote_path} создан.\n")
+            print(f"🆕 Файл {remote_path} создан.")
         else:
             # Любая другая ошибка
-            print(f"⚠️ Ошибка при загрузке {remote_path}: {e.data.get('message', e)}\n")
+            print(f"⚠️ Ошибка при загрузке {remote_path}: {e.data.get('message', e)}")
 
 # Функция для параллельного скачивания и сохранения файла
 def download_and_save(idx):
@@ -135,7 +135,7 @@ def download_and_save(idx):
         save_to_local_file(local_path, data)
         return local_path, REMOTE_PATHS[idx]
     except Exception as e:
-        print(f"⚠️ Ошибка при скачивании {url}: {e}\n")
+        print(f"⚠️ Ошибка при скачивании {url}: {e}")
         return None
 
 # Основная функция: скачивает, сохраняет и загружает все конфиги
