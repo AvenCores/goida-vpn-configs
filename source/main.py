@@ -2,8 +2,10 @@
 import os
 import requests
 from github import Github
+from github import GithubException
 from datetime import datetime
 import zoneinfo
+import concurrent.futures
 
 # Получение текущего времени по часовому поясу Европа/Москва
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
@@ -14,6 +16,10 @@ offset = thistime.strftime("%H:%M | %d.%m.%Y")  # Формат времени д
 GITHUB_TOKEN = os.environ.get("MY_TOKEN")
 # Имя репозитория для загрузки файлов
 REPO_NAME = "AvenCores/goida-vpn-configs"
+
+# Создаём объект Github и репозиторий один раз, чтобы не делать это при каждой загрузке
+g = Github(GITHUB_TOKEN)
+REPO = g.get_repo(REPO_NAME)
 
 # Проверка и создание локальной папки для хранения файлов, если она отсутствует
 if not os.path.exists("githubmirror"):
@@ -51,8 +57,9 @@ REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
 # Функция для скачивания данных по URL
-def fetch_data(url):
-    response = requests.get(url)
+def fetch_data(url, timeout: int = 10):
+    """Скачивает данные по URL с таймаутом и базовой обработкой ошибок."""
+    response = requests.get(url, timeout=timeout)
     response.raise_for_status()  # Генерирует исключение при ошибке
     return response.text
 
@@ -64,47 +71,77 @@ def save_to_local_file(path, content):
 
 # Загружает файл в репозиторий GitHub (обновляет или создаёт новый)
 def upload_to_github(local_path, remote_path):
+    """Загружает или обновляет файл в репозитории GitHub.
+
+    1. Если файл отсутствует – создаёт его.
+    2. Если файл уже есть и содержимое изменилось – обновляет его.
+    3. Если изменений нет – пропускает загрузку.
+    """
+
     # Проверка наличия локального файла
     if not os.path.exists(local_path):
         print(f"❌ Файл {local_path} не найден.")
         return
 
-    # Авторизация и получение репозитория
-    g = Github(GITHUB_TOKEN)
-    repo = g.get_repo(REPO_NAME)
+    # Используем уже созданный объект репозитория
+    repo = REPO
 
     # Чтение содержимого локального файла
     with open(local_path, "r", encoding="utf-8") as file:
         content = file.read()
 
     try:
-        # Если файл уже есть в репозитории — обновляем
+        # Пытаемся получить файл из репозитория
         file_in_repo = repo.get_contents(remote_path)
-        repo.update_file(
-            path=remote_path,
-            message=f"🚀 Обновление конфига по часовому поясу Европа/Москва: {offset}",
-            content=content,
-            sha=file_in_repo.sha
-        )
-        print(f"🚀 Файл {remote_path} обновлён в репозитории.\n")
-    except Exception:
-        # Если файла нет — создаём новый
-        repo.create_file(
-            path=remote_path,
-            message=f"🆕 Первый коммит по часовому поясу Европа/Москва: {offset}",
-            content=content
-        )
-        print(f"🆕 Файл {remote_path} создан.\n")
+
+        # Обновляем файл, только если содержимое изменилось
+        if file_in_repo.decoded_content.decode("utf-8") != content:
+            repo.update_file(
+                path=remote_path,
+                message=f"🚀 Обновление конфига ({offset})",
+                content=content,
+                sha=file_in_repo.sha
+            )
+            print(f"🚀 Файл {remote_path} обновлён в репозитории.\n")
+        else:
+            print(f"🔄 Изменений для {remote_path} нет.\n")
+    except GithubException as e:
+        if e.status == 404:
+            # Файл не найден – создаём новый
+            repo.create_file(
+                path=remote_path,
+                message=f"🆕 Первый коммит ({offset})",
+                content=content
+            )
+            print(f"🆕 Файл {remote_path} создан.\n")
+        else:
+            # Любая другая ошибка
+            print(f"⚠️ Ошибка при загрузке {remote_path}: {e.data.get('message', e)}\n")
+
+# Функция для параллельного скачивания и сохранения файла
+def download_and_save(idx):
+    url = URLS[idx]
+    local_path = LOCAL_PATHS[idx]
+    try:
+        data = fetch_data(url)
+        save_to_local_file(local_path, data)
+        return local_path, REMOTE_PATHS[idx]
+    except Exception as e:
+        print(f"⚠️ Ошибка при скачивании {url}: {e}\n")
+        return None
 
 # Основная функция: скачивает, сохраняет и загружает все конфиги
 def main():
-    for url, local_path, remote_path in zip(URLS, LOCAL_PATHS, REMOTE_PATHS):
-        try:
-            data = fetch_data(url)  # Скачивание данных
-            save_to_local_file(local_path, data)  # Сохранение локально
-            upload_to_github(local_path, remote_path)  # Загрузка в GitHub
-        except Exception as e:
-            print(f"⚠️ Ошибка при обработке {url}: {e}\n")
+    # Параллельно скачиваем файлы и сохраняем их локально
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(10, len(URLS))) as executor:
+        futures = [executor.submit(download_and_save, i) for i in range(len(URLS))]
+
+        # По мере завершения скачивания — загружаем файл в GitHub
+        for future in concurrent.futures.as_completed(futures):
+            result = future.result()
+            if result:
+                local_path, remote_path = result
+                upload_to_github(local_path, remote_path)
 
 # Точка входа в программу
 if __name__ == "__main__":
