@@ -106,7 +106,7 @@ def upload_to_github(local_path, remote_path):
         if remote_content is None or remote_content != content:
             repo.update_file(
                 path=remote_path,
-                message=f"🚀 Обновление конфига ({offset})",
+                message=f"🚀 Обновление конфига по часовому поясу Европа/Москва: {offset}",
                 content=content,
                 sha=file_in_repo.sha
             )
