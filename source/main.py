@@ -33,7 +33,7 @@ URLS = [
     "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt", #4
     "https://raw.githubusercontent.com/AliDev-ir/FreeVPN/main/pcvpn",  #5
     "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",  #6
-    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt",  #7
+    "https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt",  #7
     "https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/mycustom1.txt",  #8
     "https://vpn.fail/free-proxy/v2ray",   #9
     "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44",  #10
