@@ -7,17 +7,33 @@ from datetime import datetime
 import zoneinfo
 import concurrent.futures
 import threading
+import re
+from collections import defaultdict
 
 # -------------------- ЛОГИРОВАНИЕ --------------------
-# Собираем все сообщения в один список, чтобы вывести их после завершения
-LOGS: list[str] = []
+# Собираем сообщения по каждому номеру файла, чтобы затем вывести их в порядке 1 → N
+
+LOGS_BY_FILE: dict[int, list[str]] = defaultdict(list)
 _LOG_LOCK = threading.Lock()
 
 
+def _extract_index(msg: str) -> int:
+    """Пытается извлечь номер файла из строки вида 'githubmirror/12.txt'.
+    Если номер не найден, возвращает 0 (для общих сообщений)."""
+    m = re.search(r"githubmirror/(\d+)\.txt", msg)
+    if m:
+        try:
+            return int(m.group(1))
+        except ValueError:
+            pass
+    return 0
+
+
 def log(message: str):
-    """Добавляет сообщение в общий список логов потокобезопасно."""
+    """Добавляет сообщение в общий словарь логов потокобезопасно."""
+    idx = _extract_index(message)
     with _LOG_LOCK:
-        LOGS.append(message)
+        LOGS_BY_FILE[idx].append(message)
 
 # Получение текущего времени по часовому поясу Европа/Москва
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
@@ -167,8 +183,22 @@ def main():
                 local_path, remote_path = result
                 upload_to_github(local_path, remote_path)
 
-    # Выводим все собранные логи после завершения работы
-    print("\n".join(LOGS))
+    # -------------------- ПЕЧАТЬ СОБРАННЫХ ЛОГОВ --------------------
+    ordered_keys = sorted(k for k in LOGS_BY_FILE.keys() if k != 0)
+
+    output_lines: list[str] = []
+
+    # Сначала выводим логи по конкретным файлам в порядке номера
+    for k in ordered_keys:
+        output_lines.append(f"----- {k}.txt -----")
+        output_lines.extend(LOGS_BY_FILE[k])
+
+    # Далее выводим общие/непривязанные сообщения (ключ 0)
+    if LOGS_BY_FILE.get(0):
+        output_lines.append("----- Общие сообщения -----")
+        output_lines.extend(LOGS_BY_FILE[0])
+
+    print("\n".join(output_lines))
 
 # Точка входа в программу
 if __name__ == "__main__":
