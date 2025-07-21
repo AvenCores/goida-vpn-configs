@@ -6,6 +6,18 @@ from github import GithubException
 from datetime import datetime
 import zoneinfo
 import concurrent.futures
+import threading
+
+# -------------------- ЛОГИРОВАНИЕ --------------------
+# Собираем все сообщения в один список, чтобы вывести их после завершения
+LOGS: list[str] = []
+_LOG_LOCK = threading.Lock()
+
+
+def log(message: str):
+    """Добавляет сообщение в общий список логов потокобезопасно."""
+    with _LOG_LOCK:
+        LOGS.append(message)
 
 # Получение текущего времени по часовому поясу Европа/Москва
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
@@ -68,7 +80,7 @@ def fetch_data(url, timeout: int = 10):
 def save_to_local_file(path, content):
     with open(path, "w", encoding="utf-8") as file:
         file.write(content)
-    print(f"📁 Данные сохранены локально в {path}")
+    log(f"📁 Данные сохранены локально в {path}")
 
 # Загружает файл в репозиторий GitHub (обновляет или создаёт новый)
 def upload_to_github(local_path, remote_path):
@@ -81,7 +93,7 @@ def upload_to_github(local_path, remote_path):
 
     # Проверка наличия локального файла
     if not os.path.exists(local_path):
-        print(f"❌ Файл {local_path} не найден.")
+        log(f"❌ Файл {local_path} не найден.")
         return
 
     # Используем уже созданный объект репозитория
@@ -105,27 +117,30 @@ def upload_to_github(local_path, remote_path):
 
         # Обновляем файл, только если содержимое изменилось
         if remote_content is None or remote_content != content:
+            # Добавляем название файла (например, 1.txt) в сообщение коммита
+            basename = os.path.basename(remote_path)
             repo.update_file(
                 path=remote_path,
-                message=f"🚀 Обновление конфига по часовому поясу Европа/Москва: {offset}",
+                message=f"🚀 Обновление {basename} по часовому поясу Европа/Москва: {offset}",
                 content=content,
                 sha=file_in_repo.sha
             )
-            print(f"🚀 Файл {remote_path} обновлён в репозитории.")
+            log(f"🚀 Файл {remote_path} обновлён в репозитории.")
         else:
-            print(f"🔄 Изменений для {remote_path} нет.")
+            log(f"🔄 Изменений для {remote_path} нет.")
     except GithubException as e:
         if e.status == 404:
             # Файл не найден – создаём новый
+            basename = os.path.basename(remote_path)
             repo.create_file(
                 path=remote_path,
-                message=f"🆕 Первый коммит ({offset})",
+                message=f"🆕 Первый коммит {basename} ({offset})",
                 content=content
             )
-            print(f"🆕 Файл {remote_path} создан.")
+            log(f"🆕 Файл {remote_path} создан.")
         else:
             # Любая другая ошибка
-            print(f"⚠️ Ошибка при загрузке {remote_path}: {e.data.get('message', e)}")
+            log(f"⚠️ Ошибка при загрузке {remote_path}: {e.data.get('message', e)}")
 
 # Функция для параллельного скачивания и сохранения файла
 def download_and_save(idx):
@@ -136,7 +151,7 @@ def download_and_save(idx):
         save_to_local_file(local_path, data)
         return local_path, REMOTE_PATHS[idx]
     except Exception as e:
-        print(f"⚠️ Ошибка при скачивании {url}: {e}")
+        log(f"⚠️ Ошибка при скачивании {url}: {e}")
         return None
 
 # Основная функция: скачивает, сохраняет и загружает все конфиги
@@ -151,6 +166,9 @@ def main():
             if result:
                 local_path, remote_path = result
                 upload_to_github(local_path, remote_path)
+
+    # Выводим все собранные логи после завершения работы
+    print("\n".join(LOGS))
 
 # Точка входа в программу
 if __name__ == "__main__":
