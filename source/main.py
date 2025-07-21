@@ -1,6 +1,8 @@
 
 import os
 import requests
+import urllib.parse
+import urllib3
 from github import Github
 from github import GithubException
 from datetime import datetime
@@ -59,25 +61,25 @@ URLS = [
     "https://istanbulsydneyhotel.com/blogs/site/sni.php", #2
     "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt", #3
     "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt", #4
-    "https://raw.githubusercontent.com/AliDev-ir/FreeVPN/main/pcvpn",  #5
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",  #6
-    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt",  #7
-    "https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/mycustom1.txt",  #8
-    "https://vpn.fail/free-proxy/v2ray",   #9
-    "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44",  #10
-    "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",   #11
-    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all",   #12
-    "https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt",   #13
-    "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes",   #14
-    "https://github.com/4n0nymou3/multi-proxy-config-fetcher/raw/refs/heads/main/configs/proxy_configs.txt",   #15
-    "https://github.com/freefq/free/raw/refs/heads/master/v2",    #16
+    "https://raw.githubusercontent.com/AliDev-ir/FreeVPN/main/pcvpn", #5
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt", #6
+    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt", #7
+    "https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/mycustom1.txt", #8
+    "https://vpn.fail/free-proxy/v2ray", #9
+    "https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44", #10
+    "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt", #11
+    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all", #12
+    "https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt", #13
+    "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes", #14
+    "https://github.com/4n0nymou3/multi-proxy-config-fetcher/raw/refs/heads/main/configs/proxy_configs.txt", #15
+    "https://github.com/freefq/free/raw/refs/heads/master/v2", #16
     "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt", #17
     "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vmess.txt", #18
-    "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix",   #19
-    "https://raw.githubusercontent.com/mehran1404/Sub_Link/refs/heads/main/V2RAY-Sub.txt",  #20
-    "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt",   #21
-    "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri",   #22
-    "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt",  #23
+    "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix", #19
+    "https://raw.githubusercontent.com/mehran1404/Sub_Link/refs/heads/main/V2RAY-Sub.txt", #20
+    "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt", #21
+    "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri", #22
+    "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt", #23
     "https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE", #24
 ]
 
@@ -85,12 +87,56 @@ URLS = [
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
+# Отключаем предупреждения, если будем использовать verify=False
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# UA Chrome 124 (Windows 10 x64)
+CHROME_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/138.0.0.0 Safari/537.36"
+)
+
+
 # Функция для скачивания данных по URL
-def fetch_data(url, timeout: int = 10):
-    """Скачивает данные по URL с таймаутом и базовой обработкой ошибок."""
-    response = requests.get(url, timeout=timeout)
-    response.raise_for_status()  # Генерирует исключение при ошибке
-    return response.text
+def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3) -> str:
+    """Пытается скачать данные по URL, делая несколько попыток.
+
+    Логика попыток:
+    1. Первая попытка — как есть (verify=True).
+    2. Вторая попытка — verify=False (игнорируем SSL-сертификат).
+    3. Третья попытка — меняем протокол https → http и verify=False.
+    """
+
+    headers = {"User-Agent": CHROME_UA}
+
+    for attempt in range(1, max_attempts + 1):
+        try:
+            # Определяем параметры для конкретной попытки
+            modified_url = url
+            verify = True
+
+            if attempt == 2:
+                # Попытка 2: отключаем проверку сертификата
+                verify = False
+            elif attempt == 3:
+                # Попытка 3: пробуем http вместо https
+                parsed = urllib.parse.urlparse(url)
+                if parsed.scheme == "https":
+                    modified_url = parsed._replace(scheme="http").geturl()
+                verify = False
+
+            response = requests.get(modified_url, timeout=timeout, verify=verify, headers=headers)
+            response.raise_for_status()
+            return response.text
+
+        except requests.exceptions.RequestException as exc:
+            last_exc = exc  # запоминаем последнюю ошибку
+            # Если не последняя попытка — пробуем ещё раз
+            if attempt < max_attempts:
+                continue
+            # Если все попытки исчерпаны — пробрасываем исключение
+            raise last_exc
 
 # Сохраняет полученные данные в локальный файл
 def save_to_local_file(path, content):
@@ -167,7 +213,10 @@ def download_and_save(idx):
         save_to_local_file(local_path, data)
         return local_path, REMOTE_PATHS[idx]
     except Exception as e:
-        log(f"⚠️ Ошибка при скачивании {url}: {e}")
+        short_msg = str(e)
+        if len(short_msg) > 200:
+            short_msg = short_msg[:200] + "…"
+        log(f"⚠️ Ошибка при скачивании {url}: {short_msg}")
         return None
 
 # Основная функция: скачивает, сохраняет и загружает все конфиги
