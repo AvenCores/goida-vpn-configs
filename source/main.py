@@ -195,7 +195,7 @@ def upload_to_github(local_path, remote_path):
             basename = os.path.basename(remote_path)
             repo.create_file(
                 path=remote_path,
-                message=f"🆕 Первый коммит {basename} ({offset})",
+                message=f"🆕 Первый коммит {basename} по часовому поясу Европа/Москва: {offset}",
                 content=content
             )
             log(f"🆕 Файл {remote_path} создан.")
