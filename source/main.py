@@ -1,16 +1,15 @@
 import os
+import requests
 import urllib.parse
-import threading
-import re
-from collections import defaultdict
-import asyncio
-import zoneinfo
-import aiohttp
-import hashlib
-from github import InputGitTreeElement
+import urllib3
 from github import Github
 from github import GithubException
 from datetime import datetime
+import zoneinfo
+import concurrent.futures
+import threading
+import re
+from collections import defaultdict
 
 # -------------------- ЛОГИРОВАНИЕ --------------------
 # Собираем сообщения по каждому номеру файла, чтобы затем вывести их в порядке 1 → N
@@ -87,6 +86,9 @@ URLS = [
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
+# Отключаем предупреждения, если будем использовать verify=False
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 # UA Chrome 124 (Windows 10 x64)
 CHROME_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -94,50 +96,46 @@ CHROME_UA = (
     "Chrome/138.0.0.0 Safari/537.36"
 )
 
-# -------------------- HTTP SESSION & REMOTE CACHE --------------------
-try:
-    _remote_contents = REPO.get_contents("githubmirror")
-    REMOTE_CACHE = {f.path: f for f in _remote_contents}  # path -> ContentFile
-except GithubException:
-    REMOTE_CACHE = {}
 
+# Функция для скачивания данных по URL
+def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3) -> str:
+    """Пытается скачать данные по URL, делая несколько попыток.
 
-def _git_blob_sha(content: str) -> str:
-    """Вычисляет SHA1 так же, как это делает git для blob."""
-    data = content.encode("utf-8")
-    header = f"blob {len(data)}\0".encode("utf-8")
-    return hashlib.sha1(header + data).hexdigest()
+    Логика попыток:
+    1. Первая попытка — как есть (verify=True).
+    2. Вторая попытка — verify=False (игнорируем SSL-сертификат).
+    3. Третья попытка — меняем протокол https → http и verify=False.
+    """
 
-# -------------------- ASYNC ЗАГРУЗКА --------------------
-async def _async_fetch(session: aiohttp.ClientSession, url: str, timeout: int = 10, max_attempts: int = 3) -> str:
-    """Асинхронная версия fetch_data с тремя попытками."""
+    headers = {"User-Agent": CHROME_UA}
+
     for attempt in range(1, max_attempts + 1):
         try:
+            # Определяем параметры для конкретной попытки
             modified_url = url
-            verify_ssl = attempt == 1  # 1-я попытка — verify=True
-            if attempt == 3:
+            verify = True
+
+            if attempt == 2:
+                # Попытка 2: отключаем проверку сертификата
+                verify = False
+            elif attempt == 3:
+                # Попытка 3: пробуем http вместо https
                 parsed = urllib.parse.urlparse(url)
                 if parsed.scheme == "https":
                     modified_url = parsed._replace(scheme="http").geturl()
-                verify_ssl = False
-            elif attempt == 2:
-                verify_ssl = False
+                verify = False
 
-            async with session.get(modified_url, ssl=verify_ssl, timeout=timeout) as resp:
-                resp.raise_for_status()
-                return await resp.text()
-        except Exception as exc:
-            last_exc = exc
+            response = requests.get(modified_url, timeout=timeout, verify=verify, headers=headers)
+            response.raise_for_status()
+            return response.text
+
+        except requests.exceptions.RequestException as exc:
+            last_exc = exc  # запоминаем последнюю ошибку
+            # Если не последняя попытка — пробуем ещё раз
             if attempt < max_attempts:
                 continue
+            # Если все попытки исчерпаны — пробрасываем исключение
             raise last_exc
-
-async def _download_all() -> list:
-    """Скачивает все URL асинхронно и возвращает список результатов (или исключений)."""
-    connector = aiohttp.TCPConnector(limit=64, ssl=False)
-    async with aiohttp.ClientSession(connector=connector, headers={"User-Agent": CHROME_UA}) as session:
-        tasks = [asyncio.create_task(_async_fetch(session, url)) for url in URLS]
-        return await asyncio.gather(*tasks, return_exceptions=True)
 
 # Сохраняет полученные данные в локальный файл
 def save_to_local_file(path, content):
@@ -145,73 +143,111 @@ def save_to_local_file(path, content):
         file.write(content)
     log(f"📁 Данные сохранены локально в {path}")
 
-# -------------------- BATCH COMMIT --------------------
+# Загружает файл в репозиторий GitHub (обновляет или создаёт новый)
+def upload_to_github(local_path, remote_path):
+    """Загружает или обновляет файл в репозитории GitHub.
 
-def _batch_commit(changed: dict[str, str]):
-    """Коммитит все изменённые файлы одним коммитом через GitTrees API."""
-    if not changed:
-        log("🔄 Нет изменений для коммита.")
+    1. Если файл отсутствует – создаёт его.
+    2. Если файл уже есть и содержимое изменилось – обновляет его.
+    3. Если изменений нет – пропускает загрузку.
+    """
+
+    # Проверка наличия локального файла
+    if not os.path.exists(local_path):
+        log(f"❌ Файл {local_path} не найден.")
         return
 
-    elements: list[InputGitTreeElement] = []
-    for path, content in changed.items():
-        blob = REPO.create_git_blob(content, "utf-8")
-        elements.append(InputGitTreeElement(path=path, mode="100644", type="blob", sha=blob.sha))
+    # Используем уже созданный объект репозитория
+    repo = REPO
 
-    # Базовый коммит/ветка
-    branch_name = REPO.default_branch or "main"
-    base_commit = REPO.get_branch(branch_name).commit
-    base_tree = base_commit.commit.tree
+    # Чтение содержимого локального файла
+    with open(local_path, "r", encoding="utf-8") as file:
+        content = file.read()
 
-    new_tree = REPO.create_git_tree(elements, base_tree)
-    commit_msg = f"🚀 Batch update {len(changed)} files по часовому поясу Европа/Москва: {offset}"
-    new_commit = REPO.create_git_commit(commit_msg, new_tree, [base_commit])
-    REPO.get_git_ref(f"heads/{branch_name}").edit(new_commit.sha)
-    log(f"🚀 Создан batch-коммит: {len(changed)} файлов.")
+    try:
+        # Пытаемся получить файл из репозитория
+        file_in_repo = repo.get_contents(remote_path)
 
-# -------------------- ОБНОВЛЁННАЯ main --------------------
-async def _async_main():
-    results = await _download_all()
+        # Получаем содержимое удалённого файла, если возможно
+        remote_content = None
+        if getattr(file_in_repo, "encoding", None) == "base64":
+            try:
+                remote_content = file_in_repo.decoded_content.decode("utf-8")
+            except Exception:
+                remote_content = None
 
-    changed_files: dict[str, str] = {}
+        # Обновляем файл, только если содержимое изменилось
+        if remote_content is None or remote_content != content:
+            # Добавляем название файла (например, 1.txt) в сообщение коммита
+            basename = os.path.basename(remote_path)
+            repo.update_file(
+                path=remote_path,
+                message=f"🚀 Обновление {basename} по часовому поясу Европа/Москва: {offset}",
+                content=content,
+                sha=file_in_repo.sha
+            )
+            log(f"🚀 Файл {remote_path} обновлён в репозитории.")
+        else:
+            log(f"🔄 Изменений для {remote_path} нет.")
+    except GithubException as e:
+        if e.status == 404:
+            # Файл не найден – создаём новый
+            basename = os.path.basename(remote_path)
+            repo.create_file(
+                path=remote_path,
+                message=f"🆕 Первый коммит {basename} по часовому поясу Европа/Москва: {offset}",
+                content=content
+            )
+            log(f"🆕 Файл {remote_path} создан.")
+        else:
+            # Любая другая ошибка
+            log(f"⚠️ Ошибка при загрузке {remote_path}: {e.data.get('message', e)}")
 
-    for idx, result in enumerate(results):
-        url = URLS[idx]
-        if isinstance(result, Exception):
-            short_msg = str(result)
-            if len(short_msg) > 200:
-                short_msg = short_msg[:200] + "…"
-            log(f"⚠️ Ошибка при скачивании {url}: {short_msg}")
-            continue
+# Функция для параллельного скачивания и сохранения файла
+def download_and_save(idx):
+    url = URLS[idx]
+    local_path = LOCAL_PATHS[idx]
+    try:
+        data = fetch_data(url)
+        save_to_local_file(local_path, data)
+        return local_path, REMOTE_PATHS[idx]
+    except Exception as e:
+        short_msg = str(e)
+        if len(short_msg) > 200:
+            short_msg = short_msg[:200] + "…"
+        log(f"⚠️ Ошибка при скачивании {url}: {short_msg}")
+        return None
 
-        content: str = result
-        local_path = LOCAL_PATHS[idx]
-        remote_path = REMOTE_PATHS[idx]
+# Основная функция: скачивает, сохраняет и загружает все конфиги
+def main():
+    # Параллельно скачиваем файлы и сохраняем их локально
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(10, len(URLS))) as executor:
+        futures = [executor.submit(download_and_save, i) for i in range(len(URLS))]
 
-        save_to_local_file(local_path, content)
+        # По мере завершения скачивания — загружаем файл в GitHub
+        for future in concurrent.futures.as_completed(futures):
+            result = future.result()
+            if result:
+                local_path, remote_path = result
+                upload_to_github(local_path, remote_path)
 
-        # Проверяем по SHA, изменился ли файл
-        new_sha = _git_blob_sha(content)
-        remote_entry = REMOTE_CACHE.get(remote_path)
-        if remote_entry and remote_entry.sha == new_sha:
-            log(f"🔄 Изменений для {remote_path} нет (по SHA).")
-            continue
-
-        changed_files[remote_path] = content
-
-    _batch_commit(changed_files)
-
-    # ---- Печать логов ----
+    # -------------------- ПЕЧАТЬ СОБРАННЫХ ЛОГОВ --------------------
     ordered_keys = sorted(k for k in LOGS_BY_FILE.keys() if k != 0)
+
     output_lines: list[str] = []
+
+    # Сначала выводим логи по конкретным файлам в порядке номера
     for k in ordered_keys:
         output_lines.append(f"----- {k}.txt -----")
         output_lines.extend(LOGS_BY_FILE[k])
+
+    # Далее выводим общие/непривязанные сообщения (ключ 0)
     if LOGS_BY_FILE.get(0):
         output_lines.append("----- Общие сообщения -----")
         output_lines.extend(LOGS_BY_FILE[0])
+
     print("\n".join(output_lines))
 
 # Точка входа в программу
 if __name__ == "__main__":
-    asyncio.run(_async_main())
+    main()
