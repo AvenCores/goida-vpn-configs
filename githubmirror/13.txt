@@ -30,21 +30,21 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.99:8880?mode=gun&securi
 
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.90:8880?mode=gun&security=none&encryption=none&type=grpc#FR🇫🇷
 
-vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.19.245.206:443?path=/?ed=2560&security=tls&encryption=none&host=kawaiifreevpn-7ds.pages.dev&fp=random&type=ws&sni=kawaiifreevpn-7ds.pages.dev#US🇺🇸
+vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.19.245.206:443?path=/?ed=2560&security=tls&encryption=none&host=kawaiifreevpn-7ds.pages.dev&fp=random&type=ws&sni=kawaiifreevpn-7ds.pages.dev#CA🇨🇦
 
-vless://39a91eaf-a379-4fff-a9c8-1cb01442b76f@172.67.69.216:2053?path=/&security=tls&encryption=none&host=iran.akcovufun.ir&fp=chrome&type=ws&sni=iran.akcovufun.ir#US🇺🇸
+vless://39a91eaf-a379-4fff-a9c8-1cb01442b76f@172.67.69.216:2053?path=/&security=tls&encryption=none&host=iran.akcovufun.ir&fp=chrome&type=ws&sni=iran.akcovufun.ir#CA🇨🇦
 
 vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=/&security=none&encryption=none&type=ws#US🇺🇸
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.varzesh360.co:443#GB🇬🇧
 
-vless://6b3b071f-096b-4e4c-8d70-0e0b53f27434@www.speedtest.net.cdn.cloudflare.net:80?security=none&encryption=none&host=VAST-RAdIo.zuLAIR.oRG&type=ws#CA🇨🇦
+vless://6b3b071f-096b-4e4c-8d70-0e0b53f27434@www.speedtest.net.cdn.cloudflare.net:80?security=none&encryption=none&host=VAST-RAdIo.zuLAIR.oRG&type=ws#US🇺🇸
 
 vless://0cd276a5-4501-413a-acf8-b51c54894f02@179.61.219.170:22934?security=none&encryption=none&headerType=none&type=tcp#NL🇳🇱
 
-vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@freexxx.xhamster.biz.id:443?path=/Free-CF-Proxy-AE19&security=tls&encryption=none&host=freexxx.xhamster.biz.id&type=ws&sni=freexxx.xhamster.biz.id#CA🇨🇦
+vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@freexxx.xhamster.biz.id:443?path=/Free-CF-Proxy-AE19&security=tls&encryption=none&host=freexxx.xhamster.biz.id&type=ws&sni=freexxx.xhamster.biz.id#US🇺🇸
 
-vless://0f4865d9-9405-4703-a282-46e326e6d9e7@bewildered-poem.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#CA🇨🇦
+vless://0f4865d9-9405-4703-a282-46e326e6d9e7@bewildered-poem.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#US🇺🇸
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3anZISEY1U2FGb2I=@78.153.131.96:443#LT🇱🇹
 
@@ -62,7 +62,7 @@ vless://d4661d12-d6f7-4ff2-bd1e-fc9cdc2c9cc1@190.93.244.103:443?path=/&security=
 
 vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@104.17.147.22:2087?path=/&security=tls&encryption=none&host=smart.v2plusify.org&fp=chrome&type=ws&sni=smart.v2plusify.org#INT🌍
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@beesyar.org:8080#AE🇦🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@beesyar.org:8080#LT🇱🇹
 
 vless://2036e2c3-18a5-4eed-9db4-f91a7f02c7d5@104.21.112.1:80?path=/193.123.81.105=443&security=none&encryption=none&host=zoomgov.vipren.biz.id&type=ws#INT🌍
 
@@ -100,6 +100,22 @@ vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@web.xhamster.biz.id:443?path=/Free-
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2OU1VaWk3VkR3TXFoN0h6@admin.c4.webramz.co:443#GB🇬🇧
 
+vmess://eyJhZGQiOiI0NS42Ny4yMzAuNzkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IlwvSk9LRVJSVlBOX0JJQV9DSEFORUxASk9LRVJSVlBOIiwiaWQiOiIzMTQxODVmNy05MzFkLTQ2NTYtOTIyZC0wODU3ZTdhZmQyMjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjExMDUyIiwicHMiOiJSVVx1ZDgzY1x1ZGRmN1x1ZDgzY1x1ZGRmYSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+
+vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/?ed=2560&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=random&type=ws&sni=vl.hongkong6.qzz.io#INT🌍
+
+vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=/&security=none&encryption=none&type=ws#INT🌍
+
+vless://Parsashonam-289@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#INT🌍
+
+vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/?ed=2560&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=random&type=ws&sni=vl.hongkong6.qzz.io#INT🌍
+
+vless://656e8471-baf1-4927-afa9-b9cb745df576@uuk2v.tok8888.com:8443?security=reality&encryption=none&pbk=GcOtIhZbkznrBYohK7rvjV0oVoQvC4y38VIExs6KUwA&headerType=none&fp=qq&spx=/&type=tcp&flow=xtls-rprx-vision&sni=businessmadesimple.com#US🇺🇸
+
+vless://3891b3ce-bb3a-45bf-bd8e-90e2487d121e@wouldyoumarriemepleasefuckthesystem3.siasia.ir:2053?path=/apiii#Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&alpn=h3,h2&encryption=none&host=hheydudethisworldisshet.siasia.ir&fp=randomized&type=ws&sni=hheydudethisworldisshet.siasia.ir#INT🌍
+
+vmess://eyJhZGQiOiJwcm9tLmxlYXJuLW5ldy5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoic29mdDk4LmlyIiwiaWQiOiJhYzk3MDg1YS0xYTI1LTRlNTAtODM2ZC01OWZjNWQzODY3MzkiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiXC9RVWVNRVd1dFpQWVlWbm5LaiIsInBvcnQiOiI4MCIsInBzIjoiREVcdWQ4M2NcdWRkZTlcdWQ4M2NcdWRkZWEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9
+
 vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/?ed=2560&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=random&type=ws&sni=vl.hongkong6.qzz.io#INT🌍
 
 vless://8495462c-1140-48ac-9331-fdb8e1fde8fe@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=/zmgbizws&security=tls&encryption=none&host=638886055652728185.warsaw-prx-dnraaao.info&type=ws&sni=638886055652728185.warsaw-prx-dnraaao.info#INT🌍
@@ -107,18 +123,6 @@ vless://8495462c-1140-48ac-9331-fdb8e1fde8fe@ipw.gfdv54cvghhgfhgj-njhgj64.info:4
 vless://c8fae2e1-bffc-4e20-94f2-8bee7ba14ccd@meli_proxyy.vip-plan.org:54474?mode=auto&path=/&security=reality&encryption=none&pbk=mVptIpBcUtMqN2tfYE8eNwBrhqNdb0lWJoeRvYen8TY&host=fast.com&fp=random&spx=/&type=xhttp&sni=yahoo.com&sid=2cb4454d18#DE🇩🇪
 
 vless://49d6d5dd-bc9b-4ff9-ade9-3b9c25ca5f25@www.speedtest.net:2096?path=/citxcbws#Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=638879176706498046.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706498046.amsterdam-prx-dnraaal.info#INT🌍
-
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.17.1.197:8880?path=/fgvtHUpS6R8Rv8s5?ed=2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#INT🌍
-
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@45.85.119.151:8880?path=/6TvG8D6HimXKgdp2?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#RO🇷🇴
-
-vless://75fde681-ec64-4654-86fa-30732e8e179c@62.3.12.185:443?path=/&security=tls&alpn=h3&encryption=none&host=nginx-z.pages.dev&type=ws&sni=NGINX-Z.pages.DEV#TR🇹🇷
-
-vless://04bd2301-8fea-462f-b74b-e244c514135d@a.ru.maviks.ru:443?security=reality&encryption=none&pbk=cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=maviks.ru&sid=0f917152a871e9c0#RU🇷🇺
-
-vless://TELEGRAM-CONFiGLiNE@configline.fast.hosting-ip.com:80?mode=auto&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=80&security=none&encryption=none&host=iranian.gold&type=xhttp#US🇺🇸
-
-vless://5159e44f-b4cf-49d9-a4c2-5620a6431e87@www.speedtest.net:2095?path=/hajmi?ed&security=none&encryption=none&host=dbe661d5a761ff6c.s-5HU09JDF-97SHS.WWWrubika.irto.xn--ls8haaaaaaaaaaaaaaaaaa.la.which.xn--ls8haaaaaaaaaaaaaaaaaa.xn-ls8faaaaaaaaaa.speedtest.net.google.com.eu.ir.nl.aparat.com.komak.IR.Nb-En.85858599.xYz.&type=ws#INT🌍
 
 vless://Parsashonam-289@185.146.173.39:8880?type=httpupgrade&path=/Parsashonam-Parsashonam-Parsashonam/?ed=2056&host=De.Parsashonam.CfD.&security=none#SE🇸🇪
 
