@@ -34,7 +34,7 @@ vless://9a37131b-2b68-427f-a2fc-cc7381c2d575@gleeful-error.seotoolsforyou.co.uk:
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.varzesh360.co:443#GB🇬🇧
 
-vless://8df60790-c903-4661-b85d-64c0009378e5@188.114.96.6:443?path=/&security=tls&encryption=none&host=F1.paRsa.fiLegEar-Sg.Me&type=ws&sni=F1.paRsa.fiLegEar-Sg.Me#US🇺🇸
+vless://8df60790-c903-4661-b85d-64c0009378e5@188.114.96.6:443?path=/&security=tls&encryption=none&host=F1.paRsa.fiLegEar-Sg.Me&type=ws&sni=F1.paRsa.fiLegEar-Sg.Me#CA🇨🇦
 
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.99:8880?mode=gun&security=none&encryption=none&type=grpc#FR🇫🇷
 
@@ -42,9 +42,9 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.90:8880?mode=gun&security
 
 vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.19.245.206:443?path=/?ed=2560&security=tls&encryption=none&host=kawaiifreevpn-7ds.pages.dev&fp=random&type=ws&sni=kawaiifreevpn-7ds.pages.dev#US🇺🇸
 
-vless://39a91eaf-a379-4fff-a9c8-1cb01442b76f@172.67.69.216:2053?path=/&security=tls&encryption=none&host=iran.akcovufun.ir&fp=chrome&type=ws&sni=iran.akcovufun.ir#INT🌍
+vless://39a91eaf-a379-4fff-a9c8-1cb01442b76f@172.67.69.216:2053?path=/&security=tls&encryption=none&host=iran.akcovufun.ir&fp=chrome&type=ws&sni=iran.akcovufun.ir#CA🇨🇦
 
-vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=/&security=none&encryption=none&type=ws#INT🌍
+vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@communal-loss.oneeat.co:80?path=/&security=none&encryption=none&type=ws#CA🇨🇦
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.varzesh360.co:443#GB🇬🇧
 
@@ -72,7 +72,7 @@ vless://d4661d12-d6f7-4ff2-bd1e-fc9cdc2c9cc1@190.93.244.103:443?path=/&security=
 
 vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@104.17.147.22:2087?path=/&security=tls&encryption=none&host=smart.v2plusify.org&fp=chrome&type=ws&sni=smart.v2plusify.org#INT🌍
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@beesyar.org:8080#AE🇦🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@beesyar.org:8080#LT🇱🇹
 
 vless://2036e2c3-18a5-4eed-9db4-f91a7f02c7d5@104.21.112.1:80?path=/193.123.81.105=443&security=none&encryption=none&host=zoomgov.vipren.biz.id&type=ws#INT🌍
 
@@ -137,4 +137,8 @@ vless://ac6b3d48-d16f-4125-9f17-d986541a3ee9@web.bbv2ry.pics:443?type=ws&path=/&
 vless://ac6b3d48-d16f-4125-9f17-d986541a3ee9@web.bbv2ry.pics:443?type=ws&path=/&host=Sky2.bbv2ry.pics&security=tls&fp=chrome&alpn=http/1.1,h2&sni=Sky2.bbv2ry.pics#INT🌍
 
 vless://17034eef-9472-45cc-bca5-a71f90e36244@104.21.112.1:8080?security=&type=ws&path=/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@vmessorg----@unlimiteddev----@unlimiteddev?ed=2480&host=join-to-unlimiteddev.sabadyt.ir&encryption=none#INT🌍
+
+vless://c4335777-e8c8-438b-9364-4bbae410b262@91.99.144.152:443?flow=&type=tcp&headerType=http&host=zula.ir&path=&security=none#DE🇩🇪
+
+vless://06618506-461f-46dc-a16d-1742e25e7f41@91.107.142.123:2052?flow=&type=tcp&headerType=none&security=none#DE🇩🇪
 
