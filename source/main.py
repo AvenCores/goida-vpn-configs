@@ -10,7 +10,6 @@ import concurrent.futures
 import threading
 import re
 from collections import defaultdict
-from typing import Optional
 
 # -------------------- ЛОГИРОВАНИЕ --------------------
 # Собираем сообщения по каждому номеру файла, чтобы затем вывести их в порядке 1 → N
@@ -97,84 +96,6 @@ CHROME_UA = (
     "Chrome/138.0.0.0 Safari/537.36"
 )
 
-# -------------------- TELEGRAM PARSING UTILS --------------------
-
-# Канал и регулярное выражение имени файла, которое нужно искать
-TELEGRAM_CHANNEL = "v2ray_configs_pool"
-# Файл имеет вид TELEGRAM_PROXY_NO_<number>.txt, где число увеличивается
-TELEGRAM_FILENAME_REGEX = r"TELEGRAM_PROXY_NO_(\d+)\.txt"
-
-
-def _find_latest_telegram_file_url(channel: str, filename_regex: str, timeout: int = 10) -> Optional[str]:
-    """Ищет URL на самый новый файл в Telegram-канале, имя которого
-    удовлетворяет *filename_regex*.
-
-    1. Загружает веб-версию канала `https://t.me/s/<channel>`.
-    2. Ищет **все** CDN-ссылки на файлы, совпадающие с regex.
-    3. Выбирает файл с наибольшим числовым суффиксом (если он захвачен
-       подгруппой) либо последний найденный.
-    """
-
-    url = f"https://t.me/s/{channel}"
-    headers = {"User-Agent": CHROME_UA}
-
-    try:
-        resp = requests.get(url, headers=headers, timeout=timeout)
-        resp.raise_for_status()
-    except requests.RequestException as exc:
-        log(f"⚠️ Ошибка при обращении к Telegram ({url}): {exc}")
-        return None
-
-    html = resp.text
-
-    # Общий шаблон CDN-ссылки. Сохраняем полный URL в группе 1 и имя файла в группе 2.
-    cdn_pattern = re.compile(r'(https://cdn\d+\.telegram-cdn\.org/file/[^"/]+/([^"/]+))')
-
-    candidates: list[tuple[int, str]] = []  # (номер, url)
-
-    for full_url, filename in cdn_pattern.findall(html):
-        m = re.fullmatch(filename_regex, filename)
-        if not m:
-            continue
-
-        # Если regex содержит захваченные числа, берём первое число для сравнения
-        num = None
-        if m.groups():
-            try:
-                num = int(m.group(1))
-            except (ValueError, IndexError):
-                num = None
-
-        # fallback: если числа нет — используем 0, чтобы не влиять на сортировку
-        if num is None:
-            num = 0
-
-        candidates.append((num, full_url))
-
-    if not candidates:
-        return None
-
-    # Сортируем по числу (убывание), берём первый
-    candidates.sort(key=lambda t: t[0], reverse=True)
-    return candidates[0][1]
-
-# noinspection PyUnusedLocal
-def fetch_telegram_latest_file(channel: str, filename_regex: str, timeout: int = 10) -> str:
-    """Скачивает содержимое самого свежего файла в Telegram-канале.
-
-    Использует :func:`_find_latest_telegram_file_url` для нахождения ссылки, а
-    затем загружает полученный TXT-файл и возвращает его содержимое как строку.
-    """
-
-    file_url = _find_latest_telegram_file_url(channel, filename_regex, timeout)
-    if not file_url:
-        raise RuntimeError(
-            f"Не удалось найти файл, подходящий под шаблон {filename_regex} в канале {channel}")
-
-    headers = {"User-Agent": CHROME_UA}
-    resp = requests.get(file_url, headers=headers, timeout=timeout)
-    resp.raise_for_status()
-    return resp.text
 
 # Функция для скачивания данных по URL
 def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3) -> str:
@@ -287,11 +208,7 @@ def download_and_save(idx):
     url = URLS[idx]
     local_path = LOCAL_PATHS[idx]
     try:
-        # Особый случай: для конфигурации #23 берём файл из Telegram-канала
-        if idx == 22:  # индекс 22 соответствует #23 (нумерация с единицы)
-            data = fetch_telegram_latest_file(TELEGRAM_CHANNEL, TELEGRAM_FILENAME_REGEX)
-        else:
-            data = fetch_data(url)
+        data = fetch_data(url)
         save_to_local_file(local_path, data)
         return local_path, REMOTE_PATHS[idx]
     except Exception as e:
