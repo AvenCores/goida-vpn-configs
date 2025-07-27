@@ -99,18 +99,20 @@ CHROME_UA = (
 
 # -------------------- TELEGRAM PARSING UTILS --------------------
 
-# Канал и префикс файла, которые нужно искать
+# Канал и регулярное выражение имени файла, которое нужно искать
 TELEGRAM_CHANNEL = "v2ray_configs_pool"
-TELEGRAM_FILENAME_PREFIX = "V2RAY_CONFIGS_NO_"
+# Файл имеет вид TELEGRAM_PROXY_NO_<number>.txt, где число увеличивается
+TELEGRAM_FILENAME_REGEX = r"TELEGRAM_PROXY_NO_(\d+)\.txt"
 
 
-def _find_latest_telegram_file_url(channel: str, prefix: str, timeout: int = 10) -> Optional[str]:
-    """Ищет URL на последний файл в публичном Telegram-канале с указанным префиксом.
+def _find_latest_telegram_file_url(channel: str, filename_regex: str, timeout: int = 10) -> Optional[str]:
+    """Ищет URL на самый новый файл в Telegram-канале, имя которого
+    удовлетворяет *filename_regex*.
 
-    Канал запрашивается через веб-версию (https://t.me/s/<channel>). В HTML
-    ищется первая ссылка на CDN-файл, имя которого начинается с *prefix* и
-    заканчивается на *.txt*. Возвращает полный URL или *None*, если ничего не
-    найдено.
+    1. Загружает веб-версию канала `https://t.me/s/<channel>`.
+    2. Ищет **все** CDN-ссылки на файлы, совпадающие с regex.
+    3. Выбирает файл с наибольшим числовым суффиксом (если он захвачен
+       подгруппой) либо последний найденный.
     """
 
     url = f"https://t.me/s/{channel}"
@@ -125,29 +127,49 @@ def _find_latest_telegram_file_url(channel: str, prefix: str, timeout: int = 10)
 
     html = resp.text
 
-    # Простейший regex для ссылок вида:
-    # https://cdnX.telegram-cdn.org/file/<hash>/<FILENAME>
-    pattern = re.compile(r'https://cdn\d+\.telegram-cdn\.org/file/[^"/]+/(' + re.escape(prefix) + r'[^"/]+?\.txt)')
+    # Общий шаблон CDN-ссылки. Сохраняем полный URL в группе 1 и имя файла в группе 2.
+    cdn_pattern = re.compile(r'(https://cdn\d+\.telegram-cdn\.org/file/[^"/]+/([^"/]+))')
 
-    m = pattern.search(html)
-    if not m:
+    candidates: list[tuple[int, str]] = []  # (номер, url)
+
+    for full_url, filename in cdn_pattern.findall(html):
+        m = re.fullmatch(filename_regex, filename)
+        if not m:
+            continue
+
+        # Если regex содержит захваченные числа, берём первое число для сравнения
+        num = None
+        if m.groups():
+            try:
+                num = int(m.group(1))
+            except (ValueError, IndexError):
+                num = None
+
+        # fallback: если числа нет — используем 0, чтобы не влиять на сортировку
+        if num is None:
+            num = 0
+
+        candidates.append((num, full_url))
+
+    if not candidates:
         return None
 
-    # Полный URL в группировке не сохранён, поэтому извлекаем полный match
-    file_url = m.group(0)
-    return file_url
+    # Сортируем по числу (убывание), берём первый
+    candidates.sort(key=lambda t: t[0], reverse=True)
+    return candidates[0][1]
 
-
-def fetch_telegram_latest_file(channel: str, prefix: str, timeout: int = 10) -> str:
+# noinspection PyUnusedLocal
+def fetch_telegram_latest_file(channel: str, filename_regex: str, timeout: int = 10) -> str:
     """Скачивает содержимое самого свежего файла в Telegram-канале.
 
     Использует :func:`_find_latest_telegram_file_url` для нахождения ссылки, а
     затем загружает полученный TXT-файл и возвращает его содержимое как строку.
     """
 
-    file_url = _find_latest_telegram_file_url(channel, prefix, timeout)
+    file_url = _find_latest_telegram_file_url(channel, filename_regex, timeout)
     if not file_url:
-        raise RuntimeError(f"Не удалось найти файл с префиксом {prefix} в канале {channel}")
+        raise RuntimeError(
+            f"Не удалось найти файл, подходящий под шаблон {filename_regex} в канале {channel}")
 
     headers = {"User-Agent": CHROME_UA}
     resp = requests.get(file_url, headers=headers, timeout=timeout)
@@ -267,7 +289,7 @@ def download_and_save(idx):
     try:
         # Особый случай: для конфигурации #23 берём файл из Telegram-канала
         if idx == 22:  # индекс 22 соответствует #23 (нумерация с единицы)
-            data = fetch_telegram_latest_file(TELEGRAM_CHANNEL, TELEGRAM_FILENAME_PREFIX)
+            data = fetch_telegram_latest_file(TELEGRAM_CHANNEL, TELEGRAM_FILENAME_REGEX)
         else:
             data = fetch_data(url)
         save_to_local_file(local_path, data)
