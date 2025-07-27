@@ -10,6 +10,7 @@ import concurrent.futures
 import threading
 import re
 from collections import defaultdict
+from typing import Optional
 
 # -------------------- ЛОГИРОВАНИЕ --------------------
 # Собираем сообщения по каждому номеру файла, чтобы затем вывести их в порядке 1 → N
@@ -96,6 +97,62 @@ CHROME_UA = (
     "Chrome/138.0.0.0 Safari/537.36"
 )
 
+# -------------------- TELEGRAM PARSING UTILS --------------------
+
+# Канал и префикс файла, которые нужно искать
+TELEGRAM_CHANNEL = "v2ray_configs_pool"
+TELEGRAM_FILENAME_PREFIX = "V2RAY_CONFIGS_NO_"
+
+
+def _find_latest_telegram_file_url(channel: str, prefix: str, timeout: int = 10) -> Optional[str]:
+    """Ищет URL на последний файл в публичном Telegram-канале с указанным префиксом.
+
+    Канал запрашивается через веб-версию (https://t.me/s/<channel>). В HTML
+    ищется первая ссылка на CDN-файл, имя которого начинается с *prefix* и
+    заканчивается на *.txt*. Возвращает полный URL или *None*, если ничего не
+    найдено.
+    """
+
+    url = f"https://t.me/s/{channel}"
+    headers = {"User-Agent": CHROME_UA}
+
+    try:
+        resp = requests.get(url, headers=headers, timeout=timeout)
+        resp.raise_for_status()
+    except requests.RequestException as exc:
+        log(f"⚠️ Ошибка при обращении к Telegram ({url}): {exc}")
+        return None
+
+    html = resp.text
+
+    # Простейший regex для ссылок вида:
+    # https://cdnX.telegram-cdn.org/file/<hash>/<FILENAME>
+    pattern = re.compile(r'https://cdn\d+\.telegram-cdn\.org/file/[^"/]+/(' + re.escape(prefix) + r'[^"/]+?\.txt)')
+
+    m = pattern.search(html)
+    if not m:
+        return None
+
+    # Полный URL в группировке не сохранён, поэтому извлекаем полный match
+    file_url = m.group(0)
+    return file_url
+
+
+def fetch_telegram_latest_file(channel: str, prefix: str, timeout: int = 10) -> str:
+    """Скачивает содержимое самого свежего файла в Telegram-канале.
+
+    Использует :func:`_find_latest_telegram_file_url` для нахождения ссылки, а
+    затем загружает полученный TXT-файл и возвращает его содержимое как строку.
+    """
+
+    file_url = _find_latest_telegram_file_url(channel, prefix, timeout)
+    if not file_url:
+        raise RuntimeError(f"Не удалось найти файл с префиксом {prefix} в канале {channel}")
+
+    headers = {"User-Agent": CHROME_UA}
+    resp = requests.get(file_url, headers=headers, timeout=timeout)
+    resp.raise_for_status()
+    return resp.text
 
 # Функция для скачивания данных по URL
 def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3) -> str:
@@ -208,7 +265,11 @@ def download_and_save(idx):
     url = URLS[idx]
     local_path = LOCAL_PATHS[idx]
     try:
-        data = fetch_data(url)
+        # Особый случай: для конфигурации #23 берём файл из Telegram-канала
+        if idx == 22:  # индекс 22 соответствует #23 (нумерация с единицы)
+            data = fetch_telegram_latest_file(TELEGRAM_CHANNEL, TELEGRAM_FILENAME_PREFIX)
+        else:
+            data = fetch_data(url)
         save_to_local_file(local_path, data)
         return local_path, REMOTE_PATHS[idx]
     except Exception as e:
