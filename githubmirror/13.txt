@@ -28,7 +28,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.186:8880?mode=gun&secur
 
 vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@104.21.56.208:2087?path=/&security=tls&encryption=none&host=smart.v2plusify.org&type=ws&sni=smart.v2plusify.org#US🇺🇸
 
-vless://6ff4852a-de6e-423e-8561-3131e63120c6@www.speedtest.net:2096?path=/wrvyqows&security=tls&encryption=none&host=638879176706545587.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706545587.amsterdam-prx-dnraaal.info#US🇺🇸
+vless://6ff4852a-de6e-423e-8561-3131e63120c6@www.speedtest.net:2096?path=/wrvyqows&security=tls&encryption=none&host=638879176706545587.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706545587.amsterdam-prx-dnraaal.info#INT🌍
 
 vless://edc0a710-b736-455a-a9f2-d26150e624b2@enthusiastic-century.oneeat.co:80?path=/&security=none&encryption=none&type=ws#US🇺🇸
 
@@ -60,13 +60,13 @@ vless://7e296434-2d17-48d3-928d-19eaa34aecb1@185.33.24.229:28495?security=realit
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#LT🇱🇹
 
-vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@104.21.56.208:2087?path=/&security=tls&encryption=none&host=smart.v2plusify.org&type=ws&sni=smart.v2plusify.org#CA🇨🇦
+vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@104.21.56.208:2087?path=/&security=tls&encryption=none&host=smart.v2plusify.org&type=ws&sni=smart.v2plusify.org#INT🌍
 
-vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@172.67.91.177:2087?path=/&security=tls&encryption=none&host=smart.v2plusify.org&fp=chrome&type=ws&sni=smart.v2plusify.org#CA🇨🇦
+vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@172.67.91.177:2087?path=/&security=tls&encryption=none&host=smart.v2plusify.org&fp=chrome&type=ws&sni=smart.v2plusify.org#INT🌍
 
-vless://1d0dfde1-9f18-4557-9af8-4f3124ee5dcd@wild-bird.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#CA🇨🇦
+vless://1d0dfde1-9f18-4557-9af8-4f3124ee5dcd@wild-bird.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#INT🌍
 
-vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handsome-device.oneeat.co:80?path=/&security=none&encryption=none&type=ws#CA🇨🇦
+vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handsome-device.oneeat.co:80?path=/&security=none&encryption=none&type=ws#INT🌍
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2OU1VaWk3VkR3TXFoN0h6@admin.c4.webramz.co:443#GB🇬🇧
 
@@ -82,15 +82,15 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.78:8880?mode=gun&security
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.samanehha.co:443#GB🇬🇧
 
-vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.17.1.197:8880?path=/1ycR2zb3KeELWRha?ed=2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#INT🌍
+vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.17.1.197:8880?path=/1ycR2zb3KeELWRha?ed=2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#CA🇨🇦
 
 vless://2a02cb25-0f58-4b19-a7a6-8c205fdb9042@ru01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=48720c#RU🇷🇺
 
 vmess://eyJhZGQiOiJwYW5lbDMuaXB5YXIub3JnIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImMwY2NkZWI5LTc4NGMtNGQ2Ny1iOTA0LTIwZGNhYWM5OTAyYSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzIwMTciLCJwcyI6IkZJXHVkODNjXHVkZGViXHVkODNjXHVkZGVlIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
 
-vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=random&type=ws&sni=vl.hongkong6.qzz.io#INT🌍
+vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=random&type=ws&sni=vl.hongkong6.qzz.io#CA🇨🇦
 
-vless://813d7c7e-d2ea-460f-9bf7-e6fa6a073b67@www.speedtest.net.cdn.cloudflare.net:8080?path=/?ed=2048&security=none&encryption=none&host=TW.kKpopH4Zmc.ZUlaIr.orG&type=ws#INT🌍
+vless://813d7c7e-d2ea-460f-9bf7-e6fa6a073b67@www.speedtest.net.cdn.cloudflare.net:8080?path=/?ed=2048&security=none&encryption=none&host=TW.kKpopH4Zmc.ZUlaIr.orG&type=ws#CA🇨🇦
 
 vless://b976b2aa-945e-43e5-bc58-36d77d3a9124@www.speedtest.net:2096?path=/tjkqcpws&security=tls&encryption=none&host=638879176706477448.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706477448.amsterdam-prx-dnraaal.info#INT🌍
 
