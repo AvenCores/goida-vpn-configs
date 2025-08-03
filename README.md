@@ -25,7 +25,7 @@
 
 Автоматически обновляемая коллекция публичных VPN-конфигов (V2Ray / VLESS / Trojan / VMess / Reality / Shadowsocks) для быстрого обхода блокировок.  
 Каждый конфиг — это TXT-подписка, которую можно импортировать практически в любой современный клиент
-(`v2rayNG`, `NekoRay`, `V2Box`, `Hiddify`, и др.).  
+(`v2rayNG`, `NekoRay`, `Throne`, `V2Box`, `Hiddify`, и др.).  
 
 Конфиги обновляются каждые **9 минут** с помощью GitHub Actions, поэтому ссылки из раздела
 «📋 Общий список всех вечно актуальных конфигов» всегда актуальны.
@@ -284,7 +284,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>🖥 Гайд для Windows, Linux</summary>
 
-**1.** Скачиваем **NekoRay** - [Windows 10/11](https://github.com/Mahdi-zarei/nekoray/releases/download/4.3.7/nekoray-4.3.7-2025-07-08-windows64.zip) / [Windows 7](https://github.com/parhelia512/nekoray-win7/releases/download/4.3.5/nekoray-4.3.5-2025-05-16-windows64.zip) / [Linux](https://github.com/Mahdi-zarei/nekoray/releases/download/4.3.7/nekoray-4.3.7-2025-07-08-linux64.zip)
+**1.** Скачиваем **Throne** (на Windows 7 - **NekoRay**) - [Windows 10/11](https://github.com/throneproj/Throne/releases/download/1.0.0/Throne-1.0.0-windows64.zip) / [Windows 7](https://github.com/parhelia512/nekoray-win7/releases/download/4.3.5/nekoray-4.3.5-2025-05-16-windows64.zip) / [Linux](https://github.com/throneproj/Throne/releases/download/1.0.0/Throne-1.0.0-linux-amd64.zip)
 
 **2.** Копируем в буфер обмена: 
 
