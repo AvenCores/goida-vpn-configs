@@ -355,7 +355,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>☎ Гайд для iOS, iPadOS</summary>
 
-**1.** Скачиваем **V2Box — V2ray Client** — [Ссылка](https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690)
+**1.** Скачиваем **V2Box - V2ray Client** — [Ссылка](https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690)
 
 **2.** Копируем в буфер обмена:
 
@@ -389,7 +389,7 @@ python main.py                  # конфиги появятся в ../githubmi
 24) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt`
 25) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt`
 
-**3.** Заходим в приложение **V2Box — V2ray Client** и переходим во вкладку **«Config»**, нажимаем на плюсик в правом верхнем углу, затем — **«Добавить подписку»**, вводим любое **«Название»** и вставляем ссылку на конфиг в поле **«URL»**.
+**3.** Заходим в приложение **V2Box - V2ray Client** и переходим во вкладку **«Config»**, нажимаем на плюсик в правом верхнем углу, затем — **«Добавить подписку»**, вводим любое **«Название»** и вставляем ссылку на конфиг в поле **«URL»**.
 
 **4.** После добавления конфига дожидаемся окончания проверки и выбираем нужный, просто нажав на его название.
 
