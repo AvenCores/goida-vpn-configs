@@ -12,7 +12,6 @@ import re
 from collections import defaultdict
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-import time
 
 # -------------------- ЛОГИРОВАНИЕ --------------------
 # Собираем сообщения по каждому номеру файла, чтобы затем вывести их в порядке 1 → N
@@ -200,56 +199,45 @@ def upload_to_github(local_path, remote_path):
     # Чтение содержимого локального файла
     with open(local_path, "r", encoding="utf-8") as file:
         content = file.read()
-    
-    # Пару попыток на случай гонки: кто-то успел обновить файл между get_contents и update_file
-    max_update_attempts = 3
-    for attempt in range(1, max_update_attempts + 1):
-        try:
-            # Пытаемся получить файл из репозитория
-            file_in_repo = repo.get_contents(remote_path)
 
-            # Получаем содержимое удалённого файла, если возможно
-            remote_content = None
-            if getattr(file_in_repo, "encoding", None) == "base64":
-                try:
-                    remote_content = file_in_repo.decoded_content.decode("utf-8")
-                except Exception:
-                    remote_content = None
+    try:
+        # Пытаемся получить файл из репозитория
+        file_in_repo = repo.get_contents(remote_path)
 
-            # Обновляем файл, только если содержимое изменилось
-            if remote_content is None or remote_content != content:
-                # Добавляем название файла (например, 1.txt) в сообщение коммита
-                basename = os.path.basename(remote_path)
-                repo.update_file(
-                    path=remote_path,
-                    message=f"🚀 Обновление {basename} по часовому поясу Европа/Москва: {offset}",
-                    content=content,
-                    sha=file_in_repo.sha
-                )
-                log(f"🚀 Файл {remote_path} обновлён в репозитории.")
-            else:
-                log(f"🔄 Изменений для {remote_path} нет.")
-            return
-        except GithubException as e:
-            # 404 — файла ещё нет
-            if e.status == 404:
-                basename = os.path.basename(remote_path)
-                repo.create_file(
-                    path=remote_path,
-                    message=f"🆕 Первый коммит {basename} по часовому поясу Европа/Москва: {offset}",
-                    content=content
-                )
-                log(f"🆕 Файл {remote_path} создан.")
-                return
-            # 409/422 и похожие — возможная гонка по SHA. Пробуем ещё раз с актуальным SHA
-            msg = (e.data.get('message') if hasattr(e, 'data') and isinstance(e.data, dict) else str(e))
-            if e.status in (409, 422) or (isinstance(msg, str) and ('sha' in msg.lower() or 'expected' in msg.lower())):
-                if attempt < max_update_attempts:
-                    time.sleep(0.4 * attempt)
-                    continue
-            # Любая другая ошибка или исчерпаны попытки
-            log(f"⚠️ Ошибка при загрузке {remote_path}: {msg}")
-            return
+        # Получаем содержимое удалённого файла, если возможно
+        remote_content = None
+        if getattr(file_in_repo, "encoding", None) == "base64":
+            try:
+                remote_content = file_in_repo.decoded_content.decode("utf-8")
+            except Exception:
+                remote_content = None
+
+        # Обновляем файл, только если содержимое изменилось
+        if remote_content is None or remote_content != content:
+            # Добавляем название файла (например, 1.txt) в сообщение коммита
+            basename = os.path.basename(remote_path)
+            repo.update_file(
+                path=remote_path,
+                message=f"🚀 Обновление {basename} по часовому поясу Европа/Москва: {offset}",
+                content=content,
+                sha=file_in_repo.sha
+            )
+            log(f"🚀 Файл {remote_path} обновлён в репозитории.")
+        else:
+            log(f"🔄 Изменений для {remote_path} нет.")
+    except GithubException as e:
+        if e.status == 404:
+            # Файл не найден – создаём новый
+            basename = os.path.basename(remote_path)
+            repo.create_file(
+                path=remote_path,
+                message=f"🆕 Первый коммит {basename} по часовому поясу Европа/Москва: {offset}",
+                content=content
+            )
+            log(f"🆕 Файл {remote_path} создан.")
+        else:
+            # Любая другая ошибка
+            log(f"⚠️ Ошибка при загрузке {remote_path}: {e.data.get('message', e)}")
 
 # Функция для параллельного скачивания и сохранения файла
 def download_and_save(idx):
