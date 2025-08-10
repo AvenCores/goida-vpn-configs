@@ -399,7 +399,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <details>
 
-<summary>🔄 Обновление конфигов в V2Box — V2ray Client</summary>
+<summary>🔄 Обновление конфигов в V2Box - V2ray Client</summary>
 
 **1.** Переходим во вкладку **«Config»**.
 
