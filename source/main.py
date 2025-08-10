@@ -95,7 +95,7 @@ LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 # Отключаем предупреждения, если будем использовать verify=False
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# UA Chrome 124 (Windows 10 x64)
+# UA Chrome 138 (Windows 10 x64)
 CHROME_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
