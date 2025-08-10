@@ -10,6 +10,8 @@ import concurrent.futures
 import threading
 import re
 from collections import defaultdict
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # -------------------- ЛОГИРОВАНИЕ --------------------
 # Собираем сообщения по каждому номеру файла, чтобы затем вывести их в порядке 1 → N
@@ -18,10 +20,13 @@ LOGS_BY_FILE: dict[int, list[str]] = defaultdict(list)
 _LOG_LOCK = threading.Lock()
 
 
+_GITHUBMIRROR_INDEX_RE = re.compile(r"githubmirror/(\d+)\.txt")
+
+
 def _extract_index(msg: str) -> int:
     """Пытается извлечь номер файла из строки вида 'githubmirror/12.txt'.
     Если номер не найден, возвращает 0 (для общих сообщений)."""
-    m = re.search(r"githubmirror/(\d+)\.txt", msg)
+    m = _GITHUBMIRROR_INDEX_RE.search(msg)
     if m:
         try:
             return int(m.group(1))
@@ -98,8 +103,38 @@ CHROME_UA = (
 )
 
 
+# Параметры пула соединений и пулов потоков
+DEFAULT_MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "16"))
+
+# Глобальная HTTP-сессия с пулом соединений для ускорения повторных запросов
+def _build_session(max_pool_size: int) -> requests.Session:
+    session = requests.Session()
+    # Минимальные автоматические ретраи для сетевых сбоев на уровне TCP/соединения
+    adapter = HTTPAdapter(
+        pool_connections=max_pool_size,
+        pool_maxsize=max_pool_size,
+        max_retries=Retry(
+            total=1,
+            backoff_factor=0.2,
+            status_forcelist=(429, 500, 502, 503, 504),
+            allowed_methods=(
+                "HEAD",
+                "GET",
+                "OPTIONS",
+            ),
+        ),
+    )
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    session.headers.update({"User-Agent": CHROME_UA})
+    return session
+
+
+REQUESTS_SESSION = _build_session(max_pool_size=max(DEFAULT_MAX_WORKERS, len(URLS))) if 'URLS' in globals() else _build_session(DEFAULT_MAX_WORKERS)
+
+
 # Функция для скачивания данных по URL
-def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3) -> str:
+def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3, session: requests.Session | None = None) -> str:
     """Пытается скачать данные по URL, делая несколько попыток.
 
     Логика попыток:
@@ -108,7 +143,7 @@ def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3) -> str:
     3. Третья попытка — меняем протокол https → http и verify=False.
     """
 
-    headers = {"User-Agent": CHROME_UA}
+    sess = session or REQUESTS_SESSION
 
     for attempt in range(1, max_attempts + 1):
         try:
@@ -126,7 +161,7 @@ def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3) -> str:
                     modified_url = parsed._replace(scheme="http").geturl()
                 verify = False
 
-            response = requests.get(modified_url, timeout=timeout, verify=verify, headers=headers)
+            response = sess.get(modified_url, timeout=timeout, verify=verify)
             response.raise_for_status()
             return response.text
 
@@ -210,6 +245,19 @@ def download_and_save(idx):
     local_path = LOCAL_PATHS[idx]
     try:
         data = fetch_data(url)
+
+        # Если локальный файл уже существует и содержимое не изменилось — пропускаем запись и загрузку
+        if os.path.exists(local_path):
+            try:
+                with open(local_path, "r", encoding="utf-8") as f_old:
+                    old_data = f_old.read()
+                if old_data == data:
+                    log(f"🔄 Изменений для {local_path} нет (локально). Пропуск загрузки в GitHub.")
+                    return None
+            except Exception:
+                # Если не удалось прочитать старый файл — просто перезапишем
+                pass
+
         save_to_local_file(local_path, data)
         return local_path, REMOTE_PATHS[idx]
     except Exception as e:
@@ -222,15 +270,25 @@ def download_and_save(idx):
 # Основная функция: скачивает, сохраняет и загружает все конфиги
 def main():
     # Параллельно скачиваем файлы и сохраняем их локально
-    with concurrent.futures.ThreadPoolExecutor(max_workers=min(10, len(URLS))) as executor:
-        futures = [executor.submit(download_and_save, i) for i in range(len(URLS))]
+    max_workers_download = min(DEFAULT_MAX_WORKERS, max(1, len(URLS)))
+    max_workers_upload = max(2, min(6, len(URLS)))  # ограничиваем аплоадеры, чтобы не упереться в rate limit
 
-        # По мере завершения скачивания — загружаем файл в GitHub
-        for future in concurrent.futures.as_completed(futures):
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers_download) as download_pool, \
+         concurrent.futures.ThreadPoolExecutor(max_workers=max_workers_upload) as upload_pool:
+
+        download_futures = [download_pool.submit(download_and_save, i) for i in range(len(URLS))]
+        upload_futures: list[concurrent.futures.Future] = []
+
+        # По мере завершения скачивания — отправляем в пул загрузок на GitHub
+        for future in concurrent.futures.as_completed(download_futures):
             result = future.result()
             if result:
                 local_path, remote_path = result
-                upload_to_github(local_path, remote_path)
+                upload_futures.append(upload_pool.submit(upload_to_github, local_path, remote_path))
+
+        # Дожидаемся завершения всех загрузок
+        for uf in concurrent.futures.as_completed(upload_futures):
+            _ = uf.result()
 
     # -------------------- ПЕЧАТЬ СОБРАННЫХ ЛОГОВ --------------------
     ordered_keys = sorted(k for k in LOGS_BY_FILE.keys() if k != 0)
