@@ -85,7 +85,7 @@ URLS = [
     "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri", #22
     "https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet.txt", #23
     "https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE", #24
-    "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt", #25
+    "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/6bbce251e6c4f6655d017a6c4e574163deed322f/v2ray_configs.txt", #25
 ]
 
 # Пути для сохранения файлов локально и в репозитории
