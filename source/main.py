@@ -181,63 +181,54 @@ def save_to_local_file(path, content):
 
 # Загружает файл в репозиторий GitHub (обновляет или создаёт новый)
 def upload_to_github(local_path, remote_path):
-    """Загружает или обновляет файл в репозитории GitHub.
-
-    1. Если файл отсутствует – создаёт его.
-    2. Если файл уже есть и содержимое изменилось – обновляет его.
-    3. Если изменений нет – пропускает загрузку.
-    """
-
-    # Проверка наличия локального файла
     if not os.path.exists(local_path):
         log(f"❌ Файл {local_path} не найден.")
         return
 
-    # Используем уже созданный объект репозитория
     repo = REPO
-
-    # Чтение содержимого локального файла
     with open(local_path, "r", encoding="utf-8") as file:
         content = file.read()
 
-    try:
-        # Пытаемся получить файл из репозитория
-        file_in_repo = repo.get_contents(remote_path)
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            file_in_repo = repo.get_contents(remote_path)
+            remote_content = None
+            if getattr(file_in_repo, "encoding", None) == "base64":
+                try:
+                    remote_content = file_in_repo.decoded_content.decode("utf-8")
+                except Exception:
+                    remote_content = None
 
-        # Получаем содержимое удалённого файла, если возможно
-        remote_content = None
-        if getattr(file_in_repo, "encoding", None) == "base64":
-            try:
-                remote_content = file_in_repo.decoded_content.decode("utf-8")
-            except Exception:
-                remote_content = None
-
-        # Обновляем файл, только если содержимое изменилось
-        if remote_content is None or remote_content != content:
-            # Добавляем название файла (например, 1.txt) в сообщение коммита
-            basename = os.path.basename(remote_path)
-            repo.update_file(
-                path=remote_path,
-                message=f"🚀 Обновление {basename} по часовому поясу Европа/Москва: {offset}",
-                content=content,
-                sha=file_in_repo.sha
-            )
-            log(f"🚀 Файл {remote_path} обновлён в репозитории.")
-        else:
-            log(f"🔄 Изменений для {remote_path} нет.")
-    except GithubException as e:
-        if e.status == 404:
-            # Файл не найден – создаём новый
-            basename = os.path.basename(remote_path)
-            repo.create_file(
-                path=remote_path,
-                message=f"🆕 Первый коммит {basename} по часовому поясу Европа/Москва: {offset}",
-                content=content
-            )
-            log(f"🆕 Файл {remote_path} создан.")
-        else:
-            # Любая другая ошибка
-            log(f"⚠️ Ошибка при загрузке {remote_path}: {e.data.get('message', e)}")
+            if remote_content is None or remote_content != content:
+                basename = os.path.basename(remote_path)
+                repo.update_file(
+                    path=remote_path,
+                    message=f"🚀 Обновление {basename} по часовому поясу Европа/Москва: {offset}",
+                    content=content,
+                    sha=file_in_repo.sha
+                )
+                log(f"🚀 Файл {remote_path} обновлён в репозитории.")
+            else:
+                log(f"🔄 Изменений для {remote_path} нет.")
+            return
+        except GithubException as e:
+            if e.status == 404:
+                basename = os.path.basename(remote_path)
+                repo.create_file(
+                    path=remote_path,
+                    message=f"🆕 Первый коммит {basename} по часовому поясу Европа/Москва: {offset}",
+                    content=content
+                )
+                log(f"🆕 Файл {remote_path} создан.")
+                return
+            elif e.status == 409 and attempt < max_retries - 1:
+                # SHA conflict — повторяем попытку
+                log(f"⚠️ Конфликт SHA при обновлении {remote_path}, повторяю (попытка {attempt+1})")
+                continue
+            else:
+                log(f"⚠️ Ошибка при загрузке {remote_path}: {e.data.get('message', e)}")
+                return
 
 # Функция для параллельного скачивания и сохранения файла
 def download_and_save(idx):
