@@ -16,6 +16,18 @@ vless://c43b7819-008e-4863-aa20-9d3fc2935df8@star-cdn.soft98speedtest.ir:2053?en
 
 vless://c43b7819-008e-4863-aa20-9d3fc2935df8@star-dc.az9x99.ir:2083?encryption=none&security=tls&sni=star-cloud.az9x99.ir&alpn=h2&fp=random&type=ws&host=star-cloud.az9x99.ir&path=?ed=2048#US🇺🇸
 
+vless://d2dc2527-33d5-46f3-f39c-36da72fb1a62@54.37.205.0:59332?security=none&encryption=none&headerType=none&type=tcp#DE🇩🇪
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@desrv.vmagnum.win:57456#DE🇩🇪
+
+vless://ac083fa9-df9a-4722-b70d-24c17bef0516@fina.iranbuildings.com:8444?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#IR🇮🇷
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.177:8080#NL🇳🇱
+
+vless://d3daa900-0377-4575-9ebc-c4d88cb8486c@45.88.183.158:44629?security=none&encryption=none&headerType=none&type=tcp#IN🇮🇳
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.28:8080#US🇺🇸
+
 vless://ac083fa9-df9a-4722-b70d-24c17bef0516@fina.iranbuildings.com:8444?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#IR🇮🇷
 
 vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@freevpn.xhamster.biz.id:443?path=/Free-CF-Proxy-AM14&security=tls&encryption=none&host=freevpn.xhamster.biz.id&type=ws&sni=freevpn.xhamster.biz.id#US🇺🇸
@@ -52,13 +64,13 @@ vless://12f591ba-d695-4396-9190-f2f3aaa9ea47@162.159.137.3:443?path=/XYXY0721&se
 
 vmess://eyJhZGQiOiJ0ZXN0LmZsaGEucnUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InRlc3QuZmxoYS5ydSIsImlkIjoiMmJhYjZiOGYtOGQ2ZS00NjNhLTgzMzEtYjlkZTNkNTY5MjFkIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8yYmFiNmI4Zi04ZDZlLTQ2M2EtODMzMS1iOWRlM2Q1NjkyMWQtdm1lc3MiLCJwb3J0IjoiODAiLCJwcyI6IlVTXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4Iiwic2N5Ijoibm9uZSIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 
-vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@freevpn.xhamster.biz.id:443?path=/Free-CF-Proxy-AM14&security=tls&encryption=none&host=freevpn.xhamster.biz.id&type=ws&sni=freevpn.xhamster.biz.id#INT🌍
+vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@freevpn.xhamster.biz.id:443?path=/Free-CF-Proxy-AM14&security=tls&encryption=none&host=freevpn.xhamster.biz.id&type=ws&sni=freevpn.xhamster.biz.id#US🇺🇸
 
 vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@freevpn.xhamster.biz.id:443?path=/Free-CF-Proxy-AM14&security=tls&encryption=none&host=freevpn.xhamster.biz.id&type=ws&sni=freevpn.xhamster.biz.id#US🇺🇸
 
 vless://b055036a-2d81-4d46-ab18-4e1898b58cec@fearless-change.oneeat.co:80?path=/&security=none&encryption=none&type=ws#US🇺🇸
 
-vless://b055036a-2d81-4d46-ab18-4e1898b58cec@fearless-change.oneeat.co:80?path=/&security=none&encryption=none&type=ws#INT🌍
+vless://b055036a-2d81-4d46-ab18-4e1898b58cec@fearless-change.oneeat.co:80?path=/&security=none&encryption=none&type=ws#US🇺🇸
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.177:8080#NL🇳🇱
 
@@ -74,31 +86,21 @@ vmess://eyJhZGQiOiIxMDQuMjEuMC4wIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3Qi
 
 vmess://eyJhZGQiOiJpcC5zYiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZnIuYXRsZW4uZHBkbnMub3JnIiwiaWQiOiIyODU0OGVmNy05ODNkLTRlZTgtOGJkNi03ZDcxZDkwNWI1YTIiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLzI4NTQ4ZWY3LTk4M2QtNGVlOC04YmQ2LTdkNzFkOTA1YjVhMi12bWVzcyIsInBvcnQiOiI0NDMiLCJwcyI6IlVTXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4Iiwic2N5IjoiYXV0byIsInNuaSI6ImZyLmF0bGVuLmRwZG5zLm9yZyIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 
-vless://b055036a-2d81-4d46-ab18-4e1898b58cec@fearless-change.oneeat.co:80?path=/&security=none&encryption=none&type=ws#US🇺🇸
+vless://408f71e2-170d-4bf9-8b42-b6ba23cc227c@blog.ruangguru.com.servpn.my.id:443?path=/kr1?ed=2560&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&fp=randomized&type=ws&sni=blog.ruangguru.com.servpn.my.id#US🇺🇸
 
-vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@freevpn.xhamster.biz.id:443?path=/Free-CF-Proxy-AM14&security=tls&encryption=none&host=freevpn.xhamster.biz.id&type=ws&sni=freevpn.xhamster.biz.id#US🇺🇸
+vless://6780a3c0-a98c-4622-b894-8e34167f7b31@104.26.0.108:443?path=/id5/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#US🇺🇸
 
-vmess://eyJhZGQiOiI2NC4yMjcuNDUuOTIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWUwMmJjMDEtNDJhNy00NjA5LWIyMGEtNGQ5M2ZlZWE2NWM2IiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJwb3J0IjoiMjAwODYiLCJwcyI6IkdCXHVkODNjXHVkZGVjXHVkODNjXHVkZGU3Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
+vless://3d7dd548-5456-4f28-8019-393fbfab3312@104.26.0.108:443?path=/sg3?ed=2560/?ed=2048&security=tls&encryption=none&host=app-stg.gopay.co.id.servpn.my.id&fp=randomized&type=ws&sni=app-stg.gopay.co.id.servpn.my.id#US🇺🇸
 
-vmess://eyJhZGQiOiI2NC4yMjcuNDUuOTIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNWUwMmJjMDEtNDJhNy00NjA5LWIyMGEtNGQ5M2ZlZWE2NWM2IiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJwb3J0IjoiMjAwODYiLCJwcyI6IkdCXHVkODNjXHVkZGVjXHVkODNjXHVkZGU3Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.99:8880?mode=gun&security=none&encryption=none&type=grpc#FR🇫🇷
 
-vmess://eyJhZGQiOiJwYW5lbDMuaXB5YXIub3JnIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImMwY2NkZWI5LTc4NGMtNGQ2Ny1iOTA0LTIwZGNhYWM5OTAyYSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzIwMTciLCJwcyI6IkZJXHVkODNjXHVkZGViXHVkODNjXHVkZGVlIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vless://6780a3c0-a98c-4622-b894-8e34167f7b31@172.67.74.133:443?path=/id5/?ed=2048bia-planB_proxy&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#US🇺🇸
 
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.181:8880?mode=gun&security=none&encryption=none&type=grpc#FR🇫🇷
+vless://7a80a8d9-92f9-4f0a-8352-9005a8215ab8@transferwise.com:443?path=/@Rayan_Config&security=tls&encryption=none&host=rayan-config-telegram-a01.leila.dpdns.org&type=ws&sni=rAyAn-cOnFiG-TeLeGrAm-a01.lEiLa.dPdNs.oRg#US🇺🇸
 
-ss://YWVzLTI1Ni1nY206YTdmMDgyYzEtMGQxMi00NjA5LWI2YmYtZTc2MGI2NjhjZjIz@77.110.110.240:443#AT🇦🇹
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGM25ZNzNkaTVvbldWM2dvdGJwSTBR@83.147.216.70:64519#FI🇫🇮
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVFViNFl1U21Qb1NKVDRiWVVZZWUy@83.147.216.70:64519#FI🇫🇮
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.92:8080#US🇺🇸
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.65:8080#US🇺🇸
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx@142.4.216.225:80#CA🇨🇦
-
-vless://6cc53dc5-55b2-4968-bb7c-ee84e1429c63@ava.game.naver.com.servpn.my.id:443?path=/kr1?ed=2560&security=tls&encryption=none&host=ava.game.naver.com.servpn.my.id&fp=chrome&type=ws&sni=ava.game.naver.com.servpn.my.id#US🇺🇸
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@64.74.163.218:990#CA🇨🇦
+vless://f3af923e-ecfe-46d5-9c27-4ff95f739afe@91.99.216.98:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#DE🇩🇪
 
 vless://Parsashonam-301@91.99.16.244:443?mode=auto&path=/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam&security=reality&encryption=none&pbk=sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8&fp=chrome&spx=/&type=xhttp&sni=Google.com&sid=61e683d41fdb#DE🇩🇪
 
