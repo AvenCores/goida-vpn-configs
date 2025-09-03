@@ -2,7 +2,7 @@ import os
 import requests
 import urllib.parse
 import urllib3
-from github import Github
+from github import Github, Auth
 from github import GithubException
 from datetime import datetime
 import zoneinfo
@@ -52,7 +52,11 @@ GITHUB_TOKEN = os.environ.get("MY_TOKEN")
 REPO_NAME = "AvenCores/goida-vpn-configs"
 
 # Создаём объект Github и репозиторий один раз, чтобы не делать это при каждой загрузке
-g = Github(GITHUB_TOKEN)
+if GITHUB_TOKEN:
+    g = Github(auth=Auth.Token(GITHUB_TOKEN))
+else:
+    g = Github()
+
 REPO = g.get_repo(REPO_NAME)
 
 # Проверка и создание локальной папки для хранения файлов, если она отсутствует
