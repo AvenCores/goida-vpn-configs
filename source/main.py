@@ -67,7 +67,7 @@ if not os.path.exists("githubmirror"):
 URLS = [
     "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality", #1
     "https://istanbulsydneyhotel.com/blogs/site/sni.php", #2
-    "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt", #3
+    "https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt", #3
     "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt", #4
     "https://raw.githubusercontent.com/AliDev-ir/FreeVPN/main/pcvpn", #5
     "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt", #6
