@@ -65,7 +65,7 @@ if not os.path.exists("githubmirror"):
 
 # Список URL-адресов для скачивания конфигов
 URLS = [
-    "https://istanbulsydneyhotel.com/blogs/site/sni.php?security=reality", #1
+    "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt", #1
     "https://istanbulsydneyhotel.com/blogs/site/sni.php", #2
     "https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt", #3
     "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt", #4
