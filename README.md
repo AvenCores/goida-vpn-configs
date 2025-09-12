@@ -15,12 +15,12 @@
 
 # 📖 Описание проекта
 
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://github.com/MhdiTaheri/goida-vpn-configs)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://github.com/AvenCores/goida-vpn-configs)
 [![GPL-3.0 License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](./LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/MhdiTaheri/goida-vpn-configs?style=for-the-badge)](https://github.com/MhdiTaheri/goida-vpn-configs/issues)
-[![GitHub stars](https://img.shields.io/github/stars/MhdiTaheri/goida-vpn-configs?style=for-the-badge)](https://github.com/MhdiTaheri/goida-vpn-configs/stargazers)
-![GitHub forks](https://img.shields.io/github/forks/MhdiTaheri/goida-vpn-configs?style=for-the-badge)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/MhdiTaheri/goida-vpn-configs?style=for-the-badge)](https://github.com/MhdiTaheri/goida-vpn-configs/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/AvenCores/goida-vpn-configs?style=for-the-badge)](https://github.com/AvenCores/goida-vpn-configs/issues)
+[![GitHub stars](https://img.shields.io/github/stars/AvenCores/goida-vpn-configs?style=for-the-badge)](https://github.com/AvenCores/goida-vpn-configs/stargazers)
+![GitHub forks](https://img.shields.io/github/forks/AvenCores/goida-vpn-configs?style=for-the-badge)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/AvenCores/goida-vpn-configs?style=for-the-badge)](https://github.com/AvenCores/goida-vpn-configs/pulls)
 
 Автоматически обновляемая коллекция публичных VPN-конфигов (`V2Ray` / `VLESS` / `Trojan` / `VMess` / `Reality` / `Shadowsocks`) для быстрого обхода блокировок.
   
