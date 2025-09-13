@@ -204,64 +204,84 @@ def upload_to_github(local_path, remote_path):
         content = file.read()
 
     max_retries = 3
+    import time
+
     # Пытаемся обновить/создать файл с несколькими попытками на случай конфликтов
-    for attempt in range(max_retries):
+    for attempt in range(1, max_retries + 1):
         try:
             # Пытаемся получить существующий файл в репозитории
-            file_in_repo = repo.get_contents(remote_path)
+            try:
+                file_in_repo = repo.get_contents(remote_path)
+            except GithubException as e_get:
+                # Если файла нет в репозитории — создаём новый
+                if getattr(e_get, "status", None) == 404:
+                    basename = os.path.basename(remote_path)
+                    repo.create_file(
+                        path=remote_path,
+                        message=f"🆕 Первый коммит {basename} по часовому поясу Европа/Москва: {offset}",
+                        content=content,
+                    )
+                    log(f"🆕 Файл {remote_path} создан.")
+                    return
+                # Иная ошибка при получении содержимого — логируем и прекращаем
+                else:
+                    msg = None
+                    try:
+                        msg = e_get.data.get("message", e_get)
+                    except Exception:
+                        msg = e_get
+                    log(f"⚠️ Ошибка при получении {remote_path}: {msg}")
+                    return
 
-            # Попытка корректно декодировать содержимое, если оно хранится в base64
+            # Попытка корректно декодировать содержимое репозитория
             remote_content = None
-            if getattr(file_in_repo, "encoding", None) == "base64":
-                try:
-                    remote_content = file_in_repo.decoded_content.decode("utf-8")
-                except Exception:
-                    # Если не удалось декодировать — оставляем remote_content = None
-                    remote_content = None
+            try:
+                remote_content = file_in_repo.decoded_content.decode("utf-8", errors="replace")
+            except Exception:
+                # оставляем remote_content = None — будем пытаться обновить
+                remote_content = None
 
-            # Если файл отсутствует в репозитории (remote_content None) или контент отличается — обновляем
-            if remote_content is None or remote_content != content:
-                basename = os.path.basename(remote_path)
+            # Если содержимое совпадает — пропускаем
+            if remote_content is not None and remote_content == content:
+                log(f"🔄 Изменений для {remote_path} нет.")
+                return
+
+            # Иначе — пробуем обновить с актуальной SHA
+            basename = os.path.basename(remote_path)
+            try:
                 repo.update_file(
                     path=remote_path,
                     message=f"🚀 Обновление {basename} по часовому поясу Европа/Москва: {offset}",
                     content=content,
-                    sha=file_in_repo.sha  # необходим для корректного обновления
+                    sha=file_in_repo.sha,
                 )
                 log(f"🚀 Файл {remote_path} обновлён в репозитории.")
-            else:
-                # Если содержимое не изменилось — ничего не делаем
-                log(f"🔄 Изменений для {remote_path} нет.")
+                return
+            except GithubException as e_upd:
+                # Конфликт SHA — вероятно, кто-то другой обновил файл в промежутке.
+                if getattr(e_upd, "status", None) == 409 and attempt < max_retries:
+                    log(f"⚠️ Конфликт SHA при обновлении {remote_path}, повторяю (попытка {attempt})")
+                    # Небольшая пауза, чтобы дать GitHub получить актуальную версию
+                    time.sleep(0.5)
+                    continue
+                else:
+                    msg = None
+                    try:
+                        msg = e_upd.data.get("message", e_upd)
+                    except Exception:
+                        msg = e_upd
+                    log(f"⚠️ Ошибка при загрузке {remote_path}: {msg}")
+                    return
+
+        except Exception as e_general:
+            short_msg = str(e_general)
+            if len(short_msg) > 200:
+                short_msg = short_msg[:200] + "…"
+            log(f"⚠️ Непредвиденная ошибка при обновлении {remote_path}: {short_msg}")
             return
 
-        except GithubException as e:
-            # Если файла нет в репозитории — создаём новый
-            if e.status == 404:
-                basename = os.path.basename(remote_path)
-                repo.create_file(
-                    path=remote_path,
-                    message=f"🆕 Первый коммит {basename} по часовому поясу Европа/Москва: {offset}",
-                    content=content
-                )
-                log(f"🆕 Файл {remote_path} создан.")
-                return
-
-            # Конфликт SHA — вероятно, кто-то другой обновил файл в промежутке.
-            # Повторяем попытку несколько раз, чтобы получить актуальную SHA и обновить снова.
-            elif e.status == 409 and attempt < max_retries - 1:
-                log(f"⚠️ Конфликт SHA при обновлении {remote_path}, повторяю (попытка {attempt+1})")
-                continue
-
-            # Другие ошибки — логируем и прекращаем попытки
-            else:
-                # Попытка безопасно получить сообщение ошибки из объекта исключения
-                msg = None
-                try:
-                    msg = e.data.get("message", e)
-                except Exception:
-                    msg = e
-                log(f"⚠️ Ошибка при загрузке {remote_path}: {msg}")
-                return
+    # Если достигли сюда — не удалось обновить после повторов
+    log(f"⚠️ Не удалось обновить {remote_path} после {max_retries} попыток.")
 
 # Функция для параллельного скачивания и сохранения файла
 def download_and_save(idx):
@@ -292,7 +312,7 @@ def download_and_save(idx):
         return None
 
 # Основная функция: скачивает, сохраняет и загружает все конфиги
-def main():
+def main(dry_run: bool = False):
     # Параллельно скачиваем файлы и сохраняем их локально
     max_workers_download = min(DEFAULT_MAX_WORKERS, max(1, len(URLS)))
     max_workers_upload = max(2, min(6, len(URLS)))  # ограничиваем аплоадеры, чтобы не упереться в rate limit
@@ -308,7 +328,10 @@ def main():
             result = future.result()
             if result:
                 local_path, remote_path = result
-                upload_futures.append(upload_pool.submit(upload_to_github, local_path, remote_path))
+                if dry_run:
+                    log(f"ℹ️ Dry-run: пропускаем загрузку {remote_path} (локальный путь {local_path})")
+                else:
+                    upload_futures.append(upload_pool.submit(upload_to_github, local_path, remote_path))
 
         # Дожидаемся завершения всех загрузок
         for uf in concurrent.futures.as_completed(upload_futures):
@@ -333,4 +356,10 @@ def main():
 
 # Точка входа в программу
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Скачивание конфигов и загрузка в GitHub")
+    parser.add_argument("--dry-run", action="store_true", help="Только скачивать и сохранять локально, не загружать в GitHub")
+    args = parser.parse_args()
+
+    main(dry_run=args.dry_run)
