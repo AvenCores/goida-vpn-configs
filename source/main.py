@@ -72,7 +72,7 @@ URLS = [
     "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/config.txt", #5
     "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt", #6
     "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt", #7
-    "https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/mycustom1.txt", #8
+    "https://raw.githubusercontent.com/YasserDivaR/pr0xy/refs/heads/main/ShadowSocks2021.txt", #8
     "https://vpn.fail/free-proxy/v2ray", #9
     "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless", #10
     "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt", #11
