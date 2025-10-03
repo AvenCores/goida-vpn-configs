@@ -90,6 +90,7 @@ URLS = [
     "https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet.txt", #23
     "https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE", #24
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt", #25
+    "https://storage.yandexcloud.net/marqusha/sub_tunnel.txt", #26
 ]
 
 # Пути для сохранения файлов локально и в репозитории
