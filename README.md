@@ -123,11 +123,11 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>📋 Общий список всех вечно актуальных конфигов</summary>
 
- - [ ] **Вечно актуальные**
-
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
 > Обход белых списков провайдеров/операторов: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)**
+
+ - [ ] **Вечно актуальные**
 
 1) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt`
 2) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/2.txt`
@@ -171,11 +171,11 @@ python main.py                  # конфиги появятся в ../githubmi
 
 **2.** Копируем в буфер обмена: 
 
- - [ ] **Вечно актуальные**
-
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
 > Обход белых списков провайдеров/операторов: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)**
+
+ - [ ] **Вечно актуальные**
 
 1) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt`
 2) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/2.txt`
@@ -300,11 +300,11 @@ python main.py                  # конфиги появятся в ../githubmi
 
 **2.** Копируем в буфер обмена: 
 
- - [ ] **Вечно актуальные**
-
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
 > Обход белых списков провайдеров/операторов: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)**
+
+ - [ ] **Вечно актуальные**
 
 1) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt`
 2) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/2.txt`
@@ -385,11 +385,11 @@ python main.py                  # конфиги появятся в ../githubmi
 
 **2.** Копируем в буфер обмена:
 
- - [ ] **Вечно актуальные**
-
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
 > Обход белых списков провайдеров/операторов: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)**
+
+ - [ ] **Вечно актуальные**
 
 1) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt`
 2) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/2.txt`
@@ -450,11 +450,11 @@ python main.py                  # конфиги появятся в ../githubmi
 
 **3.** Копируем в буфер обмена:
 
- - [ ] **Вечно актуальные**
-
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
 > Обход белых списков провайдеров/операторов: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)**
+
+ - [ ] **Вечно актуальные**
 
 1) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt`
 2) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/2.txt`
