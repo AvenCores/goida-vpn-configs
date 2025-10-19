@@ -162,7 +162,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>📱 Гайд для Android</summary>
 
-**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.19/v2rayNG_1.10.19_universal.apk)
+**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.24/v2rayNG_1.10.24_universal.apk)
 
 **2.** Копируем в буфер обмена: 
 
@@ -208,7 +208,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>📺 Гайд для Android TV</summary>
 
-**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.19/v2rayNG_1.10.19_universal.apk)
+**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.24/v2rayNG_1.10.24_universal.apk)
 
 > Рекомендованные **«QR-коды»**: **[6](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/6.png)**, **[22](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/22.png)**, **[23](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/23.png)**, **[24](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/24.png)** и **[25](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/25.png)**.
 
@@ -284,7 +284,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>🖥 Гайд для Windows, Linux</summary>
 
-**1.** Скачиваем **«Throne»** — [Windows 10/11](https://github.com/throneproj/Throne/releases/download/1.0.6/Throne-1.0.6-windows64.zip) / [Windows 7/8/8.1](https://github.com/throneproj/Throne/releases/download/1.0.6/Throne-1.0.6-windowslegacy64.zip) / [Linux](https://github.com/throneproj/Throne/releases/download/1.0.6/Throne-1.0.6-linux-amd64.zip)
+**1.** Скачиваем **«Throne»** — [Windows 10/11](https://github.com/throneproj/Throne/releases/download/1.0.7/Throne-1.0.7-windows64.zip) / [Windows 7/8/8.1](https://github.com/throneproj/Throne/releases/download/1.0.7/Throne-1.0.7-windowslegacy64.zip) / [Linux](https://github.com/throneproj/Throne/releases/download/1.0.7/Throne-1.0.7-linux-amd64.zip)
 
 **2.** Копируем в буфер обмена: 
 
