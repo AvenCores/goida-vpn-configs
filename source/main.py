@@ -60,9 +60,11 @@ else:
 REPO = g.get_repo(REPO_NAME)
 
 try:
-    rate_limit = g.get_rate_limit()
-    if rate_limit.core.remaining < 100:
-        log(f"⚠️ Внимание: осталось {rate_limit.core.remaining} запросов к GitHub API")
+    remaining, limit = g.rate_limiting
+    if remaining < 100:
+        log(f"⚠️ Внимание: осталось {remaining}/{limit} запросов к GitHub API")
+    else:
+        log(f"ℹ️ Доступно запросов к GitHub API: {remaining}/{limit}")
 except Exception as e:
     log(f"⚠️ Не удалось проверить лимиты GitHub API: {e}")
 
