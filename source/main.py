@@ -59,6 +59,13 @@ else:
 
 REPO = g.get_repo(REPO_NAME)
 
+try:
+    rate_limit = g.get_rate_limit()
+    if rate_limit.core.remaining < 100:
+        log(f"⚠️ Внимание: осталось {rate_limit.core.remaining} запросов к GitHub API")
+except Exception as e:
+    log(f"⚠️ Не удалось проверить лимиты GitHub API: {e}")
+
 # Проверка и создание локальной папки для хранения файлов, если она отсутствует
 if not os.path.exists("githubmirror"):
     os.mkdir("githubmirror")
