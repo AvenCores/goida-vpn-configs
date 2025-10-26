@@ -183,7 +183,7 @@ def update_readme_table():
                 return
 
         # Создаем новую таблицу
-        table_header = "| № | Файл | Источник | Последнее обновление |\n|--|--|--|--|"
+        table_header = "| № | Файл | Источник | Время | Дата |\n|--|--|--|--|--|"
         table_rows = []
         
         for i, (remote_path, url) in enumerate(zip(REMOTE_PATHS, URLS), 1):
