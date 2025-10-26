@@ -32,8 +32,8 @@
 
 ## 📊 Статус файлов
 
-| № | Файл | Источник | Время | Дата |
-|--|--|--|--|--|
+| № | Файл | Источник | Последнее обновление |
+|--|--|--|--|
 | 1 | `1.txt` | [sakha1370/OpenRay](https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt) | 18:32 | 26.10.2025 |
 | 2 | `2.txt` | [sevcator/5ubscrpt10n](https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt) | 18:32 | 26.10.2025 |
 | 3 | `3.txt` | [yitong2333/proxy-minging](https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt) | 18:32 | 26.10.2025 |
