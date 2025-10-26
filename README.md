@@ -82,10 +82,6 @@
 | 23 | `23.txt` | [AzadNetCH/Clash](https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet.txt) | 18:32 | 26.10.2025 |
 | 24 | `24.txt` | [STR97/STRUGOV](https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE) | 18:32 | 26.10.2025 |
 | 25 | `25.txt` | [V2RayRoot/V2RayConfig](https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt) | 19:56 | 26.10.2025 |
-## 🚀 Быстрый старт
-1. Скопируйте нужную ссылку из раздела **«📋 Общий список всех вечно актуальных конфигов»**.  
-2. Импортируйте её в ваш **VPN-клиент** (см. инструкции ниже).  
-3. Выберите сервер с минимальным пингом и подключайтесь.
 
 ---
 
