@@ -182,6 +182,9 @@ def update_readme_table():
                 log(f"⚠️ Ошибка при получении README.md: {e}")
                 return
 
+        # Разделяем время и дату
+        time_part, date_part = offset.split(" | ")
+        
         # Создаем новую таблицу
         table_header = "| № | Файл | Источник | Время | Дата |\n|--|--|--|--|--|"
         table_rows = []
@@ -192,14 +195,20 @@ def update_readme_table():
             
             # Проверяем, был ли файл обновлен в этом запуске
             if i in updated_files:
-                update_time = offset
+                update_time = time_part
+                update_date = date_part
             else:
-                # Пытаемся найти время из старой таблицы
-                pattern = rf"\|\s*{i}\s*\|\s*`{filename}`.*?\|\s*.*?\|\s*(.*?)\s*\|"
+                # Пытаемся найти время и дату из старой таблицы
+                pattern = rf"\|\s*{i}\s*\|\s*`{filename}`.*?\|\s*.*?\|\s*(.*?)\s*\|\s*(.*?)\s*\|"
                 match = re.search(pattern, old_content)
-                update_time = match.group(1) if match else "Никогда"
+                if match:
+                    update_time = match.group(1) if match.group(1).strip() else "Никогда"
+                    update_date = match.group(2) if match.group(2).strip() else "Никогда"
+                else:
+                    update_time = "Никогда"
+                    update_date = "Никогда"
             
-            table_rows.append(f"| {i} | `{filename}` | [{source_name}]({url}) | {update_time} |")
+            table_rows.append(f"| {i} | `{filename}` | [{source_name}]({url}) | {update_time} | {update_date} |")
 
         new_table = table_header + "\n" + "\n".join(table_rows)
 
