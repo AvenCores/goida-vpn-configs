@@ -213,7 +213,7 @@ def update_readme_table():
         new_table = table_header + "\n" + "\n".join(table_rows)
 
         # Заменяем таблицу в README.md
-        table_pattern = r"\| № \| Файл \| Источник \| Время \| Дата \|[\s\S]*?\|--\|--\|--\|--\|--\|[\s\S]*?(\n## |$)"
+        table_pattern = r"\| № \| Файл \| Источник \| Время \| Дата \|[\s\S]*?\|--\|--\|--\|--\|--\|[\s\S]*?(\n\n## |$)"
         new_content = re.sub(table_pattern, new_table + r"\1", old_content)
 
         if new_content != old_content:
