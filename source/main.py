@@ -86,7 +86,7 @@ URLS = [
     "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt", #17
     "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vmess.txt", #18
     "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix", #19
-    "https://raw.githubusercontent.com/mehran1404/Sub_Link/refs/heads/main/V2RAY-Sub.txt", #20
+    "https://github.com/Argh94/Proxy-List/raw/refs/heads/main/All_Config.txt", #20
     "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt", #21
     "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri", #22
     "https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet.txt", #23
