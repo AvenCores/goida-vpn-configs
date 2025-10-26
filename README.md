@@ -58,19 +58,19 @@
 | № | Файл | Источник | Время | Дата |
 |--|--|--|--|--|
 | 1 | `1.txt` | [sakha1370/OpenRay](https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt) | 19:34 | 26.10.2025 |
-| 2 | `2.txt` | [sevcator/5ubscrpt10n](https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt) | 19:46 | 26.10.2025 |
-| 3 | `3.txt` | [yitong2333/proxy-minging](https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt) | 19:46 | 26.10.2025 |
+| 2 | `2.txt` | [sevcator/5ubscrpt10n](https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt) | 19:56 | 26.10.2025 |
+| 3 | `3.txt` | [yitong2333/proxy-minging](https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt) | 19:56 | 26.10.2025 |
 | 4 | `4.txt` | [acymz/AutoVPN](https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt) | 19:34 | 26.10.2025 |
-| 5 | `5.txt` | [miladtahanian/V2RayCFGDumper](https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/config.txt) | 19:46 | 26.10.2025 |
+| 5 | `5.txt` | [miladtahanian/V2RayCFGDumper](https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/config.txt) | 19:56 | 26.10.2025 |
 | 6 | `6.txt` | [roosterkid/openproxylist](https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt) | 19:06 | 26.10.2025 |
 | 7 | `7.txt` | [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt) | 19:06 | 26.10.2025 |
 | 8 | `8.txt` | [YasserDivaR/pr0xy](https://raw.githubusercontent.com/YasserDivaR/pr0xy/refs/heads/main/ShadowSocks2021.txt) | 18:32 | 26.10.2025 |
 | 9 | `9.txt` | [mohamadfg-dev/telegram-v2ray-configs-collector](https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt) | 18:32 | 26.10.2025 |
-| 10 | `10.txt` | [mheidari98/.proxy](https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless) | 19:46 | 26.10.2025 |
+| 10 | `10.txt` | [mheidari98/.proxy](https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless) | 19:56 | 26.10.2025 |
 | 11 | `11.txt` | [youfoundamin/V2rayCollector](https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt) | 18:32 | 26.10.2025 |
-| 12 | `12.txt` | [mheidari98/.proxy](https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all) | 19:46 | 26.10.2025 |
+| 12 | `12.txt` | [mheidari98/.proxy](https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all) | 19:56 | 26.10.2025 |
 | 13 | `13.txt` | [Kwinshadow/TelegramV2rayCollector](https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt) | 19:06 | 26.10.2025 |
-| 14 | `14.txt` | [LalatinaHub/Mineral](https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes) | 19:46 | 26.10.2025 |
+| 14 | `14.txt` | [LalatinaHub/Mineral](https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes) | 19:56 | 26.10.2025 |
 | 15 | `15.txt` | [miladtahanian/multi-proxy-config-fetcher](https://raw.githubusercontent.com/miladtahanian/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt) | 18:32 | 26.10.2025 |
 | 16 | `16.txt` | [Pawdroid/Free-servers](https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub) | 19:06 | 26.10.2025 |
 | 17 | `17.txt` | [MhdiTaheri/V2rayCollector_Py](https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt) | 19:34 | 26.10.2025 |
@@ -81,7 +81,7 @@
 | 22 | `22.txt` | [wuqb2i4f/xray-config-toolkit](https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri) | 19:34 | 26.10.2025 |
 | 23 | `23.txt` | [AzadNetCH/Clash](https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet.txt) | 18:32 | 26.10.2025 |
 | 24 | `24.txt` | [STR97/STRUGOV](https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE) | 18:32 | 26.10.2025 |
-| 25 | `25.txt` | [V2RayRoot/V2RayConfig](https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt) | 19:34 | 26.10.2025 |
+| 25 | `25.txt` | [V2RayRoot/V2RayConfig](https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt) | 19:56 | 26.10.2025 |
 ## 🚀 Быстрый старт
 1. Скопируйте нужную ссылку из раздела **«📋 Общий список всех вечно актуальных конфигов»**.  
 2. Импортируйте её в ваш **VPN-клиент** (см. инструкции ниже).  
