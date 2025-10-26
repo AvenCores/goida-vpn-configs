@@ -76,7 +76,7 @@
 | 17 | `17.txt` | [MhdiTaheri/V2rayCollector_Py](https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt) | 20:28 | 26.10.2025 |
 | 18 | `18.txt` | [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vmess.txt) | 21:16 | 26.10.2025 |
 | 19 | `19.txt` | [MhdiTaheri/V2rayCollector](https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix) | 20:28 | 26.10.2025 |
-| 20 | `20.txt` | [mehran1404/Sub_Link](https://raw.githubusercontent.com/mehran1404/Sub_Link/refs/heads/main/V2RAY-Sub.txt) | 18:32 | 26.10.2025 |
+| 20 | `20.txt` | [Argh94/Proxy-List](https://github.com/Argh94/Proxy-List/raw/refs/heads/main/All_Config.txt) | 18:32 | 26.10.2025 |
 | 21 | `21.txt` | [shabane/kamaji](https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt) | 18:32 | 26.10.2025 |
 | 22 | `22.txt` | [wuqb2i4f/xray-config-toolkit](https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri) | 19:34 | 26.10.2025 |
 | 23 | `23.txt` | [AzadNetCH/Clash](https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet.txt) | 18:32 | 26.10.2025 |
