@@ -199,7 +199,7 @@ def update_readme_table():
             if i <= 25:
                 source_name = extract_source_name(url)
             else:
-                source_name = "Фильтр SNI доменов"
+                source_name = "Обход SNI белых списков"
             
             # Проверяем, был ли файл обновлен в этом запуске
             if i in updated_files:
