@@ -532,7 +532,6 @@ def create_filtered_configs():
     # Сохраняем в 26-й файл
     local_path_26 = "githubmirror/26.txt"
     with open(local_path_26, "w", encoding="utf-8") as file:
-        # --- ИЗМЕНЕНИЕ ЗДЕСЬ ---
         # Записываем каждый уникальный конфиг на новой строке
         for config in unique_configs:
             file.write(config + "\n")
