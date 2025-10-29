@@ -57,32 +57,32 @@
 
 | № | Файл | Источник | Время | Дата |
 |--|--|--|--|--|
-| 1 | `1.txt` | [sakha1370/OpenRay](https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt) | 21:43 | 29.10.2025 |
-| 2 | `2.txt` | [sevcator/5ubscrpt10n](https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt) | 21:48 | 29.10.2025 |
-| 3 | `3.txt` | [yitong2333/proxy-minging](https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt) | 21:48 | 29.10.2025 |
-| 4 | `4.txt` | [acymz/AutoVPN](https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt) | 21:43 | 29.10.2025 |
-| 5 | `5.txt` | [miladtahanian/V2RayCFGDumper](https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/config.txt) | 21:48 | 29.10.2025 |
-| 6 | `6.txt` | [roosterkid/openproxylist](https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt) | 21:26 | 29.10.2025 |
+| 1 | `1.txt` | [sakha1370/OpenRay](https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt) | 22:25 | 29.10.2025 |
+| 2 | `2.txt` | [sevcator/5ubscrpt10n](https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt) | 22:25 | 29.10.2025 |
+| 3 | `3.txt` | [yitong2333/proxy-minging](https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt) | 22:25 | 29.10.2025 |
+| 4 | `4.txt` | [acymz/AutoVPN](https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt) | 22:25 | 29.10.2025 |
+| 5 | `5.txt` | [miladtahanian/V2RayCFGDumper](https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/config.txt) | 22:25 | 29.10.2025 |
+| 6 | `6.txt` | [roosterkid/openproxylist](https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt) | 22:12 | 29.10.2025 |
 | 7 | `7.txt` | [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt) | 21:26 | 29.10.2025 |
 | 8 | `8.txt` | [YasserDivaR/pr0xy](https://raw.githubusercontent.com/YasserDivaR/pr0xy/refs/heads/main/ShadowSocks2021.txt) | 18:56 | 19.10.2025 |
-| 9 | `9.txt` | [mohamadfg-dev/telegram-v2ray-configs-collector](https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt) | 20:27 | 29.10.2025 |
-| 10 | `10.txt` | [mheidari98/.proxy](https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless) | 21:48 | 29.10.2025 |
+| 9 | `9.txt` | [mohamadfg-dev/telegram-v2ray-configs-collector](https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt) | 22:12 | 29.10.2025 |
+| 10 | `10.txt` | [mheidari98/.proxy](https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless) | 22:25 | 29.10.2025 |
 | 11 | `11.txt` | [youfoundamin/V2rayCollector](https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt) | 18:17 | 29.10.2025 |
-| 12 | `12.txt` | [mheidari98/.proxy](https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all) | 21:48 | 29.10.2025 |
+| 12 | `12.txt` | [mheidari98/.proxy](https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all) | 22:25 | 29.10.2025 |
 | 13 | `13.txt` | [Kwinshadow/TelegramV2rayCollector](https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt) | 21:43 | 29.10.2025 |
-| 14 | `14.txt` | [LalatinaHub/Mineral](https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes) | 21:48 | 29.10.2025 |
+| 14 | `14.txt` | [LalatinaHub/Mineral](https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes) | 22:25 | 29.10.2025 |
 | 15 | `15.txt` | [miladtahanian/multi-proxy-config-fetcher](https://raw.githubusercontent.com/miladtahanian/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt) | 05:41 | 28.10.2025 |
-| 16 | `16.txt` | [Pawdroid/Free-servers](https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub) | 21:26 | 29.10.2025 |
-| 17 | `17.txt` | [MhdiTaheri/V2rayCollector_Py](https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt) | 20:27 | 29.10.2025 |
-| 18 | `18.txt` | [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vmess.txt) | 21:26 | 29.10.2025 |
-| 19 | `19.txt` | [MhdiTaheri/V2rayCollector](https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix) | 21:26 | 29.10.2025 |
+| 16 | `16.txt` | [Pawdroid/Free-servers](https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub) | 22:12 | 29.10.2025 |
+| 17 | `17.txt` | [MhdiTaheri/V2rayCollector_Py](https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt) | 22:25 | 29.10.2025 |
+| 18 | `18.txt` | [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vmess.txt) | 22:25 | 29.10.2025 |
+| 19 | `19.txt` | [MhdiTaheri/V2rayCollector](https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix) | 22:12 | 29.10.2025 |
 | 20 | `20.txt` | [Argh94/Proxy-List](https://github.com/Argh94/Proxy-List/raw/refs/heads/main/All_Config.txt) | 21:26 | 29.10.2025 |
-| 21 | `21.txt` | [shabane/kamaji](https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt) | 21:48 | 29.10.2025 |
+| 21 | `21.txt` | [shabane/kamaji](https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt) | 22:25 | 29.10.2025 |
 | 22 | `22.txt` | [wuqb2i4f/xray-config-toolkit](https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri) | 19:25 | 29.10.2025 |
 | 23 | `23.txt` | [AzadNetCH/Clash](https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet.txt) | 08:45 | 22.10.2025 |
 | 24 | `24.txt` | [STR97/STRUGOV](https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE) | 06:53 | 12.10.2025 |
 | 25 | `25.txt` | [V2RayRoot/V2RayConfig](https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt) | 21:43 | 29.10.2025 |
-| 26 | `26.txt` | [Обход SNI белых списков](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | 21:48 | 29.10.2025 |
+| 26 | `26.txt` | [Обход SNI белых списков]() | 21:48 | 29.10.2025 |
 
 ## 🗂 Структура репозитория
 ```text
@@ -177,6 +177,7 @@ python main.py                  # конфиги появятся в ../githubmi
 23) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt`
 24) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt`
 25) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt`
+26) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt`
 
 🔗 [Ссылка на QR-коды вечно актуальных конфигов](https://github.com/AvenCores/goida-vpn-configs/tree/main/qr-codes)
 </details>
@@ -187,7 +188,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>📱 Гайд для Android</summary>
 
-**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.24/v2rayNG_1.10.24_universal.apk)
+**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.26/v2rayNG_1.10.26_universal.apk)
 
 **2.** Копируем в буфер обмена: 
 
@@ -222,6 +223,7 @@ python main.py                  # конфиги появятся в ../githubmi
 23) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt`
 24) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt`
 25) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt`
+26) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt`
 
 **3.** Заходим в приложение **«v2rayNG»** и в правом верхнем углу нажимаем на ➕, а затем выбираем **«Импорт из буфера обмена»**.
    
@@ -235,7 +237,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>📺 Гайд для Android TV</summary>
 
-**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.24/v2rayNG_1.10.24_universal.apk)
+**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.26/v2rayNG_1.10.26_universal.apk)
 
 > Рекомендованные **«QR-коды»**: **[6](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/6.png)**, **[22](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/22.png)**, **[23](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/23.png)**, **[24](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/24.png)** и **[25](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/25.png)**.
 
@@ -313,7 +315,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>🖥 Гайд для Windows, Linux</summary>
 
-**1.** Скачиваем **«Throne»** — [Windows 10/11](https://github.com/throneproj/Throne/releases/download/1.0.7/Throne-1.0.7-windows64.zip) / [Windows 7/8/8.1](https://github.com/throneproj/Throne/releases/download/1.0.7/Throne-1.0.7-windowslegacy64.zip) / [Linux](https://github.com/throneproj/Throne/releases/download/1.0.7/Throne-1.0.7-linux-amd64.zip)
+**1.** Скачиваем **«Throne»** — [Windows 10/11](https://github.com/throneproj/Throne/releases/download/1.0.8/Throne-1.0.8-windows64.zip) / [Windows 7/8/8.1](https://github.com/throneproj/Throne/releases/download/1.0.8/Throne-1.0.8-windowslegacy64.zip) / [Linux](https://github.com/throneproj/Throne/releases/download/1.0.8/Throne-1.0.8-linux-amd64.zip)
 
 **2.** Копируем в буфер обмена: 
 
@@ -348,6 +350,7 @@ python main.py                  # конфиги появятся в ../githubmi
 23) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt`
 24) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt`
 25) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt`
+26) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt`
 
 **3.** Нажимаем на **«Профили»**, а затем **«Добавить профиль из буфера обмена»**.
 
@@ -430,6 +433,7 @@ python main.py                  # конфиги появятся в ../githubmi
 23) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt`
 24) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt`
 25) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt`
+26) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt`
 
 **3.** Заходим в приложение **«V2Box - V2ray Client»** и переходим во вкладку **«Config»**, нажимаем на плюсик в правом верхнем углу, затем — **«Добавить подписку»**, вводим любое **«Название»** и вставляем ссылку на конфиг в поле **«URL»**.
 
@@ -492,6 +496,7 @@ python main.py                  # конфиги появятся в ../githubmi
 23) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt`
 24) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt`
 25) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt`
+26) `https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt`
 
 **4.** Нажимаем на кнопку **«Добавить из буфера обмена»**.
    
