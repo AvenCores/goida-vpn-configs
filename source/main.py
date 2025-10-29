@@ -536,8 +536,7 @@ def create_filtered_configs():
     # Сохраняем в 26-й файл
     local_path_26 = "githubmirror/26.txt"
     with open(local_path_26, "w", encoding="utf-8") as file:
-        file.write("
-".join(unique_configs))
+        file.write("".join(unique_configs))
     
     log(f"📁 Создан файл {local_path_26} с {final_count} уникальными конфигами. Удалено дубликатов: {duplicates_removed}.")
     return local_path_26
