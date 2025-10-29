@@ -188,7 +188,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>📱 Гайд для Android</summary>
 
-**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.24/v2rayNG_1.10.24_universal.apk)
+**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.26/v2rayNG_1.10.26_universal.apk)
 
 **2.** Копируем в буфер обмена: 
 
@@ -237,7 +237,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <summary>📺 Гайд для Android TV</summary>
 
-**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.24/v2rayNG_1.10.24_universal.apk)
+**1.** Скачиваем **«v2rayNG»** — [Ссылка](https://github.com/2dust/v2rayNG/releases/download/1.10.26/v2rayNG_1.10.26_universal.apk)
 
 > Рекомендованные **«QR-коды»**: **[6](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/6.png)**, **[22](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/22.png)**, **[23](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/23.png)**, **[24](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/24.png)** и **[25](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/25.png)**.
 
