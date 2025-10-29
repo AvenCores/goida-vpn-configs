@@ -521,26 +521,24 @@ def create_filtered_configs():
                 with open(local_path, "r", encoding="utf-8") as file:
                     for line in file:
                         line = line.strip()
-                        if line and any(domain in line for domain in sni_domains):
+                        if any(domain in line for domain in sni_domains):
                             all_configs.append(line)
             except Exception as e:
                 log(f"⚠️ Ошибка при чтении файла {local_path}: {e}")
     
-    # Проверяем на дубликаты и сортируем для консистентности
-    initial_count = len(all_configs)
-    # Используем set для удаления дубликатов, затем сортируем
-    unique_configs = sorted(list(set(all_configs)))
-    final_count = len(unique_configs)
-    duplicates_removed = initial_count - final_count
-
+    # Удаляем дубликаты
+    unique_configs = list(set(all_configs))
+    
     # Сохраняем в 26-й файл
     local_path_26 = "githubmirror/26.txt"
     with open(local_path_26, "w", encoding="utf-8") as file:
-        file.write("".join(unique_configs))
+        # --- ИЗМЕНЕНИЕ ЗДЕСЬ ---
+        # Записываем каждый уникальный конфиг на новой строке
+        for config in unique_configs:
+            file.write(config + "\n")
     
-    log(f"📁 Создан файл {local_path_26} с {final_count} уникальными конфигами. Удалено дубликатов: {duplicates_removed}.")
+    log(f"📁 Создан файл {local_path_26} с {len(unique_configs)} конфигами, содержащими указанные SNI домены")
     return local_path_26
-
 
 def main(dry_run: bool = False):
     max_workers_download = min(DEFAULT_MAX_WORKERS, max(1, len(URLS)))
