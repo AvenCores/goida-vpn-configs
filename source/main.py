@@ -203,8 +203,9 @@ def update_readme_table():
                 source_name = extract_source_name(url)
                 source_column = f"[{source_name}]({url})"
             else:
+                # Для 26-го файла создаем ссылку на сам файл с текстом "Обход SNI белых списков"
                 source_name = "Обход SNI белых списков"
-                source_column = source_name  # без ссылки для 26-го файла
+                source_column = f"[{source_name}]({raw_file_url})"
             
             # Проверяем, был ли файл обновлен в этом запуске
             if i in updated_files:
