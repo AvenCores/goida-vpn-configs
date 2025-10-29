@@ -213,11 +213,11 @@ def update_readme_table():
                 update_date = date_part
             else:
                 # Пытаемся найти время и дату из старой таблицы
-                pattern = rf"\|\s*{i}\s*\|\s*`{filename}`.*?\|\s*.*?\|\s*(.*?)\s*\|\s*(.*?)\s*\|"
+                pattern = rf"\|\s*{i}\s*\|\s*\[`{filename}`\].*?\|.*?\|\s*(.*?)\s*\|\s*(.*?)\s*\|"
                 match = re.search(pattern, old_content)
                 if match:
-                    update_time = match.group(1) if match.group(1).strip() else "Никогда"
-                    update_date = match.group(2) if match.group(2).strip() else "Никогда"
+                    update_time = match.group(1).strip() if match.group(1).strip() else "Никогда"
+                    update_date = match.group(2).strip() if match.group(2).strip() else "Никогда"
                 else:
                     update_time = "Никогда"
                     update_date = "Никогда"
