@@ -196,10 +196,15 @@ def update_readme_table():
         for i, (remote_path, url) in enumerate(zip(REMOTE_PATHS, URLS + [""]), 1):
             filename = f"{i}.txt"
             
+            # Формируем ссылку на raw-файл в репозитории
+            raw_file_url = f"https://github.com/{REPO_NAME}/raw/refs/heads/main/githubmirror/{i}.txt"
+            
             if i <= 25:
                 source_name = extract_source_name(url)
+                source_column = f"[{source_name}]({url})"
             else:
                 source_name = "Обход SNI белых списков"
+                source_column = source_name  # без ссылки для 26-го файла
             
             # Проверяем, был ли файл обновлен в этом запуске
             if i in updated_files:
@@ -216,7 +221,8 @@ def update_readme_table():
                     update_time = "Никогда"
                     update_date = "Никогда"
             
-            table_rows.append(f"| {i} | `{filename}` | [{source_name}]({url}) | {update_time} | {update_date} |")
+            # Для всех файлов делаем ссылку на raw-файл в столбце "Файл"
+            table_rows.append(f"| {i} | [`{filename}`]({raw_file_url}) | {source_column} | {update_time} | {update_date} |")
 
         new_table = table_header + "\n" + "\n".join(table_rows)
 
