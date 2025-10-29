@@ -82,7 +82,7 @@
 | 23 | `23.txt` | [AzadNetCH/Clash](https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet.txt) | 08:45 | 22.10.2025 |
 | 24 | `24.txt` | [STR97/STRUGOV](https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE) | 06:53 | 12.10.2025 |
 | 25 | `25.txt` | [V2RayRoot/V2RayConfig](https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt) | 21:43 | 29.10.2025 |
-| 26 | `26.txt` | [Обход SNI белых списков]() | 21:48 | 29.10.2025 |
+| 26 | `26.txt` | [Обход SNI белых списков](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | 21:48 | 29.10.2025 |
 
 ## 🗂 Структура репозитория
 ```text
