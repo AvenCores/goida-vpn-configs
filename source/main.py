@@ -9,6 +9,8 @@ import zoneinfo
 import concurrent.futures
 import threading
 import re
+import json
+import base64
 from collections import defaultdict
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -512,7 +514,7 @@ def create_filtered_configs():
     ]
     
     all_configs = []
-    
+
     # Читаем все 25 файлов и собираем конфиги, содержащие указанные домены
     for i in range(1, 26):
         local_path = f"githubmirror/{i}.txt"
@@ -525,18 +527,84 @@ def create_filtered_configs():
                             all_configs.append(line)
             except Exception as e:
                 log(f"⚠️ Ошибка при чтении файла {local_path}: {e}")
-    
-    # Удаляем дубликаты
-    unique_configs = list(set(all_configs))
-    
+
+    def _extract_host_port(line: str):
+        """Пробует извлечь host и port из строки конфига.
+        Поддерживает несколько форматов: vmess://<base64-json>, обычные URI с схемой,
+        а также простые вхождения host:port или ip:port через regex.
+        Возвращает кортеж (host, port) или None.
+        """
+        if not line:
+            return None
+
+        # vmess://<base64>
+        try:
+            if line.lower().startswith("vmess://"):
+                payload = line[len("vmess://"):]
+                # корректируем паддинг и декодируем
+                try:
+                    payload_bytes = base64.b64decode(payload + '=' * (-len(payload) % 4))
+                    decoded = payload_bytes.decode('utf-8', errors='ignore')
+                    j = json.loads(decoded)
+                    host = j.get('add') or j.get('host') or j.get('ip')
+                    port = j.get('port')
+                    if host and port:
+                        return host, str(port)
+                except Exception:
+                    pass
+        except Exception:
+            pass
+
+        # Попытка распарсить как URI (trojan://, vless://, http:// и т.д.)
+        try:
+            parsed = urllib.parse.urlparse(line if '://' in line else '//' + line)
+            if parsed.hostname and parsed.port:
+                return parsed.hostname, str(parsed.port)
+        except Exception:
+            pass
+
+        # Ищем явное вхождение host:port или ip:port
+        m = re.search(r'(?P<host>(?:\d{1,3}\.){3}\d{1,3}|[A-Za-z0-9\-_.]+):(?P<port>\d{1,5})', line)
+        if m:
+            return m.group('host'), m.group('port')
+
+        return None
+
+    # Удаляем дубликаты: сначала проверяем полное совпадение строки, затем
+    # считаем дубликатом конфиг с тем же host:port (ip:port)
+    seen_full = set()
+    seen_hostport = set()
+    unique_configs = []
+
+    for cfg in all_configs:
+        c = cfg.strip()
+        if not c:
+            continue
+
+        if c in seen_full:
+            continue
+        seen_full.add(c)
+
+        hostport = _extract_host_port(c)
+        if hostport:
+            key = f"{hostport[0].lower()}:{hostport[1]}"
+            if key in seen_hostport:
+                # уже есть сервер с таким же host:port — считаем дубликатом
+                continue
+            seen_hostport.add(key)
+
+        unique_configs.append(c)
+
     # Сохраняем в 26-й файл
     local_path_26 = "githubmirror/26.txt"
-    with open(local_path_26, "w", encoding="utf-8") as file:
-        # Записываем каждый уникальный конфиг на новой строке
-        for config in unique_configs:
-            file.write(config + "\n")
-    
-    log(f"📁 Создан файл {local_path_26} с {len(unique_configs)} конфигами, содержащими указанные SNI домены")
+    try:
+        with open(local_path_26, "w", encoding="utf-8") as file:
+            for config in unique_configs:
+                file.write(config + "\n")
+        log(f"📁 Создан файл {local_path_26} с {len(unique_configs)} конфигами, содержащими указанные SNI домены")
+    except Exception as e:
+        log(f"⚠️ Ошибка при сохранении {local_path_26}: {e}")
+
     return local_path_26
 
 def main(dry_run: bool = False):
