@@ -34,9 +34,9 @@ vless://393044fb-755a-4623-965e-3ae4fe39d730@83.222.20.64:53299?path=/&security=
 
 vless://39e5cc2f-1294-4a42-bb58-306a8be785e1@62.60.148.21:443?security=reality&encryption=none&pbk=BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=st.ozone.ru&sid=ee6f3e8f44b1f0b6#FR🇫🇷
 
-vless://5ec3a039-ea63-4bf9-a848-a65c9bfa66f5@104.26.6.89:443?path=/api/v1&security=tls&encryption=none&host=gb-021.shenzogmbh.com&fp=chrome&type=ws&sni=gb-021.shenzogmbh.com#CA🇨🇦
+vless://5ec3a039-ea63-4bf9-a848-a65c9bfa66f5@104.26.6.89:443?path=/api/v1&security=tls&encryption=none&host=gb-021.shenzogmbh.com&fp=chrome&type=ws&sni=gb-021.shenzogmbh.com#US🇺🇸
 
-vless://5ec3a039-ea63-4bf9-a848-a65c9bfa66f5@104.26.6.89:443?path=/api/v1&security=tls&encryption=none&host=gb-021.shenzogmbh.com&fp=chrome&type=ws&sni=gb-021.shenzogmbh.com#CA🇨🇦
+vless://5ec3a039-ea63-4bf9-a848-a65c9bfa66f5@104.26.6.89:443?path=/api/v1&security=tls&encryption=none&host=gb-021.shenzogmbh.com&fp=chrome&type=ws&sni=gb-021.shenzogmbh.com#US🇺🇸
 
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.27:8880?mode=gun&security=none&encryption=none&type=grpc#FR🇫🇷
 
