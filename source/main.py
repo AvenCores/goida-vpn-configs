@@ -4,7 +4,6 @@ import urllib.parse
 import urllib3
 from github import Github, Auth
 from github import GithubException
-import github
 from datetime import datetime
 import zoneinfo
 import concurrent.futures
@@ -355,45 +354,6 @@ def download_and_save(idx):
             short_msg = short_msg[:200] + "…"
         log(f"⚠️ Ошибка при скачивании {url}: {short_msg}")
         return None
-
-def _extract_host_port(line: str):
-    """Пробует извлечь host и port из строки конфига (Оптимизировано).
-    Поддерживает несколько форматов: vmess://<base64-json>, обычные URI с схемой,
-    а также простые вхождения host:port или ip:port через regex.
-    Возвращает кортеж (host, port) или None.
-    """
-    if not line:
-        return None
-
-    # 1. Быстрая проверка для vmess
-    if line.startswith("vmess://"):
-        try:
-            payload = line[8:]
-            # Исправление паддинга
-            rem = len(payload) % 4
-            if rem:
-                payload += '=' * (4 - rem)
-            
-            decoded = base64.b64decode(payload).decode('utf-8', errors='ignore')
-            # Быстрая проверка на JSON структуру перед парсингом
-            if decoded.startswith('{') and decoded.endswith('}'):
-                j = json.loads(decoded)
-                # Приоритет полей
-                host = j.get('add') or j.get('host') or j.get('ip')
-                port = j.get('port')
-                if host and port:
-                    return str(host), str(port)
-        except Exception:
-            pass
-        return None  # Если vmess не распарсился, вряд ли это что-то другое
-
-    # 2. Regex для явных IP/Host (самый быстрый способ для большинства конфигов)
-    # Ищем паттерн host:port, исключая http/https префиксы
-    m = re.search(r'(?:@|//)([\w\.-]+):(\d{1,5})', line)
-    if m:
-        return m.group(1), m.group(2)
-        
-    return None
 
 def create_filtered_configs():
     """Создает 26-й файл с конфигами, содержащими указанные SNI домены"""
@@ -1201,155 +1161,132 @@ def create_filtered_configs():
         "zen.yandex.ru"
     ]
     
-    log("⚙️ Начало обработки конфигов...")
-    
-    # ОПТИМИЗАЦИЯ 1: Компиляция Regex
-    # Экранируем точки и создаем паттерн (domain1|domain2|domain3)
-    log("⚙️ Компиляция Regex для фильтрации...")
-    pattern = re.compile(r"(?:" + "|".join(re.escape(d) for d in sni_domains) + r")")
-    
+    all_configs = []
+
+    # Читаем все 25 файлов и собираем конфиги, содержащие указанные домены
+    for i in range(1, 26):
+        local_path = f"githubmirror/{i}.txt"
+        if os.path.exists(local_path):
+            try:
+                with open(local_path, "r", encoding="utf-8") as file:
+                    for line in file:
+                        line = line.strip()
+                        if any(domain in line for domain in sni_domains):
+                            all_configs.append(line)
+            except Exception as e:
+                log(f"⚠️ Ошибка при чтении файла {local_path}: {e}")
+
+    def _extract_host_port(line: str):
+        """Пробует извлечь host и port из строки конфига.
+        Поддерживает несколько форматов: vmess://<base64-json>, обычные URI с схемой,
+        а также простые вхождения host:port или ip:port через regex.
+        Возвращает кортеж (host, port) или None.
+        """
+        if not line:
+            return None
+
+        # vmess://<base64>
+        try:
+            if line.lower().startswith("vmess://"):
+                payload = line[len("vmess://"):]
+                # корректируем паддинг и декодируем
+                try:
+                    payload_bytes = base64.b64decode(payload + '=' * (-len(payload) % 4))
+                    decoded = payload_bytes.decode('utf-8', errors='ignore')
+                    j = json.loads(decoded)
+                    host = j.get('add') or j.get('host') or j.get('ip')
+                    port = j.get('port')
+                    if host and port:
+                        return host, str(port)
+                except Exception:
+                    pass
+        except Exception:
+            pass
+
+        # Попытка распарсить как URI (trojan://, vless://, http:// и т.д.)
+        try:
+            parsed = urllib.parse.urlparse(line if '://' in line else '//' + line)
+            if parsed.hostname and parsed.port:
+                return parsed.hostname, str(parsed.port)
+        except Exception:
+            pass
+
+        # Ищем явное вхождение host:port или ip:port
+        m = re.search(r'(?P<host>(?:\d{1,3}\.){3}\d{1,3}|[A-Za-z0-9\-_.]+):(?P<port>\d{1,5})', line)
+        if m:
+            return m.group('host'), m.group('port')
+
+        return None
+
+    # Удаляем дубликаты: сначала проверяем полное совпадение строки, затем
+    # считаем дубликатом конфиг с тем же host:port (ip:port)
     seen_full = set()
     seen_hostport = set()
     unique_configs = []
 
-    # ОПТИМИЗАЦИЯ 2: Чтение и фильтрация в один проход
-    for i in range(1, 26):
-        local_path = f"githubmirror/{i}.txt"
-        if not os.path.exists(local_path):
+    for cfg in all_configs:
+        c = cfg.strip()
+        if not c:
             continue
-            
-        try:
-            with open(local_path, "r", encoding="utf-8") as file:
-                # Читаем файл целиком для ускорения IO
-                content = file.read()
-                
-            for line in content.splitlines():
-                line = line.strip()
-                if not line: 
-                    continue
-                
-                # Проверка дубликата всей строки (O(1))
-                if line in seen_full:
-                    continue
-                
-                # Проверка SNI через Regex (вместо вложенного цикла!)
-                if not pattern.search(line):
-                    continue
-                    
-                # Если прошли фильтры - добавляем
-                # Дедупликация по host:port
-                hp = _extract_host_port(line)
-                if hp:
-                    key = f"{hp[0].lower()}:{hp[1]}"
-                    if key in seen_hostport:
-                        continue
-                    seen_hostport.add(key)
-                
-                seen_full.add(line)
-                unique_configs.append(line)
-                
-        except Exception as e:
-            log(f"⚠️ Ошибка {local_path}: {e}")
+
+        if c in seen_full:
+            continue
+        seen_full.add(c)
+
+        hostport = _extract_host_port(c)
+        if hostport:
+            key = f"{hostport[0].lower()}:{hostport[1]}"
+            if key in seen_hostport:
+                # уже есть сервер с таким же host:port — считаем дубликатом
+                continue
+            seen_hostport.add(key)
+
+        unique_configs.append(c)
 
     # Сохраняем в 26-й файл
     local_path_26 = "githubmirror/26.txt"
     try:
         with open(local_path_26, "w", encoding="utf-8") as file:
-            file.write("\n".join(unique_configs))
-        
+            for config in unique_configs:
+                file.write(config + "\n")
         log(f"📁 Создан файл {local_path_26} с {len(unique_configs)} конфигами, содержащими указанные SNI домены")
     except Exception as e:
         log(f"⚠️ Ошибка при сохранении {local_path_26}: {e}")
 
     return local_path_26
 
-def commit_all_files_at_once(file_map: dict, message: str):
-    """
-    Загружает все файлы одним коммитом используя Git Data API.
-    file_map: { 'путь/в/репо/файл.txt': 'содержимое файла' }
-    
-    Это ускоряет загрузку в 10+ раз, так как вместо 26 отдельных коммитов
-    создается только 1 коммит с одним push'ем в GitHub.
-    """
-    try:
-        log("🚀 Начало массовой загрузки файлов одним коммитом...")
-        master_ref = REPO.get_git_ref("heads/main")
-        master_sha = master_ref.object.sha
-        base_tree = REPO.get_git_tree(master_sha)
-
-        element_list = []
-        for remote_path, content in file_map.items():
-            # Создаем blob для каждого файла
-            blob = REPO.create_git_blob(content, "utf-8")
-            # Добавляем в дерево
-            element = github.InputGitTreeElement(path=remote_path, mode='100644', type='blob', sha=blob.sha)
-            element_list.append(element)
-
-        # Создаем новое дерево
-        tree = REPO.create_git_tree(element_list, base_tree)
-        
-        # Создаем коммит
-        parent = REPO.get_git_commit(master_sha)
-        commit = REPO.create_git_commit(message, tree, [parent])
-        
-        # Обновляем ссылку (push)
-        master_ref.edit(commit.sha)
-        log(f"🚀 Все {len(file_map)} файлов обновлены одним коммитом!")
-        
-        # Обновляем метку updated_files
-        for remote_path in file_map.keys():
-            try:
-                file_index = int(remote_path.split('/')[1].split('.')[0])
-                with _UPDATED_FILES_LOCK:
-                    updated_files.add(file_index)
-            except (ValueError, IndexError):
-                pass
-        
-        return True
-        
-    except Exception as e:
-        log(f"⚠️ Ошибка при массовом коммите: {e}")
-        return False
-
 def main(dry_run: bool = False):
     max_workers_download = min(DEFAULT_MAX_WORKERS, max(1, len(URLS)))
+    max_workers_upload = max(2, min(6, len(URLS)))
 
-    # Сначала скачиваем все файлы параллельно
-    downloaded_files = {}  # remote_path -> content
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers_download) as download_pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers_download) as download_pool, \
+         concurrent.futures.ThreadPoolExecutor(max_workers=max_workers_upload) as upload_pool:
+
         download_futures = [download_pool.submit(download_and_save, i) for i in range(len(URLS))]
-        
+        upload_futures: list[concurrent.futures.Future] = []
+
         for future in concurrent.futures.as_completed(download_futures):
             result = future.result()
             if result:
                 local_path, remote_path = result
-                # Читаем файл для загрузки в GitHub
-                try:
-                    with open(local_path, "r", encoding="utf-8") as f:
-                        downloaded_files[remote_path] = f.read()
-                except Exception as e:
-                    log(f"⚠️ Ошибка при чтении {local_path}: {e}")
+                if dry_run:
+                    log(f"ℹ️ Dry-run: пропускаем загрузку {remote_path} (локальный путь {local_path})")
+                else:
+                    upload_futures.append(upload_pool.submit(upload_to_github, local_path, remote_path))
+
+        for uf in concurrent.futures.as_completed(upload_futures):
+            _ = uf.result()
 
     # Создаем 26-й файл с отфильтрованными конфигами
     local_path_26 = create_filtered_configs()
-    if os.path.exists(local_path_26):
-        try:
-            with open(local_path_26, "r", encoding="utf-8") as f:
-                downloaded_files["githubmirror/26.txt"] = f.read()
-        except Exception as e:
-            log(f"⚠️ Ошибка при чтении {local_path_26}: {e}")
+    
+    # Загружаем 26-й файл в GitHub
+    if not dry_run:
+        upload_to_github(local_path_26, "githubmirror/26.txt")
 
-    # Загружаем все файлы одним коммитом, если есть изменения и не dry-run
-    if not dry_run and downloaded_files:
-        message = f"🚀 Массовое обновление конфигов (Европа/Москва: {offset})"
-        success = commit_all_files_at_once(downloaded_files, message)
-        
-        if success:
-            # После успешной загрузки обновляем README
-            if not dry_run:
-                update_readme_table()
-    elif dry_run:
-        log(f"ℹ️ Dry-run: пропускаем загрузку {len(downloaded_files)} файлов в GitHub")
+    # Обновляем таблицу в README.md после всех загрузок
+    if not dry_run and updated_files:
+        update_readme_table()
 
     # Вывод логов
     ordered_keys = sorted(k for k in LOGS_BY_FILE.keys() if k != 0)
