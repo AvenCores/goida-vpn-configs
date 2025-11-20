@@ -1160,10 +1160,14 @@ def create_filtered_configs():
         "zen.yandex.net",
         "zen.yandex.ru"
     ]
+
+    # Читаем все 25 файлов и собираем конфиги, содержащие указанные домены
+    pattern_str = r"(?:" + "|".join(re.escape(d) for d in sni_domains) + r")"
+    sni_regex = re.compile(pattern_str)
     
     all_configs = []
 
-    # Читаем все 25 файлов и собираем конфиги, содержащие указанные домены
+    # Чтение файлов
     for i in range(1, 26):
         local_path = f"githubmirror/{i}.txt"
         if os.path.exists(local_path):
@@ -1171,51 +1175,46 @@ def create_filtered_configs():
                 with open(local_path, "r", encoding="utf-8") as file:
                     for line in file:
                         line = line.strip()
-                        if any(domain in line for domain in sni_domains):
+                        if not line: 
+                            continue
+                        # Быстрая проверка через Regex вместо цикла
+                        if sni_regex.search(line):
                             all_configs.append(line)
             except Exception as e:
                 log(f"⚠️ Ошибка при чтении файла {local_path}: {e}")
 
     def _extract_host_port(line: str):
-        """Пробует извлечь host и port из строки конфига.
-        Поддерживает несколько форматов: vmess://<base64-json>, обычные URI с схемой,
-        а также простые вхождения host:port или ip:port через regex.
-        Возвращает кортеж (host, port) или None.
-        """
         if not line:
             return None
 
-        # vmess://<base64>
-        try:
-            if line.lower().startswith("vmess://"):
-                payload = line[len("vmess://"):]
-                # корректируем паддинг и декодируем
-                try:
-                    payload_bytes = base64.b64decode(payload + '=' * (-len(payload) % 4))
-                    decoded = payload_bytes.decode('utf-8', errors='ignore')
+        # 1. Быстрая проверка для vmess
+        if line.startswith("vmess://"):
+            try:
+                payload = line[8:]
+                # Исправление паддинга
+                rem = len(payload) % 4
+                if rem:
+                    payload += '=' * (4 - rem)
+                
+                decoded = base64.b64decode(payload).decode('utf-8', errors='ignore')
+                # Быстрая проверка на JSON структуру перед парсингом
+                if decoded.startswith('{') and decoded.endswith('}'):
                     j = json.loads(decoded)
+                    # Приоритет полей
                     host = j.get('add') or j.get('host') or j.get('ip')
                     port = j.get('port')
                     if host and port:
-                        return host, str(port)
-                except Exception:
-                    pass
-        except Exception:
-            pass
+                        return str(host), str(port)
+            except Exception:
+                pass
+            return None # Если vmess не распарсился, вряд ли это что-то другое
 
-        # Попытка распарсить как URI (trojan://, vless://, http:// и т.д.)
-        try:
-            parsed = urllib.parse.urlparse(line if '://' in line else '//' + line)
-            if parsed.hostname and parsed.port:
-                return parsed.hostname, str(parsed.port)
-        except Exception:
-            pass
-
-        # Ищем явное вхождение host:port или ip:port
-        m = re.search(r'(?P<host>(?:\d{1,3}\.){3}\d{1,3}|[A-Za-z0-9\-_.]+):(?P<port>\d{1,5})', line)
+        # 2. Regex для явных IP/Host (самый быстрый способ для большинства конфигов)
+        # Ищем паттерн host:port, исключая http/https префиксы
+        m = re.search(r'(?:@|//)([\w\.-]+):(\d{1,5})', line)
         if m:
-            return m.group('host'), m.group('port')
-
+            return m.group(1), m.group(2)
+            
         return None
 
     # Удаляем дубликаты: сначала проверяем полное совпадение строки, затем
