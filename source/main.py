@@ -1,19 +1,19 @@
-import os
-import requests
-import urllib.parse
-import urllib3
-from github import Github, Auth
-from github import GithubException
-from datetime import datetime
-import zoneinfo
-import concurrent.futures
-import threading
-import re
-import json
-import base64
-from collections import defaultdict
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+from collections import defaultdict
+from github import GithubException
+from github import Github, Auth
+from datetime import datetime
+import concurrent.futures
+import urllib.parse
+import threading
+import zoneinfo
+import requests
+import urllib3
+import base64
+import json
+import re
+import os
 
 # -------------------- ЛОГИРОВАНИЕ --------------------
 LOGS_BY_FILE: dict[int, list[str]] = defaultdict(list)
