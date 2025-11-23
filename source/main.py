@@ -535,7 +535,6 @@ def create_filtered_configs():
 
     # 1. Оптимизация списка доменов: удаляем избыточные поддомены для уменьшения размера Regex
     # Если в списке есть 'avito.st', удаляем '00.img.avito.st', так как первый и так найдет второй.
-    log("⚙️ Оптимизация списка SNI доменов...")
     # Сортируем по длине (от коротких к длинным)
     sorted_domains = sorted(sni_domains, key=len)
     optimized_domains = []
@@ -549,8 +548,6 @@ def create_filtered_configs():
                 break
         if not is_redundant:
             optimized_domains.append(d)
-
-    log(f"📉 Список доменов сокращен с {len(sni_domains)} до {len(optimized_domains)} уникальных паттернов.")
 
     # Компиляция Regex
     try:
@@ -599,7 +596,6 @@ def create_filtered_configs():
         return filtered_lines
 
     all_configs = []
-    log("🔍 Запуск параллельной фильтрации конфигов...")
 
     # 2. Параллельная обработка файлов
     # Regex release GIL в Python, поэтому ThreadPoolExecutor эффективен для этой задачи
@@ -630,7 +626,7 @@ def create_filtered_configs():
     try:
         with open(local_path_26, "w", encoding="utf-8") as file:
             file.write("\n".join(unique_configs))
-        log(f"📁 Создан файл {local_path_26} с {len(unique_configs)} конфигами (Оптимизировано)")
+        log(f"📁 Создан файл {local_path_26} с {len(unique_configs)} конфигами")
     except Exception as e:
         log(f"⚠️ Ошибка при сохранении {local_path_26}: {e}")
 
