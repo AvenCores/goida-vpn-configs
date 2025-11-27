@@ -533,17 +533,14 @@ def create_filtered_configs():
         "zen-yabro-morda.mediascope.mc.yandex.ru", "zen.yandex.com", "zen.yandex.net", "zen.yandex.ru"
     ]
 
-    # 1. Оптимизация списка доменов: удаляем избыточные поддомены для уменьшения размера Regex
-    # Если в списке есть 'avito.st', удаляем '00.img.avito.st', так как первый и так найдет второй.
-    # Сортируем по длине (от коротких к длинным)
+    # 1. Оптимизация списка доменов
     sorted_domains = sorted(sni_domains, key=len)
     optimized_domains = []
     
     for d in sorted_domains:
-        # Проверяем, содержится ли этот домен в уже добавленных (более коротких)
         is_redundant = False
         for existing in optimized_domains:
-            if existing in d: # Если 'mail.ru' содержится в 'dl.mail.ru' -> избыточно
+            if existing in d:
                 is_redundant = True
                 break
         if not is_redundant:
@@ -585,12 +582,24 @@ def create_filtered_configs():
         
         try:
             with open(local_path, "r", encoding="utf-8") as file:
-                for line in file:
-                    line = line.strip()
-                    if not line: continue
-                    # Быстрая проверка оптимизированным Regex
-                    if sni_regex.search(line):
-                        filtered_lines.append(line)
+                # Читаем весь файл целиком, а не построчно
+                content = file.read()
+
+            # --- FIX: Принудительное разделение конфигов ---
+            # Добавляем перенос строки перед известными протоколами, если они слиплись с предыдущим текстом.
+            # Regex ищет (vmess|vless...):// и добавляет перед ними \n.
+            # Это решает проблему "vmess://...#Namevmess://..."
+            content = re.sub(r'(vmess|vless|trojan|ss|ssr|tuic|hysteria|hysteria2)://', r'\n\1://', content)
+
+            # Теперь разбиваем на строки
+            lines = content.splitlines()
+
+            for line in lines:
+                line = line.strip()
+                if not line: continue
+                # Быстрая проверка оптимизированным Regex
+                if sni_regex.search(line):
+                    filtered_lines.append(line)
         except Exception:
             pass
         return filtered_lines
@@ -598,14 +607,13 @@ def create_filtered_configs():
     all_configs = []
 
     # 2. Параллельная обработка файлов
-    # Regex release GIL в Python, поэтому ThreadPoolExecutor эффективен для этой задачи
     max_workers = min(16, os.cpu_count() + 4)
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(_process_file_filtering, i) for i in range(1, 26)]
         for future in concurrent.futures.as_completed(futures):
             all_configs.extend(future.result())
 
-    # Дедупликация (как и было)
+    # Дедупликация
     seen_full = set()
     seen_hostport = set()
     unique_configs = []
