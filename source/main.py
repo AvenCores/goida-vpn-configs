@@ -96,6 +96,13 @@ URLS = [
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt", #25
 ]
 
+# Источники для 26-го файла (без SNI проверки, только дедупликация)
+EXTRA_URLS_FOR_26 = [
+    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Cable.txt",
+    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
+    "https://raw.githubusercontent.com/zieng2/wl/main/vless.txt",
+]
+
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
@@ -606,12 +613,41 @@ def create_filtered_configs():
 
     all_configs = []
 
-    # 2. Параллельная обработка файлов
+    # 2. Параллельная обработка файлов (с SNI фильтрацией)
     max_workers = min(16, os.cpu_count() + 4)
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(_process_file_filtering, i) for i in range(1, 26)]
         for future in concurrent.futures.as_completed(futures):
             all_configs.extend(future.result())
+
+    # 3. Загрузка конфигов из дополнительных источников (без SNI фильтрации, только дедупликация)
+    def _load_extra_configs(url):
+        """Загружает конфиги из дополнительного источника без SNI проверки"""
+        try:
+            data = fetch_data(url)
+            # Принудительное разделение конфигов
+            data = re.sub(r'(vmess|vless|trojan|ss|ssr|tuic|hysteria|hysteria2)://', r'\n\1://', data)
+            lines = data.splitlines()
+            configs = []
+            for line in lines:
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    configs.append(line)
+            return configs
+        except Exception as e:
+            short_msg = str(e)
+            if len(short_msg) > 200:
+                short_msg = short_msg[:200] + "…"
+            log(f"⚠️ Ошибка при загрузке {url}: {short_msg}")
+            return []
+    
+    extra_configs = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(4, len(EXTRA_URLS_FOR_26))) as executor:
+        futures = [executor.submit(_load_extra_configs, url) for url in EXTRA_URLS_FOR_26]
+        for future in concurrent.futures.as_completed(futures):
+            extra_configs.extend(future.result())
+    
+    all_configs.extend(extra_configs)
 
     # Дедупликация
     seen_full = set()
