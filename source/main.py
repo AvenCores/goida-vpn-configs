@@ -100,7 +100,8 @@ URLS = [
 EXTRA_URLS_FOR_26 = [
     "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Cable.txt",
     "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
-    "https://raw.githubusercontent.com/zieng2/wl/main/vless.txt",
+    "https://raw.githubusercontent.com/zieng2/wl/main/vless.txt"
+    "https://jsnegsukavsos.hb.ru-msk.vkcloud-storage.ru/love",
 ]
 
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
