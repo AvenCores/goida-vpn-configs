@@ -148,7 +148,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
-> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | [Видео гайд по установке](https://youtu.be/uz6JmOO7sGU).
+> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | **[Видео гайд по установке](https://youtu.be/uz6JmOO7sGU)**.
 
  - [ ] **Вечно актуальные**
 
@@ -194,7 +194,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
-> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | [Видео гайд по установке](https://youtu.be/uz6JmOO7sGU).
+> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | **[Видео гайд по установке](https://youtu.be/uz6JmOO7sGU)**.
 
  - [ ] **Вечно актуальные**
 
@@ -241,7 +241,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 > Рекомендованные **«QR-коды»**: **[6](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/6.png)**, **[22](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/22.png)**, **[23](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/23.png)**, **[24](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/24.png)** и **[25](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/25.png)**.
 
-> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/26.png)**.
+> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/blob/main/qr-codes/26.png)** | **[Видео гайд по установке](https://youtu.be/uz6JmOO7sGU)**.
 
 **2.** Скачиваем **«QR-коды»** вечно актуальных конфигов — [Ссылка](https://github.com/AvenCores/goida-vpn-configs/tree/main/qr-codes)
 
@@ -321,7 +321,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
-> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | [Видео гайд по установке](https://youtu.be/uz6JmOO7sGU).
+> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | **[Видео гайд по установке](https://youtu.be/uz6JmOO7sGU)**.
 
  - [ ] **Вечно актуальные**
 
@@ -404,7 +404,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
-> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | [Видео гайд по установке](https://youtu.be/uz6JmOO7sGU).
+> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | **[Видео гайд по установке](https://youtu.be/uz6JmOO7sGU)**.
 
  - [ ] **Вечно актуальные**
 
@@ -467,7 +467,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 > Рекомендованные списки: **[6](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt)**, **[22](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt)**, **[23](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt)**, **[24](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt)** и **[25](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt)**.
 
-> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | [Видео гайд по установке](https://youtu.be/uz6JmOO7sGU).
+> Обход SNI/CIDR белых списков: **[26](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt)** | **[Видео гайд по установке](https://youtu.be/uz6JmOO7sGU)**.
 
  - [ ] **Вечно актуальные**
 
