@@ -105,7 +105,7 @@ EXTRA_URLS_FOR_26 = [
     "https://raw.githubusercontent.com/zieng2/wl/main/vless_lite.txt",
     "https://raw.githubusercontent.com/zieng2/wl/refs/heads/main/vless_nolite.txt",
     "https://raw.githubusercontent.com/EtoNeYaProject/etoneyaproject.github.io/refs/heads/main/2",
-    "https://s3c3.001.gpucloud.ru/rtrq/jsoxn",
+    "https://s3c3.001.gpucloud.ru/dixsm/htxml",
 ]
 
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
