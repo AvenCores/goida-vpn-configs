@@ -348,7 +348,8 @@ def download_and_save(idx):
     local_path = LOCAL_PATHS[idx]
     try:
         data = fetch_data(url)
-        data = filter_insecure_configs(local_path, data)
+        # Распаковываем результат (data, _)
+        data, _ = filter_insecure_configs(local_path, data)
 
         if os.path.exists(local_path):
             try:
@@ -380,7 +381,6 @@ def filter_insecure_configs(local_path, data, log_enabled=True):
 
     for line in splitted:
         original_line = line
-
         processed = line.strip()
         processed = urllib.parse.unquote(html.unescape(processed))
 
@@ -391,10 +391,12 @@ def filter_insecure_configs(local_path, data, log_enabled=True):
 
     filtered_count = len(splitted) - len(result)
     
+    # Логируем сразу только если это обычные файлы (1-25) и логирование включено
     if filtered_count > 0 and log_enabled:
         log(f"ℹ️  Отфильтровано {filtered_count} небезопасных конфигов для {local_path}")
-        
-    return "\n".join(result)
+    
+    # Возвращаем и текст, и количество удаленных
+    return "\n".join(result), filtered_count
 
 def create_filtered_configs():
     """Создает 26-й файл с конфигами, содержащими указанные SNI домены (Максимальное ускорение)"""
@@ -577,7 +579,6 @@ def create_filtered_configs():
     # 1. Оптимизация списка доменов
     sorted_domains = sorted(sni_domains, key=len)
     optimized_domains = []
-    
     for d in sorted_domains:
         is_redundant = False
         for existing in optimized_domains:
@@ -587,7 +588,6 @@ def create_filtered_configs():
         if not is_redundant:
             optimized_domains.append(d)
 
-    # Компиляция Regex
     try:
         pattern_str = r"(?:" + "|".join(re.escape(d) for d in optimized_domains) + r")"
         sni_regex = re.compile(pattern_str)
@@ -595,6 +595,7 @@ def create_filtered_configs():
         log(f"❌ Ошибка компиляции Regex: {e}")
         return None
 
+    # Вспомогательные функции внутри
     def _extract_host_port(line: str):
         if not line: return None
         if line.startswith("vmess://"):
@@ -615,30 +616,18 @@ def create_filtered_configs():
         return None
 
     def _process_file_filtering(file_idx):
-        """Функция для обработки одного файла в потоке"""
         local_path = f"githubmirror/{file_idx}.txt"
         filtered_lines = []
         if not os.path.exists(local_path):
             return filtered_lines
-        
         try:
             with open(local_path, "r", encoding="utf-8") as file:
-                # Читаем весь файл целиком, а не построчно
                 content = file.read()
-
-            # --- FIX: Принудительное разделение конфигов ---
-            # Добавляем перенос строки перед известными протоколами, если они слиплись с предыдущим текстом.
-            # Regex ищет (vmess|vless...):// и добавляет перед ними \n.
-            # Это решает проблему "vmess://...#Namevmess://..."
             content = re.sub(r'(vmess|vless|trojan|ss|ssr|tuic|hysteria|hysteria2)://', r'\n\1://', content)
-
-            # Теперь разбиваем на строки
             lines = content.splitlines()
-
             for line in lines:
                 line = line.strip()
                 if not line: continue
-                # Быстрая проверка оптимизированным Regex
                 if sni_regex.search(line):
                     filtered_lines.append(line)
         except Exception:
@@ -647,41 +636,52 @@ def create_filtered_configs():
 
     all_configs = []
 
-    # 2. Параллельная обработка файлов (с SNI фильтрацией)
+    # 2. Обработка файлов 1-25
     max_workers = min(16, os.cpu_count() + 4)
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(_process_file_filtering, i) for i in range(1, 26)]
         for future in concurrent.futures.as_completed(futures):
             all_configs.extend(future.result())
 
-    # 3. Загрузка конфигов из дополнительных источников (без SNI фильтрации, только дедупликация)
+    # 3. Загрузка доп. источников для 26-го файла + ПОДСЧЕТ УДАЛЕННЫХ
     def _load_extra_configs(url):
-        """Загружает конфиги из дополнительного источника без SNI проверки"""
+        count_removed = 0
+        configs = []
         try:
             data = fetch_data(url)
-            data = filter_insecure_configs("githubmirror/26.txt", data, log_enabled=False)
-            # Принудительное разделение конфигов
+            # Вызываем с log_enabled=False, но забираем count
+            data, count = filter_insecure_configs("githubmirror/26.txt", data, log_enabled=False)
+            count_removed = count
+            
             data = re.sub(r'(vmess|vless|trojan|ss|ssr|tuic|hysteria|hysteria2)://', r'\n\1://', data)
             lines = data.splitlines()
-            configs = []
             for line in lines:
                 line = line.strip()
                 if line and not line.startswith('#'):
                     configs.append(line)
-            return configs
         except Exception as e:
             short_msg = str(e)
             if len(short_msg) > 200:
                 short_msg = short_msg[:200] + "…"
             log(f"⚠️ Ошибка при загрузке {url}: {short_msg}")
-            return []
+        
+        # Возвращаем конфиги и количество удаленных
+        return configs, count_removed
     
     extra_configs = []
+    total_insecure_filtered_26 = 0 # Счетчик для 26-го файла
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=min(4, len(EXTRA_URLS_FOR_26))) as executor:
         futures = [executor.submit(_load_extra_configs, url) for url in EXTRA_URLS_FOR_26]
         for future in concurrent.futures.as_completed(futures):
-            extra_configs.extend(future.result())
+            res_configs, res_count = future.result()
+            extra_configs.extend(res_configs)
+            total_insecure_filtered_26 += res_count # Суммируем
     
+    # ЕДИНСТВЕННЫЙ ЛОГ ДЛЯ 26-го ФАЙЛА
+    if total_insecure_filtered_26 > 0:
+        log(f"ℹ️  Отфильтровано {total_insecure_filtered_26} небезопасных конфигов для githubmirror/26.txt")
+
     all_configs.extend(extra_configs)
 
     # Дедупликация
@@ -693,7 +693,6 @@ def create_filtered_configs():
         c = cfg.strip()
         if not c or c in seen_full: continue
         seen_full.add(c)
-
         hostport = _extract_host_port(c)
         if hostport:
             key = f"{hostport[0].lower()}:{hostport[1]}"
