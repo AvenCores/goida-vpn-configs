@@ -46,7 +46,7 @@ offset = thistime.strftime("%H:%M | %d.%m.%Y")
 
 # Получение GitHub токена из переменных окружения
 GITHUB_TOKEN = os.environ.get("MY_TOKEN")
-REPO_NAME = "MrSago/goida-vpn-configs"
+REPO_NAME = "AvenCores/goida-vpn-configs"
 
 if GITHUB_TOKEN:
     g = Github(auth=Auth.Token(GITHUB_TOKEN))
