@@ -115,7 +115,6 @@ vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@104.19.39.72:8880?path=%2F%3Fed%3D2
 
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@104.19.39.87:8880?path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&security=&encryption=none&host=sni.x86.de5.net&type=ws#BESTIIVPNBOT
 
-vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@104.19.73.126:2053/?type=ws&encryption=none&flow=&host=sni.111000.dynv6.net&path=%2F%3Fed%3D2560&security=tls&sni=sni.111000.dynv6.net&allowInsecure=1#%3E%3E%40oneclickvpnkeys%3A%3AUS
 
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@172.64.144.133:2096?path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&security=tls&encryption=none&insecure=0&host=sni.111000.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=sni.111000.cc.cd#%3E%3E%40FreakConfig%3A%3AUS
 
@@ -465,9 +464,7 @@ trojan://2262242d-1b1c-481c-b60d-cde0e6a48bb2@185.251.80.0:443?type=grpc&mode=gu
 
 trojan://2262242d-1b1c-481c-b60d-cde0e6a48bb2@185.251.80.0:443?type=ws&host=filma.video-fun-new.com.de&path=/MhTmxpkpcD3E2KuHxT&security=tls&fp=chrome&sni=filma.video-fun-new.com.de&alpn=http/1.1#Filter2
 
-trojan://2262242d-1b1c-481c-b60d-cde0e6a48bb2@filma.video-fun-new.com.de:443?hiddify=1&sni=filma.video-fun-new.com.de&type=grpc&alpn=h2&path=MhTmxpkpKWUvzLtY5bR0&host=filma.video-fun-new.com.de&serviceName=MhTmxpkpKWUvzLtY5bR0&mode=gun&fp=chrome&headerType=none&allowInsecure=true&insecure=true&security=tls&headers=%7B%27User-Agent%27%3A%20%27Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_11_6%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F103.0.0.0%20Safari%2F537.36%27%2C%20%27Pragma%27%3A%20%27no-cache%27%7D#Filter%20tls%20grpc%20CDN%20trojan
 
-trojan://2262242d-1b1c-481c-b60d-cde0e6a48bb2@filma.video-fun-new.com.de:443?hiddify=1&sni=filma.video-fun-new.com.de&type=ws&alpn=http%2F1.1&path=%2FMhTmxpkpcD3E2KuHxT&host=filma.video-fun-new.com.de&fp=chrome&headerType=none&allowInsecure=true&insecure=true&security=tls&headers=%7B%27User-Agent%27%3A%20%27Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_11_6%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F103.0.0.0%20Safari%2F537.36%27%2C%20%27Pragma%27%3A%20%27no-cache%27%7D#Filter%20tls%20WS%20CDN%20trojan
 
 trojan://381f2e86233720eacda26d50e9aa26da@160.16.196.59:1281?security=tls&sni=www.nintendogames.net&type=tcp&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20JP%204
 
@@ -487,11 +484,8 @@ trojan://6pRjKQJ0CWyFtG.9@198.57.27.27:12990?security=tls&sni=diningtable.electr
 
 trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@cf.090227.xyz:443?path=%2F&security=tls&insecure=0&host=_acme-challenge.2go.cloudns.be&type=ws&allowInsecure=0&sni=_acme-challenge.2go.cloudns.be#%40%F0%9D%91%BD2_%F0%9D%91%B4%F0%9D%91%B6%F0%9D%91%AB_%F0%9D%91%BA%F0%9D%91%AF%F0%9D%91%B6%F0%9D%91%B7%20-%20%F0%9F%87%A8%F0%9F%87%A6%20%E2%9A%A1%20%7C`**
 
-trojan://BxceQaOe@58.152.25.236:443?security=tls&sni=t.me%2fripaojiedian&type=tcp&headerType=none&path=%2f&allow_insecure=1#%f0%9f%87%ad%f0%9f%87%b0%20HK%204
 
-trojan://BxceQaOe@58.152.25.86:443?security=tls&sni=%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd+%5bBy+DukeMehdi%5d+trojan-HK+&type=tcp&headerType=none&path=%2f&allow_insecure=1#%f0%9f%87%ad%f0%9f%87%b0%20HK%205
 
-trojan://BxceQaOe@58.152.46.60:443?security=tls&sni=%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%ef%bf%bd%2b%5bBy%2bDukeMehdi%5d%2btrojan-HK%2b&type=tcp&headerType=none&path=%2f&allow_insecure=1#%f0%9f%87%ad%f0%9f%87%b0%20HK%202
 
 trojan://M%3DvdPVIuNS389OQ6iqbAn-5G@172.236.171.37:28042/?type=tcp&security=tls&sni=www.fuzzyfeelergauge.click#%F0%9F%9F%A971%40oneclickvpnkeys
 
@@ -499,15 +493,12 @@ trojan://M%3DvdPVIuNS389OQ6iqbAn-5G@172.236.171.37:28042?security=tls&headerType
 
 trojan://da943f80-91e6-46df-b7ba-c6ecf28e0171@blueivy.qzz.io:443?security=tls&sni=blueivy.qzz.io&fp=chrome&type=ws&host=blueivy.qzz.io&path=%2f192.252.182.52%3a7602#%f0%9f%87%ba%f0%9f%87%b8%20US%203
 
-trojan://f52d0a04-94ad-4f9e-9945-4c3d43374e36@www.shopify.com:2096/?type=ws&host=ts888.yumige.dpdns.org&path=%2Fhttp%3A%2F%2F45.32.19.198%3A30005%2F&security=tls&sni=ts888.yumige.dpdns.org&alpn=h3&allowInsecure=1&fp=edge#%3E%3E%40oneclickvpnkeys%3A%3AXX
 
-trojan://f52d0a04-94ad-4f9e-9945-4c3d43374e36@www.shopify.com:2096/?type=ws&host=ts888.yumige.dpdns.org&path=%2Fhttp%3A%2F%2F45.32.19.198%3A30005%2F&security=tls&sni=ts888.yumige.dpdns.org&alpn=h3&allowInsecure=1&fp=edge#کانفیگ
 
 trojan://humanity@www.calmlunch.com:443?path=%2Fassignment&security=tls&host=www.calmlunch.com&type=ws&sni=www.calmlunch.com#Telegram%3A%20%40v2node
 
 trojan://humanity@www.calmlunch.com:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#Telegram%20%40Ettehad_vpn%20%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%20%D9%88%DB%8C%E2%80%8C%D9%BE%DB%8C%E2%80%8C%D8%A7%D9%86
 
-trojan://humanity@www.calmlunch.com:443?path=%2Fassignment&security=tls&insecure=1&host=www.calmlunch.com&type=ws&allowInsecure=1&sni=www.calmlunch.com#%40Filter_breaker
 
 trojan://pUF+zmIw0QuRESBPLofx7eOj6Xc49@38.54.82.205:27877/?type=tcp&security=tls&sni=www.metaphysicalmagnet.click#%3E%3E%40oneclickvpnkeys%3A%3ATH
 
@@ -581,23 +572,16 @@ trojan://trojan@ip.sb:8443?path=%2F&security=tls&host=fofang.pages.dev&type=ws&s
 
 trojan://xtA6WF92Itmhm9jfvXUH1MDVL@free-de-3.undef.network:443/?type=ws&host=free-de-3.undef.network&path=%2Ff2fc2a1f&security=tls&sni=free-de-3.undef.network#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
-trojan://zWFjJENcljZm@usa.visa.com:443/?type=ws&host=vahidqaz-7o61u7.vahidqaz.workers.dev&path=%2F%3Fed%3D2560&security=tls&sni=vahidqaz-7o61u7.vahidqaz.workers.dev&allowInsecure=1&fp=chrome#%3E%3E%40oneclickvpnkeys%3A%3AUS
 
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=0&sni=YAPC-1.afshin.ir#%F0%9F%8C%BE%F0%9F%8D%847
 
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=0#%40Filter_breaker
 
-hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%40AzarAndoozVPNbot```
 
-hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35200?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9F%A7%87%40AzarAndoozVPNbot```
 
-hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36300?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9F%A7%80%40AzarAndoozVPNbot```
 
-hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36400?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9F%A7%A1%40AzarAndoozVPNbot```
 
-hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36600?sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1#%F0%9F%A7%88%40AzarAndoozVPNbot```
 
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@135.125.204.154:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1#%F0%9F%87%A9%F0%9F%87%AA%40AzarAndoozVPNbot```
 
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.231.121:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#%F0%9F%8D%83%F0%9F%8D%811
 
@@ -605,33 +589,22 @@ hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tl
 
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@51.178.55.157:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0#%40Filter_breaker
 
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@51.178.55.157:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1#%F0%9F%94%A5%40AzarAndoozVPNbot```
 
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@77.90.41.197:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#%F0%9F%8D%83%F0%9F%8D%814
 
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@77.90.41.197:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0#%40Filter_breaker
 
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@77.90.41.197:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1#%F0%9F%A5%9E%40AzarAndoozVPNbot```
 
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@77.90.41.197:35000?sni=jnir.pichondan.com&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1#%F0%9F%87%A9%F0%9F%87%AA%F0%9F%8D%A3%40AzarAndoozVPNbot```
 
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@api.kermanshahi.org:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#%F0%9F%90%87%F0%9F%A6%949
 
-hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@152.67.95.183:443/?mport=35000-39000&insecure=1&sni=www.apple.com#%3E%3E%40oneclickvpnkeys%3A%3ACH
 
-hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@152.67.95.183:443?security=tls&insecure=1&mport=35000-39000&sni=www.apple.com#%3E%3E%40configV2rayNG%3A%3ACH
 
-hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@152.67.95.183:443?security=tls&insecure=1&mport=35000-39000&sni=www.apple.com#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%85%D8%A7%F0%9F%91%88%F0%9F%8F%BB%F0%9F%94%A5%20v2raytunn%40%F0%9F%94%A5
 
-hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@152.67.95.183:443?sni=www.apple.com&insecure=1&mport=35000-39000#%F0%9F%87%A8%F0%9F%87%AD%40AzarAndoozVPNbot```
 
-hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@193.123.76.84:443/?mport=35000-39000&insecure=1&sni=www.apple.com#%3E%3E%40oneclickvpnkeys%3A%3AAE
 
-hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@193.123.76.84:443?security=tls&insecure=1&mport=35000-39000&sni=www.apple.com#%3E%3E%40configV2rayNG%3A%3AAE
 
-hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@193.123.76.84:443?security=tls&insecure=1&mport=35000-39000&sni=www.apple.com#%F0%9F%8E%81%40planbnetvpnbot%20%F0%9F%91%88%D8%AA%D8%B3%D8%AA%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D8%AA%20%D9%85%D9%84%DB%8C
 
-hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@193.123.76.84:443?sni=www.apple.com&insecure=1&mport=35000-39000#%40Filter_breaker
 
 vmess://eyJ2IjogIjIiLCAicHMiOiAi8J+Hq/Cfh7cgMSAtIFZNZXNzIC0gRnJhbmNlIDogNDQzIiwgImFkZCI6ICIyMTcuNjkuNS4zMiIsICJwb3J0IjogNDQzLCAiaWQiOiAiZWM0YzM0OWMtYjNjNi00Y2ZmLWJlNjMtMDFlYWFkMWRjMDk4IiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidGxzIjogIm5vbmUiLCAidHlwZSI6ICJub25lIn0=
 
@@ -692,4 +665,3 @@ vmess://eyJhZGQiOiAienVsYS5pciIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAi
 vmess://eyJhZGQiOiJwbDM3LnNhbGFyNDA0MC5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImJtaS5pciIsImlkIjoiYTFlNmU0ZDItOTY1YS00ZjIzLWRlOGQtZTNmM2JjM2FjYmU5IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiNDQ3MDEiLCJwcyI6Ij4+QGNvbmZpZ1YycmF5Tkc6OkRFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIifQ
 
 vmess://eyJhZGQiOiJwcS1icmF6aWwxLjA5dnBuLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoicHEtYnJhemlsMS4wOXZwbi5jb20iLCJpZCI6ImMwNGMzYjM0LTcwZmQtNGZlYy05NjNlLWMxMmQwOWYzNmJlZiIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzcy8iLCJwb3J0IjoiODAiLCJwcyI6Ij4+QHZtZXNzaXJhbjo6QlIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0
-
