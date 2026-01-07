@@ -389,7 +389,9 @@ def filter_insecure_configs(local_path, data):
 
         result.append(original_line)
 
-    log(f"ℹ️  Отфильтровано {len(splitted) - len(result)} небезопасных конфигов для {local_path}")
+    filtered_count = len(splitted) - len(result)
+    if filtered_count > 0:
+        log(f"ℹ️  Отфильтровано {filtered_count} небезопасных конфигов для {local_path}")
     return "\n".join(result)
 
 def create_filtered_configs():
