@@ -2,7 +2,7 @@ name: Frequent Update
 
 on:
   schedule:
-    - cron: "*/9 * * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -26,6 +26,6 @@ jobs:
 
       - name: Run script
         env:
-          MY_TOKEN: ${{ secrets.MY_TOKEN }}
+          MY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd source && python main.py
