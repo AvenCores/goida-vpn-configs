@@ -393,7 +393,7 @@ def filter_insecure_configs(local_path, data, log_enabled=True):
     
     # Логируем сразу только если это обычные файлы (1-25) и логирование включено
     if filtered_count > 0 and log_enabled:
-        log(f"ℹ️  Отфильтровано {filtered_count} небезопасных конфигов для {local_path}")
+        log(f"ℹ️ Отфильтровано {filtered_count} небезопасных конфигов для {local_path}")
     
     # Возвращаем и текст, и количество удаленных
     return "\n".join(result), filtered_count
