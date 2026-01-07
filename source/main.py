@@ -374,7 +374,7 @@ INSECURE_PATTERN = re.compile(
     re.IGNORECASE
 )
 
-def filter_insecure_configs(local_path, data):
+def filter_insecure_configs(local_path, data, log_enabled=True):
     result = []
     splitted = data.splitlines()
 
@@ -657,7 +657,7 @@ def create_filtered_configs():
         """Загружает конфиги из дополнительного источника без SNI проверки"""
         try:
             data = fetch_data(url)
-            data = filter_insecure_configs("githubmirror/26.txt",data)
+            data = filter_insecure_configs("githubmirror/26.txt", data, log_enabled=False)
             # Принудительное разделение конфигов
             data = re.sub(r'(vmess|vless|trojan|ss|ssr|tuic|hysteria|hysteria2)://', r'\n\1://', data)
             lines = data.splitlines()
