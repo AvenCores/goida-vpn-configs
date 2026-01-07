@@ -11,6 +11,7 @@ import zoneinfo
 import requests
 import urllib3
 import base64
+import html
 import json
 import re
 import os
@@ -347,6 +348,7 @@ def download_and_save(idx):
     local_path = LOCAL_PATHS[idx]
     try:
         data = fetch_data(url)
+        data = filter_insecure_configs(local_path, data)
 
         if os.path.exists(local_path):
             try:
@@ -366,6 +368,29 @@ def download_and_save(idx):
             short_msg = short_msg[:200] + "…"
         log(f"⚠️ Ошибка при скачивании {url}: {short_msg}")
         return None
+
+INSECURE_PATTERN = re.compile(
+    r'(?:[?&;]|3%[Bb])(allowinsecure|allow_insecure|insecure)=(?:1|true|yes)(?:[&;#]|$|(?=\s|$))',
+    re.IGNORECASE
+)
+
+def filter_insecure_configs(local_path, data):
+    result = []
+    splitted = data.splitlines()
+
+    for line in splitted:
+        original_line = line
+
+        processed = line.strip()
+        processed = urllib.parse.unquote(html.unescape(processed))
+
+        if INSECURE_PATTERN.search(processed):
+            continue
+
+        result.append(original_line)
+
+    log(f"ℹ️  Отфильтровано {len(splitted) - len(result)} небезопасных конфигов для {local_path}")
+    return "\n".join(result)
 
 def create_filtered_configs():
     """Создает 26-й файл с конфигами, содержащими указанные SNI домены (Максимальное ускорение)"""
@@ -630,6 +655,7 @@ def create_filtered_configs():
         """Загружает конфиги из дополнительного источника без SNI проверки"""
         try:
             data = fetch_data(url)
+            data = filter_insecure_configs("githubmirror/26.txt",data)
             # Принудительное разделение конфигов
             data = re.sub(r'(vmess|vless|trojan|ss|ssr|tuic|hysteria|hysteria2)://', r'\n\1://', data)
             lines = data.splitlines()
