@@ -341,7 +341,7 @@ def upload_to_github(local_path, remote_path):
             log(f"⚠️ Непредвиденная ошибка при обновлении {remote_path}: {short_msg}")
             return
 
-    log(f"❌ Не удалось обновлить {remote_path} после {max_retries} попыток")
+    log(f"❌ Не удалось обновить {remote_path} после {max_retries} попыток")
 
 def download_and_save(idx):
     url = URLS[idx]
@@ -399,7 +399,7 @@ def filter_insecure_configs(local_path, data, log_enabled=True):
     return "\n".join(result), filtered_count
 
 def create_filtered_configs():
-    """Создает 26-й файл с конфигами, содержащими указанные SNI домены (Максимальное ускорение)"""
+    """Создает 26-й файл с конфигами для SNI/CIDR белых списков"""
     sni_domains = [
         "00.img.avito.st", "01.img.avito.st", "02.img.avito.st", "03.img.avito.st", "04.img.avito.st",
         "05.img.avito.st", "06.img.avito.st", "07.img.avito.st", "08.img.avito.st", "09.img.avito.st",
