@@ -249,7 +249,7 @@ def update_readme_table():
         if new_content != old_content:
             REPO.update_file(
                 path="README.md",
-                message="📝 Обновление таблицы в README.md",
+                message="📝 Обновление таблицы в README.md по часовому поясу Европа/Москва: {offset}",
                 content=new_content,
                 sha=readme_file.sha
             )
