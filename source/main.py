@@ -121,7 +121,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 CHROME_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/138.0.0.0 Safari/537.36"
+    "Chrome/143.0.0.0 Safari/537.36"
 )
 
 DEFAULT_MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "16"))
