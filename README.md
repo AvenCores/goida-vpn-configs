@@ -118,9 +118,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 > ⚠️ **Внимание!** Для iOS и iPadOS актуален только текстовый гайд ниже. Видео гайд актуален только для Android, Android TV, Windows, Linux, MacOS.
 
-[**Смотреть на YouTube**](https://youtu.be/sagz2YluM70)  
-
-[**Смотреть на Dzen**](https://dzen.ru/video/watch/680d58f28c6d3504e953bd6d)  
+[**Смотреть на YouTube**](https://youtu.be/sagz2YluM70)
 
 [**Смотреть на VK Video**](https://vk.com/video-200297343_456239303)
 
