@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-28-Jan-2026 20:01
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-28-Jan-2026 20:58
 
 
 
@@ -496,6 +496,12 @@ vless://83f03646-fb28-44cc-9d2c-8853f6c09285@104.17.162.123:8443?path=%2F%3Fed%3
 vless://73964310-f9a7-48cf-9d37-8c58149341b6@94.140.0.0:80?path=%2F%3Fed%3D2052&amp;security=none&amp;encryption=none&amp;host=panelmarzban.persianfly.org&amp;type=ws#
 vless://73964310-f9a7-48cf-9d37-8c58149341b6@94.140.0.2:8880?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=panelmarzban.persianfly.org&amp;type=httpupgrade#
 vless://73964310-f9a7-48cf-9d37-8c58149341b6@188.114.96.144:8880?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=panelmarzban.persianfly.org&amp;type=httpupgrade#
+vless://f9e6127c-c09f-4f04-b90b-2139a0ae8171@172.64.145.38:8443?alpn=http%2F1.1&amp;encryption=none&amp;fp=chrome&amp;host=fb11oz3xm3yrms2v4saauygi41xft5ezs4qb2y2rk2fsp2coky.zjde5.de5.net&amp;path=%2F%3Fed%3D2560&amp;security=tls&amp;sni=fb11oz3xm3yrms2v4saauygi41xft5ezs4qb2y2rk2fsp2coky.zjde5.de5.net&amp;type=ws#
+vless://9e685fe3-e0f9-482d-939c-200a3f89b363@172.64.145.38:8443?alpn=http%2F1.1&amp;encryption=none&amp;fp=chrome&amp;host=vyznthvt7f5fr.zjde5.de5.net&amp;path=%2F%3Fed%3D2560&amp;security=tls&amp;sni=vyznthvt7f5fr.zjde5.de5.net&amp;type=ws#
+vless://0665cf1e-0df8-4981-a8de-a366e37c0866@104.18.15.19:8443?alpn=http%2F1.1&amp;encryption=none&amp;fp=chrome&amp;host=xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net&amp;path=%2F%3Fed%3D2560&amp;security=tls&amp;sni=xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net&amp;type=ws#
+vless://774f851c-4ad5-4241-98f6-20cd57406e6d@Sh.love-speed.sbs:4500?security=&amp;encryption=none&amp;host=myket.ir&amp;headerType=http&amp;type=tcp#
+vless://774f851c-4ad5-4241-98f6-20cd57406e6d@109.95.65.190:8003?security=&amp;encryption=none&amp;host=myket.ir&amp;headerType=http&amp;type=tcp#
+vless://774f851c-4ad5-4241-98f6-20cd57406e6d@109.95.65.190:8013?security=&amp;encryption=none&amp;host=myket.ir&amp;headerType=http&amp;type=tcp#
 
 vless://b4481397-d602-45d4-8d99-1fc4939d65d4@8.6.112.0:443?path=%2F142.132.140.130%3D447&amp;security=tls&amp;encryption=none&amp;host=cranberry.qzz.io&amp;allowinsecure=0&amp;type=ws&amp;sni=cranberry.qzz.io#%40Vpn_proxy_custom
 vless://b4481397-d602-45d4-8d99-1fc4939d65d4@hell-tawana.lookanet.codes:443?path=%2F142.132.140.130%3D447&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=cranberry.qzz.io&amp;type=ws&amp;allowInsecure=0&amp;sni=cranberry.qzz.io#%40Vpn_proxy_custom
@@ -1581,6 +1587,12 @@ ss://83f03646-fb28-44cc-9d2c-8853f6c09285@104.17.162.123:8443?path=%2F%3Fed%3D%2
 ss://73964310-f9a7-48cf-9d37-8c58149341b6@94.140.0.0:80?path=%2F%3Fed%3D2052&amp;security=none&amp;encryption=none&amp;host=panelmarzban.persianfly.org&amp;type=ws#
 ss://73964310-f9a7-48cf-9d37-8c58149341b6@94.140.0.2:8880?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=panelmarzban.persianfly.org&amp;type=httpupgrade#
 ss://73964310-f9a7-48cf-9d37-8c58149341b6@188.114.96.144:8880?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=panelmarzban.persianfly.org&amp;type=httpupgrade#
+ss://f9e6127c-c09f-4f04-b90b-2139a0ae8171@172.64.145.38:8443?alpn=http%2F1.1&amp;encryption=none&amp;fp=chrome&amp;host=fb11oz3xm3yrms2v4saauygi41xft5ezs4qb2y2rk2fsp2coky.zjde5.de5.net&amp;path=%2F%3Fed%3D2560&amp;security=tls&amp;sni=fb11oz3xm3yrms2v4saauygi41xft5ezs4qb2y2rk2fsp2coky.zjde5.de5.net&amp;type=ws#
+ss://9e685fe3-e0f9-482d-939c-200a3f89b363@172.64.145.38:8443?alpn=http%2F1.1&amp;encryption=none&amp;fp=chrome&amp;host=vyznthvt7f5fr.zjde5.de5.net&amp;path=%2F%3Fed%3D2560&amp;security=tls&amp;sni=vyznthvt7f5fr.zjde5.de5.net&amp;type=ws#
+ss://0665cf1e-0df8-4981-a8de-a366e37c0866@104.18.15.19:8443?alpn=http%2F1.1&amp;encryption=none&amp;fp=chrome&amp;host=xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net&amp;path=%2F%3Fed%3D2560&amp;security=tls&amp;sni=xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net&amp;type=ws#
+ss://774f851c-4ad5-4241-98f6-20cd57406e6d@Sh.love-speed.sbs:4500?security=&amp;encryption=none&amp;host=myket.ir&amp;headerType=http&amp;type=tcp#
+ss://774f851c-4ad5-4241-98f6-20cd57406e6d@109.95.65.190:8003?security=&amp;encryption=none&amp;host=myket.ir&amp;headerType=http&amp;type=tcp#
+ss://774f851c-4ad5-4241-98f6-20cd57406e6d@109.95.65.190:8013?security=&amp;encryption=none&amp;host=myket.ir&amp;headerType=http&amp;type=tcp#
 
 ss://b4481397-d602-45d4-8d99-1fc4939d65d4@8.6.112.0:443?path=%2F142.132.140.130%3D447&amp;security=tls&amp;encryption=none&amp;host=cranberry.qzz.io&amp;allowinsecure=0&amp;type=ws&amp;sni=cranberry.qzz.io#%40Vpn_proxy_custom
 ss://b4481397-d602-45d4-8d99-1fc4939d65d4@hell-tawana.lookanet.codes:443?path=%2F142.132.140.130%3D447&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=cranberry.qzz.io&amp;type=ws&amp;allowInsecure=0&amp;sni=cranberry.qzz.io#%40Vpn_proxy_custom
