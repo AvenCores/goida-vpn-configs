@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-29-Jan-2026 16:15
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-29-Jan-2026 17:26
 
 
 
@@ -640,17 +640,14 @@ vless://563e4ed0-9473-4d66-aca8-e23c641042a6@free.miladiran1.shop:2002?security=
 
 
 
-vless://2b7a1667-345e-4fdf-b1a7-4957435be682@Up.love-speed.sbs:7567?security=reality&amp;type=tcp&amp;headerType=&amp;path=&amp;host=&amp;sni=excoino.com&amp;fp=firefox&amp;pbk=DSF9EhsLMGd7Clgh7PhrY4AmCxIYtCnATRrzA2sVTis&amp;sid=abb50e&amp;spx=%2F#%F0%9F%87%A9%F0%9F%87%AA%20%F0%9D%90%86%F0%…
 
 
 
 
-vless://e894ac84-1e0a-4407-a739-af856393ba8f@nl.milad-ku.me:34608/?type=tcp&amp;encryption=none&amp;flow=#%40Network_442_%20vles%20%289%29
-vless://adaa4ecc-6d82-49c6-9b01-14f6f8e00e08@188.114.98.0:443/?type=ws&amp;encryption=none&amp;flow=&amp;host=BuPwFrVsD0.gIgAcOnFaPp.InFo&amp;path=%2F&amp;security=tls&amp;sni=BuPwFrVsD0.gIgAcOnFaPp.InFo#%40Network_442_%20vles%20%2810%29
 
 
-vless://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@188.114.98.0:443?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=l.ayovo.netlib.re&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=l.ayovo.netlib.re#Allnet%20%7C%20telegram%3A%20%40ultrasurf_12
-vless://60b06b38-77cc-470a-a3f4-2bcffce72e31@pypi.org:80?path=%2Fdownload&amp;security=none&amp;encryption=none&amp;host=sabzeu.global.ssl.fastly.net&amp;type=ws#Allnet%20%7C%20telegram%3A%20%40ultrasurf_12
+
+
 vless://83adcc98-ac23-4e51-9ae0-788a73fd9939@104.17.163.123:8443?path=%2F%3Fed%3D2560&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net#Allnet%20%7C%20telegram%3A%20%40ultrasurf_12
 vless://4525c260-df3c-4f62-b8f1-f4f5f305694b@66.81.247.155:443?path=%2F%3Fed%3D%23TELEGRAM-ALIXTSO%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net#Allnet%20%7C%20telegram%3A%20%40ultrasurf_12
 vless://83adcc98-ac23-4e51-9ae0-788a73fd9939@104.17.163.123:8443?path=%2F&amp;security=tls&amp;encryption=none&amp;alpn=http/1.1&amp;host=vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net&amp;fp=chrome&amp;type=ws&amp;sni=vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net#Allnet+telegram%3A%40ultrasurf_12
@@ -865,7 +862,8 @@ vmess://eyJhZGQiOiJzZWxsdmlwdnBuLm15aXJhbjEucHciLCJhaWQiOiIwIiwiaG9zdCI6InNuYXBw
 
 
 
-
+vmess://eyJhZGQiOiJ0MS42MjA3MjAueHl6IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ0MS42MjA3MjAueHl6IiwiaWQiOiI1MTZkOGE3YS0zZjBiLTQxZDMtYmFkMC0yNDYxMTYzODE1MTYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkBOZXR3b3JrXzQ0Ml8gaGFtZWRfZmlsdGVyIPCfh6zwn4enICAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoidDEuNjIwNzIwLnh5eiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiJuMTc2MTIxNDkwOC53cGcyNy54eXoiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im4xNzYxMjE0OTA4LndwZzI3Lnh5eiIsImlkIjoiMzUxNGE5M2YtYmIyNi00NDQyLThmOTktOTcxYjJmZjMzODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI0NDMiLCJwcyI6IkBOZXR3b3JrXzQ0Ml8gaGVtZWRfIGZpbHRlciDwn4et8J+HsCAoNSkiLCJzY3kiOiJhdXRvIiwic25pIjoibjE3NjEyMTQ5MDgud3BnMjcueHl6IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
 
 
 vmess://eyJhZGQiOiIxNjIuMTU5LjE1Mi40IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJ2MnJheS5jb2RlZnlpbmMuY29tIiwiaWQiOiIyYzk4MTE2NC05YjkzLTRiY2EtOTRmZi1iNzhkM2Y4NDk4ZDciLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3N3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkFsbG5ldCB8IHRlbGVncmFtOiBAdWx0cmFzdXJmXzEyIiwic2N5IjoiYXV0byIsInNuaSI6InYycmF5LmNvZGVmeWluYy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
@@ -1826,20 +1824,21 @@ ss://563e4ed0-9473-4d66-aca8-e23c641042a6@free.miladiran1.shop:2002?security=non
 
 
 
-ss://2b7a1667-345e-4fdf-b1a7-4957435be682@Up.love-speed.sbs:7567?security=reality&amp;type=tcp&amp;headerType=&amp;path=&amp;host=&amp;sni=excoino.com&amp;fp=firefox&amp;pbk=DSF9EhsLMGd7Clgh7PhrY4AmCxIYtCnATRrzA2sVTis&amp;sid=abb50e&amp;spx=%2F#%F0%9F%87%A9%F0%9F%87%AA%20%F0%9D%90%86%F0%…
 
 
 
 
-ss://e894ac84-1e0a-4407-a739-af856393ba8f@nl.milad-ku.me:34608/?type=tcp&amp;encryption=none&amp;flow=#%40Network_442_%20vles%20%289%29
-ss://adaa4ecc-6d82-49c6-9b01-14f6f8e00e08@188.114.98.0:443/?type=ws&amp;encryption=none&amp;flow=&amp;host=BuPwFrVsD0.gIgAcOnFaPp.InFo&amp;path=%2F&amp;security=tls&amp;sni=BuPwFrVsD0.gIgAcOnFaPp.InFo#%40Network_442_%20vles%20%2810%29
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#%40Network_442_%20%40%20ss%20%281%29
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.199:8080#%40Network_442_+ss_+28+January+%281%29
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08=@57.129.140.88:8388#%40Network_442_+ss_+28+January+%283%29
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#%40Network_442_%20hamed_filter%20%F0%9F%87%AC%F0%9F%87%A7
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#%40Network_442_%20hamed_filter%20%F0%9F%87%AC%F0%9F%87%A7%20%282%29
+ss://eyJhZGQiOiJ0MS42MjA3MjAueHl6IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ0MS42MjA3MjAueHl6IiwiaWQiOiI1MTZkOGE3YS0zZjBiLTQxZDMtYmFkMC0yNDYxMTYzODE1MTYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkBOZXR3b3JrXzQ0Ml8gaGFtZWRfZmlsdGVyIPCfh6zwn4enICAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoidDEuNjIwNzIwLnh5eiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+ss://eyJhZGQiOiJuMTc2MTIxNDkwOC53cGcyNy54eXoiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im4xNzYxMjE0OTA4LndwZzI3Lnh5eiIsImlkIjoiMzUxNGE5M2YtYmIyNi00NDQyLThmOTktOTcxYjJmZjMzODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI0NDMiLCJwcyI6IkBOZXR3b3JrXzQ0Ml8gaGVtZWRfIGZpbHRlciDwn4et8J+HsCAoNSkiLCJzY3kiOiJhdXRvIiwic25pIjoibjE3NjEyMTQ5MDgud3BnMjcueHl6IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#%40Network_442_%20hamed_filter%20%F0%9F%87%AC%F0%9F%87%A7%20%286%29
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.184:8080#%40Network_442_%20hamed_filter%20%F0%9F%87%AC%F0%9F%87%A7%20%288%29
 
 
-ss://3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97@188.114.98.0:443?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=l.ayovo.netlib.re&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=l.ayovo.netlib.re#Allnet%20%7C%20telegram%3A%20%40ultrasurf_12
-ss://60b06b38-77cc-470a-a3f4-2bcffce72e31@pypi.org:80?path=%2Fdownload&amp;security=none&amp;encryption=none&amp;host=sabzeu.global.ssl.fastly.net&amp;type=ws#Allnet%20%7C%20telegram%3A%20%40ultrasurf_12
 ss://83adcc98-ac23-4e51-9ae0-788a73fd9939@104.17.163.123:8443?path=%2F%3Fed%3D2560&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net#Allnet%20%7C%20telegram%3A%20%40ultrasurf_12
 ss://4525c260-df3c-4f62-b8f1-f4f5f305694b@66.81.247.155:443?path=%2F%3Fed%3D%23TELEGRAM-ALIXTSO%3Fed%3D512&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net#Allnet%20%7C%20telegram%3A%20%40ultrasurf_12
 ss://eyJhZGQiOiIxNjIuMTU5LjE1Mi40IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJ2MnJheS5jb2RlZnlpbmMuY29tIiwiaWQiOiIyYzk4MTE2NC05YjkzLTRiY2EtOTRmZi1iNzhkM2Y4NDk4ZDciLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3N3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkFsbG5ldCB8IHRlbGVncmFtOiBAdWx0cmFzdXJmXzEyIiwic2N5IjoiYXV0byIsInNuaSI6InYycmF5LmNvZGVmeWluYy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
