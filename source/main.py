@@ -84,7 +84,7 @@ URLS = [
     "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all", #12
     "https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt", #13
     "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes", #14
-    "https://raw.githubusercontent.com/miladtahanian/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt", #15
+    "https://github.com/miladtahanian/Config-Collector/raw/refs/heads/main/vless_iran.txt", #15
     "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub", #16
     "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt", #17
     "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vmess.txt", #18
