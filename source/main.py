@@ -105,7 +105,7 @@ EXTRA_URLS_FOR_26 = [
     "https://raw.githubusercontent.com/zieng2/wl/refs/heads/main/vless_universal.txt",
     "https://raw.githubusercontent.com/zieng2/wl/main/vless_lite.txt",
     "https://raw.githubusercontent.com/EtoNeYaProject/etoneyaproject.github.io/refs/heads/main/2",
-    "https://s3c3.001.gpucloud.ru/dixsm/htxml",
+    "https://raw.githubusercontent.com/gbwltg/gbwl/refs/heads/main/m2EsPqwmlc",
     "https://bp.wl.free.nf/confs/wl.txt",
     "https://nowmeow.pw/8ybBd3fdCAQ6Ew5H0d66Y1hMbh63GpKUtEXQClIu/whitelist",
 ]
