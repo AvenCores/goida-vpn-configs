@@ -133,6 +133,22 @@ python main.py                  # конфиги появятся в ../githubmi
 
 ---
 
+# 🎦 Обход SNI/CIDR белых списков
+
+![maxresdefault](https://github.com/user-attachments/assets/63397f2f-4aca-44c3-bd2e-ed9d629388c6)
+
+<div align="center">
+
+[**Смотреть на YouTube**](https://youtu.be/uz6JmOO7sGU)
+
+[**Смотреть на VK Video**](https://vk.ru/video-234234162_456239052)
+
+[**Смотреть в Telegram**](https://t.me/avencoreschat/346024)
+
+</div>
+
+---
+
 # 🗂️ Общее меню гайдов репозитория
 
 <details>
