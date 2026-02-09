@@ -133,7 +133,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 ---
 
-# 🎦 Обход SNI/CIDR белых списков
+# 🎦 Видео гайд по обходу SNI/CIDR белых списков
 
 ![maxresdefault](https://github.com/user-attachments/assets/63397f2f-4aca-44c3-bd2e-ed9d629388c6)
 
