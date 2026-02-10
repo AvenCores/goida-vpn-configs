@@ -219,21 +219,79 @@ def extract_source_name(url: str) -> str:
     except:
         return "Источник"
 
+def _traffic_counts(traffic) -> tuple[int, int]:
+    """Извлекает count/uniques из разных форматов ответа GitHub API."""
+    if traffic is None:
+        return 0, 0
+
+    # Формат: (count, uniques, <list>)
+    if isinstance(traffic, tuple) and len(traffic) >= 2:
+        if isinstance(traffic[0], (int, float)) and isinstance(traffic[1], (int, float)):
+            return int(traffic[0]), int(traffic[1])
+
+    # Формат: dict
+    if isinstance(traffic, dict):
+        if "count" in traffic or "uniques" in traffic:
+            return int(traffic.get("count", 0)), int(traffic.get("uniques", 0))
+        items = traffic.get("views") or traffic.get("clones") or []
+        return _sum_traffic_items(items)
+
+    # Формат: объект с полями count/uniques
+    if hasattr(traffic, "count") and hasattr(traffic, "uniques"):
+        return int(getattr(traffic, "count", 0) or 0), int(getattr(traffic, "uniques", 0) or 0)
+
+    # Формат: объект с views/clones
+    for attr in ("views", "clones"):
+        if hasattr(traffic, attr):
+            items = getattr(traffic, attr) or []
+            return _sum_traffic_items(items)
+
+    # Формат: raw_data
+    if hasattr(traffic, "raw_data"):
+        raw = getattr(traffic, "raw_data") or {}
+        if isinstance(raw, dict):
+            if "count" in raw or "uniques" in raw:
+                return int(raw.get("count", 0)), int(raw.get("uniques", 0))
+            items = raw.get("views") or raw.get("clones") or []
+            return _sum_traffic_items(items)
+
+    # Формат: список объектов
+    if isinstance(traffic, (list, tuple)):
+        return _sum_traffic_items(traffic)
+
+    return 0, 0
+
+def _sum_traffic_items(items) -> tuple[int, int]:
+    total_count = 0
+    total_uniques = 0
+    for item in items or []:
+        if isinstance(item, dict):
+            total_count += int(item.get("count", 0) or 0)
+            total_uniques += int(item.get("uniques", 0) or 0)
+            continue
+        if hasattr(item, "count"):
+            total_count += int(getattr(item, "count", 0) or 0)
+        if hasattr(item, "uniques"):
+            total_uniques += int(getattr(item, "uniques", 0) or 0)
+    return total_count, total_uniques
+
 def _get_repo_stats() -> dict | None:
     """Получает статистику репозитория за 14 дней (просмотры/клоны)."""
     stats: dict[str, int] = {}
     try:
         views = REPO.get_views_traffic()
-        stats["views_count"] = int(views.get("count", 0))
-        stats["views_uniques"] = int(views.get("uniques", 0))
+        views_count, views_uniques = _traffic_counts(views)
+        stats["views_count"] = views_count
+        stats["views_uniques"] = views_uniques
     except Exception as e:
         log(f"⚠️ Не удалось получить просмотры (traffic views): {e}")
         return None
 
     try:
         clones = REPO.get_clones_traffic()
-        stats["clones_count"] = int(clones.get("count", 0))
-        stats["clones_uniques"] = int(clones.get("uniques", 0))
+        clones_count, clones_uniques = _traffic_counts(clones)
+        stats["clones_count"] = clones_count
+        stats["clones_uniques"] = clones_uniques
     except Exception as e:
         log(f"⚠️ Не удалось получить клоны (traffic clones): {e}")
         return None
