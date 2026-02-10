@@ -299,12 +299,18 @@ def _get_repo_stats() -> dict | None:
     return stats
 
 def _build_repo_stats_table(stats: dict) -> str:
+    def _format_num(value) -> str:
+        try:
+            return f"{int(value):,}"
+        except Exception:
+            return str(value)
+
     header = "| Показатель | Значение |\n|--|--|"
     rows = [
-        f"| Просмотры (14д) | {stats['views_count']} |",
-        f"| Клоны (14д) | {stats['clones_count']} |",
-        f"| Уникальные клоны (14д) | {stats['clones_uniques']} |",
-        f"| Уникальные посетители (14д) | {stats['views_uniques']} |",
+        f"| Просмотры (14д) | {_format_num(stats['views_count'])} |",
+        f"| Клоны (14д) | {_format_num(stats['clones_count'])} |",
+        f"| Уникальные клоны (14д) | {_format_num(stats['clones_uniques'])} |",
+        f"| Уникальные посетители (14д) | {_format_num(stats['views_uniques'])} |",
     ]
     return header + "\n" + "\n".join(rows)
 
