@@ -107,6 +107,7 @@ EXTRA_URLS_FOR_26 = [
     "https://raw.githubusercontent.com/EtoNeYaProject/etoneyaproject.github.io/refs/heads/main/2",
     "https://raw.githubusercontent.com/gbwltg/gbwl/refs/heads/main/m2EsPqwmlc",
     "https://bp.wl.free.nf/confs/wl.txt",
+    "https://storage.yandexcloud.net/cid-vpn/whitelist.txt"
 ]
 
 # Best-effort fetch tuning for optional sources (26-й файл)
