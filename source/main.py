@@ -82,7 +82,7 @@ URLS = [
     "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless", #10
     "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt", #11
     "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/all", #12
-    "https://github.com/Kwinshadow/TelegramV2rayCollector/raw/refs/heads/main/sublinks/mix.txt", #13
+    "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt", #13
     "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes", #14
     "https://github.com/miladtahanian/Config-Collector/raw/refs/heads/main/vless_iran.txt", #15
     "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub", #16
