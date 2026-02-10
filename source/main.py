@@ -219,8 +219,46 @@ def extract_source_name(url: str) -> str:
     except:
         return "Источник"
 
+def _get_repo_stats() -> dict | None:
+    """Получает статистику репозитория за 14 дней (просмотры/клоны)."""
+    stats: dict[str, int] = {}
+    try:
+        views = REPO.get_views_traffic()
+        stats["views_count"] = int(views.get("count", 0))
+        stats["views_uniques"] = int(views.get("uniques", 0))
+    except Exception as e:
+        log(f"⚠️ Не удалось получить просмотры (traffic views): {e}")
+        return None
+
+    try:
+        clones = REPO.get_clones_traffic()
+        stats["clones_count"] = int(clones.get("count", 0))
+        stats["clones_uniques"] = int(clones.get("uniques", 0))
+    except Exception as e:
+        log(f"⚠️ Не удалось получить клоны (traffic clones): {e}")
+        return None
+
+    return stats
+
+def _build_repo_stats_table(stats: dict) -> str:
+    header = "| Показатель | Значение |\n|--|--|"
+    rows = [
+        f"| Просмотры (14д) | {stats['views_count']} |",
+        f"| Клоны (14д) | {stats['clones_count']} |",
+        f"| Уникальные клоны (14д) | {stats['clones_uniques']} |",
+        f"| Уникальные посетители (14д) | {stats['views_uniques']} |",
+    ]
+    return header + "\n" + "\n".join(rows)
+
+def _insert_repo_stats_section(content: str, stats_section: str) -> str:
+    pattern = r"(\| № \| Файл \| Источник \| Время \| Дата \|[\s\S]*?\|--\|--\|--\|--\|--\|[\s\S]*?\n)(?=\n## )"
+    match = re.search(pattern, content)
+    if not match:
+        return content.rstrip() + "\n\n" + stats_section + "\n"
+    return re.sub(pattern, lambda m: m.group(1) + "\n" + stats_section, content, count=1)
+
 def update_readme_table():
-    """Обновляет таблицу в README.md с информацией о времени последнего обновления"""
+    """Обновляет таблицы в README.md: статус конфигов и статистику репозитория"""
     try:
         # Получаем текущий README.md
         try:
@@ -278,6 +316,18 @@ def update_readme_table():
         # Заменяем таблицу в README.md
         table_pattern = r"\| № \| Файл \| Источник \| Время \| Дата \|[\s\S]*?\|--\|--\|--\|--\|--\|[\s\S]*?(\n\n## |$)"
         new_content = re.sub(table_pattern, new_table + r"\1", old_content)
+
+        # Обновляем секцию статистики репозитория
+        repo_stats = _get_repo_stats()
+        if repo_stats:
+            stats_section = "## 📊 Статистика репозитория\n" + _build_repo_stats_table(repo_stats) + "\n"
+            stats_pattern = r"## 📊 Статистика репозитория\s*\n[\s\S]*?(?=\n## |\Z)"
+            if re.search(stats_pattern, new_content):
+                new_content = re.sub(stats_pattern, stats_section, new_content)
+            else:
+                new_content = _insert_repo_stats_section(new_content, stats_section)
+        else:
+            log("⚠️ Статистика репозитория недоступна, раздел не обновлён.")
 
         if new_content != old_content:
             REPO.update_file(
@@ -797,8 +847,8 @@ def main(dry_run: bool = False):
     if not dry_run:
         upload_to_github(local_path_26, "githubmirror/26.txt")
 
-    # Обновляем таблицу в README.md после всех загрузок
-    if not dry_run and updated_files:
+    # Обновляем таблицы в README.md после всех загрузок
+    if not dry_run:
         update_readme_table()
 
     # Вывод логов
