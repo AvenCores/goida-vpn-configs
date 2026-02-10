@@ -307,10 +307,10 @@ def _build_repo_stats_table(stats: dict) -> str:
 
     header = "| Показатель | Значение |\n|--|--|"
     rows = [
-        f"| Просмотры (14д) | {_format_num(stats['views_count'])} |",
-        f"| Клоны (14д) | {_format_num(stats['clones_count'])} |",
-        f"| Уникальные клоны (14д) | {_format_num(stats['clones_uniques'])} |",
-        f"| Уникальные посетители (14д) | {_format_num(stats['views_uniques'])} |",
+        f"| Просмотры (14Д) | {_format_num(stats['views_count'])} |",
+        f"| Клоны (14Д) | {_format_num(stats['clones_count'])} |",
+        f"| Уникальные клоны (14Д) | {_format_num(stats['clones_uniques'])} |",
+        f"| Уникальные посетители (14Д) | {_format_num(stats['views_uniques'])} |",
     ]
     return header + "\n" + "\n".join(rows)
 
