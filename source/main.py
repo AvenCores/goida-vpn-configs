@@ -110,6 +110,10 @@ EXTRA_URLS_FOR_26 = [
     "https://nowmeow.pw/8ybBd3fdCAQ6Ew5H0d66Y1hMbh63GpKUtEXQClIu/whitelist",
 ]
 
+# Best-effort fetch tuning for optional sources (26-й файл)
+EXTRA_URL_TIMEOUT = int(os.environ.get("EXTRA_URL_TIMEOUT", "6"))
+EXTRA_URL_MAX_ATTEMPTS = int(os.environ.get("EXTRA_URL_MAX_ATTEMPTS", "2"))
+
 REMOTE_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 LOCAL_PATHS = [f"githubmirror/{i+1}.txt" for i in range(len(URLS))]
 
@@ -146,7 +150,13 @@ def _build_session(max_pool_size: int) -> requests.Session:
 
 REQUESTS_SESSION = _build_session(max_pool_size=max(DEFAULT_MAX_WORKERS, len(URLS))) if 'URLS' in globals() else _build_session(DEFAULT_MAX_WORKERS)
 
-def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3, session: requests.Session | None = None) -> str:
+def fetch_data(
+    url: str,
+    timeout: int = 10,
+    max_attempts: int = 3,
+    session: requests.Session | None = None,
+    allow_http_downgrade: bool = True,
+) -> str:
     sess = session or REQUESTS_SESSION
     for attempt in range(1, max_attempts + 1):
         try:
@@ -157,7 +167,7 @@ def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3, session: requ
                 verify = False
             elif attempt == 3:
                 parsed = urllib.parse.urlparse(url)
-                if parsed.scheme == "https":
+                if parsed.scheme == "https" and allow_http_downgrade:
                     modified_url = parsed._replace(scheme="http").geturl()
                 verify = False
 
@@ -170,6 +180,28 @@ def fetch_data(url: str, timeout: int = 10, max_attempts: int = 3, session: requ
             if attempt < max_attempts:
                 continue
             raise last_exc
+
+def _format_fetch_error(exc: Exception) -> str:
+    if isinstance(exc, requests.exceptions.ConnectTimeout):
+        return "Connect timeout"
+    if isinstance(exc, requests.exceptions.ReadTimeout):
+        return "Read timeout"
+    if isinstance(exc, requests.exceptions.Timeout):
+        return "Timeout"
+    if isinstance(exc, requests.exceptions.SSLError):
+        return "TLS error"
+    if isinstance(exc, requests.exceptions.HTTPError):
+        try:
+            status = exc.response.status_code
+            return f"HTTP {status}"
+        except Exception:
+            return "HTTP error"
+    if isinstance(exc, requests.exceptions.ConnectionError):
+        return "Connection error"
+    msg = str(exc)
+    if len(msg) > 160:
+        msg = msg[:160] + "…"
+    return msg
 
 def save_to_local_file(path, content):
     with open(path, "w", encoding="utf-8") as file:
@@ -672,7 +704,12 @@ def create_filtered_configs():
         count_removed = 0
         configs = []
         try:
-            data = fetch_data(url)
+            data = fetch_data(
+                url,
+                timeout=EXTRA_URL_TIMEOUT,
+                max_attempts=EXTRA_URL_MAX_ATTEMPTS,
+                allow_http_downgrade=False,
+            )
             # Вызываем с log_enabled=False, но забираем count
             data, count = filter_insecure_configs("githubmirror/26.txt", data, log_enabled=False)
             count_removed = count
@@ -684,10 +721,7 @@ def create_filtered_configs():
                 if line and not line.startswith('#'):
                     configs.append(line)
         except Exception as e:
-            short_msg = str(e)
-            if len(short_msg) > 200:
-                short_msg = short_msg[:200] + "…"
-            log(f"⚠️ Ошибка при загрузке {url}: {short_msg}")
+            log(f"⚠️ Ошибка при загрузке {url}: {_format_fetch_error(e)}")
         
         # Возвращаем конфиги и количество удаленных
         return configs, count_removed
