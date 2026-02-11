@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-11-Feb-2026 14:14
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-11-Feb-2026 15:11
 
 
 
@@ -637,6 +637,12 @@ vless://7d680304-b026-48fd-d8bf-6aa209b424c5@3.122.204.84:19592?security=&amp;en
 vless://4bb175e9-436c-4449-a5db-3ccbfcb28022@3.125.6.39:29044?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#%40vmess_iran%3E15%3C
 vless://7a5dc2d1-8560-47de-8df9-2a1c5f8fd3ec@3.123.24.207:16763?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#%40VpnMaan%3E16%3C
 vless://7396c077-f5cb-4808-84ca-92f268d79b3d@3.64.178.32:443?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#%40vmess_iran%3E17%3C
+vless://19a1e5b1-6289-4fe6-9aad-be285510942d@av.nexconnx.com:8080?security=none&amp;encryption=none&amp;host=check-host.net&amp;headerType=http&amp;type=tcp#%40vmess_iran
+vless://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925?security=reality&amp;encryption=none&amp;pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com#%40vmess_iran
+vless://ff6fb512-147d-419a-9672-e131133f7189@lt-cherry-01.com:8443?security=reality&amp;encryption=none&amp;pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=tradingview.com&amp;sid=e0ef3d5c0aacb615#%40vmess_iran
+vless://19a1e5b1-6289-4fe6-9aad-be285510942d@av.nexconnx.com:8080?security=none&amp;encryption=none&amp;host=check-host.net&amp;headerType=http&amp;type=tcp#%40vmess_iran
+vless://61076cc8-6d63-4dbf-80b9-6c6d70f934ab@wolfb03.serverp1anel.ir:8080?security=reality&amp;encryption=none&amp;pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&amp;headerType=none&amp;fp=firefox&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=chatgpt.com&amp;sid=b7b70c104ad267b8#%40vmess_iran
+vless://fef4a93d-eb4f-4657-b56b-32a0dc060045@nodejs.org:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=dev.nestandneighbours.com&amp;type=ws&amp;allowInsecure=0&amp;sni=dev.nestandneighbours.com#%40vmess_iran
 
 
 
@@ -1065,7 +1071,7 @@ vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7NfQ05f5Lit5Zu9LT7wn4e68J+HuF9VU1/nvo7lm70i
 
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkBpcmFudnBuZXQiLA0KICAiYWRkIjogIm11dGUtbWF0aC1kNjRlLjBlNTAzOTkyYWQ3MDI2LldPcktFUnMuZGVWIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAibXV0ZS1tYXRoLWQ2NGUuMGU1MDM5OTJhZDcwMjYud29SS0VSUy5EZVYiLA0KICAicGF0aCI6ICIvYXZlaXJvci5jb206NDQzL2xpbmt2d3MiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAibXV0ZS1tYXRoLWQ2NGUuMGU1MDM5OTJhZDcwMjYud29SS0VSUy5EZVYiLA0KICAiYWxwbiI6ICJoMyxoMixodHRwLzEuMSIsDQogICJmcCI6ICJlZGdlIg0KfQ==
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkBpcmFudnBuZXQiLA0KICAiYWRkIjogIm11dGUtbWF0aC1kNjRlLjBlNTAzOTkyYWQ3MDI2LldPcktFUnMuZGVWIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAibXV0ZS1tYXRoLWQ2NGUuMGU1MDM5OTJhZDcwMjYud29SS0VSUy5EZVYiLA0KICAicGF0aCI6ICIvYXZlaXJvci5jb206NDQzL2xpbmt2d3MiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAibXV0ZS1tYXRoLWQ2NGUuMGU1MDM5OTJhZDcwMjYud29SS0VSUy5EZVYiLA0KICAiYWxwbiI6ICJoMyxoMixodHRwLzEuMSIsDQogICJmcCI6ICJlZGdlIg0KfQ==
-
+vmess://eyJhZGQiOiI4NS4xNy4xOTIuMTEwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJmYXN0LmNvbSIsImlkIjoiZWY5ODRkMTktNGRmNy00NTkyLThjYTgtYTNmNjU4Yjc4YzBhIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjMiLCJwcyI6IkBGYXJhelYycmF5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIifQ==
 
 
 
@@ -1093,7 +1099,8 @@ vmess://eyJhZGQiOiJzZWxsdmlwdnBuLm15aXJhbjEucHciLCJhaWQiOiIwIiwiaG9zdCI6InNuYXBw
 
 
 
-
+vmess://eyJhZGQiOiIyMC4xOTMuMTUzLjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjM5YThjMzc0LTc2YjEtNGU5MC1hYjg1LTg1Y2Q5YTQyZGVkMiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTU4MzQiLCJwcyI6IkBOZXR3b3JrXzQ0Ml8gZmFzdGVyIPCfkqoiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
+vmess://eyJhZGQiOiIyMC4xOTMuMTUzLjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjM5YThjMzc0LTc2YjEtNGU5MC1hYjg1LTg1Y2Q5YTQyZGVkMiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTU4MzQiLCJwcyI6IkBOZXR3b3JrXzQ0Ml8gZmFzdGVyIPCfkqoiLCJzY3kiOiJhdXR…
 
 
 
@@ -2154,6 +2161,14 @@ ss://7d680304-b026-48fd-d8bf-6aa209b424c5@3.122.204.84:19592?security=&amp;encry
 ss://4bb175e9-436c-4449-a5db-3ccbfcb28022@3.125.6.39:29044?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#%40vmess_iran%3E15%3C
 ss://7a5dc2d1-8560-47de-8df9-2a1c5f8fd3ec@3.123.24.207:16763?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#%40VpnMaan%3E16%3C
 ss://7396c077-f5cb-4808-84ca-92f268d79b3d@3.64.178.32:443?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#%40vmess_iran%3E17%3C
+ss://eyJhZGQiOiI4NS4xNy4xOTIuMTEwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJmYXN0LmNvbSIsImlkIjoiZWY5ODRkMTktNGRmNy00NTkyLThjYTgtYTNmNjU4Yjc4YzBhIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTY2MjMiLCJwcyI6IkBGYXJhelYycmF5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIifQ==
+ss://19a1e5b1-6289-4fe6-9aad-be285510942d@av.nexconnx.com:8080?security=none&amp;encryption=none&amp;host=check-host.net&amp;headerType=http&amp;type=tcp#%40vmess_iran
+ss://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925?security=reality&amp;encryption=none&amp;pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com#%40vmess_iran
+ss://ff6fb512-147d-419a-9672-e131133f7189@lt-cherry-01.com:8443?security=reality&amp;encryption=none&amp;pbk=L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=tradingview.com&amp;sid=e0ef3d5c0aacb615#%40vmess_iran
+ss://19a1e5b1-6289-4fe6-9aad-be285510942d@av.nexconnx.com:8080?security=none&amp;encryption=none&amp;host=check-host.net&amp;headerType=http&amp;type=tcp#%40vmess_iran
+ss://61076cc8-6d63-4dbf-80b9-6c6d70f934ab@wolfb03.serverp1anel.ir:8080?security=reality&amp;encryption=none&amp;pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&amp;headerType=none&amp;fp=firefox&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=chatgpt.com&amp;sid=b7b70c104ad267b8#%40vmess_iran
+ss://fef4a93d-eb4f-4657-b56b-32a0dc060045@nodejs.org:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=dev.nestandneighbours.com&amp;type=ws&amp;allowInsecure=0&amp;sni=dev.nestandneighbours.com#%40vmess_iran
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@136.244.100.113:443#%40vmess_iran
 
 
 
@@ -2318,12 +2333,13 @@ ss://57c38ff0-81c1-4ee1-8e56-e8b26d1441b7@vip2022.stron-vip.ir:44382?type=tcp&am
 
 
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#%40Network_442_%20%F0%9F%87%AC%F0%9F%87%A7%F0%9F%9A%805%20WIFI%20
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNmIwOTczNDAxODU4YjI5@57.129.95.198:11201#%40Network_442_%20ss%20%F0%9F%87%A9%F0%9F%87%AA
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxWFNIRmpYTUxEZWR0TUxKTEdESWU4@46.246.97.195:23931#%40Network_442_%20ss%20%20Sweden
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#%40Network_442_%20ss%20%F0%9F%87%B3%F0%9F%87%B1
 ss://cbf05dc7-02a8-4488-ad11-3ed4570cd699@gfnfhyhttgbrtgbrtgbrtttyht7.arenafile.com:33431/?type=tcp&amp;encryption=none&amp;flow=&amp;sni=www.icloud.com&amp;fp=chrome&amp;security=reality&amp;pbk=DQjRDYsGHriGDOyYw4ikOCgg8fnPoK6Hw74wuio7qyk&amp;sid=cceca309a6cd013a#%40Network_442_%2010%20Feb%20%F0%9F%87%A9%F0%9F%87%AA
 ss://cbf05dc7-02a8-4488-ad11-3ed4570cd699@gfnfhyhttgbrtgbrtgbrtttyht7.arenafile.com:33431/?type=tcp&amp;encryption=none&amp;flow=&amp;sni=www.icloud.com&amp;fp=chrome&amp;security=reality&amp;pbk=DQjRDYsGHriGDOyYw4ikOCgg8fnPoK6Hw74wuio7qyk&amp;sid=cceca309a6cd013a#%40Networ…
+ss://eyJhZGQiOiIyMC4xOTMuMTUzLjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjM5YThjMzc0LTc2YjEtNGU5MC1hYjg1LTg1Y2Q5YTQyZGVkMiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTU4MzQiLCJwcyI6IkBOZXR3b3JrXzQ0Ml8gZmFzdGVyIPCfkqoiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
+ss://eyJhZGQiOiIyMC4xOTMuMTUzLjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjM5YThjMzc0LTc2YjEtNGU5MC1hYjg1LTg1Y2Q5YTQyZGVkMiIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTU4MzQiLCJwcyI6IkBOZXR3b3JrXzQ0Ml8gZmFzdGVyIPCfkqoiLCJzY3kiOiJhdXR…
 
 
 
@@ -2598,7 +2614,7 @@ trojan://telegram-id-privatevpns@63.176.182.62:22222?allowInsecure=0&amp;sni=tro
 
 
 
-
+trojan://humanity@172.64.152.23:443?path=%2Fassignment&amp;security=tls&amp;insecure=0&amp;host=www.creationlong.org&amp;type=ws&amp;allowInsecure=0&amp;sni=www.creationlong.org#%40vmess_iran
 
 
 
