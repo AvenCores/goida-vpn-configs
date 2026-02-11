@@ -87,7 +87,7 @@ URLS = [
     "https://github.com/miladtahanian/Config-Collector/raw/refs/heads/main/vless_iran.txt", #15
     "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub", #16
     "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt", #17
-    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vmess.txt", #18
+    "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt", #18
     "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix", #19
     "https://github.com/Argh94/Proxy-List/raw/refs/heads/main/All_Config.txt", #20
     "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt", #21
