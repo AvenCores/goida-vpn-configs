@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-12-Feb-2026 23:59
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-13-Feb-2026 00:59
 
 
 
@@ -537,8 +537,13 @@ vless://c870584f-a0c3-47f6-8b8e-09eef67b3d01@a15.api-tel.ir:54697?type=tcp&amp;e
 vless://70f5d3b8-7d31-4d7d-9467-e43752d66fca@sub.shadowsokstes.WoRkErs.DeV:2096?path=vless-ws%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=sub.shadowsokstes.WoRkErs.DeV&amp;fp=randomized&amp;type=ws&amp;sni=sub.shadowsokstes.WoRkErs.DeV#%F0%9D%90%92%F0%9D%90%87%F0%9D%90%80%F0%9D%90%83%F0%9D%90%8E%F0%9D%90%96%F0%9D%90%92%F0%9D%90%8E%F0%9D%90%82%F0%9D%90%8A%F0%9D%90%92%F0%9D%90%92%F0%9D%90%87%F0%9D%90%8E%F0%9D%90%8F
 vless://48bd4d22-e42f-4749-af6a-85ecf716c823@172.67.73.163:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=fkhamnei.kosnanatfilterchi.eu.org&amp;type=ws#%40v2rayan
 vless://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@172.67.170.103:443?path=%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;host=3k.pureboy.eu.org&amp;fp=chrome&amp;type=ws&amp;sni=3k.pureboy.eu.org#%40v2rayan
-vless://a2626d27-e0f8-490d-b23c-c9ca0dea4ea9@Dnss.iraniranshopdashnoard.ir:2082?path=%2F%3Fed%3D1024&amp;security=none&amp;encryption=none&amp;host=Pishgam.mehrsazi.ir&amp;type=httpupgrade#https://t.me/ConfigX2ray
-vless://a2626d27-e0f8-490d-b23c-c9ca0dea4ea9@Dnss.iraniranshopdashnoard.ir:2086?path=%2F%3Fed%3D2080&amp;security=none&amp;encryption=none&amp;host=bio.mehrsazi.ir&amp;type=httpupgrade#https://t.me/ConfigX2ray
+vless://98aaebaa-bf4f-4e25-96f2-844691440360@151.101.25.242:80?path=%2Fcontainers%2Ffi&amp;security=none&amp;encryption=none&amp;host=mohsenchavoshi.global.ssl.fastly.net&amp;type=ws#NetAccount
+vless://98aaebaa-bf4f-4e25-96f2-844691440360@151.101.25.242:80?path=%2Fcontainers%2Ffi&amp;security=none&amp;encryption=none&amp;host=pizzabama.global.ssl.fastly.net&amp;type=ws#NetAccount
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.188.241.30:22224?path=%2Ftelegram-channel-vlessconfig&amp;security=tls&amp;sni=trojan.burgerip.co.uk&amp;type=ws#NetAccount
+vless://3e6be719-189d-407c-928c-094a05045b39@rably-m.izumii.ir:2098?security=none&amp;encryption=none&amp;host=play.google.com&amp;headerType=http&amp;type=tcp#%40VPNSOL%201
+vless://ccab17f9-00a7-4493-c4a6-bbdd9e22166e@18.156.73.211:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40VPNSOL%202
+vless://4bb175e9-436c-4449-a5db-3ccbfcb28022@3.67.11.160:29044?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40VPNSOL%203
+vless://907ccc0f-bd56-4726-a877-d72a02125b6c@18.193.109.3:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40VPNSOL%204
 
 
 vless://56e626c8-6396-4f81-a20f-3a84bc71164a@fox3.wizard2shop.org:2083?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=xiz30.wizard2shop.org&amp;fp=360&amp;type=ws&amp;allowInsecure=0&amp;sni=xiz30.wizard2shop.org#%40Easy_Free_VPN
@@ -1861,8 +1866,13 @@ ss://70f5d3b8-7d31-4d7d-9467-e43752d66fca@sub.shadowsokstes.WoRkErs.DeV:2096?pat
 ss://48bd4d22-e42f-4749-af6a-85ecf716c823@172.67.73.163:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=fkhamnei.kosnanatfilterchi.eu.org&amp;type=ws#%40v2rayan
 ss://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@172.67.170.103:443?path=%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;host=3k.pureboy.eu.org&amp;fp=chrome&amp;type=ws&amp;sni=3k.pureboy.eu.org#%40v2rayan
 ss://eyJhZGQiOiI2Mi42MC4xNzUuMTEwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ0ZWxld2ViaW9uLmNvbSIsImlkIjoiNWVmM2ZhOGUtNzE3ZC00NDI2LWFhMDYtYTE5MGM4NGEwZmQ3IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiODQ0MCIsInBzIjoiQHYycmF5YW4g8J+YmPCfmIoiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9
-ss://a2626d27-e0f8-490d-b23c-c9ca0dea4ea9@Dnss.iraniranshopdashnoard.ir:2082?path=%2F%3Fed%3D1024&amp;security=none&amp;encryption=none&amp;host=Pishgam.mehrsazi.ir&amp;type=httpupgrade#https://t.me/ConfigX2ray
-ss://a2626d27-e0f8-490d-b23c-c9ca0dea4ea9@Dnss.iraniranshopdashnoard.ir:2086?path=%2F%3Fed%3D2080&amp;security=none&amp;encryption=none&amp;host=bio.mehrsazi.ir&amp;type=httpupgrade#https://t.me/ConfigX2ray
+ss://98aaebaa-bf4f-4e25-96f2-844691440360@151.101.25.242:80?path=%2Fcontainers%2Ffi&amp;security=none&amp;encryption=none&amp;host=mohsenchavoshi.global.ssl.fastly.net&amp;type=ws#NetAccount
+ss://98aaebaa-bf4f-4e25-96f2-844691440360@151.101.25.242:80?path=%2Fcontainers%2Ffi&amp;security=none&amp;encryption=none&amp;host=pizzabama.global.ssl.fastly.net&amp;type=ws#NetAccount
+ss://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.188.241.30:22224?path=%2Ftelegram-channel-vlessconfig&amp;security=tls&amp;sni=trojan.burgerip.co.uk&amp;type=ws#NetAccount
+ss://3e6be719-189d-407c-928c-094a05045b39@rably-m.izumii.ir:2098?security=none&amp;encryption=none&amp;host=play.google.com&amp;headerType=http&amp;type=tcp#%40VPNSOL%201
+ss://ccab17f9-00a7-4493-c4a6-bbdd9e22166e@18.156.73.211:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40VPNSOL%202
+ss://4bb175e9-436c-4449-a5db-3ccbfcb28022@3.67.11.160:29044?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40VPNSOL%203
+ss://907ccc0f-bd56-4726-a877-d72a02125b6c@18.193.109.3:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40VPNSOL%204
 
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#%40Easy_Free_VPN
@@ -2652,7 +2662,7 @@ trojan://POORIARED@172.67.134.185:443?path=%2FeyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLC
 
 
 
-
+trojan://telegram-id-privatevpns@15.188.241.30:22222?alpn=http%2F1.1&amp;headerType=none&amp;security=tls&amp;sni=trojan.burgerip.co.uk&amp;type=tcp#NetAccount
 
 
 
