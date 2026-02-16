@@ -403,7 +403,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 **3.** В поиск (справа сверху) пишем слово **«Visual»** и удалям все что касается **«Microsoft Visual»**.
 
-**4.** Скачиваем архив и распаковываем — [Ссылка](https://cf.comss.org/download/Visual-C-Runtimes-All-in-One-Jul-2025.zip)
+**4.** Скачиваем архив и распаковываем — [Ссылка](https://cf.comss.org/download/Visual-C-Runtimes-All-in-One-Dec-2025.zip)
 
 **5.** Запускаем от *имени Администратора* **«install_bat.all»** и ждем пока все установиться.
 
