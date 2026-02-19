@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-19-Feb-2026 16:24
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-19-Feb-2026 17:36
 
 
 
@@ -200,10 +200,6 @@ vless://fef4a93d-eb4f-4657-b56b-32a0dc060045@104.20.1.252:443?path=%2F&amp;secur
 
 
 
-vless://fef4a93d-eb4f-4657-b56b-32a0dc060045@104.21.40.34:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=dev.twistsparrow.xyz&amp;type=ws&amp;sni=dev.twistsparrow.xyz#%F0%9F%87%AE%F0%9F%87%B7%20IR%2036%20%40Outline_Vpn
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%87%AE%F0%9F%87%B7%20IR%2037%20%40Outline_Vpn
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.49.1:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%87%AE%F0%9F%87%B7%20IR%2038%20%40Outline_Vpn
-vless://e765eb5b-8442-40e3-9532-857ba5ececa7@104.18.4.130:443?mode=gun&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;type=grpc&amp;sni=vbox.ping-box.com#%F0%9F%87%AE%F0%9F%87%B7%20IR%2040%20%40Outline_Vpn
 vless://09748875-9da3-440e-9809-9752e1dda1e4@38.244.137.198:443?security=reality&amp;encryption=none&amp;pbk=QXGsw1KqljvUiarkvFdBs3T1TeUQq4skwHFlsmbj31o&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;sni=google.com&amp;sid=365c07ed#%F0%9F%87%AE%F0%9F%87%B7%20IR%2040%20%40Outline_Vpn
 vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.185.26:2096?path=%2F&amp;security=tls&amp;encryption=none&amp;host=ca.adobe-connect.top&amp;fp=chrome&amp;type=ws&amp;sni=ca.adobe-connect.top#%F0%9F%87%AE%F0%9F%87%B7%20IR%2041%20%40Outline_Vpn
 vless://c659ce22-0a02-4d75-8c89-58d99916b846@104.17.74.206:2053?security=tls&amp;encryption=none&amp;host=ir6.hnbyme.online&amp;fp=chrome&amp;type=ws&amp;sni=ir6.hnbyme.online#%F0%9F%87%AE%F0%9F%87%B7%20IR%2042%20%40Outline_Vpn
@@ -282,6 +278,10 @@ vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.93:23576?security=realit
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@ipbaz.ping-box.com:2096?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.111000.indevs.in&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.111000.indevs.in#%F0%9F%9B%A1%20V%2062%20%40Outline_Vpn
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.182:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%9B%A1%20V%2063%20%40Outline_Vpn
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.87:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%9B%A1%20V%2065%20%40Outline_Vpn
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@188.114.98.0:2096?path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.111000.indevs.in&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.111000.indevs.in#%F0%9F%9B%A1%20V%2067%20%40Outline_Vpn
+vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@104.16.2.90:443?path=%2F43.218.77.16%3D1443&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=afrcloud22.mmv.kr&amp;type=ws&amp;allowInsecure=0&amp;sni=Pulavpn11.afrcloud22.mmv.kr#%F0%9F%9B%A1%20V%2068%20%40Outline_Vpn
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.182:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%9B%A1%20V%2070%20%40Outline_Vpn
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.153.231:2096?path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.111000.indevs.in&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.111000.indevs.in#%F0%9F%9B%A1%20V%2071%20%40Outline_Vpn
 
 
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946986851076125.hamedan-drc-tusabl.info:8880?mode=gun&amp;security=none&amp;encryption=none&amp;type=grpc#@V2rayNG3
@@ -1353,11 +1353,6 @@ ss://fef4a93d-eb4f-4657-b56b-32a0dc060045@104.20.1.252:443?path=%2F&amp;security
 
 
 
-ss://fef4a93d-eb4f-4657-b56b-32a0dc060045@104.21.40.34:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=dev.twistsparrow.xyz&amp;type=ws&amp;sni=dev.twistsparrow.xyz#%F0%9F%87%AE%F0%9F%87%B7%20IR%2036%20%40Outline_Vpn
-ss://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%87%AE%F0%9F%87%B7%20IR%2037%20%40Outline_Vpn
-ss://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.49.1:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%87%AE%F0%9F%87%B7%20IR%2038%20%40Outline_Vpn
-ss://e765eb5b-8442-40e3-9532-857ba5ececa7@104.18.4.130:443?mode=gun&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;type=grpc&amp;sni=vbox.ping-box.com#%F0%9F%87%AE%F0%9F%87%B7%20IR%2040%20%40Outline_Vpn
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNmIwOTczNDAxODU4YjI5@57.129.95.198:11201#%F0%9F%87%AE%F0%9F%87%B7%20IR%20102%20%40Outline_Vpn
 ss://09748875-9da3-440e-9809-9752e1dda1e4@38.244.137.198:443?security=reality&amp;encryption=none&amp;pbk=QXGsw1KqljvUiarkvFdBs3T1TeUQq4skwHFlsmbj31o&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;sni=google.com&amp;sid=365c07ed#%F0%9F%87%AE%F0%9F%87%B7%20IR%2040%20%40Outline_Vpn
 ss://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.185.26:2096?path=%2F&amp;security=tls&amp;encryption=none&amp;host=ca.adobe-connect.top&amp;fp=chrome&amp;type=ws&amp;sni=ca.adobe-connect.top#%F0%9F%87%AE%F0%9F%87%B7%20IR%2041%20%40Outline_Vpn
 ss://c659ce22-0a02-4d75-8c89-58d99916b846@104.17.74.206:2053?security=tls&amp;encryption=none&amp;host=ir6.hnbyme.online&amp;fp=chrome&amp;type=ws&amp;sni=ir6.hnbyme.online#%F0%9F%87%AE%F0%9F%87%B7%20IR%2042%20%40Outline_Vpn
@@ -1445,6 +1440,11 @@ ss://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.93:23576?security=reality&a
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@ipbaz.ping-box.com:2096?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.111000.indevs.in&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.111000.indevs.in#%F0%9F%9B%A1%20V%2062%20%40Outline_Vpn
 ss://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.182:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%9B%A1%20V%2063%20%40Outline_Vpn
 ss://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.87:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%9B%A1%20V%2065%20%40Outline_Vpn
+ss://6202b230-417c-4d8e-b624-0f71afa9c75d@188.114.98.0:2096?path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.111000.indevs.in&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.111000.indevs.in#%F0%9F%9B%A1%20V%2067%20%40Outline_Vpn
+ss://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@104.16.2.90:443?path=%2F43.218.77.16%3D1443&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=afrcloud22.mmv.kr&amp;type=ws&amp;allowInsecure=0&amp;sni=Pulavpn11.afrcloud22.mmv.kr#%F0%9F%9B%A1%20V%2068%20%40Outline_Vpn
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnMFVnZnNkWE9objhNY3BkSHBXY21v@94.131.123.86:35361#%F0%9F%9B%A1%20V%2069%20%40Outline_Vpn
+ss://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.182:23576?security=reality&amp;encryption=none&amp;pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fuck.rkn&amp;sid=01#%F0%9F%9B%A1%20V%2070%20%40Outline_Vpn
+ss://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.153.231:2096?path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.111000.indevs.in&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.111000.indevs.in#%F0%9F%9B%A1%20V%2071%20%40Outline_Vpn
 
 
 ss://df0680ca-e43c-498d-ed86-8e196eedd012@638946986851076125.hamedan-drc-tusabl.info:8880?mode=gun&amp;security=none&amp;encryption=none&amp;type=grpc#@V2rayNG3
