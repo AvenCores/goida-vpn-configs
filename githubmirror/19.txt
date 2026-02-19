@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-20-Feb-2026 01:56
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-20-Feb-2026 02:55
 
 
 
@@ -208,6 +208,9 @@ vless://fef4a93d-eb4f-4657-b56b-32a0dc060045@104.20.1.252:443?path=%2F&amp;secur
 
 
 
+vless://09748875-9da3-440e-9809-9752e1dda1e4@38.244.137.198:443?security=reality&amp;encryption=none&amp;pbk=QXGsw1KqljvUiarkvFdBs3T1TeUQq4skwHFlsmbj31o&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;sni=google.com&amp;sid=365c07ed#%F0%9F%87%AE%F0%9F%87%B7%20IR%2040%20%40Outline_Vpn
+vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.185.26:2096?path=%2F&amp;security=tls&amp;encryption=none&amp;host=ca.adobe-connect.top&amp;fp=chrome&amp;type=ws&amp;sni=ca.adobe-connect.top#%F0%9F%87%AE%F0%9F%87%B7%20IR%2041%20%40Outline_Vpn
+vless://c659ce22-0a02-4d75-8c89-58d99916b846@104.17.74.206:2053?security=tls&amp;encryption=none&amp;host=ir6.hnbyme.online&amp;fp=chrome&amp;type=ws&amp;sni=ir6.hnbyme.online#%F0%9F%87%AE%F0%9F%87%B7%20IR%2042%20%40Outline_Vpn
 vless://fef4a93d-eb4f-4657-b56b-32a0dc060045@188.114.98.0:443?path=%2F&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=dev.twistsparrow.xyz#%F0%9F%87%AE%F0%9F%87%B7%20IR%2046%20%40Outline_Vpn
 vless://fef4a93d-eb4f-4657-b56b-32a0dc060045@188.114.98.0:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=dev.twistsparrow.xyz&amp;type=ws&amp;sni=dev.twistsparrow.xyz#%F0%9F%87%AE%F0%9F%87%B7%20IR%2048%20%40Outline_Vpn
 vless://4b68fe5d-9426-4493-be80-8381d2e09680@vip-80.f-sub.cfd:1517?security=none&amp;encryption=none&amp;host=JouRNaloFbIgdATA.SpRinGeropEn.coM.&amp;headerType=http&amp;type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%2051%20%40Outline_Vpn
@@ -916,6 +919,7 @@ vmess://eyJhZGQiOiIxNDYuNTkuMTQ3LjI1MCIsImFpZCI6IjAiLCJob3N0IjoiIiwiaWQiOiI4MjQ0
 
 
 
+vmess://eyJhZGQiOiJ0Z2p1Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibmFzbmV0LTU3MTI5NjQ5Ny5pcmFucHJlc3MuY28iLCJpZCI6Im5hc25ldCIsIm5ldCI6IndzIiwicGF0aCI6Ii9uYXNuZXQvY2RuIiwicG9ydCI6IjgwODAiLCJwcyI6IvCfh67wn4e3IElSIDQ1IEBPdXRsaW5lX1ZwbiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
 vmess://eyJhZGQiOiJ0cjEtc21hcnQuYWRlbHBpbmcuY29tIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQzZGNkY2UxLTNjZWEtNDE5My1iYzhkLTkwYjkyMDcxZDc3OSIsIm5ldCI6IndzIiwicGF0aCI6IiIsInBvcnQiOiI4MCIsInBzIjoi8J+HrvCfh7cgSVIgNTAgQE91dGxpbmVfVnBuIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 
 
@@ -1350,6 +1354,12 @@ ss://fef4a93d-eb4f-4657-b56b-32a0dc060045@104.20.1.252:443?path=%2F&amp;security
 
 
 
+ss://09748875-9da3-440e-9809-9752e1dda1e4@38.244.137.198:443?security=reality&amp;encryption=none&amp;pbk=QXGsw1KqljvUiarkvFdBs3T1TeUQq4skwHFlsmbj31o&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;sni=google.com&amp;sid=365c07ed#%F0%9F%87%AE%F0%9F%87%B7%20IR%2040%20%40Outline_Vpn
+ss://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.185.26:2096?path=%2F&amp;security=tls&amp;encryption=none&amp;host=ca.adobe-connect.top&amp;fp=chrome&amp;type=ws&amp;sni=ca.adobe-connect.top#%F0%9F%87%AE%F0%9F%87%B7%20IR%2041%20%40Outline_Vpn
+ss://c659ce22-0a02-4d75-8c89-58d99916b846@104.17.74.206:2053?security=tls&amp;encryption=none&amp;host=ir6.hnbyme.online&amp;fp=chrome&amp;type=ws&amp;sni=ir6.hnbyme.online#%F0%9F%87%AE%F0%9F%87%B7%20IR%2042%20%40Outline_Vpn
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#%F0%9F%87%AE%F0%9F%87%B7%20IR%2043%20%40Outline_Vpn
+ss://eyJhZGQiOiJ0Z2p1Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibmFzbmV0LTU3MTI5NjQ5Ny5pcmFucHJlc3MuY28iLCJpZCI6Im5hc25ldCIsIm5ldCI6IndzIiwicGF0aCI6Ii9uYXNuZXQvY2RuIiwicG9ydCI6IjgwODAiLCJwcyI6IvCfh67wn4e3IElSIDQ1IEBPdXRsaW5lX1ZwbiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplN3lRS09lbEtNNFVJSkNaWUxyelFY@162.19.214.191:59724#%F0%9F%87%AE%F0%9F%87%B7%20IR%20103%20%40Outline_Vpn
 ss://fef4a93d-eb4f-4657-b56b-32a0dc060045@188.114.98.0:443?path=%2F&amp;security=tls&amp;encryption=none&amp;type=ws&amp;sni=dev.twistsparrow.xyz#%F0%9F%87%AE%F0%9F%87%B7%20IR%2046%20%40Outline_Vpn
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#%F0%9F%87%AE%F0%9F%87%B7%20IR%2047%20%40Outline_Vpn
 ss://fef4a93d-eb4f-4657-b56b-32a0dc060045@188.114.98.0:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=dev.twistsparrow.xyz&amp;type=ws&amp;sni=dev.twistsparrow.xyz#%F0%9F%87%AE%F0%9F%87%B7%20IR%2048%20%40Outline_Vpn
@@ -2369,6 +2379,7 @@ trojan://telegram-id-privatevpns@63.183.85.55:22222?security=tls&amp;alpn=http/1
 trojan://telegram-id-privatevpns@15.236.213.225:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S104)
 
 
+trojan://humanity@www.creationlong.org:443?path=%2Fassignment&amp;security=tls&amp;fp=chrome&amp;type=ws&amp;sni=www.creationlong.org#%F0%9F%87%AE%F0%9F%87%B7%20IR%2044%20%40Outline_Vpn
 trojan://humanity@172.64.152.23:443?path=%2Fassignment&amp;security=tls&amp;host=www.gossipglove.com&amp;type=ws&amp;sni=www.gossipglove.com#%F0%9F%87%AE%F0%9F%87%B7%20IR%2049%20%40Outline_Vpn
 trojan://humanity@172.64.152.23:443?path=%2Fassignment&amp;security=tls&amp;host=www.creationlong.org&amp;type=ws&amp;sni=www.creationlong.org#%F0%9F%9B%A1%20V%2014%20%40Outline_Vpn
 trojan://humanity@188.114.98.0:443?path=%2Fassignment&amp;security=tls&amp;host=www.calmlunch.com&amp;type=ws&amp;sni=www.calmlunch.com#%F0%9F%9B%A1%20V%2045%20%40Outline_Vpn
