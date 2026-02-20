@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-20-Feb-2026 02:55
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-20-Feb-2026 05:13
 
 
 
@@ -41,11 +41,6 @@ vless://bb64bdd0-e4ed-4d3b-b2fa-93c7d86523a5@delilah.ns.cloudflare.com:443?ed=25
 vless://309c4bd0-7430-b8aa-2238-1075e9e29370@18.192.3.23:20096?encryption=none&amp;fp=chrome&amp;pbk=RlpFwwJWAb7YPkfaLyZcycZol3ejIdH8yLe0TXsJ_QA&amp;security=reality&amp;sid=50a3&amp;sni=wikipedia.org&amp;type=tcp#Server
 vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@betty.ns.cloudflare.com:2096?encryption=none&amp;host=hetz.x-smm.com&amp;path=%2F45.76.183.217%3D49292&amp;security=tls&amp;sni=hetz.x-smm.com&amp;type=ws#Germany
 vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@104.18.12.149:2052?encryption=none&amp;host=pablo-n2.digionix.ir&amp;mode=auto&amp;path=%2Fpabloping&amp;security=none&amp;type=xhttp#2
-vless://68820b0d-b836-435c-e3d5-c4ce8b97f0ac@3.66.32.122:19285?encryption=none&amp;security=none&amp;type=tcp#Server
-vless://d0a88160-6f61-4fb9-bf2f-9a763e1031c8@18.156.77.199:30449?encryption=none&amp;security=none&amp;type=tcp#Server
-vless://70e384d1-8f87-42c2-9a9e-ad75589ab54b@18.153.81.89:443?encryption=none&amp;security=none&amp;type=tcp#Server
-vless://403b2b80-703b-4498-eb92-96be57848d39@18.159.37.37:50256?encryption=none&amp;security=none&amp;type=tcp#Germany
-vless://a4d89b95-0e8a-454a-ab13-f89d22e045f8@18.159.51.221:46860?encryption=none&amp;security=none&amp;type=tcp#Germany
 
 vless://9706248e-259e-4738-9cde-a3f7e11be4b8@antifiltervip.pwteam.ir:38463?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
 vless://fef4a93d-eb4f-4657-b56b-32a0dc060045@188.114.98.0:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=dev.twistsparrow.xyz&amp;type=ws&amp;allowInsecure=0&amp;sni=dev.twistsparrow.xyz#%F0%9F%87%AC%F0%9F%87%A7%40FreakConfig
@@ -1116,11 +1111,6 @@ ss://bb64bdd0-e4ed-4d3b-b2fa-93c7d86523a5@delilah.ns.cloudflare.com:443?ed=2560&
 ss://309c4bd0-7430-b8aa-2238-1075e9e29370@18.192.3.23:20096?encryption=none&amp;fp=chrome&amp;pbk=RlpFwwJWAb7YPkfaLyZcycZol3ejIdH8yLe0TXsJ_QA&amp;security=reality&amp;sid=50a3&amp;sni=wikipedia.org&amp;type=tcp#Server
 ss://3f0f36f5-f091-45c5-88c9-4bcc545b922c@betty.ns.cloudflare.com:2096?encryption=none&amp;host=hetz.x-smm.com&amp;path=%2F45.76.183.217%3D49292&amp;security=tls&amp;sni=hetz.x-smm.com&amp;type=ws#Germany
 ss://2271c50f-ac7a-4d7f-8b04-64085b0daa56@104.18.12.149:2052?encryption=none&amp;host=pablo-n2.digionix.ir&amp;mode=auto&amp;path=%2Fpabloping&amp;security=none&amp;type=xhttp#2
-ss://68820b0d-b836-435c-e3d5-c4ce8b97f0ac@3.66.32.122:19285?encryption=none&amp;security=none&amp;type=tcp#Server
-ss://d0a88160-6f61-4fb9-bf2f-9a763e1031c8@18.156.77.199:30449?encryption=none&amp;security=none&amp;type=tcp#Server
-ss://70e384d1-8f87-42c2-9a9e-ad75589ab54b@18.153.81.89:443?encryption=none&amp;security=none&amp;type=tcp#Server
-ss://403b2b80-703b-4498-eb92-96be57848d39@18.159.37.37:50256?encryption=none&amp;security=none&amp;type=tcp#Germany
-ss://a4d89b95-0e8a-454a-ab13-f89d22e045f8@18.159.51.221:46860?encryption=none&amp;security=none&amp;type=tcp#Germany
 ss://eyJhZGQiOiIxMDQuMjYuOC4yMTAiLCJ2IjoyLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvV8xIiwicG9ydCI6IjQ0MyIsImlkIjoiMjA2MjU5ZmQtMDlhZi00NmVlLWVjNmQtNWFjOGE4MjkxZDZkIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJob3N0IjoidXloZ2l1eWZld2RyZ2YtdG8xMjM0NS54aWFvaGhoLnh5eiIsInRscyI6InRscyIsInBhdGgiOiIvNjYifQ==
 ss://eyJhZGQiOiIxNzIuNjcuMTE2LjQ4IiwidiI6MiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm71fMiIsInBvcnQiOiI4MCIsImlkIjoiMjJhMTNhYTItNDg1NC00NGNiLWUwOTAtZWM3MWFiODRiMWZmIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJob3N0Ijoid2FwLmhvc3RtamouY29tIiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==
 ss://eyJhZGQiOiJkZGQ0NzQ4MS0wZDZmLTA4YjktNzIwOS1iMGRkYzBjNWZhNDUub25lcGx1cy5wdWIiLCJ2IjoyLCJwcyI6InVuZGVmaW5lZCB1bmRlZmluZWQgMSIsInBvcnQiOiI4MCIsImlkIjoiNDZjZmNmZTEtZTQ1MC00NTlkLWEzYWItOTQwNjAxMWFiM2ViIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJob3N0IjoidG1zLmRpbmd0YWxrLmNvbSIsInRscyI6IiIsInBhdGgiOiIvIn0=
