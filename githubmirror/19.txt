@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Mon-23-Feb-2026 00:49
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Mon-23-Feb-2026 01:49
 
 
 
@@ -367,6 +367,8 @@ vless://70f5d3b8-7d31-4d7d-9467-e43752d66fca@sub.shadowsokstes.WoRkErs.DeV:2096?
 vless://48bd4d22-e42f-4749-af6a-85ecf716c823@172.67.73.163:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=fkhamnei.kosnanatfilterchi.eu.org&amp;type=ws#%40v2rayan
 vless://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@172.67.170.103:443?path=%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;host=3k.pureboy.eu.org&amp;fp=chrome&amp;type=ws&amp;sni=3k.pureboy.eu.org#%40v2rayan
 vless://8451143f-2778-4c9e-f669-391bae9dadbb@193.58.119.134:443?type=tcp&amp;encryption=none&amp;path=%2F&amp;host=google.com&amp;headerType=http&amp;security=none#%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%E2%80%8E%40Confixio%20%F0%9F%94%B44
+vless://95a90af3-5729-4308-9465-8147cc97621f@146.190.227.252:42855?security=tls&amp;type=tcp&amp;alpn=h2%2Chttp%2F1.1&amp;fp=chrome&amp;encryption=none#NetAccount
+vless://9a63b59c-5e54-437a-b7a1-2788780a7c13@62.182.196.134:8443?security=reality&amp;type=tcp&amp;sni=retn.net&amp;fp=chrome&amp;flow=xtls-rprx-vision&amp;sid=6b374e33af12fd1e&amp;pbk=qBcUlVqkzWxGORpDCj_FcNHACi3mrAYTCZeJyVQa5yU&amp;encryption=none#NetAccount
 
 
 vless://56e626c8-6396-4f81-a20f-3a84bc71164a@fox3.wizard2shop.org:2083?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=xiz30.wizard2shop.org&amp;fp=360&amp;type=ws&amp;allowInsecure=0&amp;sni=xiz30.wizard2shop.org#%40Easy_Free_VPN
@@ -1544,6 +1546,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPdzhpU0V4UU5hb2JaUFk5Yko0RVBJ@212.192.14.234
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWREp2ZnNONmgtZ1YzOHE5Y2h2dFBhQkh2YzlxdFdHZg%3D%3D@45.9.75.37:8000#https://t.me/ConfigX2ray
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@20.90.250.133:443#https://t.me/ConfigX2ray
 ss://8451143f-2778-4c9e-f669-391bae9dadbb@193.58.119.134:443?type=tcp&amp;encryption=none&amp;path=%2F&amp;host=google.com&amp;headerType=http&amp;security=none#%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%E2%80%8E%40Confixio%20%F0%9F%94%B44
+ss://95a90af3-5729-4308-9465-8147cc97621f@146.190.227.252:42855?security=tls&amp;type=tcp&amp;alpn=h2%2Chttp%2F1.1&amp;fp=chrome&amp;encryption=none#NetAccount
+ss://9a63b59c-5e54-437a-b7a1-2788780a7c13@62.182.196.134:8443?security=reality&amp;type=tcp&amp;sni=retn.net&amp;fp=chrome&amp;flow=xtls-rprx-vision&amp;sid=6b374e33af12fd1e&amp;pbk=qBcUlVqkzWxGORpDCj_FcNHACi3mrAYTCZeJyVQa5yU&amp;encryption=none#NetAccount
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNBQDgyLjM4LjMxLjM1OjgwODA=#NetAccount
 
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#%40Easy_Free_VPN
