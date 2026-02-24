@@ -105,7 +105,7 @@ EXTRA_URLS_FOR_26 = [
     "https://raw.githubusercontent.com/zieng2/wl/refs/heads/main/vless_universal.txt",
     "https://raw.githubusercontent.com/zieng2/wl/main/vless_lite.txt",
     "https://raw.githubusercontent.com/EtoNeYaProject/etoneyaproject.github.io/refs/heads/main/2",
-    "https://raw.githubusercontent.com/gbwltg/gbwl/refs/heads/main/m2EsPqwmlc",
+    "https://raw.githubusercontent.com/gbwltg/gbwl/refs/heads/main/m3EsPqwmlc",
     "https://bp.wl.free.nf/confs/wl.txt",
     "https://storage.yandexcloud.net/cid-vpn/whitelist.txt"
 ]
