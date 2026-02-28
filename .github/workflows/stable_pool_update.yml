@@ -1,0 +1,70 @@
+name: Stable Pool Update
+
+on:
+  schedule:
+    - cron: "5 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-stable-pool:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir -r source/requirements.txt
+
+      - name: Install Xray
+        run: |
+          XRAY_VERSION="v1.8.24"
+          curl -fsSL -o /tmp/xray.zip "https://github.com/XTLS/Xray-core/releases/download/${XRAY_VERSION}/Xray-linux-64.zip"
+          unzip -qo /tmp/xray.zip -d /tmp/xray
+          sudo install -m 0755 /tmp/xray/xray /usr/local/bin/xray
+          xray version | head -n 1
+
+      - name: Build stable pool list
+        run: |
+          cd source
+          python stable_pool_validator.py \
+            --source ../githubmirror/26.txt \
+            --output ../githubmirror/26.stable.txt \
+            --state ./stable_pool_state.json \
+            --target-count 10 \
+            --max-candidates 180 \
+            --recheck-minutes 180 \
+            --retry-failed-minutes 90 \
+            --max-age-hours 36 \
+            --max-fail-streak 2 \
+            --attempts 3 \
+            --attempt-success-threshold 2 \
+            --probe-success-per-attempt 2 \
+            --tcp-timeout 2.2 \
+            --probe-timeout 8.0 \
+            --xray-bin xray \
+            --probe-url https://cp.cloudflare.com/generate_204 \
+            --probe-url https://ya.ru/generate_204 \
+            --probe-url https://www.rbc.ru
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add githubmirror/26.stable.txt source/stable_pool_state.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "🧪 Update stable VPN pool (26.stable.txt)"
+          git pull --rebase origin main
+          git push
