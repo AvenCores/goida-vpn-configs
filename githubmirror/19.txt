@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Sun-01-Mar-2026 01:48
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Sun-01-Mar-2026 02:47
 
 vless://759a81b9-05f5-426d-a30d-ea52686a3e74@instxrpt.samanidempire.org:443?encryption=none&amp;security=tls&amp;alpn=http%2F1.1&amp;insecure=0&amp;allowInsecure=0&amp;type=ws&amp;host=instxrpt.samanidempire.org&amp;path=%2F5a7200cd#%40Beiten%20%7C%20%D8%A8%DB%8C%D8%AA%D9%86
 
@@ -346,10 +346,8 @@ vless://c870584f-a0c3-47f6-8b8e-09eef67b3d01@a15.api-tel.ir:54697?type=tcp&amp;e
 vless://70f5d3b8-7d31-4d7d-9467-e43752d66fca@sub.shadowsokstes.WoRkErs.DeV:2096?path=vless-ws%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=sub.shadowsokstes.WoRkErs.DeV&amp;fp=randomized&amp;type=ws&amp;sni=sub.shadowsokstes.WoRkErs.DeV#%F0%9D%90%92%F0%9D%90%87%F0%9D%90%80%F0%9D%90%83%F0%9D%90%8E%F0%9D%90%96%F0%9D%90%92%F0%9D%90%8E%F0%9D%90%82%F0%9D%90%8A%F0%9D%90%92%F0%9D%90%92%F0%9D%90%87%F0%9D%90%8E%F0%9D%90%8F
 vless://48bd4d22-e42f-4749-af6a-85ecf716c823@172.67.73.163:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=fkhamnei.kosnanatfilterchi.eu.org&amp;type=ws#%40v2rayan
 vless://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@172.67.170.103:443?path=%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;host=3k.pureboy.eu.org&amp;fp=chrome&amp;type=ws&amp;sni=3k.pureboy.eu.org#%40v2rayan
-vless://83e2dd06-7cbf-40d2-8eac-302030552943@dns5.golden-ping.ir:8443?security=none&amp;encryption=none&amp;host=telewebion.com&amp;headerType=http&amp;type=tcp#NetAccount
-vless://06442da2-c71e-4f5d-b2f3-e327b3f515b5@cdnirpish234.b2n.ir.nic.stp.debian.org.ubuntu.ir.reservedns.website:1087?security=none&amp;encryption=none&amp;host=soft98.ir&amp;headerType=http&amp;type=tcp#NetAccount
-vless://ab065397-ac5e-46fc-9dab-296973f69704@tun.biostart.ir:10300?security=none&amp;encryption=none&amp;host=ir22.uploadboy.com&amp;headerType=http&amp;type=tcp#NetAccount
-vless://06442da2-c71e-4f5d-b2f3-e327b3f515b5@cdnirtr16.2ad.ir.nic.stp.debian.org.ubuntu.ir.reservedns.website:1095?security=none&amp;encryption=none&amp;host=soft98.ir&amp;headerType=http&amp;type=tcp#NetAccount
+vless://fb343efc-e80b-4112-9f80-3c35904bba9b@fan.x2net.top:443?path=%2F&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;fp=chrome&amp;type=ws&amp;sni=fan.x2net.top#NetAccount
+vless://a6d7c26a-7305-5e0d-8701-1dcfc4d49b2b@dl.salarcloud.ir:22548?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#NeteAccount
 
 
 vless://56e626c8-6396-4f81-a20f-3a84bc71164a@fox3.wizard2shop.org:2083?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=xiz30.wizard2shop.org&amp;fp=360&amp;type=ws&amp;allowInsecure=0&amp;sni=xiz30.wizard2shop.org#%40Easy_Free_VPN
@@ -802,7 +800,7 @@ vmess://eyJhZGQiOiIxMDQuMjEuNjkuNDQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9z
 
 
 vmess://eyJhZGQiOiI2Mi42MC4xNzUuMTEwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ0ZWxld2ViaW9uLmNvbSIsImlkIjoiNWVmM2ZhOGUtNzE3ZC00NDI2LWFhMDYtYTE5MGM4NGEwZmQ3IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiODQ0MCIsInBzIjoiQHYycmF5YW4g8J+YmPCfmIoiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9
-
+vmess://eyJhZGQiOiJkbDAxLmFybWQuZnVuIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjlhOThmYzJjLTAxYTgtNDA0MC04NmM5LWQxODNhZDlkY2QxNiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiLZhdmI2YLYqiDwnZm98J2Zv/CdmoVf8J2ZuPCdmoEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
 
 
@@ -1360,10 +1358,9 @@ ss://70f5d3b8-7d31-4d7d-9467-e43752d66fca@sub.shadowsokstes.WoRkErs.DeV:2096?pat
 ss://48bd4d22-e42f-4749-af6a-85ecf716c823@172.67.73.163:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=fkhamnei.kosnanatfilterchi.eu.org&amp;type=ws#%40v2rayan
 ss://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@172.67.170.103:443?path=%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;host=3k.pureboy.eu.org&amp;fp=chrome&amp;type=ws&amp;sni=3k.pureboy.eu.org#%40v2rayan
 ss://eyJhZGQiOiI2Mi42MC4xNzUuMTEwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ0ZWxld2ViaW9uLmNvbSIsImlkIjoiNWVmM2ZhOGUtNzE3ZC00NDI2LWFhMDYtYTE5MGM4NGEwZmQ3IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiODQ0MCIsInBzIjoiQHYycmF5YW4g8J+YmPCfmIoiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9
-ss://83e2dd06-7cbf-40d2-8eac-302030552943@dns5.golden-ping.ir:8443?security=none&amp;encryption=none&amp;host=telewebion.com&amp;headerType=http&amp;type=tcp#NetAccount
-ss://06442da2-c71e-4f5d-b2f3-e327b3f515b5@cdnirpish234.b2n.ir.nic.stp.debian.org.ubuntu.ir.reservedns.website:1087?security=none&amp;encryption=none&amp;host=soft98.ir&amp;headerType=http&amp;type=tcp#NetAccount
-ss://ab065397-ac5e-46fc-9dab-296973f69704@tun.biostart.ir:10300?security=none&amp;encryption=none&amp;host=ir22.uploadboy.com&amp;headerType=http&amp;type=tcp#NetAccount
-ss://06442da2-c71e-4f5d-b2f3-e327b3f515b5@cdnirtr16.2ad.ir.nic.stp.debian.org.ubuntu.ir.reservedns.website:1095?security=none&amp;encryption=none&amp;host=soft98.ir&amp;headerType=http&amp;type=tcp#NetAccount
+ss://eyJhZGQiOiJkbDAxLmFybWQuZnVuIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjlhOThmYzJjLTAxYTgtNDA0MC04NmM5LWQxODNhZDlkY2QxNiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiLZhdmI2YLYqiDwnZm98J2Zv/CdmoVf8J2ZuPCdmoEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+ss://fb343efc-e80b-4112-9f80-3c35904bba9b@fan.x2net.top:443?path=%2F&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;fp=chrome&amp;type=ws&amp;sni=fan.x2net.top#NetAccount
+ss://a6d7c26a-7305-5e0d-8701-1dcfc4d49b2b@dl.salarcloud.ir:22548?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#NeteAccount
 
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#%40Easy_Free_VPN
