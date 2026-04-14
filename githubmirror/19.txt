@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Tue-14-Apr-2026 14:28
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Tue-14-Apr-2026 15:28
 
 
 
@@ -89,9 +89,7 @@ vless://e384913f-8863-47b4-8858-a84b68abb4a6@4.cdnconn.com:23335?security=realit
 vless://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@us01-gmn-vlr03.tcp-reset-club.net:22443?security=reality&amp;encryption=none&amp;pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=hls-svod.itunes.apple.com&amp;sid=8453e5fd9af927#%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig
 vless://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality&amp;encryption=none&amp;pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=jp.cdn.stun.su&amp;sid=f189d91760bb6663#%F0%9F%87%AF%F0%9F%87%B5%40FreakConfig
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?security=tls&amp;encryption=none&amp;host=sni.111000.dynv6.net&amp;type=ws&amp;sni=sni.111000.dynv6.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%40SERVERNETT-1
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2096?security=tls&amp;encryption=none&amp;host=sni.111000.indevs.in&amp;type=ws&amp;sni=sni.111000.indevs.in#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%40SERVERNETT-2
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@57.129.137.59:443?security=tls&amp;encryption=none&amp;host=sni.111000.v6.navy&amp;type=ws&amp;sni=sni.111000.v6.navy#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%40SERVERNETT-3
+
 
 
 
@@ -284,7 +282,6 @@ vless://vpn_connects@clfconnect.pishipishi.pro:8880?path=%2F&amp;security=none&a
 vless://6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20@ercf-ma.rainzone.site:443?path=%2F45.76.183.217%3D49292&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=delta090.qzz.io&amp;type=ws&amp;allowInsecure=0&amp;sni=delta090.qzz.io#%40Easy_Free_VPN
 vless://53ec5fd1-fa25-41ff-bd25-fc24ca8e4d24@ert-4.v-sub.site:8880?path=%2F%3Fed%3D2080&amp;security=none&amp;encryption=none&amp;host=norton-vip.cfd&amp;type=httpupgrade#%40Easy_Free_VPN
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.111000.indevs.in&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.111000.indevs.in#%40V2RAY_VMESS_free
 vless://84695bb3-58a4-4af6-b964-82d2c56fa23f@ips.cf.mobileemdad.top:443?mode=auto&amp;path=%2Fcloudapi&amp;security=tls&amp;alpn=h2&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%2B1000000%2C%2B%22scMaxConcurrentPosts%22%3A%2B100%2C%2B%22scMinPostsIntervalMs%22%3A%2B30%2C%2B%22xPaddingBytes%22%3A%2B%22100-1000%22%2C%2B%22noGRPCHeader%22%3A%2Bfalse%7D&amp;insecure=0&amp;host=dl.mobileemdad.top&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=dl.mobileemdad.top#%40V2RAY_VMESS_free
 vless://b60e5c32-3d4e-425c-a785-a36cd0621a72@104.18.12.149:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=S4-f45.pAGeS.DeV&amp;type=ws&amp;allowInsecure=0&amp;sni=S4-f45.pAGeS.DeV#V2RAY_VMESS_free
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?path=%2F&amp;security=tls&amp;encryption=none&amp;echfq=none&amp;host=sni.111000.indevs.in&amp;fp=chrome&amp;allowinsecure=0&amp;type=ws&amp;sni=sni.111000.indevs.in#%40V2RAY_VMESS_free
@@ -557,6 +554,7 @@ vless://b179aef9-46a6-4e21-9a15-d21139c705b9@172.64.152.23:8443?encryption=none&
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?security=none&amp;allowInsecure=0&amp;encryption=none&amp;type=ws&amp;host=vip.yaml7.ggff.net&amp;path=/%20@ProxyVPN11#
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?path=%2F%20%40irshum2&amp;security=none&amp;encryption=none&amp;host=vip.yaml7.ggff.net&amp;type=ws#%40vip_vpn_2022%20%D9%82%D9%88%DB%8C
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?security=none&amp;allowInsecure=0&amp;encryption=none&amp;type=ws&amp;host=vip.yaml7.ggff.net&amp;path=/%20@ProxyVPN11#@vip_vpn_2022 
+vless://db487de4-7e8f-4b3b-b5e8-1e7337ea7954@172.64.152.23:443?type=ws&amp;encryption=none&amp;path=%2F%40asrnovin_ir&amp;host=asrnovin.8par.site&amp;security=tls&amp;fp=chrome&amp;alpn=h2%2Chttp%2F1.1&amp;sni=asrnovin.8par.site#vip_vpn_2022
 
 
 
@@ -564,7 +562,6 @@ vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?security=none&amp;a
 
 
 
-vless://3c8df9ed-633e-4759-bce3-250af4f45b35@104.17.72.206:443?security=tls&amp;encryption=none&amp;type=ws&amp;path=/&amp;sni=m.speedvip2.shop&amp;fp=chrome#@ultrasurf_12
 vless://3c8df9ed-633e-4759-bce3-250af4f45b35@104.17.72.206:443?security=tls&amp;encryption=none&amp;type=ws&amp;path=/&amp;sni=m.speedvip2.shop&amp;fp=chrome#کانال تلگرام: ultrasurf_12@
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.149.54:8443?encryption=none&amp;type=ws&amp;host=sni.111000.dynv6.net&amp;path=/?Telegram%F0%9F%87%A8%F0%9F%87%B3%20@WangCai2&amp;security=tls&amp;sni=sni.111000.dynv6.net#@ultrasurf_12
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@172.64.149.54:443?path=%2F222.167.202.31%3A7443&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=2026.hhhhh.eu.org&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=2026.hhhhh.eu.org#Telegram%3A%20%40ultrasurf_12
@@ -1037,9 +1034,7 @@ ss://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@us01-gmn-vlr03.tcp-reset-club.net:2244
 ss://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality&amp;encryption=none&amp;pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=jp.cdn.stun.su&amp;sid=f189d91760bb6663#%F0%9F%87%AF%F0%9F%87%B5%40FreakConfig
 ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@154.223.16.41:4444#%F0%9F%87%A8%F0%9F%87%B4%40FreakConfig
 
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?security=tls&amp;encryption=none&amp;host=sni.111000.dynv6.net&amp;type=ws&amp;sni=sni.111000.dynv6.net#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%40SERVERNETT-1
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2096?security=tls&amp;encryption=none&amp;host=sni.111000.indevs.in&amp;type=ws&amp;sni=sni.111000.indevs.in#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%40SERVERNETT-2
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@57.129.137.59:443?security=tls&amp;encryption=none&amp;host=sni.111000.v6.navy&amp;type=ws&amp;sni=sni.111000.v6.navy#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%40SERVERNETT-3
+
 ss://eyJhZGQiOiIyMTcuMjE4LjUyLjEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZjkzZjEzNGYtN2FkYi00OGMzLWJjZDEtMjUzMmVkYjBiNDc4IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMDQxMCIsInBzIjoicHJ4MTHimaXvuI8tQHByb3h5c3RvcmUxMSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 
 
@@ -1255,7 +1250,6 @@ ss://vpn_connects@clfconnect.pishipishi.pro:8880?path=%2F&amp;security=none&amp;
 ss://6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20@ercf-ma.rainzone.site:443?path=%2F45.76.183.217%3D49292&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=delta090.qzz.io&amp;type=ws&amp;allowInsecure=0&amp;sni=delta090.qzz.io#%40Easy_Free_VPN
 ss://53ec5fd1-fa25-41ff-bd25-fc24ca8e4d24@ert-4.v-sub.site:8880?path=%2F%3Fed%3D2080&amp;security=none&amp;encryption=none&amp;host=norton-vip.cfd&amp;type=httpupgrade#%40Easy_Free_VPN
 
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.111000.indevs.in&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.111000.indevs.in#%40V2RAY_VMESS_free
 ss://84695bb3-58a4-4af6-b964-82d2c56fa23f@ips.cf.mobileemdad.top:443?mode=auto&amp;path=%2Fcloudapi&amp;security=tls&amp;alpn=h2&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%2B1000000%2C%2B%22scMaxConcurrentPosts%22%3A%2B100%2C%2B%22scMinPostsIntervalMs%22%3A%2B30%2C%2B%22xPaddingBytes%22%3A%2B%22100-1000%22%2C%2B%22noGRPCHeader%22%3A%2Bfalse%7D&amp;insecure=0&amp;host=dl.mobileemdad.top&amp;fp=chrome&amp;type=xhttp&amp;allowInsecure=0&amp;sni=dl.mobileemdad.top#%40V2RAY_VMESS_free
 ss://b60e5c32-3d4e-425c-a785-a36cd0621a72@104.18.12.149:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=S4-f45.pAGeS.DeV&amp;type=ws&amp;allowInsecure=0&amp;sni=S4-f45.pAGeS.DeV#V2RAY_VMESS_free
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.13.149:2053?path=%2F&amp;security=tls&amp;encryption=none&amp;echfq=none&amp;host=sni.111000.indevs.in&amp;fp=chrome&amp;allowinsecure=0&amp;type=ws&amp;sni=sni.111000.indevs.in#%40V2RAY_VMESS_free
@@ -1588,6 +1582,7 @@ ss://b179aef9-46a6-4e21-9a15-d21139c705b9@172.64.152.23:8443?encryption=none&amp
 ss://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?security=none&amp;allowInsecure=0&amp;encryption=none&amp;type=ws&amp;host=vip.yaml7.ggff.net&amp;path=/%20@ProxyVPN11#
 ss://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?path=%2F%20%40irshum2&amp;security=none&amp;encryption=none&amp;host=vip.yaml7.ggff.net&amp;type=ws#%40vip_vpn_2022%20%D9%82%D9%88%DB%8C
 ss://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.18.16.56:80?security=none&amp;allowInsecure=0&amp;encryption=none&amp;type=ws&amp;host=vip.yaml7.ggff.net&amp;path=/%20@ProxyVPN11#@vip_vpn_2022 
+ss://db487de4-7e8f-4b3b-b5e8-1e7337ea7954@172.64.152.23:443?type=ws&amp;encryption=none&amp;path=%2F%40asrnovin_ir&amp;host=asrnovin.8par.site&amp;security=tls&amp;fp=chrome&amp;alpn=h2%2Chttp%2F1.1&amp;sni=asrnovin.8par.site#vip_vpn_2022
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#%40FOX_VPN66
 
 
@@ -1595,7 +1590,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224
 
 
 
-ss://3c8df9ed-633e-4759-bce3-250af4f45b35@104.17.72.206:443?security=tls&amp;encryption=none&amp;type=ws&amp;path=/&amp;sni=m.speedvip2.shop&amp;fp=chrome#@ultrasurf_12
 ss://3c8df9ed-633e-4759-bce3-250af4f45b35@104.17.72.206:443?security=tls&amp;encryption=none&amp;type=ws&amp;path=/&amp;sni=m.speedvip2.shop&amp;fp=chrome#کانال تلگرام: ultrasurf_12@
 ss://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.149.54:8443?encryption=none&amp;type=ws&amp;host=sni.111000.dynv6.net&amp;path=/?Telegram%F0%9F%87%A8%F0%9F%87%B3%20@WangCai2&amp;security=tls&amp;sni=sni.111000.dynv6.net#@ultrasurf_12
 ss://06ef598c-1555-4887-b3f9-08214a2f6792@172.64.149.54:443?path=%2F222.167.202.31%3A7443&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=2026.hhhhh.eu.org&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=2026.hhhhh.eu.org#Telegram%3A%20%40ultrasurf_12
