@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-16-Apr-2026 02:07
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-16-Apr-2026 03:08
 
 
 
@@ -710,6 +710,14 @@ vless://3a6b6256-5a3d-4331-9126-c4db16dd67dc@8.6.112.0:443?path=%2F&amp;security
 vless://33def33b-3bf0-490d-bfd9-5582390968f0@94.101.178.172:35880?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40Father_vpn
 vless://de8c3b93-6e91-4e79-8495-e826e401eded@ar.speed1vipsarbaziclick.site:41371?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40vasl_bashim
 vless://c484549d-96c2-42f3-bc30-1d8c29c71244@217.114.40.212:17577?encryption=none&amp;type=tcp#%40
+vless://fdedb0f9-f5e4-4278-9c2f-30a3fe6dce20@37.32.27.85:8080?path=%2F&amp;security=none&amp;encryption=none&amp;host=a1.supreme-xfast.ir&amp;type=ws#Tel%3B%40Father_vpn
+vless://d1ac41ce-5222-4b0b-9920-0483dcc2f5aa@185.143.234.235:80?encryption=none&amp;type=ws&amp;path=%2F&amp;host=vixon.portab.org#@UnNurmal
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@8.6.112.0:2096?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.jpmj.dev&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.jpmj.dev#@UnNurmal
+vless://d5ac69a7-d886-4efd-85cc-39ec67363e94@luna.5on.ir:8880?path=%2F&amp;security=&amp;encryption=none&amp;host=luna.5on.ir&amp;type=ws#@UnNurmal
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@8.6.112.6:2096?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.jpmj.dev#@UnNurmal
+vless://eb211fb7-40c8-4314-8b67-7b5f025e0f62@8.6.112.6:2083?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=kamalnet.pages.dev&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=kamalnet.pages.dev#@UnNurmal
+vless://3a6b6256-5a3d-4331-9126-c4db16dd67dc@8.6.112.0:443?path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=cfcf.metipoxbozorg.shop&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=cfcf.metipoxbozorg.shop#@UnNurmal
+vless://3a6b6256-5a3d-4331-9126-c4db16dd67dc@8.6.112.0:443?path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=cfcf.metipoxbozorg.shop&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=cfcf.metipoxbozorg.shop#@UnNurmal
 
 vless://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=root.configforvpn.fun&amp;fp=chrome&amp;type=ws&amp;sni=root.configforvpn.fun#%40ConfigforVPN
@@ -1780,6 +1788,14 @@ ss://3a6b6256-5a3d-4331-9126-c4db16dd67dc@8.6.112.0:443?path=%2F&amp;security=tl
 ss://33def33b-3bf0-490d-bfd9-5582390968f0@94.101.178.172:35880?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40Father_vpn
 ss://de8c3b93-6e91-4e79-8495-e826e401eded@ar.speed1vipsarbaziclick.site:41371?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40vasl_bashim
 ss://c484549d-96c2-42f3-bc30-1d8c29c71244@217.114.40.212:17577?encryption=none&amp;type=tcp#%40
+ss://fdedb0f9-f5e4-4278-9c2f-30a3fe6dce20@37.32.27.85:8080?path=%2F&amp;security=none&amp;encryption=none&amp;host=a1.supreme-xfast.ir&amp;type=ws#Tel%3B%40Father_vpn
+ss://d1ac41ce-5222-4b0b-9920-0483dcc2f5aa@185.143.234.235:80?encryption=none&amp;type=ws&amp;path=%2F&amp;host=vixon.portab.org#@UnNurmal
+ss://6202b230-417c-4d8e-b624-0f71afa9c75d@8.6.112.0:2096?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.jpmj.dev&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.jpmj.dev#@UnNurmal
+ss://d5ac69a7-d886-4efd-85cc-39ec67363e94@luna.5on.ir:8880?path=%2F&amp;security=&amp;encryption=none&amp;host=luna.5on.ir&amp;type=ws#@UnNurmal
+ss://6202b230-417c-4d8e-b624-0f71afa9c75d@8.6.112.6:2096?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=sni.jpmj.dev&amp;type=ws&amp;allowInsecure=0&amp;sni=sni.jpmj.dev#@UnNurmal
+ss://eb211fb7-40c8-4314-8b67-7b5f025e0f62@8.6.112.6:2083?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=kamalnet.pages.dev&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=kamalnet.pages.dev#@UnNurmal
+ss://3a6b6256-5a3d-4331-9126-c4db16dd67dc@8.6.112.0:443?path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=cfcf.metipoxbozorg.shop&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=cfcf.metipoxbozorg.shop#@UnNurmal
+ss://3a6b6256-5a3d-4331-9126-c4db16dd67dc@8.6.112.0:443?path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=cfcf.metipoxbozorg.shop&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=cfcf.metipoxbozorg.shop#@UnNurmal
 
 ss://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 ss://eyJhZGQiOiJiZXN0LmNvbmZpZ2ZvcnZwbi5mdW4iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImJlc3QuY29uZmlnZm9ydnBuLmZ1biIsImlkIjoiYWEzMmVmZGQtZGZiOS00N2ZlLWFjMTMtNWIyY2JjMGRjMjE1IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4ODgwIiwicHMiOiJAQ29uZmlnZm9yVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
