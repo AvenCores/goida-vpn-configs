@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-17-Apr-2026 18:21
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-17-Apr-2026 19:26
 
 
 
@@ -685,12 +685,6 @@ vless://e384913f-8863-47b4-8858-a84b68abb4a6@4.cdnconn.com:23335?security=realit
 vless://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@us01-gmn-vlr03.tcp-reset-club.net:22443?security=reality&amp;encryption=none&amp;pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=hls-svod.itunes.apple.com&amp;sid=8453e5fd9af927#%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig
 vless://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality&amp;encryption=none&amp;pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=jp.cdn.stun.su&amp;sid=f189d91760bb6663#%F0%9F%87%AF%F0%9F%87%B5%40FreakConfig
 
-vless://f9d9a8e6-7df0-4c7b-bb2d-97d1c7e14f1f@45.82.136.188:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;type=ws&amp;allowInsecure=0&amp;sni=webassets.cafebazaar.ir#%40V2RAYENGLISH
-vless://46144235-a781-49bd-82ce-4ed4c979e863@185.143.233.5:443?encryption=none&amp;security=tls&amp;type=ws&amp;headerType=none&amp;path=%2Fchat%3Fed%3D128&amp;host=bn.8lack.ir&amp;sni=bn.8lack.ir&amp;fp=firefox&amp;alpn=h2%2Chttp%2F1.1#@UnNurmal
-vless://46144235-a781-49bd-82ce-4ed4c979e863@185.143.233.5:443?encryption=none&amp;security=tls&amp;type=ws&amp;headerType=none&amp;path=%2Fchat%3Fed%3D128&amp;host=en.8lack.ir&amp;sni=en.8lack.ir&amp;fp=firefox&amp;alpn=h2%2Chttp%2F1.1#@UnNurmal
-vless://46144235-a781-49bd-82ce-4ed4c979e863@185.143.233.5:443?encryption=none&amp;security=tls&amp;type=ws&amp;headerType=none&amp;path=%2Fchat%3Fed%3D128&amp;host=dn.8lack.ir&amp;sni=dn.8lack.ir&amp;fp=firefox&amp;alpn=h2%2Chttp%2F1.1#@UnNurmal
-vless://46144235-a781-49bd-82ce-4ed4c979e863@185.143.233.5:443?encryption=none&amp;security=tls&amp;type=ws&amp;headerType=none&amp;path=%2Fchat%3Fed%3D128&amp;host=an.8lack.ir&amp;sni=an.8lack.ir&amp;fp=firefox&amp;alpn=h2%2Chttp%2F1.1#@UnNurmal
-vless://3163b8fc-de27-48a3-a736-7c117e574ce8@mlh.mynethub99.top:443?type=tcp&amp;encryption=none&amp;security=tls&amp;fp=chrome&amp;alpn=h2%2Chttp%2F1.1&amp;sni=mlh.mynethub99.top#@UnNurmal
 vless://3be173d0-06d0-4631-a491-4945449ed28e@194.59.171.217:14774?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#@UnNurmal
 vless://3b80a4b4-187a-49b0-a52c-5c455c41ba98@194.59.171.217:14774?type=tcp&amp;security=none#@UnNurmal
 vless://3b80a4b4-187a-49b0-a52c-5c455c41ba98@194.59.171.217:14774?type=tcp&amp;security=none#@UnNurmal
@@ -707,6 +701,17 @@ vless://adc273e9-ea91-4835-acac-ea6e4b27aa34@arvancloud.ir:80?path=%40TunizoNET&
 vless://616db6a6-24b8-4d1f-8234-72bfb44fac80@94.101.179.129:27216?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40V2rayNG_Cafe
 vless://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=hio-awx.pages.dev&amp;type=ws&amp;sni=hio-awx.pages.dev#%40vasl_bashim
 vless://c2bf8051-3fce-4e16-b10c-ca15176136b5@fuckrc.enhanzy.com:443?encryption=none&amp;type=tcp#@vasl_bashim
+vless://651a858c-2975-4b96-96b7-82745b38714c@8.6.112.0:443?path=%2FWITH_CHACHA20_POLY1305_SHA256&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=api.frest.ir&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=api.frest.ir#@UnNurmal
+vless://d135bb1d-47cc-4a83-b9a9-a12268ce6abd@snapp.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=test1232-a1c43e7893-test1.apps.ir-central1.arvancaas.ir&amp;type=ws#@UnNurmal
+vless://d135bb1d-47cc-4a83-b9a9-a12268ce6abd@snapp.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=test1232-a1c43e7893-test1.apps.ir-central1.arvancaas.ir&amp;type=ws#@UnNurmal
+vless://d135bb1d-47cc-4a83-b9a9-a12268ce6abd@snapp.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=test1232-a1c43e7893-test1.apps.ir-central1.arvancaas.ir&amp;type=ws#@UnNurmal
+vless://651a858c-2975-4b96-96b7-82745b38714c@8.6.112.0:443?path=%2FWITH_CHACHA20_POLY1305_SHA256&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;host=api.frest.ir&amp;fp=chrome&amp;type=ws&amp;sni=api.frest.ir#@UnNurmal
+vless://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=hio-awx.pages.dev&amp;type=ws&amp;sni=hio-awx.pages.dev#@UnNurmal
+vless://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
+vless://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
+vless://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
+vless://c2bf8051-3fce-4e16-b10c-ca15176136b5@fuckrc.enhanzy.com:443?encryption=none&amp;type=tcp#@vasl_bashim
+vless://9a58741b-b9d2-41d6-9910-d5ea4fce6139@185.143.233.5:443?security=tls&amp;encryption=none&amp;type=ws&amp;host=dn.8lack.ir&amp;path=/chat?ed%3D128&amp;sni=dn.8lack.ir&amp;fp=firefox&amp;alpn=h2,http/1.1#@vasl_bashim
 
 vless://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=root.configforvpn.fun&amp;fp=chrome&amp;type=ws&amp;sni=root.configforvpn.fun#%40ConfigforVPN
@@ -1752,12 +1757,6 @@ ss://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@us01-gmn-vlr03.tcp-reset-club.net:2244
 ss://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality&amp;encryption=none&amp;pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=jp.cdn.stun.su&amp;sid=f189d91760bb6663#%F0%9F%87%AF%F0%9F%87%B5%40FreakConfig
 ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@154.223.16.41:4444#%F0%9F%87%A8%F0%9F%87%B4%40FreakConfig
 
-ss://f9d9a8e6-7df0-4c7b-bb2d-97d1c7e14f1f@45.82.136.188:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;type=ws&amp;allowInsecure=0&amp;sni=webassets.cafebazaar.ir#%40V2RAYENGLISH
-ss://46144235-a781-49bd-82ce-4ed4c979e863@185.143.233.5:443?encryption=none&amp;security=tls&amp;type=ws&amp;headerType=none&amp;path=%2Fchat%3Fed%3D128&amp;host=bn.8lack.ir&amp;sni=bn.8lack.ir&amp;fp=firefox&amp;alpn=h2%2Chttp%2F1.1#@UnNurmal
-ss://46144235-a781-49bd-82ce-4ed4c979e863@185.143.233.5:443?encryption=none&amp;security=tls&amp;type=ws&amp;headerType=none&amp;path=%2Fchat%3Fed%3D128&amp;host=en.8lack.ir&amp;sni=en.8lack.ir&amp;fp=firefox&amp;alpn=h2%2Chttp%2F1.1#@UnNurmal
-ss://46144235-a781-49bd-82ce-4ed4c979e863@185.143.233.5:443?encryption=none&amp;security=tls&amp;type=ws&amp;headerType=none&amp;path=%2Fchat%3Fed%3D128&amp;host=dn.8lack.ir&amp;sni=dn.8lack.ir&amp;fp=firefox&amp;alpn=h2%2Chttp%2F1.1#@UnNurmal
-ss://46144235-a781-49bd-82ce-4ed4c979e863@185.143.233.5:443?encryption=none&amp;security=tls&amp;type=ws&amp;headerType=none&amp;path=%2Fchat%3Fed%3D128&amp;host=an.8lack.ir&amp;sni=an.8lack.ir&amp;fp=firefox&amp;alpn=h2%2Chttp%2F1.1#@UnNurmal
-ss://3163b8fc-de27-48a3-a736-7c117e574ce8@mlh.mynethub99.top:443?type=tcp&amp;encryption=none&amp;security=tls&amp;fp=chrome&amp;alpn=h2%2Chttp%2F1.1&amp;sni=mlh.mynethub99.top#@UnNurmal
 ss://3be173d0-06d0-4631-a491-4945449ed28e@194.59.171.217:14774?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#@UnNurmal
 ss://3b80a4b4-187a-49b0-a52c-5c455c41ba98@194.59.171.217:14774?type=tcp&amp;security=none#@UnNurmal
 ss://3b80a4b4-187a-49b0-a52c-5c455c41ba98@194.59.171.217:14774?type=tcp&amp;security=none#@UnNurmal
@@ -1774,6 +1773,17 @@ ss://adc273e9-ea91-4835-acac-ea6e4b27aa34@arvancloud.ir:80?path=%40TunizoNET&amp
 ss://616db6a6-24b8-4d1f-8234-72bfb44fac80@94.101.179.129:27216?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40V2rayNG_Cafe
 ss://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=hio-awx.pages.dev&amp;type=ws&amp;sni=hio-awx.pages.dev#%40vasl_bashim
 ss://c2bf8051-3fce-4e16-b10c-ca15176136b5@fuckrc.enhanzy.com:443?encryption=none&amp;type=tcp#@vasl_bashim
+ss://651a858c-2975-4b96-96b7-82745b38714c@8.6.112.0:443?path=%2FWITH_CHACHA20_POLY1305_SHA256&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=api.frest.ir&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=api.frest.ir#@UnNurmal
+ss://d135bb1d-47cc-4a83-b9a9-a12268ce6abd@snapp.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=test1232-a1c43e7893-test1.apps.ir-central1.arvancaas.ir&amp;type=ws#@UnNurmal
+ss://d135bb1d-47cc-4a83-b9a9-a12268ce6abd@snapp.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=test1232-a1c43e7893-test1.apps.ir-central1.arvancaas.ir&amp;type=ws#@UnNurmal
+ss://d135bb1d-47cc-4a83-b9a9-a12268ce6abd@snapp.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=test1232-a1c43e7893-test1.apps.ir-central1.arvancaas.ir&amp;type=ws#@UnNurmal
+ss://651a858c-2975-4b96-96b7-82745b38714c@8.6.112.0:443?path=%2FWITH_CHACHA20_POLY1305_SHA256&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;host=api.frest.ir&amp;fp=chrome&amp;type=ws&amp;sni=api.frest.ir#@UnNurmal
+ss://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=hio-awx.pages.dev&amp;type=ws&amp;sni=hio-awx.pages.dev#@UnNurmal
+ss://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
+ss://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
+ss://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
+ss://c2bf8051-3fce-4e16-b10c-ca15176136b5@fuckrc.enhanzy.com:443?encryption=none&amp;type=tcp#@vasl_bashim
+ss://9a58741b-b9d2-41d6-9910-d5ea4fce6139@185.143.233.5:443?security=tls&amp;encryption=none&amp;type=ws&amp;host=dn.8lack.ir&amp;path=/chat?ed%3D128&amp;sni=dn.8lack.ir&amp;fp=firefox&amp;alpn=h2,http/1.1#@vasl_bashim
 
 ss://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 ss://eyJhZGQiOiJiZXN0LmNvbmZpZ2ZvcnZwbi5mdW4iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImJlc3QuY29uZmlnZm9ydnBuLmZ1biIsImlkIjoiYWEzMmVmZGQtZGZiOS00N2ZlLWFjMTMtNWIyY2JjMGRjMjE1IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4ODgwIiwicHMiOiJAQ29uZmlnZm9yVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
