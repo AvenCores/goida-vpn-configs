@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Sun-19-Apr-2026 00:00
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Sun-19-Apr-2026 00:59
 
 
 
@@ -512,11 +512,6 @@ vless://e384913f-8863-47b4-8858-a84b68abb4a6@4.cdnconn.com:23335?security=realit
 vless://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@us01-gmn-vlr03.tcp-reset-club.net:22443?security=reality&amp;encryption=none&amp;pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=hls-svod.itunes.apple.com&amp;sid=8453e5fd9af927#%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig
 vless://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality&amp;encryption=none&amp;pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=jp.cdn.stun.su&amp;sid=f189d91760bb6663#%F0%9F%87%AF%F0%9F%87%B5%40FreakConfig
 
-vless://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
-vless://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
-vless://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
-vless://c2bf8051-3fce-4e16-b10c-ca15176136b5@fuckrc.enhanzy.com:443?encryption=none&amp;type=tcp#@vasl_bashim
-vless://9a58741b-b9d2-41d6-9910-d5ea4fce6139@185.143.233.5:443?security=tls&amp;encryption=none&amp;type=ws&amp;host=dn.8lack.ir&amp;path=/chat?ed%3D128&amp;sni=dn.8lack.ir&amp;fp=firefox&amp;alpn=h2,http/1.1#@vasl_bashim
 vless://53a087ef-2863-4e4a-9480-1c6c6c996f37@185.143.234.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#Tel%3B%40Father_vpn
 vless://42026dab-fe60-4155-8edb-a917ee5e7dee@link2x11580.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&amp;security=none&amp;encryption=none&amp;host=byebye.22.avenflow.ir&amp;type=ws#Tel%3BFather_vpn
 vless://651a858c-2975-4b96-96b7-82745b38714c@8.6.112.0:443?path=%2FWITH_CHACHA20_POLY1305_SHA256&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=api.frest.ir&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=api.frest.ir#@UnNurmal
@@ -533,6 +528,7 @@ vless://a01daac7-1e65-4645-854d-b47d226f6b08@8.6.112.0:443?path=%2F&amp;security
 vless://3a6b6256-5a3d-4331-9126-c4db16dd67dc@8.6.112.0:443?path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=cfcf.metipoxbozorg.shop&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=cfcf.metipoxbozorg.shop#@UnNurmal
 vless://57045854-cbe4-4c7f-9846-0ce097b0d8fc@net.ulteracrypto.site:14971?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#@UnNurmal
 vless://e7802e78-4263-406e-b863-193edc132e53@snapp.ir:80?type=ws&amp;security=none&amp;host=fonix.packvps.ir&amp;path=%2F#@UnNurmal
+vless://41c1375f-1e8d-47af-e526-59aa698a3b37@tr.tehranionliine.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.188#%40V2RayNG_Cafe 
 
 vless://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=root.configforvpn.fun&amp;fp=chrome&amp;type=ws&amp;sni=root.configforvpn.fun#%40ConfigforVPN
@@ -1363,11 +1359,6 @@ ss://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@us01-gmn-vlr03.tcp-reset-club.net:2244
 ss://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality&amp;encryption=none&amp;pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=jp.cdn.stun.su&amp;sid=f189d91760bb6663#%F0%9F%87%AF%F0%9F%87%B5%40FreakConfig
 ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@154.223.16.41:4444#%F0%9F%87%A8%F0%9F%87%B4%40FreakConfig
 
-ss://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
-ss://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
-ss://43457127-ee2f-439f-bfd0-54c515043804@sub.starfast.site:443?security=none&amp;encryption=none&amp;host=www.filimo.com&amp;headerType=http&amp;type=tcp#@UnNurmal
-ss://c2bf8051-3fce-4e16-b10c-ca15176136b5@fuckrc.enhanzy.com:443?encryption=none&amp;type=tcp#@vasl_bashim
-ss://9a58741b-b9d2-41d6-9910-d5ea4fce6139@185.143.233.5:443?security=tls&amp;encryption=none&amp;type=ws&amp;host=dn.8lack.ir&amp;path=/chat?ed%3D128&amp;sni=dn.8lack.ir&amp;fp=firefox&amp;alpn=h2,http/1.1#@vasl_bashim
 ss://53a087ef-2863-4e4a-9480-1c6c6c996f37@185.143.234.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#Tel%3B%40Father_vpn
 ss://42026dab-fe60-4155-8edb-a917ee5e7dee@link2x11580.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&amp;security=none&amp;encryption=none&amp;host=byebye.22.avenflow.ir&amp;type=ws#Tel%3BFather_vpn
 ss://651a858c-2975-4b96-96b7-82745b38714c@8.6.112.0:443?path=%2FWITH_CHACHA20_POLY1305_SHA256&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=api.frest.ir&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=api.frest.ir#@UnNurmal
@@ -1384,6 +1375,7 @@ ss://a01daac7-1e65-4645-854d-b47d226f6b08@8.6.112.0:443?path=%2F&amp;security=tl
 ss://3a6b6256-5a3d-4331-9126-c4db16dd67dc@8.6.112.0:443?path=%2F&amp;security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=cfcf.metipoxbozorg.shop&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=cfcf.metipoxbozorg.shop#@UnNurmal
 ss://57045854-cbe4-4c7f-9846-0ce097b0d8fc@net.ulteracrypto.site:14971?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#@UnNurmal
 ss://e7802e78-4263-406e-b863-193edc132e53@snapp.ir:80?type=ws&amp;security=none&amp;host=fonix.packvps.ir&amp;path=%2F#@UnNurmal
+ss://41c1375f-1e8d-47af-e526-59aa698a3b37@tr.tehranionliine.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.188#%40V2RayNG_Cafe 
 
 ss://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 ss://eyJhZGQiOiJiZXN0LmNvbmZpZ2ZvcnZwbi5mdW4iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImJlc3QuY29uZmlnZm9ydnBuLmZ1biIsImlkIjoiYWEzMmVmZGQtZGZiOS00N2ZlLWFjMTMtNWIyY2JjMGRjMjE1IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4ODgwIiwicHMiOiJAQ29uZmlnZm9yVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
