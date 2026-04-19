@@ -29,7 +29,9 @@
 
 Конфиги обновляются каждые **9 минут** с помощью GitHub Actions, поэтому ссылки из раздела **«📋 Общий список всех вечно актуальных конфигов»** всегда актуальны.
 
-![maxresdefault](https://github.com/user-attachments/assets/80f69696-5eb5-44fa-94bf-1fe50303f683)
+<a href="https://avencores.github.io/goida-vpn-site/">
+  <img alt="1" src="https://github.com/user-attachments/assets/80f69696-5eb5-44fa-94bf-1fe50303f683" />
+</a>
 
 ## 📑 Содержание
 - [📖 Описание проекта](#-описание-проекта)
