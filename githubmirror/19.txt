@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Tue-21-Apr-2026 01:12
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Tue-21-Apr-2026 02:08
 
 
 
@@ -515,6 +515,7 @@ vless://4b581293-af3a-4658-b9b2-06949626bf86@104.17.72.206:443?mode=auto&amp;pat
 vless://f667f7f1-6794-4918-8aca-d3b2401ede5c@snapp.ir:80?path=%2F%3Fed%3D2080&amp;security=none&amp;encryption=none&amp;host=1.jojo.avenflow.ir&amp;type=ws#@UnNurmal
 vless://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hio-awx.pages.dev&amp;type=ws&amp;allowInsecure=0&amp;sni=hio-awx.pages.dev#@UnNurmal
 vless://6fd98b96-9dd2-442c-92a4-a449cdf0fd1e@5.239.245.250:443?path=%2Fapi%2Fv1%2Fuuid%2F9e97a8c9-fdb0-4dfb-9557-2a90a554aee4&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=ef88878e-c5a7-412f-82f1-0b09c6792d29.hollowspot.ir&amp;fp=safari&amp;type=ws&amp;allowInsecure=0#@UnNurmal
+vless://68de97d5-db78-4d9d-a90a-01a5ee3c1b0d@n1.linkinfo.cloud:8080?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws#%40V2RAYENGLISH
 
 vless://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=root.configforvpn.fun&amp;fp=chrome&amp;type=ws&amp;sni=root.configforvpn.fun#%40ConfigforVPN
@@ -1352,6 +1353,7 @@ ss://f667f7f1-6794-4918-8aca-d3b2401ede5c@snapp.ir:80?path=%2F%3Fed%3D2080&amp;s
 ss://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=hio-awx.pages.dev&amp;type=ws&amp;allowInsecure=0&amp;sni=hio-awx.pages.dev#@UnNurmal
 ss://eyJhZGQiOiI3OC4xMDkuMTk5LjU1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjliZjFiMjI3LThiOTYtNDcwNS05MjllLTIzYTM2NzAzYzlhOSIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTEwNzIiLCJwcyI6IkBpY3YycmF5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
 ss://6fd98b96-9dd2-442c-92a4-a449cdf0fd1e@5.239.245.250:443?path=%2Fapi%2Fv1%2Fuuid%2F9e97a8c9-fdb0-4dfb-9557-2a90a554aee4&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=ef88878e-c5a7-412f-82f1-0b09c6792d29.hollowspot.ir&amp;fp=safari&amp;type=ws&amp;allowInsecure=0#@UnNurmal
+ss://68de97d5-db78-4d9d-a90a-01a5ee3c1b0d@n1.linkinfo.cloud:8080?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws#%40V2RAYENGLISH
 
 ss://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 ss://eyJhZGQiOiJiZXN0LmNvbmZpZ2ZvcnZwbi5mdW4iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImJlc3QuY29uZmlnZm9ydnBuLmZ1biIsImlkIjoiYWEzMmVmZGQtZGZiOS00N2ZlLWFjMTMtNWIyY2JjMGRjMjE1IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4ODgwIiwicHMiOiJAQ29uZmlnZm9yVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
