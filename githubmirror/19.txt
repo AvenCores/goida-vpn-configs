@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Tue-21-Apr-2026 05:35
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Tue-21-Apr-2026 08:52
 
 
 
@@ -332,21 +332,7 @@ vless://40e1b62b-6245-4ec0-b57d-6dc4190db762@185.143.234.235:8080?path=%2F&amp;s
 
 
 
-vless://0792fda1-176a-4a57-80df-be5222180046@94.101.181.41:19817?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40ConfigV2RayNG%2B%7C
-vless://c28188b7-3e78-4de9-bc7d-e651eb77ca8a@fin-tun.a1mshop2.xyz:12000?security=&amp;encryption=none&amp;host=aparat.com&amp;headerType=http&amp;type=tcp#%40ConfigV2RayNG%2B%7C
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.184.163.171:22224?path=%2Ftelegram-channel-vlessconfig&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;type=ws&amp;allowInsecure=0&amp;sni=trojan.burgerip.co.uk#ConfigV2RayNG
-vless://75193bef-8d8f-e823-41e0-2dd083dc1399@dd.openaccessnode.com:2197?security=reality&amp;encryption=none&amp;pbk=ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=api.push.apple.com&amp;sid=a62d513cd709744a#ConfigV2RayNG
-vless://9208edb9-83c9-433f-bc56-90ffa33800e8@www.tomandjery.eu:1003?security=reality&amp;encryption=none&amp;pbk=3LRzcL17BaZqZ-I7kZ6HtRGPPhxAubqCprP_USHd_g4&amp;headerType=none&amp;fp=firefox&amp;type=tcp&amp;sni=play.google.com&amp;sid=6ba85179e30d4fc2#ConfigV2RayNG
-vless://06c7a413-6c2d-e356-d0df-d4ac594a24f1@meli2.ertebatgoostar.ir:2087?security=&amp;encryption=none&amp;host=tv3.ir&amp;headerType=http&amp;type=tcp&amp;sni=54.38.242.158#ConfigV2RayNG
-vless://f81b7cb0-70c6-3d1a-9b30-c95b1227f6ed@103.81.86.158:443?security=tls&amp;encryption=none&amp;insecure=0&amp;fp=ios&amp;type=grpc&amp;serviceName=ssp&amp;allowInsecure=0&amp;sni=u710297u3374s249.okgfw.top#ConfigV2RayNG
-vless://8058fd1c-28ca-4e6c-9828-ce7cf4433b5c@134.255.204.17:443?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#ConfigV2RayNG
-vless://ccac781d-1f3e-4e5b-99c2-d07d653b81e8@rk4no3.cdnhoo.top:80?security=&amp;encryption=none&amp;type=ws#ConfigV2RayNG
-vless://c71a9084-637b-43d5-8d26-802677443b89@109.95.65.242:900?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#ConfigV2RayNG
-vless://f2f17144-6b9a-494d-a1cd-dc146514a719@37.152.175.201:40001?security=&amp;encryption=none&amp;host=cafeariel.ir&amp;headerType=http&amp;type=tcp#ConfigV2RayNG
-vless://4dd14167-ddce-49d1-8322-133e82c0cbfb@109.95.65.242:900?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#ConfigV2RayNG
-vless://c72511d7-1729-403d-92c5-7448533a369a@Platform.snapp.ir.green-gaming-company.ir:1011?security=&amp;encryption=none&amp;host=s.cafebazaar.ir&amp;headerType=http&amp;type=tcp#ConfigV2RayNG
-vless://84b5a48a-4c69-493c-87cb-09cbdfa7a450@103.213.249.62:8443?security=reality&amp;encryption=none&amp;pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&amp;headerType=none&amp;fp=qq&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=ign.dev&amp;sid=6ba85179e30d4fc2#ConfigV2RayNG
-vless://ccac781d-1f3e-4e5b-99c2-d07d653b81e8@rk4no3.cdnhoo.top:80?security=&amp;encryption=none&amp;type=ws#ConfigV2RayNG
+
 
 
 
@@ -633,10 +619,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkBpcmFudnBuZXQiLA0KICAiYWRkIjogIm11dGUt
 
 
 
-vmess://eyJhZGQiOiIxODguMjEyLjk3LjExNyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI2NzQxMjdhYi00NWZmLTRlNzItYjZhMC1jMDJmYzE2NDI2OTYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ3ODU3IiwicHMiOiJAQ29uZmlnVjJSYXlORyB8Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-vmess://eyJhZGQiOiJEMy5tb3ZpZWhvc3RpcmFuLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImE4ZWJmYjFkLTFlZWEtNGVjMS1iOTk0LTQxYTdiYzUwZjMxOCIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiODAiLCJwcyI6IkBDb25maWdWMlJheU5HIHwiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-vmess://eyJhZGQiOiJ0dW4ucDJwMS5zYnMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNDk3ODY4ZTItMGIxMi00MjQ0LWEwNDQtM2FkMGE5NGNiNDZiIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyMDIwIiwicHMiOiJDb25maWdWMlJheU5HIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-vmess://eyJhZGQiOiIxMy4yMzEuMjA4LjExNyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZW5kLWdmdy5jb20iLCJpZCI6IjFhMTdiMTlkLTQ4OTYtNDUzMS1hZjc5LTZlOTFkOGVmODIyOCIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODY4NiIsInBzIjoiQ29uZmlnVjJSYXlORyIsInNjeSI6ImF1dG8iLCJzbmkiOiJiYWlkdS5jb20iLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
+
 
 
 
@@ -1128,25 +1111,7 @@ ss://40e1b62b-6245-4ec0-b57d-6dc4190db762@185.143.234.235:8080?path=%2F&amp;secu
 
 
 
-ss://0792fda1-176a-4a57-80df-be5222180046@94.101.181.41:19817?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40ConfigV2RayNG%2B%7C
-ss://eyJhZGQiOiIxODguMjEyLjk3LjExNyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI2NzQxMjdhYi00NWZmLTRlNzItYjZhMC1jMDJmYzE2NDI2OTYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ3ODU3IiwicHMiOiJAQ29uZmlnVjJSYXlORyB8Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-ss://eyJhZGQiOiJEMy5tb3ZpZWhvc3RpcmFuLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImE4ZWJmYjFkLTFlZWEtNGVjMS1iOTk0LTQxYTdiYzUwZjMxOCIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiODAiLCJwcyI6IkBDb25maWdWMlJheU5HIHwiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-ss://c28188b7-3e78-4de9-bc7d-e651eb77ca8a@fin-tun.a1mshop2.xyz:12000?security=&amp;encryption=none&amp;host=aparat.com&amp;headerType=http&amp;type=tcp#%40ConfigV2RayNG%2B%7C
-ss://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.184.163.171:22224?path=%2Ftelegram-channel-vlessconfig&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;type=ws&amp;allowInsecure=0&amp;sni=trojan.burgerip.co.uk#ConfigV2RayNG
-ss://75193bef-8d8f-e823-41e0-2dd083dc1399@dd.openaccessnode.com:2197?security=reality&amp;encryption=none&amp;pbk=ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=api.push.apple.com&amp;sid=a62d513cd709744a#ConfigV2RayNG
-ss://eyJhZGQiOiJ0dW4ucDJwMS5zYnMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNDk3ODY4ZTItMGIxMi00MjQ0LWEwNDQtM2FkMGE5NGNiNDZiIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyMDIwIiwicHMiOiJDb25maWdWMlJheU5HIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-ss://9208edb9-83c9-433f-bc56-90ffa33800e8@www.tomandjery.eu:1003?security=reality&amp;encryption=none&amp;pbk=3LRzcL17BaZqZ-I7kZ6HtRGPPhxAubqCprP_USHd_g4&amp;headerType=none&amp;fp=firefox&amp;type=tcp&amp;sni=play.google.com&amp;sid=6ba85179e30d4fc2#ConfigV2RayNG
-ss://06c7a413-6c2d-e356-d0df-d4ac594a24f1@meli2.ertebatgoostar.ir:2087?security=&amp;encryption=none&amp;host=tv3.ir&amp;headerType=http&amp;type=tcp&amp;sni=54.38.242.158#ConfigV2RayNG
-ss://f81b7cb0-70c6-3d1a-9b30-c95b1227f6ed@103.81.86.158:443?security=tls&amp;encryption=none&amp;insecure=0&amp;fp=ios&amp;type=grpc&amp;serviceName=ssp&amp;allowInsecure=0&amp;sni=u710297u3374s249.okgfw.top#ConfigV2RayNG
-ss://8058fd1c-28ca-4e6c-9828-ce7cf4433b5c@134.255.204.17:443?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#ConfigV2RayNG
-ss://ccac781d-1f3e-4e5b-99c2-d07d653b81e8@rk4no3.cdnhoo.top:80?security=&amp;encryption=none&amp;type=ws#ConfigV2RayNG
-ss://c71a9084-637b-43d5-8d26-802677443b89@109.95.65.242:900?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#ConfigV2RayNG
-ss://f2f17144-6b9a-494d-a1cd-dc146514a719@37.152.175.201:40001?security=&amp;encryption=none&amp;host=cafeariel.ir&amp;headerType=http&amp;type=tcp#ConfigV2RayNG
-ss://4dd14167-ddce-49d1-8322-133e82c0cbfb@109.95.65.242:900?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#ConfigV2RayNG
-ss://c72511d7-1729-403d-92c5-7448533a369a@Platform.snapp.ir.green-gaming-company.ir:1011?security=&amp;encryption=none&amp;host=s.cafebazaar.ir&amp;headerType=http&amp;type=tcp#ConfigV2RayNG
-ss://84b5a48a-4c69-493c-87cb-09cbdfa7a450@103.213.249.62:8443?security=reality&amp;encryption=none&amp;pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&amp;headerType=none&amp;fp=qq&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=ign.dev&amp;sid=6ba85179e30d4fc2#ConfigV2RayNG
-ss://ccac781d-1f3e-4e5b-99c2-d07d653b81e8@rk4no3.cdnhoo.top:80?security=&amp;encryption=none&amp;type=ws#ConfigV2RayNG
-ss://eyJhZGQiOiIxMy4yMzEuMjA4LjExNyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZW5kLWdmdy5jb20iLCJpZCI6IjFhMTdiMTlkLTQ4OTYtNDUzMS1hZjc5LTZlOTFkOGVmODIyOCIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODY4NiIsInBzIjoiQ29uZmlnVjJSYXlORyIsInNjeSI6ImF1dG8iLCJzbmkiOiJiYWlkdS5jb20iLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
+
 
 
 
