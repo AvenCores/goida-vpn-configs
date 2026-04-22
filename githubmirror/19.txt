@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-22-Apr-2026 14:30
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-22-Apr-2026 15:32
 
 
 
@@ -492,6 +492,9 @@ vless://b93a3c44-478a-4d64-989e-4602ccc5e184@87.107.146.145:14371?type=tcp&amp;e
 vless://ea227ffd-be0c-4acd-a70c-9b6b4777d862@185.143.234.235:80?security=&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@UnNurmal
 vless://ea227ffd-be0c-4acd-a70c-9b6b4777d862@185.143.234.235:80?security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@UnNurmal
 vless://f24bd99f-c4fe-b913-3b4d-dcfb86c1b3cd@meli.masterdadeh.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.198#@UnNurmal
+vless://bc953469-14e8-4536-afbd-56dc8edf138a@194.59.215.131:672?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40V2rayNG_Cafe
+vless://8b157d0b-7fff-47bc-bff8-fa84ec3fc768@varzesh3.com:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=jd.knet-prime.ir&amp;type=ws#%40V2rayNG_Cafe
+vless://77534396-dead-4a6c-8761-03939cd4fdc8@172.64.149.54:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=my.vulmart.ir&amp;type=ws&amp;sni=my.vulmart.ir#%40V2rayNG_Cafe
 
 vless://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=root.configforvpn.fun&amp;fp=chrome&amp;type=ws&amp;sni=root.configforvpn.fun#%40ConfigforVPN
@@ -1295,6 +1298,9 @@ ss://b93a3c44-478a-4d64-989e-4602ccc5e184@87.107.146.145:14371?type=tcp&amp;encr
 ss://ea227ffd-be0c-4acd-a70c-9b6b4777d862@185.143.234.235:80?security=&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@UnNurmal
 ss://ea227ffd-be0c-4acd-a70c-9b6b4777d862@185.143.234.235:80?security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@UnNurmal
 ss://f24bd99f-c4fe-b913-3b4d-dcfb86c1b3cd@meli.masterdadeh.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.198#@UnNurmal
+ss://bc953469-14e8-4536-afbd-56dc8edf138a@194.59.215.131:672?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40V2rayNG_Cafe
+ss://8b157d0b-7fff-47bc-bff8-fa84ec3fc768@varzesh3.com:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=jd.knet-prime.ir&amp;type=ws#%40V2rayNG_Cafe
+ss://77534396-dead-4a6c-8761-03939cd4fdc8@172.64.149.54:443?path=%2F&amp;security=tls&amp;encryption=none&amp;host=my.vulmart.ir&amp;type=ws&amp;sni=my.vulmart.ir#%40V2rayNG_Cafe
 
 ss://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 ss://eyJhZGQiOiJiZXN0LmNvbmZpZ2ZvcnZwbi5mdW4iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImJlc3QuY29uZmlnZm9ydnBuLmZ1biIsImlkIjoiYWEzMmVmZGQtZGZiOS00N2ZlLWFjMTMtNWIyY2JjMGRjMjE1IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4ODgwIiwicHMiOiJAQ29uZmlnZm9yVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
