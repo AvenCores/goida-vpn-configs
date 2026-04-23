@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-23-Apr-2026 22:31
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-24-Apr-2026 00:16
 
 
 
@@ -503,6 +503,15 @@ vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;sec
 vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
 vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
 vless://b9ffc9c6-aad0-0056-45ee-4f551a0f0b4a@tr.tehranionliine.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.188#@UnNurmal
+vless://63318066-2aec-41d2-8f6c-eced13d04cd0@arvancloud.ir:80?path=%40TunizoNET&amp;security=none&amp;encryption=none&amp;host=ri.amirenzohost.ir&amp;type=ws#@UnNurmal
+vless://4278a814-4a82-4b9b-8092-0ba60a3fb2f6@193.151.153.47:34661?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#@UnNurmal
+vless://c7201267-8439-4ba6-8c41-fc0ecd5472b3@mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir:443?path=%2Fvless&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir&amp;type=ws&amp;allowInsecure=0#@UnNurmal
+vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=&amp;encryption=none&amp;host=vixon.portab.org&amp;headerType=&amp;type=tcp#@UnNurmal
+vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
+vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
+vless://d025ab69-864f-4370-ae56-e5bcafd62199@185.143.234.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@UnNurmal
+vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;headerType=none&amp;type=tcp#@UnNurmal
+vless://c7201267-8439-4ba6-8c41-fc0ecd5472b3@mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir:443?path=%2Fvless&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir&amp;type=ws&amp;allowInsecure=0#@UnNurmal
 
 vless://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=root.configforvpn.fun&amp;fp=chrome&amp;type=ws&amp;sni=root.configforvpn.fun#%40ConfigforVPN
@@ -1321,6 +1330,16 @@ ss://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;securi
 ss://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
 ss://b9ffc9c6-aad0-0056-45ee-4f551a0f0b4a@tr.tehranionliine.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.188#@UnNurmal
 ss://eyJhZGQiOiIxODUuMTEuODkuMzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYWVkZGJiYmQtYWQ5NS00OWU4LWVlMzEtN2NhY2M3ZWRlMTE3IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjgwOSIsInBzIjoiQFYyUkFZRU5HTElTSCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+ss://63318066-2aec-41d2-8f6c-eced13d04cd0@arvancloud.ir:80?path=%40TunizoNET&amp;security=none&amp;encryption=none&amp;host=ri.amirenzohost.ir&amp;type=ws#@UnNurmal
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.236:443#@UnNurmal
+ss://4278a814-4a82-4b9b-8092-0ba60a3fb2f6@193.151.153.47:34661?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#@UnNurmal
+ss://c7201267-8439-4ba6-8c41-fc0ecd5472b3@mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir:443?path=%2Fvless&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir&amp;type=ws&amp;allowInsecure=0#@UnNurmal
+ss://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=&amp;encryption=none&amp;host=vixon.portab.org&amp;headerType=&amp;type=tcp#@UnNurmal
+ss://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
+ss://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
+ss://d025ab69-864f-4370-ae56-e5bcafd62199@185.143.234.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@UnNurmal
+ss://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;headerType=none&amp;type=tcp#@UnNurmal
+ss://c7201267-8439-4ba6-8c41-fc0ecd5472b3@mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir:443?path=%2Fvless&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir&amp;type=ws&amp;allowInsecure=0#@UnNurmal
 
 ss://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 ss://eyJhZGQiOiJiZXN0LmNvbmZpZ2ZvcnZwbi5mdW4iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImJlc3QuY29uZmlnZm9ydnBuLmZ1biIsImlkIjoiYWEzMmVmZGQtZGZiOS00N2ZlLWFjMTMtNWIyY2JjMGRjMjE1IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4ODgwIiwicHMiOiJAQ29uZmlnZm9yVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
