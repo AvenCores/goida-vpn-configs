@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-24-Apr-2026 11:24
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-24-Apr-2026 12:56
 
 
 
@@ -362,12 +362,6 @@ vless://db487de4-7e8f-4b3b-b5e8-1e7337ea7954@172.64.152.23:443?type=ws&amp;encry
 
 
 
-vless://1fc09efe-da12-42d7-b863-777a56cdde8a@m.yamahas.ir:2086?encryption=none&amp;type=ws&amp;path=%2F#20GB%20%40ultrasurf_12  
-vless://d025ab69-864f-4370-ae56-e5bcafd62199@185.143.234.235:80?path=%2F&amp;security=&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@ultrasurf_12
-vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@ultrasurf_12
-vless://77534396-dead-4a6c-8761-03939cd4fdc8@172.64.149.54:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=my.vulmart.ir&amp;type=ws&amp;allowInsecure=0&amp;sni=my.vulmart.ir#@ultrasurf_12
-vless://3c852590-49d8-d3c3-abbf-a3c64ad89cd2@tr.tehranionliine.ir:80?path=%2F&amp;security=&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.188#@ultrasurf_12
-vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@ultrasurf_12
 vless://986a442c-6621-4197-9a35-0ae697d0e20d@185.220.227.100:2080?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40ultrasurf_12%20-%20Psiphon%2025
 vless://abe2b171-afaf-484b-93f5-005d9d50fce4@188.121.113.159:443?mode=auto&amp;path=%2F&amp;security=none&amp;encryption=none&amp;type=xhttp#%40ultrasurf_12%20-%20Psiphon%2026
 
@@ -653,7 +647,6 @@ vmess://eyJhZGQiOiJzZWxsdmlwdnBuLm15aXJhbjEucHciLCJhaWQiOiIwIiwiaG9zdCI6InNuYXBw
 
 
 
-vmess://eyJhZGQiOiJzbmFwcC5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZGFyeGhpbnRlYW0uYnJhdm8tc2l4LmlyIiwiaWQiOiI3MGIyZTVhNi02OGViLTRmMmEtYTVhYS1hZDgyNTQ4MzMyOGUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiJAaWN2MnJheSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
 vmess://eyJpZCI6ImFlZGRiYmJkLWFkOTUtNDllOC1lZTMxLTdjYWNjN2VkZTExNyIsInYiOiIyIiwiYWRkIjoiMTg1LjExLjg5LjM4IiwiaGVhZGVyVHlwZSI6Im5vbmUiLCJmcCI6IiIsIm5ldCI6InRjcCIsInBzIjoiQHVsdHJhc3VyZl8xMiAiLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwiaG9zdCI6IiIsInR5cGUiOiJub25lIiwicGF0aCI6IiIsImFscG4iOiIiLCJzZWVkIjoiIiwic2VydmljZU5hbWUiOiJub25lIiwiYWlkIjoiMCIsInBvcnQiOiIxMjgwOSJ9
 
 vmess://eyJhZGQiOiIxMDQuMjEuMjUuNjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI4NjQxMTJhNi1jZWViLTQxMjYtYjdlMi01MDljMmEyMDNkMjAiLCJuZXQiOiJncnBjIiwicGF0aCI6IiIsInBvcnQiOiIyMDg3IiwicHMiOiJAZnJlVjJyYXlORyIsInNjeSI6ImF1dG8iLCJzbmkiOiJuZXRmbGl4dnV1Z2l1ZnlkdXV2Z2d1aWlneWZnaWdpZmhmc3RxdWhvaWh0Znh0dWlob2pvbGhneWZ5dnl2bGtub3V2cmRmZWQyczJzdnloaWoyMmtrZ2lmamZrZmlmb2ZvdGl0aXJydXllNjM0NjdyOHQ4dDh0Z2lnamdqdm52bWZzcmFldzR3NHc1ZTVlN3Q4eTl1OXVob2lob3BqanBrYmJrdm5nbm1jbWNoZnlmZHk2ZGV1eWV5d3Vlb3RvZ2ljaWg3dWhpaGZ5eXlkaGRoZnlkZnlqamhmZGhmeXRlcm1pbjEuZmxvdXV1c3hvb2tvMDA4NS5zaG9wIiwidGxzIjoidGxzIiwidHlwZSI6Imd1biIsInYiOiIyIn0=
@@ -1161,13 +1154,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224
 
 
 
-ss://1fc09efe-da12-42d7-b863-777a56cdde8a@m.yamahas.ir:2086?encryption=none&amp;type=ws&amp;path=%2F#20GB%20%40ultrasurf_12  
-ss://d025ab69-864f-4370-ae56-e5bcafd62199@185.143.234.235:80?path=%2F&amp;security=&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@ultrasurf_12
-ss://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@ultrasurf_12
-ss://77534396-dead-4a6c-8761-03939cd4fdc8@172.64.149.54:443?path=%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=my.vulmart.ir&amp;type=ws&amp;allowInsecure=0&amp;sni=my.vulmart.ir#@ultrasurf_12
-ss://eyJhZGQiOiJzbmFwcC5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZGFyeGhpbnRlYW0uYnJhdm8tc2l4LmlyIiwiaWQiOiI3MGIyZTVhNi02OGViLTRmMmEtYTVhYS1hZDgyNTQ4MzMyOGUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiJAaWN2MnJheSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
-ss://3c852590-49d8-d3c3-abbf-a3c64ad89cd2@tr.tehranionliine.ir:80?path=%2F&amp;security=&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.188#@ultrasurf_12
-ss://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=none&amp;encryption=none&amp;host=vixon.portab.org&amp;type=ws#@ultrasurf_12
 ss://986a442c-6621-4197-9a35-0ae697d0e20d@185.220.227.100:2080?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40ultrasurf_12%20-%20Psiphon%2025
 ss://abe2b171-afaf-484b-93f5-005d9d50fce4@188.121.113.159:443?mode=auto&amp;path=%2F&amp;security=none&amp;encryption=none&amp;type=xhttp#%40ultrasurf_12%20-%20Psiphon%2026
 ss://eyJpZCI6ImFlZGRiYmJkLWFkOTUtNDllOC1lZTMxLTdjYWNjN2VkZTExNyIsInYiOiIyIiwiYWRkIjoiMTg1LjExLjg5LjM4IiwiaGVhZGVyVHlwZSI6Im5vbmUiLCJmcCI6IiIsIm5ldCI6InRjcCIsInBzIjoiQHVsdHJhc3VyZl8xMiAiLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwiaG9zdCI6IiIsInR5cGUiOiJub25lIiwicGF0aCI6IiIsImFscG4iOiIiLCJzZWVkIjoiIiwic2VydmljZU5hbWUiOiJub25lIiwiYWlkIjoiMCIsInBvcnQiOiIxMjgwOSJ9
