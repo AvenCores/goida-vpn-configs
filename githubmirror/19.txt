@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-24-Apr-2026 16:41
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-24-Apr-2026 18:34
 
 
 
@@ -484,12 +484,6 @@ vless://e384913f-8863-47b4-8858-a84b68abb4a6@4.cdnconn.com:23335?security=realit
 vless://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@us01-gmn-vlr03.tcp-reset-club.net:22443?security=reality&amp;encryption=none&amp;pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=hls-svod.itunes.apple.com&amp;sid=8453e5fd9af927#%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig
 vless://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality&amp;encryption=none&amp;pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=jp.cdn.stun.su&amp;sid=f189d91760bb6663#%F0%9F%87%AF%F0%9F%87%B5%40FreakConfig
 
-vless://c7201267-8439-4ba6-8c41-fc0ecd5472b3@mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir:443?path=%2Fvless&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir&amp;type=ws&amp;allowInsecure=0#@UnNurmal
-vless://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=&amp;encryption=none&amp;host=vixon.portab.org&amp;headerType=&amp;type=tcp#@UnNurmal
-vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
-vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
-vless://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
-vless://b9ffc9c6-aad0-0056-45ee-4f551a0f0b4a@tr.tehranionliine.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.188#@UnNurmal
 vless://63318066-2aec-41d2-8f6c-eced13d04cd0@arvancloud.ir:80?path=%40TunizoNET&amp;security=none&amp;encryption=none&amp;host=ri.amirenzohost.ir&amp;type=ws#@UnNurmal
 vless://4278a814-4a82-4b9b-8092-0ba60a3fb2f6@193.151.153.47:34661?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#@UnNurmal
 vless://c7201267-8439-4ba6-8c41-fc0ecd5472b3@mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir:443?path=%2Fvless&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir&amp;type=ws&amp;allowInsecure=0#@UnNurmal
@@ -648,6 +642,7 @@ vmess://eyJhZGQiOiJzZWxsdmlwdnBuLm15aXJhbjEucHciLCJhaWQiOiIwIiwiaG9zdCI6InNuYXBw
 
 
 vmess://eyJpZCI6ImFlZGRiYmJkLWFkOTUtNDllOC1lZTMxLTdjYWNjN2VkZTExNyIsInYiOiIyIiwiYWRkIjoiMTg1LjExLjg5LjM4IiwiaGVhZGVyVHlwZSI6Im5vbmUiLCJmcCI6IiIsIm5ldCI6InRjcCIsInBzIjoiQHVsdHJhc3VyZl8xMiAiLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwiaG9zdCI6IiIsInR5cGUiOiJub25lIiwicGF0aCI6IiIsImFscG4iOiIiLCJzZWVkIjoiIiwic2VydmljZU5hbWUiOiJub25lIiwiYWlkIjoiMCIsInBvcnQiOiIxMjgwOSJ9
+vmess://eyJpZCI6ImFlZGRiYmJkLWFkOTUtNDllOC1lZTMxLTdjYWNjN2VkZTExNyIsInYiOiIyIiwiYWRkIjoiMTg1LjExLjg5LjM4IiwiaGVhZGVyVHlwZSI6Im5vbmUiLCJmcCI6IiIsIm5ldCI6InRjcCIsInBzIjoiQHVsdHJhc3VyZl8xMiIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJob3N0IjoiIiwidHlwZSI6Im5vbmUiLCJwYXRoIjoiIiwiYWxwbiI6IiIsInNlZWQiOiIiLCJzZXJ2aWNlTmFtZSI6Im5vbmUiLCJhaWQiOiIwIiwicG9ydCI6IjEyODA5In0=
 
 vmess://eyJhZGQiOiIxMDQuMjEuMjUuNjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI4NjQxMTJhNi1jZWViLTQxMjYtYjdlMi01MDljMmEyMDNkMjAiLCJuZXQiOiJncnBjIiwicGF0aCI6IiIsInBvcnQiOiIyMDg3IiwicHMiOiJAZnJlVjJyYXlORyIsInNjeSI6ImF1dG8iLCJzbmkiOiJuZXRmbGl4dnV1Z2l1ZnlkdXV2Z2d1aWlneWZnaWdpZmhmc3RxdWhvaWh0Znh0dWlob2pvbGhneWZ5dnl2bGtub3V2cmRmZWQyczJzdnloaWoyMmtrZ2lmamZrZmlmb2ZvdGl0aXJydXllNjM0NjdyOHQ4dDh0Z2lnamdqdm52bWZzcmFldzR3NHc1ZTVlN3Q4eTl1OXVob2lob3BqanBrYmJrdm5nbm1jbWNoZnlmZHk2ZGV1eWV5d3Vlb3RvZ2ljaWg3dWhpaGZ5eXlkaGRoZnlkZnlqamhmZGhmeXRlcm1pbjEuZmxvdXV1c3hvb2tvMDA4NS5zaG9wIiwidGxzIjoidGxzIiwidHlwZSI6Imd1biIsInYiOiIyIn0=
 vmess://eyJhZGQiOiIxOTUuMTgyLjM4LjE2OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI2Y2JmNGM2NC1mMjkwLTRkOGQtZWU2My1mZTczOTEwYmZhOWUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjE3ODM2IiwicHMiOiJWMnJheU5HIHggfCDZh9mF2Ycg2KfZvtix2KfYqtmI2LHZh9inIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
@@ -1162,6 +1157,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224
 ss://986a442c-6621-4197-9a35-0ae697d0e20d@185.220.227.100:2080?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%40ultrasurf_12%20-%20Psiphon%2025
 ss://abe2b171-afaf-484b-93f5-005d9d50fce4@188.121.113.159:443?mode=auto&amp;path=%2F&amp;security=none&amp;encryption=none&amp;type=xhttp#%40ultrasurf_12%20-%20Psiphon%2026
 ss://eyJpZCI6ImFlZGRiYmJkLWFkOTUtNDllOC1lZTMxLTdjYWNjN2VkZTExNyIsInYiOiIyIiwiYWRkIjoiMTg1LjExLjg5LjM4IiwiaGVhZGVyVHlwZSI6Im5vbmUiLCJmcCI6IiIsIm5ldCI6InRjcCIsInBzIjoiQHVsdHJhc3VyZl8xMiAiLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwiaG9zdCI6IiIsInR5cGUiOiJub25lIiwicGF0aCI6IiIsImFscG4iOiIiLCJzZWVkIjoiIiwic2VydmljZU5hbWUiOiJub25lIiwiYWlkIjoiMCIsInBvcnQiOiIxMjgwOSJ9
+ss://eyJpZCI6ImFlZGRiYmJkLWFkOTUtNDllOC1lZTMxLTdjYWNjN2VkZTExNyIsInYiOiIyIiwiYWRkIjoiMTg1LjExLjg5LjM4IiwiaGVhZGVyVHlwZSI6Im5vbmUiLCJmcCI6IiIsIm5ldCI6InRjcCIsInBzIjoiQHVsdHJhc3VyZl8xMiIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJob3N0IjoiIiwidHlwZSI6Im5vbmUiLCJwYXRoIjoiIiwiYWxwbiI6IiIsInNlZWQiOiIiLCJzZXJ2aWNlTmFtZSI6Im5vbmUiLCJhaWQiOiIwIiwicG9ydCI6IjEyODA5In0=
 
 ss://4898e947-7364-40fc-bc6d-969c74afc72a@shhproxy.varzesh3-cnd.site:2087?path=%2F&amp;security=tls&amp;encryption=none&amp;host=gmV2raybo.shhproxyfree.com&amp;type=ws&amp;sni=gmV2raybo.shhproxyfree.com#@vpn_kanfik
 ss://18cabd6b-c83d-4063-a478-3cd7a2a82e34@shhproxy.varzesh3-cnd.site:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=SHHPROXY-V2ray.%E6%96%AF%E6%B6%85%E9%81%8E%E6%BF%BE%E5%99%A869.website&amp;type=ws#@vpn_kanfik
@@ -1310,12 +1306,6 @@ ss://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@us01-gmn-vlr03.tcp-reset-club.net:2244
 ss://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality&amp;encryption=none&amp;pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=jp.cdn.stun.su&amp;sid=f189d91760bb6663#%F0%9F%87%AF%F0%9F%87%B5%40FreakConfig
 ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@154.223.16.41:4444#%F0%9F%87%A8%F0%9F%87%B4%40FreakConfig
 
-ss://c7201267-8439-4ba6-8c41-fc0ecd5472b3@mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir:443?path=%2Fvless&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=mochi-d1bdb57cd7-kalak.apps.ir-central1.arvancaas.ir&amp;type=ws&amp;allowInsecure=0#@UnNurmal
-ss://22109ab6-bfdd-4062-ae1c-054c74353e39@185.143.233.235:80?security=&amp;encryption=none&amp;host=vixon.portab.org&amp;headerType=&amp;type=tcp#@UnNurmal
-ss://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
-ss://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
-ss://5eb2b49f-2657-4d90-ac8a-050a384c5547@185.143.235.253:80?path=%2F&amp;security=&amp;encryption=none&amp;host=ss.oppobot.ir&amp;type=ws#@UnNurmal
-ss://b9ffc9c6-aad0-0056-45ee-4f551a0f0b4a@tr.tehranionliine.ir:80?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws&amp;sni=185.226.94.188#@UnNurmal
 ss://eyJhZGQiOiIxODUuMTEuODkuMzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYWVkZGJiYmQtYWQ5NS00OWU4LWVlMzEtN2NhY2M3ZWRlMTE3IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjgwOSIsInBzIjoiQFYyUkFZRU5HTElTSCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 ss://63318066-2aec-41d2-8f6c-eced13d04cd0@arvancloud.ir:80?path=%40TunizoNET&amp;security=none&amp;encryption=none&amp;host=ri.amirenzohost.ir&amp;type=ws#@UnNurmal
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.236:443#@UnNurmal
