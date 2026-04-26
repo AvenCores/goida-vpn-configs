@@ -741,6 +741,27 @@ def fetch_vc_runtime_link() -> str | None:
         return None
 
 
+def select_v2rayng_apk(assets):
+    """Выбирает обычный universal APK для v2rayNG, а не F-Droid сборку."""
+    standard_apk = next(
+        (
+            asset
+            for asset in assets
+            if 'universal.apk' in asset.get('name', '').lower()
+            and 'f-droid' not in asset.get('name', '').lower()
+            and 'fdroid' not in asset.get('name', '').lower()
+        ),
+        None,
+    )
+    if standard_apk:
+        return standard_apk
+
+    return next(
+        (asset for asset in assets if 'universal.apk' in asset.get('name', '').lower()),
+        None,
+    )
+
+
 def fetch_latest_release_links() -> dict[str, str]:
     """Получает свежие ссылки на v2rayNG и Throne с GitHub API."""
     links: dict[str, str] = {}
@@ -751,7 +772,7 @@ def fetch_latest_release_links() -> dict[str, str]:
         response = requests.get('https://api.github.com/repos/2dust/v2rayNG/releases/latest', timeout=10)
         if response.status_code == 200:
             releases = response.json()
-            apk = next((a for a in releases.get('assets', []) if 'universal.apk' in a['name']), None)
+            apk = select_v2rayng_apk(releases.get('assets', []))
             if apk:
                 links['v2rayng-apk'] = apk['browser_download_url']
                 log(f"✅ v2rayNG: {os.path.basename(apk['browser_download_url'])}")
