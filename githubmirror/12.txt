@@ -1,30 +1,5 @@
 ss://bm9uZTpmOGY3YUN6Y1BLYnNGOHAz@lil:360#%F0%9F%91%91
 
-vless://b06ab6e3-4e83-49eb-9c16-43e952302f76@ite.pishvatech.lol:80?path=%2F&security=none&encryption=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40AloConfig_com
-
-vless://0773112d-c3fc-4a9f-aea0-d9be521452ce@85.133.227.13:35812?security=reality&encryption=none&pbk=LOS87LofEJA0paPzrS2mIFhmTaqkOZC-AUFgNvE1UEs&headerType=none&fp=chrome&type=tcp&sni=learn.microsoft.com&sid=82cada35130f1ef2#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
-
-vless://ed52ad88-bd51-4ca8-bdbe-1e784f9f87c2@vatan.6lf.ir:44?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40NormanV2ray
-
-
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#%F0%9F%87%AA%F0%9F%87%AA%20TCP-None%20%7C%20%40v2ray_configs_pool
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.205.153.107:990#%F0%9F%87%A8%F0%9F%87%B1%20TCP-None%20%7C%20%40v2ray_configs_pool
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjk1NWM4NTMwMzIwMTIw@38.54.29.57:11201#%F0%9F%87%AC%F0%9F%87%B7%20TCP-None%20%7C%20%40v2ray_configs_pool
-
-
-vless://5152ff5b-56f7-400c-bc1d-2f1dd1ac1e13@104.17.148.22:443?path=/eyJqdW5rIjoiZ2FTSnpWSlFGbENDM0xrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTI1LjcuMjQuMjUxIl19?ed=2560&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=010.electrocellco-cf-010.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=010.elECtROcEllCo-CF-010.woRKerS.DEv#%F0%9F%87%A8%F0%9F%87%A6%20WS-TLS%20%7C%20%40v2ray_configs_pool
-
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182:443#%F0%9F%87%AC%F0%9F%87%A7%20TCP-None%20%7C%20%40v2ray_configs_pool
-
-
-vless://66b2d54e-85ae-4664-88a2-90d70808d624@mv2.amydoodles.com:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=baba-nazan-h1.global.ssl.fastly.net&fp=firefox&type=xhttp&allowInsecure=0&sni=default.ssl.fastly.net#%F0%9F%87%BA%F0%9F%87%B8%20XHTTP-TLS%20%7C%20%40v2ray_configs_pool
-
-vless://631d86da-90e2-4f92-8cec-484dbed585b0@194.60.230.121:16344?path=%2F%40Net2ray&security=none&encryption=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
-
-vless://b93a3c44-478a-4d64-989e-4602ccc5e184@87.107.146.145:14371?type=tcp&encryption=nonesecurity=none#%F0%9F%8C%90%20TCP-None%20%7C%20%40NormanV2ray
-
 vless://f24bd99f-c4fe-b913-3b4d-dcfb86c1b3cd@meli.masterdadeh.ir:80?path=%2F&security=none&encryption=none&type=ws&sni=185 .226.94.198#%F0%9F%8C%90%20WS-None%20%7C%20%40NormanV2ray
 
 vless://f24bd99f-c4fe-b913-3b4d-dcfb86c1b3cd@meli.masterdadeh.ir:80?path=%2F&security=none&encryption=none&type=ws&sni=185#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
@@ -1047,6 +1022,8 @@ trojan://telegram-id-privatevpns@18.156.207.245:22222?security=tls&alpn=http/1.1
 
 
 vless://501e461e-02f6-4293-8334-d6ba7c076dd9@104.18.4.130:443?mode=auto&path=%2F&security=tls&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=cdn.dns.xn--q9jyb4c#%F0%9F%87%A8%F0%9F%87%A6%20XHTTP-TLS%20%7C%20%40v2ray_configs_pool
+
+vless://360ae1cc-71f7-4019-9c49-9be6bc812ad6@tr2.masterdadeh.ir:80?type=ws&security=none&path=%2F#%F0%9F%87%AE%F0%9F%87%B7%20WS-None%20%7C%20%40v2ray_configs_pool
 
 vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?path=%2F&security=tls&encryption=none&insecure=0&host=p1.thisiswe.uno&fp=chrome&type=ws&allowInsecure=0&sni=p1.thisiswe.uno#%F0%9F%87%B8%F0%9F%87%A8%20WS-TLS%20%7C%20%40v2ray_configs_pool
 
@@ -9202,3 +9179,28 @@ vmess://eyJzZWVkIjogIiIsICJ0bHMiOiAibm9uZSIsICJwb3J0IjogIjgwODAiLCAidiI6ICIyIiwg
 vless://9c36d9a1-7683-4d91-89ba-f193536be053@vercel.com:443?encryption=none&security=tls&sni=vercel.com&insecure=0&allowInsecure=0&type=xhttp&host=vercel-xhttp-plum-seven.vercel.app&path=/mozzz&mode=auto#%F0%9F%87%BA%F0%9F%87%B8%20XHTTP-TLS%20%7C%20%40v2ray_configs_pool
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@217.144.190.230:443?encryption=none&security=tls&sni=sni.latonyamadeline.ndjp.net&type=ws&host=sni.latonyamadeline.ndjp.net&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%A9%F0%9F%87%AA%20WS-TLS%20%7C%20%40v2ray_configs_pool
+
+vless://6e455d93-fe46-4462-9514-ce7730f8ff41@snapp.ir:80?path=%2F&security=none&encryption=none&host=cdn.softnetconnect.ir&type=ws#%F0%9F%87%AE%F0%9F%87%B7%20WS-None%20%7C%20%40v2ray_configs_pool
+
+ss://YWVzLTI1Ni1nY206c29tZS1zaW1wbGUta2V5@37.32.25.141:8403#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+
+vless://55e9c531-83cd-4122-8cba-3b9b9e37f1a2@seyyed.nahidapp.com:443/?type=ws&encryption=none&flow=&host=seyyed.nahidapp.com&path=%2Fvless-ws&security=tls&sni=seyyed.nahidapp.com&fp=chrome#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
+
+vless://36a69e01-9e30-47fd-982c-1111ed03fa7f@rfiksma.top:41051?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+
+vless://Telegram-Parsashonam@104.18.13.149:443?mode=auto&path=%2F&security=tls&encryption=none&insecure=0&host=test.atlasw.ir&type=xhttp&allowInsecure=0&sni=test.atlasw.ir#%F0%9F%8C%90%20XHTTP-TLS%20%7C%20%40filembad
+
+vless://49a98e71-4d62-4d30-a5b6-68217701f8cf@vercel.com:443?encryption=none&security=tls&sni=vercel.com&type=xhttp&path=/&host=vercel.s20l26h.space#%F0%9F%87%BA%F0%9F%87%B8%20XHTTP-TLS%20%7C%20%40v2ray_configs_pool
+
+
+vless://8429304a-e4df-4a05-8060-b5c66d9004db@snapp.ir:8080?encryption=none&type=ws&path=%2FAPI%2Fsuperip&host=library.phill-up.ir#%F0%9F%87%AE%F0%9F%87%B7%20WS-None%20%7C%20%40v2ray_configs_pool
+
+vless://7fb5fcb6-c8fa-48e4-8757-f8731a3c3030@v2ngfast-v2ngfast-v2ngfast-v2ngfast.xohiyok250.workers.dev:443?path=ws&security=tls&encryption=none&host=v2ngfast-v2ngfast-v2ngfast-v2ngfast.xohiyok250.workers.dev&fp=chrome&type=ws&sni=v2ngfast-v2ngfast-v2ngfast-v2ngfast.xohiyok250.workers.dev#%F0%9F%87%A8%F0%9F%87%A6%20WS-TLS%20%7C%20%40v2ray_configs_pool
+
+ss://MjAyM#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+
+vless://36029350-08c4-4c1e-aa9d-4507359b054d@vercel.com:443?encryption=none&security=tls&sni=vercel.com&insecure=0&allowInsecure=0&type=xhttp&host=heydari.vercel.app&path=%2Ftt&mode=auto#%F0%9F%87%BA%F0%9F%87%B8%20XHTTP-TLS%20%7C%20%40v2ray_configs_pool
+
+vless://f0ac3bab-a26b-403b-9948-a999d7f4a92a@vercel.com:443?mode=auto&path=%2Ftt&security=tls&encryption=none&host=heydari.vercel.app&type=xhttp&sni=vercel.com#%F0%9F%87%BA%F0%9F%87%B8%20XHTTP-TLS%20%7C%20%40v2ray_configs_pool
+
+ss://YWVzLTI1Ni1nY206MzE1MDQ2NjU2OGVkYTg3Yg==@195.58.49.26:40210#%F0%9F%87%B7%F0%9F%87%BA%20TCP-None%20%7C%20%40v2ray_configs_pool
