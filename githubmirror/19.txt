@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-29-Apr-2026 20:52
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-29-Apr-2026 22:46
 
 
 
@@ -327,6 +327,12 @@ vless://db487de4-7e8f-4b3b-b5e8-1e7337ea7954@172.64.152.23:443?type=ws&amp;encry
 
 
 vless://3aa7db12-eb93-47fc-af04-d54c0243b6d2@eco.gymplusplus.com:2052?path=%2F&amp;security=&amp;encryption=none&amp;type=ws#@ultrasurf_12
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.72.206:8443?security=tls&amp;encryption=none&amp;host=sni.111000.dynv6.net&amp;fp=chrome&amp;type=ws&amp;sni=sni.111000.dynv6.net#@ultrasurf_12
+vless://c33d39ba-e68b-45b3-bb11-a2d29ae6f98d@red.nahidapp.com:443?path=%2Fred%2F&amp;security=tls&amp;encryption=none&amp;host=red.nahidapp.com&amp;type=ws&amp;sni=red.nahidapp.com#@ultrasurf_12
+vless://c22d0fb2-155d-4d20-a735-870bb5a9e238@red.nahidapp.com:443?path=%2Fred%2F&amp;security=tls&amp;encryption=none&amp;host=red.nahidapp.com&amp;type=ws&amp;sni=red.nahidapp.com#@ultrasurf_12
+vless://7a3ffd65-dbf5-4f80-819d-b94922481d06@post.exitping.store:33089?security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=post.exitping.store#@ultrasurf_12
+vless://0b69e6e7-3bf4-432f-a6bf-0ae060dc53a1@snapp.ir:80?security=none&amp;type=ws&amp;headerType=&amp;path=%2F%3Fed%3D2080&amp;host=1.jojo.avenflow.ir#@ultrasurf_12
+vless://79ed806a-6476-4ca3-9020-0ab9e19425e1@snapp.ir:80?path=%2F&amp;security=&amp;encryption=none&amp;host=iranfuture.musicritmic.ir&amp;type=ws#@ultrasurf_12
 
 vless://4898e947-7364-40fc-bc6d-969c74afc72a@shhproxy.varzesh3-cnd.site:2087?path=%2F&amp;security=tls&amp;encryption=none&amp;host=gmV2raybo.shhproxyfree.com&amp;type=ws&amp;sni=gmV2raybo.shhproxyfree.com#@vpn_kanfik
 vless://18cabd6b-c83d-4063-a478-3cd7a2a82e34@shhproxy.varzesh3-cnd.site:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=SHHPROXY-V2ray.%E6%96%AF%E6%B6%85%E9%81%8E%E6%BF%BE%E5%99%A869.website&amp;type=ws#@vpn_kanfik
@@ -450,6 +456,7 @@ vless://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality
 vless://9a06cc2a-8967-4d6b-abfc-f9c5501ff4ad@185.143.233.234:443?path=%2Fvoip&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=s1.pishparda.ir&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=s1.pishparda.ir#%40vpnbaz%20%7C%20%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C
 vless://04fa65ad-5178-49c0-b679-a5442e3bfe78@185.143.234.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=d.nsa03.com&amp;type=ws#%40vpnbaz%20%7C%20%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C
 vless://65cb52fc-4c72-4b43-bdac-ed9c31a40714@th.gostargate.top:49961?security=none&amp;encryption=none&amp;headerType=http&amp;type=tcp#%40vpnbaz%20%7C%20%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C
+vless://57847df6-3ef1-477f-986c-c8dfb55d4160@185.143.233.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=d.nsa03.com&amp;type=ws#Telegram%20%3A%20%40UnNurmal%20%F0%9F%8D%83
 
 vless://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=root.configforvpn.fun&amp;fp=chrome&amp;type=ws&amp;sni=root.configforvpn.fun#%40ConfigforVPN
@@ -596,6 +603,7 @@ vmess://eyJhZGQiOiJzZWxsdmlwdnBuLm15aXJhbjEucHciLCJhaWQiOiIwIiwiaG9zdCI6InNuYXBw
 
 vmess://eyJ2IjoiMiIsInBzIjoi2qnZhdqp24zwn5KFIDIiLCJhZGQiOiJtaWctc2luLmRhcmt1YmUuaXIiLCJwb3J0IjoiNDQzIiwiaWQiOiIyNTQ3MjFhOS01NzM5LTRiYWYtYjM1ZC05YmM5NTBlMzQ2ZGIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii9hcGkvZGlyZWN0IiwidGxzIjoidGxzIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=@ultrasurf_12
 vmess://eyJ2IjoiMiIsInBzIjoi2qnZhdqp24zwn5KFIDEiLCJhZGQiOiIxODUuMjM2LjM4LjQ0IiwicG9ydCI6IjE5OTQ2IiwiaWQiOiJjOWU0MjUzNy04NjUyLTRhNGMtODVkMy0wZDM2YWJmMzhmODgiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiJub25lIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=@ultrasurf_12
+vmess://eyJhZGQiOiIxODUuMTEuODkuMzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYWVkZGJiYmQtYWQ5NS00OWU4LWVlMzEtN2NhY2M3ZWRlMTE3IiwiaW5zZWN1cmUiOiIxIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjgwOSIsInBzIjoiQHdlZGJhemdhcCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 
 vmess://eyJhZGQiOiIxMDQuMjEuMjUuNjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI4NjQxMTJhNi1jZWViLTQxMjYtYjdlMi01MDljMmEyMDNkMjAiLCJuZXQiOiJncnBjIiwicGF0aCI6IiIsInBvcnQiOiIyMDg3IiwicHMiOiJAZnJlVjJyYXlORyIsInNjeSI6ImF1dG8iLCJzbmkiOiJuZXRmbGl4dnV1Z2l1ZnlkdXV2Z2d1aWlneWZnaWdpZmhmc3RxdWhvaWh0Znh0dWlob2pvbGhneWZ5dnl2bGtub3V2cmRmZWQyczJzdnloaWoyMmtrZ2lmamZrZmlmb2ZvdGl0aXJydXllNjM0NjdyOHQ4dDh0Z2lnamdqdm52bWZzcmFldzR3NHc1ZTVlN3Q4eTl1OXVob2lob3BqanBrYmJrdm5nbm1jbWNoZnlmZHk2ZGV1eWV5d3Vlb3RvZ2ljaWg3dWhpaGZ5eXlkaGRoZnlkZnlqamhmZGhmeXRlcm1pbjEuZmxvdXV1c3hvb2tvMDA4NS5zaG9wIiwidGxzIjoidGxzIiwidHlwZSI6Imd1biIsInYiOiIyIn0=
 vmess://eyJhZGQiOiIxOTUuMTgyLjM4LjE2OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI2Y2JmNGM2NC1mMjkwLTRkOGQtZWU2My1mZTczOTEwYmZhOWUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjE3ODM2IiwicHMiOiJWMnJheU5HIHggfCDZh9mF2Ycg2KfZvtix2KfYqtmI2LHZh9inIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
@@ -1067,6 +1075,13 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224
 ss://eyJ2IjoiMiIsInBzIjoi2qnZhdqp24zwn5KFIDIiLCJhZGQiOiJtaWctc2luLmRhcmt1YmUuaXIiLCJwb3J0IjoiNDQzIiwiaWQiOiIyNTQ3MjFhOS01NzM5LTRiYWYtYjM1ZC05YmM5NTBlMzQ2ZGIiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii9hcGkvZGlyZWN0IiwidGxzIjoidGxzIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=@ultrasurf_12
 ss://eyJ2IjoiMiIsInBzIjoi2qnZhdqp24zwn5KFIDEiLCJhZGQiOiIxODUuMjM2LjM4LjQ0IiwicG9ydCI6IjE5OTQ2IiwiaWQiOiJjOWU0MjUzNy04NjUyLTRhNGMtODVkMy0wZDM2YWJmMzhmODgiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiJub25lIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=@ultrasurf_12
 ss://3aa7db12-eb93-47fc-af04-d54c0243b6d2@eco.gymplusplus.com:2052?path=%2F&amp;security=&amp;encryption=none&amp;type=ws#@ultrasurf_12
+ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.72.206:8443?security=tls&amp;encryption=none&amp;host=sni.111000.dynv6.net&amp;fp=chrome&amp;type=ws&amp;sni=sni.111000.dynv6.net#@ultrasurf_12
+ss://c33d39ba-e68b-45b3-bb11-a2d29ae6f98d@red.nahidapp.com:443?path=%2Fred%2F&amp;security=tls&amp;encryption=none&amp;host=red.nahidapp.com&amp;type=ws&amp;sni=red.nahidapp.com#@ultrasurf_12
+ss://c22d0fb2-155d-4d20-a735-870bb5a9e238@red.nahidapp.com:443?path=%2Fred%2F&amp;security=tls&amp;encryption=none&amp;host=red.nahidapp.com&amp;type=ws&amp;sni=red.nahidapp.com#@ultrasurf_12
+ss://7a3ffd65-dbf5-4f80-819d-b94922481d06@post.exitping.store:33089?security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=post.exitping.store#@ultrasurf_12
+ss://eyJhZGQiOiIxODUuMTEuODkuMzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYWVkZGJiYmQtYWQ5NS00OWU4LWVlMzEtN2NhY2M3ZWRlMTE3IiwiaW5zZWN1cmUiOiIxIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjgwOSIsInBzIjoiQHdlZGJhemdhcCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+ss://0b69e6e7-3bf4-432f-a6bf-0ae060dc53a1@snapp.ir:80?security=none&amp;type=ws&amp;headerType=&amp;path=%2F%3Fed%3D2080&amp;host=1.jojo.avenflow.ir#@ultrasurf_12
+ss://79ed806a-6476-4ca3-9020-0ab9e19425e1@snapp.ir:80?path=%2F&amp;security=&amp;encryption=none&amp;host=iranfuture.musicritmic.ir&amp;type=ws#@ultrasurf_12
 
 ss://4898e947-7364-40fc-bc6d-969c74afc72a@shhproxy.varzesh3-cnd.site:2087?path=%2F&amp;security=tls&amp;encryption=none&amp;host=gmV2raybo.shhproxyfree.com&amp;type=ws&amp;sni=gmV2raybo.shhproxyfree.com#@vpn_kanfik
 ss://18cabd6b-c83d-4063-a478-3cd7a2a82e34@shhproxy.varzesh3-cnd.site:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=SHHPROXY-V2ray.%E6%96%AF%E6%B6%85%E9%81%8E%E6%BF%BE%E5%99%A869.website&amp;type=ws#@vpn_kanfik
@@ -1220,6 +1235,7 @@ ss://eyJhZGQiOiJtaWctc2luLmRhcmt1YmUuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiw
 ss://04fa65ad-5178-49c0-b679-a5442e3bfe78@185.143.234.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=d.nsa03.com&amp;type=ws#%40vpnbaz%20%7C%20%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C
 ss://65cb52fc-4c72-4b43-bdac-ed9c31a40714@th.gostargate.top:49961?security=none&amp;encryption=none&amp;headerType=http&amp;type=tcp#%40vpnbaz%20%7C%20%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C
 ss://eyJhZGQiOiIxODguMTIxLjEwOC45MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIyMjFlZDYzMy04MzhmLTQxMTAtYmY0MS04NjkzNmMxYmM4ZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjQ2NzQyIiwicHMiOiJAdnBuYmF6IHwg2KrYsdqp24zYqNuMIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+ss://57847df6-3ef1-477f-986c-c8dfb55d4160@185.143.233.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=d.nsa03.com&amp;type=ws#Telegram%20%3A%20%40UnNurmal%20%F0%9F%8D%83
 
 ss://08b58907-305c-4413-86bd-c8855f5bac0b@best.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;fp=chrome&amp;type=ws&amp;sni=best.configforvpn.fun#%40ConfigforVPN…
 ss://eyJhZGQiOiJiZXN0LmNvbmZpZ2ZvcnZwbi5mdW4iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImJlc3QuY29uZmlnZm9ydnBuLmZ1biIsImlkIjoiYWEzMmVmZGQtZGZiOS00N2ZlLWFjMTMtNWIyY2JjMGRjMjE1IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4ODgwIiwicHMiOiJAQ29uZmlnZm9yVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
