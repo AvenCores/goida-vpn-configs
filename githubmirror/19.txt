@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-01-May-2026 21:25
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Fri-01-May-2026 22:34
 
 
 
@@ -328,16 +328,9 @@ vless://1a83df32-42f2-4395-97bb-1fb91822c630@185.143.233.5:443?security=tls&amp;
 vless://57847df6-3ef1-477f-986c-c8dfb55d4160@185.143.233.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=d.nsa03.com&amp;type=ws#Telegram%20%3A%20%40UnNurmal%20%F0%9F%8D%83
 
 
-vless://3aa7db12-eb93-47fc-af04-d54c0243b6d2@eco.gymplusplus.com:2052?path=%2F&amp;security=&amp;encryption=none&amp;type=ws#@ultrasurf_12
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.72.206:8443?security=tls&amp;encryption=none&amp;host=sni.111000.dynv6.net&amp;fp=chrome&amp;type=ws&amp;sni=sni.111000.dynv6.net#@ultrasurf_12
-vless://c33d39ba-e68b-45b3-bb11-a2d29ae6f98d@red.nahidapp.com:443?path=%2Fred%2F&amp;security=tls&amp;encryption=none&amp;host=red.nahidapp.com&amp;type=ws&amp;sni=red.nahidapp.com#@ultrasurf_12
-vless://c22d0fb2-155d-4d20-a735-870bb5a9e238@red.nahidapp.com:443?path=%2Fred%2F&amp;security=tls&amp;encryption=none&amp;host=red.nahidapp.com&amp;type=ws&amp;sni=red.nahidapp.com#@ultrasurf_12
-vless://7a3ffd65-dbf5-4f80-819d-b94922481d06@post.exitping.store:33089?security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=post.exitping.store#@ultrasurf_12
-vless://0b69e6e7-3bf4-432f-a6bf-0ae060dc53a1@snapp.ir:80?security=none&amp;type=ws&amp;headerType=&amp;path=%2F%3Fed%3D2080&amp;host=1.jojo.avenflow.ir#@ultrasurf_12
-vless://79ed806a-6476-4ca3-9020-0ab9e19425e1@snapp.ir:80?path=%2F&amp;security=&amp;encryption=none&amp;host=iranfuture.musicritmic.ir&amp;type=ws#@ultrasurf_12
-vless://57847df6-3ef1-477f-986c-c8dfb55d4160@185.143.233.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=d.nsa03.com&amp;type=ws#@ultrasurf_12
 vless://8c4604ef-749c-4b56-adf1-7da405002a21@216.24.57.1:443/?type=ws&amp;encryption=none&amp;flow=&amp;host=qyi.fqjd663.ggff.net&amp;path=%2F&amp;security=tls&amp;sni=qyi.fqjd663.ggff.net#@ultrasurf_12
 vless://89960e91-7f08-401d-98b1-60a8ca601c6f@170.168.103.156:8081?type=tcp&amp;encryption=none&amp;path=%2F&amp;host=www.speedtest.net&amp;headerType=http&amp;security=none#https://t.me/ultrasurf_12
+vless://89960e91-7f08-401d-98b1-60a8ca601c6f@170.168.103.156:8081?security=none&amp;encryption=none&amp;host=www.speedtest.net&amp;headerType=http&amp;type=tcp#%40@ultrasurf_12
 
 vless://4898e947-7364-40fc-bc6d-969c74afc72a@shhproxy.varzesh3-cnd.site:2087?path=%2F&amp;security=tls&amp;encryption=none&amp;host=gmV2raybo.shhproxyfree.com&amp;type=ws&amp;sni=gmV2raybo.shhproxyfree.com#@vpn_kanfik
 vless://18cabd6b-c83d-4063-a478-3cd7a2a82e34@shhproxy.varzesh3-cnd.site:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=SHHPROXY-V2ray.%E6%96%AF%E6%B6%85%E9%81%8E%E6%BF%BE%E5%99%A869.website&amp;type=ws#@vpn_kanfik
@@ -619,7 +612,7 @@ vmess://eyJhZGQiOiJzZWxsdmlwdnBuLm15aXJhbjEucHciLCJhaWQiOiIwIiwiaG9zdCI6InNuYXBw
 
 
 
-vmess://eyJhZGQiOiIxODUuMTEuODkuMzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYWVkZGJiYmQtYWQ5NS00OWU4LWVlMzEtN2NhY2M3ZWRlMTE3IiwiaW5zZWN1cmUiOiIxIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjgwOSIsInBzIjoiQHdlZGJhemdhcCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+
 
 vmess://eyJhZGQiOiIxMDQuMjEuMjUuNjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI4NjQxMTJhNi1jZWViLTQxMjYtYjdlMi01MDljMmEyMDNkMjAiLCJuZXQiOiJncnBjIiwicGF0aCI6IiIsInBvcnQiOiIyMDg3IiwicHMiOiJAZnJlVjJyYXlORyIsInNjeSI6ImF1dG8iLCJzbmkiOiJuZXRmbGl4dnV1Z2l1ZnlkdXV2Z2d1aWlneWZnaWdpZmhmc3RxdWhvaWh0Znh0dWlob2pvbGhneWZ5dnl2bGtub3V2cmRmZWQyczJzdnloaWoyMmtrZ2lmamZrZmlmb2ZvdGl0aXJydXllNjM0NjdyOHQ4dDh0Z2lnamdqdm52bWZzcmFldzR3NHc1ZTVlN3Q4eTl1OXVob2lob3BqanBrYmJrdm5nbm1jbWNoZnlmZHk2ZGV1eWV5d3Vlb3RvZ2ljaWg3dWhpaGZ5eXlkaGRoZnlkZnlqamhmZGhmeXRlcm1pbjEuZmxvdXV1c3hvb2tvMDA4NS5zaG9wIiwidGxzIjoidGxzIiwidHlwZSI6Imd1biIsInYiOiIyIn0=
 vmess://eyJhZGQiOiIxOTUuMTgyLjM4LjE2OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI2Y2JmNGM2NC1mMjkwLTRkOGQtZWU2My1mZTczOTEwYmZhOWUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjE3ODM2IiwicHMiOiJWMnJheU5HIHggfCDZh9mF2Ycg2KfZvtix2KfYqtmI2LHZh9inIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
@@ -1093,17 +1086,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224
 ss://57847df6-3ef1-477f-986c-c8dfb55d4160@185.143.233.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=d.nsa03.com&amp;type=ws#Telegram%20%3A%20%40UnNurmal%20%F0%9F%8D%83
 
 
-ss://3aa7db12-eb93-47fc-af04-d54c0243b6d2@eco.gymplusplus.com:2052?path=%2F&amp;security=&amp;encryption=none&amp;type=ws#@ultrasurf_12
-ss://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.72.206:8443?security=tls&amp;encryption=none&amp;host=sni.111000.dynv6.net&amp;fp=chrome&amp;type=ws&amp;sni=sni.111000.dynv6.net#@ultrasurf_12
-ss://c33d39ba-e68b-45b3-bb11-a2d29ae6f98d@red.nahidapp.com:443?path=%2Fred%2F&amp;security=tls&amp;encryption=none&amp;host=red.nahidapp.com&amp;type=ws&amp;sni=red.nahidapp.com#@ultrasurf_12
-ss://c22d0fb2-155d-4d20-a735-870bb5a9e238@red.nahidapp.com:443?path=%2Fred%2F&amp;security=tls&amp;encryption=none&amp;host=red.nahidapp.com&amp;type=ws&amp;sni=red.nahidapp.com#@ultrasurf_12
-ss://7a3ffd65-dbf5-4f80-819d-b94922481d06@post.exitping.store:33089?security=tls&amp;alpn=h2%2Chttp%2F1.1&amp;encryption=none&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;sni=post.exitping.store#@ultrasurf_12
-ss://eyJhZGQiOiIxODUuMTEuODkuMzgiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYWVkZGJiYmQtYWQ5NS00OWU4LWVlMzEtN2NhY2M3ZWRlMTE3IiwiaW5zZWN1cmUiOiIxIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjgwOSIsInBzIjoiQHdlZGJhemdhcCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
-ss://0b69e6e7-3bf4-432f-a6bf-0ae060dc53a1@snapp.ir:80?security=none&amp;type=ws&amp;headerType=&amp;path=%2F%3Fed%3D2080&amp;host=1.jojo.avenflow.ir#@ultrasurf_12
-ss://79ed806a-6476-4ca3-9020-0ab9e19425e1@snapp.ir:80?path=%2F&amp;security=&amp;encryption=none&amp;host=iranfuture.musicritmic.ir&amp;type=ws#@ultrasurf_12
-ss://57847df6-3ef1-477f-986c-c8dfb55d4160@185.143.233.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=d.nsa03.com&amp;type=ws#@ultrasurf_12
 ss://8c4604ef-749c-4b56-adf1-7da405002a21@216.24.57.1:443/?type=ws&amp;encryption=none&amp;flow=&amp;host=qyi.fqjd663.ggff.net&amp;path=%2F&amp;security=tls&amp;sni=qyi.fqjd663.ggff.net#@ultrasurf_12
 ss://89960e91-7f08-401d-98b1-60a8ca601c6f@170.168.103.156:8081?type=tcp&amp;encryption=none&amp;path=%2F&amp;host=www.speedtest.net&amp;headerType=http&amp;security=none#https://t.me/ultrasurf_12
+ss://89960e91-7f08-401d-98b1-60a8ca601c6f@170.168.103.156:8081?security=none&amp;encryption=none&amp;host=www.speedtest.net&amp;headerType=http&amp;type=tcp#%40@ultrasurf_12
 
 ss://4898e947-7364-40fc-bc6d-969c74afc72a@shhproxy.varzesh3-cnd.site:2087?path=%2F&amp;security=tls&amp;encryption=none&amp;host=gmV2raybo.shhproxyfree.com&amp;type=ws&amp;sni=gmV2raybo.shhproxyfree.com#@vpn_kanfik
 ss://18cabd6b-c83d-4063-a478-3cd7a2a82e34@shhproxy.varzesh3-cnd.site:80?path=%2F%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=SHHPROXY-V2ray.%E6%96%AF%E6%B6%85%E9%81%8E%E6%BF%BE%E5%99%A869.website&amp;type=ws#@vpn_kanfik
@@ -1321,7 +1306,6 @@ trojan://humanity@172.64.152.23:443?path=%2Fassignment&amp;security=tls&amp;inse
 
 
 
-trojan://telegram-id-privatevpns@13.36.179.38:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S104)
 trojan://telegram-id-privatevpns@13.39.77.217:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S103)
 trojan://telegram-id-privatevpns@3.75.35.234:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S101)
 trojan://telegram-id-privatevpns@15.224.77.136:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S103)
@@ -1341,6 +1325,7 @@ trojan://telegram-id-privatevpns@3.120.56.250:22222?security=tls&amp;alpn=http/1
 trojan://telegram-id-privatevpns@13.39.116.213:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S103)
 trojan://telegram-id-privatevpns@15.236.176.235:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S104)
 trojan://telegram-id-privatevpns@18.196.242.104:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S102)
+trojan://telegram-id-privatevpns@35.180.146.148:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#(S103)
 
 
 
