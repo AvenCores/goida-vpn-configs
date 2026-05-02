@@ -287,7 +287,8 @@ def download_and_save(idx: int) -> tuple[str, int] | None:
         short_msg = str(e)
         if len(short_msg) > 200:
             short_msg = short_msg[:200] + "…"
-        log(f"⚠️ Ошибка при скачивании {url}: {short_msg}")
+        # ИСПРАВЛЕНО: добавлен {file_index}.txt, чтобы лог попал в нужную секцию
+        log(f"⚠️ Ошибка при скачивании {file_index}.txt ({url}): {short_msg}")
         return None
 
 # -------------------- 26-й ФАЙЛ --------------------
@@ -581,7 +582,7 @@ def create_filtered_configs() -> str:
                 if line.strip() and not line.startswith("#")
             ]
         except Exception as e:
-            log(f"⚠️ Ошибка при загрузке {url}: {_format_fetch_error(e)}")
+            log(f"⚠️ Ошибка при загрузке ({url}): {_format_fetch_error(e)}")
         return configs, count_removed
 
     total_insecure_filtered_26 = 0
