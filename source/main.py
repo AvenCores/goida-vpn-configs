@@ -582,7 +582,7 @@ def create_filtered_configs() -> str:
                 if line.strip() and not line.startswith("#")
             ]
         except Exception as e:
-            log(f"⚠️ Ошибка при загрузке ({url}): {_format_fetch_error(e)}")
+            log(f"⚠️ Ошибка при загрузке 26.txt ({url}): {_format_fetch_error(e)}")
         return configs, count_removed
 
     total_insecure_filtered_26 = 0
