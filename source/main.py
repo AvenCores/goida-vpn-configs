@@ -223,8 +223,8 @@ def _format_fetch_error(exc: Exception) -> str:
 PROTOCOL_PREFIXES = (
     "vmess://", "vless://", "trojan://", "ss://", "ssr://",
     "tuic://", "hysteria://", "hysteria2://", "hy2://",
-    "socks5://", "socks4://", "http://", "https://",
-    "wireguard://", "ssh://", "snell://", "brook://", "juicity://"
+    "socks5://", "socks4://", "wireguard://", "ssh://",
+    "snell://", "brook://", "juicity://"
 )
 
 INSECURE_PATTERN = re.compile(
