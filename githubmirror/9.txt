@@ -172,6 +172,7 @@ vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.58:8880?security=&fp=chro
 vless://17ebee4e-97ea-4cad-8737-cc228478ca9d@104.16.250.22:443?encryption=none&security=tls&sni=lively-brook-c471.nedena3319.workers.dev&fp=chrome&type=ws&host=lively-brook-c471.nedena3319.workers.dev&path=/?ed=2048&packetEncoding=xudp#🇨🇦 CA | 104.16.250.22
 vless://65b13fcb-d6f8-45ed-a4d3-010234a07e55@185.143.233.5:443?path=/chat?ed=128&security=tls&alpn=h2,http/1.1&encryption=none&host=an.8lack.ir&fp=firefox&type=ws&sni=an.8lack.ir#🇮🇷 IR | 185.143.233.5
 vless://fe08cb95-a7bd-48d3-b3e8-e083ab8cd9bc@193.151.158.91:9000?security=&encryption=none&headerType=http&type=tcp#🇮🇷 IR | 193.151.158.91
+vless://53eb859c-aa0b-4ebf-e9b4-78307ed03c3f@144.172.101.108:2053?path=تلگرام=
 vless://b69a1cc8-fb21-46ae-9e8c-06fbc0253323@fast.superfast.awesome.amazon.com.google.com.arvancloud.ir.mci.ir.digikala.com.permiom.ir:233?mode=auto&path=/moveis&security=reality&encryption=none&pbk=-IDqlvbFzY8wFWvkoZzWOe2iWPB-cBoToyQ5zcinbF0&host=fuck-israel.global.ssl.fastly.net&fp=chrome&spx=/&type=xhttp&sni=journalofbigdata.springeropen.com&sid=210cfdf17087#🏴‍☠️ UN | fast.superfast.awesome.amazon.com.google.com.arvancloud.ir.mci.ir.digikala.com.permiom.ir
 vless://1f46cb74-40ba-4964-9a1f-ccbd448b483b@ca-v2ray.freevmess.com:2087?security=reality&encryption=none&pbk=nzxEupJqZ3vDwqrV95RfHLKKJT8dCByBmBNwsbvHVyc&headerType=none&fp=firefox&spx=/&type=tcp&flow=xtls-rprx-vision&sni=cloudflare.com&sid=e11e857b70#🇨🇦 CA | 134.122.39.210
 vless://48e3ec8d-44ce-4542-aa4d-a48573e0d423@94.184.24.235:56001?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 IR | 94.184.24.235
@@ -219,20 +220,6 @@ vless://e1b8cbfb-f3b0-4838-aaf5-4a6c3a6c16a1@185.143.233.5:80?path=/&security=no
 vless://db487de4-7e8f-4b3b-b5e8-1e7337ea7954@172.64.152.23:443?type=ws&encryption=none&path=/@asrnovin_ir&host=asrnovin.8par.site&security=tls&fp=chrome&alpn=h2,http/1.1&sni=asrnovin.8par.site#🇨🇦 CA | 172.64.152.23
 vless://1a83df32-42f2-4395-97bb-1fb91822c630@185.143.233.5:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=hn.8lack.ir&path=/chat?ed=128&sni=hn.8lack.ir&fp=firefox&alpn=h2,http/1.1#🇮🇷 IR | 185.143.233.5
 vless://1602a406-a38e-4211-bbdc-3f75c890303d@fast.farsidutch.nl:80?security=none&allowInsecure=0&encryption=none&type=xhttp&path=/GaMeOpTiMiZeR?ed=2048&mode=auto&extra={
-  "noGRPCHeader" : false,
-  "xmux" : {
-    "hKeepAlivePeriod" : 0,
-    "maxConcurrency" : "16-32",
-    "cMaxLifetimeMs" : 0,
-    "cMaxReuseTimes" : "64-128",
-    "hMaxRequestTimes" : "800-900",
-    "maxConnections" : 0
-  },
-  "scMaxConcurrentPosts" : 100,
-  "scMaxEachPostBytes" : 1000000,
-  "scMinPostsIntervalMs" : 30,
-  "xPaddingBytes" : "100-1000"
-}#🏴‍☠️ UN | fast.farsidutch.nl
 vless://b0e07703-77ab-4d07-b67f-f825eb7a569e@s3hf8j.connect343.net:34820?type=tcp&encryption=none&security=reality&pbk=846xvaKwZoNDLNHaA06RjUYfTbZg1tkkP290anPfIWw&fp=chrome&sni=www.apple.com&sid=5a096852b9&spx=/#🇺🇸 US | 172.191.161.4
 vless://tel-Channel-ViPv2rayVip@salamsalamsalam.aattaash.com:2087?type=ws&path=/&host=&security=tls&fp=chrome&alpn=http/1.1,h2&sni=finnew2.aattaash.com#🇺🇸 US | 192.0.63.113
 vless://tel-Channel-ViPv2rayVip@salamsalamirancell.aattaash.com:2087?type=ws&path=/&host=&security=tls&fp=chrome&alpn=http/1.1,h2&sni=finnew2.aattaash.com#🇨🇦 CA | 104.18.26.90
