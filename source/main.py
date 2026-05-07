@@ -27,6 +27,23 @@ except Exception:
 GITHUBMIRROR_DIR = os.path.join(GIT_ROOT, "githubmirror")
 README_PATH = os.path.join(GIT_ROOT, "README.md")
 SNI_DOMAINS_PATH = os.path.join(os.path.dirname(__file__), "sni_domains.json")
+URLS_PATH = os.path.join(os.path.dirname(__file__), "urls.json")
+EXTRA_URLS_PATH = os.path.join(os.path.dirname(__file__), "extra_urls.json")
+
+# -------------------- ЗАГРУЗКА КОНФИГУРАЦИИ --------------------
+def _load_json_list(path: str, default: list) -> list:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            if isinstance(data, dict):
+                # Сортируем по ключам-числам для сохранения оригинального порядка
+                return [data[k] for k in sorted(data.keys(), key=lambda x: int(x))]
+            return data
+    except Exception:
+        return default
+
+URLS = _load_json_list(URLS_PATH, [])
+EXTRA_URLS_FOR_26 = _load_json_list(EXTRA_URLS_PATH, [])
 
 # -------------------- ЛОГИРОВАНИЕ --------------------
 LOGS_BY_FILE: dict[int, list[str]] = defaultdict(list)
@@ -86,46 +103,6 @@ else:
     log("⚠️ MY_TOKEN не задан — статистика репозитория недоступна")
 
 os.makedirs(GITHUBMIRROR_DIR, exist_ok=True)
-
-# -------------------- ИСТОЧНИКИ --------------------
-URLS = [
-    "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt",       # 1
-    "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",                # 2
-    "https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt",        # 3
-    "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt",                 # 4
-    "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",      # 5
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",               # 6
-    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt",         # 7
-    "https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt",        # 8
-    "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt", # 9
-    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless",                   # 10
-    "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",           # 11
-    "https://github.com/VOID-Anonymity/V.O.I.D-VPN_Bypass/raw/refs/heads/main/url_work.txt",      # 12
-    "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt", # 13
-    "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes",                   # 14
-    "https://raw.githubusercontent.com/miladtahanian/Config-Collector/refs/heads/main/mixed_iran.txt", # 15
-    "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub",                 # 16
-    "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt",         # 17
-    "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt",                        # 18
-    "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix",                    # 19
-    "https://github.com/Argh94/Proxy-List/raw/refs/heads/main/All_Config.txt",                     # 20
-    "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt",                      # 21
-    "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri",  # 22
-    "https://github.com/igareck/vpn-configs-for-russia/raw/refs/heads/main/BLACK_VLESS_RUS.txt",   # 23
-    "https://github.com/Mr-Meshky/vify/raw/refs/heads/main/configs/vless.txt",                     # 24
-    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",   # 25
-]
-
-# Источники для 26-го файла (без SNI-фильтрации, только дедупликация)
-EXTRA_URLS_FOR_26 = [
-    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-all.txt",
-    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt",
-    "https://raw.githubusercontent.com/zieng2/wl/refs/heads/main/vless_universal.txt",
-    "https://raw.githubusercontent.com/zieng2/wl/main/vless_lite.txt",
-    "https://raw.githubusercontent.com/EtoNeYaProject/etoneyaproject.github.io/refs/heads/main/whitelist",
-    "https://raw.githubusercontent.com/ByeWhiteLists/ByeWhiteLists2/refs/heads/main/ByeWhiteLists2.txt",
-    "https://wlrus.lol/confs/selected.txt",
-]
 
 EXTRA_URL_TIMEOUT = int(os.environ.get("EXTRA_URL_TIMEOUT", "6"))
 EXTRA_URL_MAX_ATTEMPTS = int(os.environ.get("EXTRA_URL_MAX_ATTEMPTS", "2"))
