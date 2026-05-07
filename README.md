@@ -89,15 +89,15 @@
 | 23 | [`23.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt) | [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia/raw/refs/heads/main/BLACK_VLESS_RUS.txt) | 11:37 | 07.05.2026 |
 | 24 | [`24.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt) | [Mr-Meshky/vify](https://github.com/Mr-Meshky/vify/raw/refs/heads/main/configs/vless.txt) | 11:37 | 07.05.2026 |
 | 25 | [`25.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt) | [V2RayRoot/V2RayConfig](https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt) | 10:33 | 07.05.2026 |
-| 26 | [`26.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | [Обход SNI/CIDR белых списков](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | 11:37 | 07.05.2026 |
+| 26 | [`26.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | [Обход SNI/CIDR белых списков](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | 11:46 | 07.05.2026 |
 
 ## 📊 Статистика репозитория
 | Показатель | Значение |
 |--|--|
-| Просмотры (14Д) | 100,839 |
-| Клоны (14Д) | 40,502 |
-| Уникальные клоны (14Д) | 2,523 |
-| Уникальные посетители (14Д) | 34,954 |
+| Просмотры (14Д) | 98,658 |
+| Клоны (14Д) | 26,881 |
+| Уникальные клоны (14Д) | 2,284 |
+| Уникальные посетители (14Д) | 33,941 |
 
 ## 🗂 Структура репозитория
 ```text
