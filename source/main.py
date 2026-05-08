@@ -28,7 +28,7 @@ GITHUBMIRROR_DIR = os.path.join(GIT_ROOT, "githubmirror")
 README_PATH = os.path.join(GIT_ROOT, "README.md")
 SNI_DOMAINS_PATH = os.path.join(os.path.dirname(__file__), "sni_domains.json")
 URLS_PATH = os.path.join(os.path.dirname(__file__), "urls.json")
-EXTRA_URLS_PATH = os.path.join(os.path.dirname(__file__), "extra_urls.json")
+URLS_26_PATH = os.path.join(os.path.dirname(__file__), "26_urls.json")
 
 # -------------------- ЗАГРУЗКА КОНФИГУРАЦИИ --------------------
 def _load_json_list(path: str, default: list) -> list:
@@ -43,7 +43,7 @@ def _load_json_list(path: str, default: list) -> list:
         return default
 
 URLS = _load_json_list(URLS_PATH, [])
-EXTRA_URLS_FOR_26 = _load_json_list(EXTRA_URLS_PATH, [])
+EXTRA_URLS_FOR_26 = _load_json_list(URLS_26_PATH, [])
 
 # -------------------- ЛОГИРОВАНИЕ --------------------
 LOGS_BY_FILE: dict[int, list[str]] = defaultdict(list)
