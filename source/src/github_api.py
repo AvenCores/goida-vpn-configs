@@ -1,4 +1,3 @@
-import os
 from src.logger import log
 from src.config import GITHUB_TOKEN, REPO_NAME
 

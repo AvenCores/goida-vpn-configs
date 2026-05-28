@@ -1,6 +1,6 @@
 import os
 import re
-from src.config import README_PATH, URLS, REPO_NAME, GITHUBMIRROR_DIR
+from src.config import README_PATH, URLS, REPO_NAME
 from src.logger import log, offset, updated_files
 from src.file_manager import extract_source_name
 from src.github_api import get_repo_stats, build_repo_stats_table
