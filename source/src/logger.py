@@ -34,4 +34,4 @@ def log(message: str):
 # -------------------- ВРЕМЯ --------------------
 zone = zoneinfo.ZoneInfo("Europe/Moscow")
 thistime = datetime.now(zone)
-offset = thistime.strftime("%H:%M | %d.%m.%Y")
+offset = thistime.strftime("%H:%M (МСК) | %d.%m.%Y")
