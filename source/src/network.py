@@ -11,7 +11,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 CHROME_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/143.0.0.0 Safari/537.36"
+    "Chrome/148.0.0.0 Safari/537.36"
 )
 
 
