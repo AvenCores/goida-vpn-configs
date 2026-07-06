@@ -104,12 +104,16 @@
 .github/workflows/   — CI/CD (авто-обновление каждые 9 мин)
 githubmirror/        — сгенерированные .txt конфиги (26 файлов)
 qr-codes/            — PNG-версии конфигов для импорта по QR (26 файлов)
-source/              — исходный код и конфигурации генератора
- ├─ main.py          — основной скрипт генерации
- ├─ requirements.txt — зависимости Python
- ├─ urls.json        — список источников для конфигов 1-25
- ├─ 26_urls.json     — источники для конфига №26 (обход SNI)
- └─ sni_domains.json — список доменов для подмены SNI
+loader/              — исполняемый файл для GitHub Actions
+src-python/          — старая версия генератора на Python
+src-go/              — новая быстрая версия генератора на Go
+ ├─ main.go          — точка входа и логика запуска
+ ├─ config/          — конфигурации генератора
+ │   ├─ urls.json        — список источников для конфигов 1-25
+ │   ├─ 26_urls.json     — источники для конфига №26 (обход SNI)
+ │   └─ sni_domains.json — список доменов для подмены SNI
+ └─ ...
+build-linux.bat/.sh  — скрипты для сборки под Linux (для Actions)
 LICENSE              — лицензия GPL-3.0
 README.md            — этот файл
 ```
@@ -119,13 +123,12 @@ README.md            — этот файл
 ## 🔧 Локальный запуск генератора
 ```bash
 git clone https://github.com/AvenCores/goida-vpn-configs
-cd goida-vpn-configs/source
-python -m pip install -r requirements.txt
+cd goida-vpn-configs/src-go
 export MY_TOKEN=<GITHUB_TOKEN>   # токен с правом repo, чтобы пушить изменения
-python main.py                  # конфиги появятся в ../githubmirror
+go run .                         # конфиги появятся в ../githubmirror
 ```
 
-> **Важно!** В файле `source/main.py` вручную задайте `REPO_NAME = "<username>/<repository>"`, если запускаете скрипт из форка.
+> **Важно!** В файле `src-go/config.go` (переменная `RepoName`) вручную задайте `RepoName = "<username>/<repository>"`, если запускаете скрипт из форка.
 
 ---
 
