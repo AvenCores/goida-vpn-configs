@@ -42,17 +42,40 @@ func fetchVcRuntimeLink() string {
 }
 
 func selectV2rayngApk(assets []GHAsset) *GHAsset {
+	// 1. Try universal.apk (excluding fdroid / sig)
 	for i := range assets {
 		nameLower := strings.ToLower(assets[i].Name)
-		if strings.Contains(nameLower, "universal.apk") &&
+		if strings.HasSuffix(nameLower, ".apk") &&
+			strings.Contains(nameLower, "universal") &&
 			!strings.Contains(nameLower, "f-droid") &&
 			!strings.Contains(nameLower, "fdroid") {
 			return &assets[i]
 		}
 	}
+	// 2. Try universal (any format except .sig)
 	for i := range assets {
 		nameLower := strings.ToLower(assets[i].Name)
-		if strings.Contains(nameLower, "universal.apk") {
+		if strings.Contains(nameLower, "universal") &&
+			!strings.HasSuffix(nameLower, ".sig") {
+			return &assets[i]
+		}
+	}
+	// 3. Try arm64-v8a.apk (excluding fdroid / sig) - most common standard architecture
+	for i := range assets {
+		nameLower := strings.ToLower(assets[i].Name)
+		if strings.HasSuffix(nameLower, ".apk") &&
+			strings.Contains(nameLower, "arm64-v8a") &&
+			!strings.Contains(nameLower, "f-droid") &&
+			!strings.Contains(nameLower, "fdroid") {
+			return &assets[i]
+		}
+	}
+	// 4. Try any apk (excluding fdroid / sig)
+	for i := range assets {
+		nameLower := strings.ToLower(assets[i].Name)
+		if strings.HasSuffix(nameLower, ".apk") &&
+			!strings.Contains(nameLower, "f-droid") &&
+			!strings.Contains(nameLower, "fdroid") {
 			return &assets[i]
 		}
 	}
