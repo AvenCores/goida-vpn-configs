@@ -115,8 +115,8 @@ src-go/              — новая быстрая версия генерато
  │   ├─ urls.json        — список источников для конфигов 1-25
  │   ├─ 26_urls.json     — источники для конфига №26 (обход SNI)
  │   └─ sni_domains.json — список доменов для подмены SNI
+ ├─ build-linux.bat/.sh  — скрипты для сборки под Linux (для Actions)
  └─ ...
-build-linux.bat/.sh  — скрипты для сборки под Linux (для Actions)
 LICENSE              — лицензия GPL-3.0
 README.md            — этот файл
 ```
