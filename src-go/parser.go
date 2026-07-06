@@ -121,7 +121,7 @@ func filterInsecureConfigs(localPath string, data string, logEnabled bool) (stri
 		}
 
 		processed := unescapeConfig(lineStripped)
-		if !insecureRegex.MatchString(processed) {
+		if !containsInsecure(processed) || !insecureRegex.MatchString(processed) {
 			result = append(result, lineStripped)
 		} else {
 			insecureCount++
@@ -137,4 +137,23 @@ func filterInsecureConfigs(localPath string, data string, logEnabled bool) (stri
 	}
 
 	return strings.Join(result, "\n"), insecureCount
+}
+
+func containsInsecure(s string) bool {
+	if len(s) < 8 {
+		return false
+	}
+	for i := 0; i <= len(s)-8; i++ {
+		if (s[i] == 'i' || s[i] == 'I') &&
+			(s[i+1] == 'n' || s[i+1] == 'N') &&
+			(s[i+2] == 's' || s[i+2] == 'S') &&
+			(s[i+3] == 'e' || s[i+3] == 'E') &&
+			(s[i+4] == 'c' || s[i+4] == 'C') &&
+			(s[i+5] == 'u' || s[i+5] == 'U') &&
+			(s[i+6] == 'r' || s[i+6] == 'R') &&
+			(s[i+7] == 'e' || s[i+7] == 'E') {
+			return true
+		}
+	}
+	return false
 }

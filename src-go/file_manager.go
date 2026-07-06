@@ -9,6 +9,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"sort"
 	"strings"
 	"sync"
 )
@@ -165,13 +166,9 @@ func loadSniDomains() ([]string, error) {
 func optimizeDomains(domains []string) []string {
 	s := make([]string, len(domains))
 	copy(s, domains)
-	for i := 0; i < len(s); i++ {
-		for j := i + 1; j < len(s); j++ {
-			if len(s[i]) > len(s[j]) {
-				s[i], s[j] = s[j], s[i]
-			}
-		}
-	}
+	sort.Slice(s, func(i, j int) bool {
+		return len(s[i]) < len(s[j])
+	})
 
 	var optimized []string
 	for _, d := range s {
@@ -190,13 +187,8 @@ func optimizeDomains(domains []string) []string {
 }
 
 func matchesAnyDomain(line string, domains []string) bool {
-	lineLower := strings.ToLower(line)
-	for _, d := range domains {
-		if strings.Contains(lineLower, d) {
-			return true
-		}
-	}
-	return false
+	ac := NewAhoCorasick(domains)
+	return ac.MatchLower(line)
 }
 
 func createFilteredConfigs() string {
@@ -210,6 +202,7 @@ func createFilteredConfigs() string {
 	for i := range optimized {
 		optimized[i] = strings.ToLower(optimized[i])
 	}
+	ac := NewAhoCorasick(optimized)
 
 	var allConfigs []string
 	var configsMutex sync.Mutex
@@ -234,7 +227,7 @@ func createFilteredConfigs() string {
 
 			for scanner.Scan() {
 				lineStripped := strings.TrimSpace(scanner.Text())
-				if lineStripped != "" && matchesAnyDomain(lineStripped, optimized) {
+				if lineStripped != "" && ac.MatchLower(lineStripped) {
 					matchedLines = append(matchedLines, lineStripped)
 				}
 			}
