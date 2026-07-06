@@ -33,23 +33,31 @@ def fetch_vc_runtime_link() -> str | None:
 
 def select_v2rayng_apk(assets):
     """Выбирает обычный universal APK для v2rayNG, а не F-Droid сборку."""
-    standard_apk = next(
-        (
-            asset
-            for asset in assets
-            if 'universal.apk' in asset.get('name', '').lower()
-            and 'f-droid' not in asset.get('name', '').lower()
-            and 'fdroid' not in asset.get('name', '').lower()
-        ),
-        None,
-    )
-    if standard_apk:
-        return standard_apk
+    # 1. Try universal.apk (excluding fdroid / sig)
+    for asset in assets:
+        name_lower = asset.get('name', '').lower()
+        if name_lower.endswith('.apk') and 'universal' in name_lower and 'f-droid' not in name_lower and 'fdroid' not in name_lower:
+            return asset
 
-    return next(
-        (asset for asset in assets if 'universal.apk' in asset.get('name', '').lower()),
-        None,
-    )
+    # 2. Try universal (any format except .sig)
+    for asset in assets:
+        name_lower = asset.get('name', '').lower()
+        if 'universal' in name_lower and not name_lower.endswith('.sig'):
+            return asset
+
+    # 3. Try arm64-v8a.apk (excluding fdroid / sig) - most common standard architecture
+    for asset in assets:
+        name_lower = asset.get('name', '').lower()
+        if name_lower.endswith('.apk') and 'arm64-v8a' in name_lower and 'f-droid' not in name_lower and 'fdroid' not in name_lower:
+            return asset
+
+    # 4. Try any apk (excluding fdroid / sig)
+    for asset in assets:
+        name_lower = asset.get('name', '').lower()
+        if name_lower.endswith('.apk') and 'f-droid' not in name_lower and 'fdroid' not in name_lower:
+            return asset
+
+    return None
 
 
 def fetch_latest_release_links() -> dict[str, str]:
