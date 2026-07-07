@@ -31,30 +31,18 @@ def fetch_vc_runtime_link() -> str | None:
         return None
 
 
-def select_v2rayng_apk(assets):
-    """Выбирает обычный universal APK для v2rayNG, а не F-Droid сборку."""
-    # 1. Try universal.apk (excluding fdroid / sig)
+def select_v2rayng_apk(assets, architecture):
+    """Выбирает APK для v2rayNG по архитектуре."""
+    # 1. Try architecture (excluding fdroid / sig)
     for asset in assets:
         name_lower = asset.get('name', '').lower()
-        if name_lower.endswith('.apk') and 'universal' in name_lower and 'f-droid' not in name_lower and 'fdroid' not in name_lower:
+        if name_lower.endswith('.apk') and architecture in name_lower and 'f-droid' not in name_lower and 'fdroid' not in name_lower:
             return asset
 
-    # 2. Try universal (any format except .sig)
+    # 2. Try any apk matching architecture
     for asset in assets:
         name_lower = asset.get('name', '').lower()
-        if 'universal' in name_lower and not name_lower.endswith('.sig'):
-            return asset
-
-    # 3. Try arm64-v8a.apk (excluding fdroid / sig) - most common standard architecture
-    for asset in assets:
-        name_lower = asset.get('name', '').lower()
-        if name_lower.endswith('.apk') and 'arm64-v8a' in name_lower and 'f-droid' not in name_lower and 'fdroid' not in name_lower:
-            return asset
-
-    # 4. Try any apk (excluding fdroid / sig)
-    for asset in assets:
-        name_lower = asset.get('name', '').lower()
-        if name_lower.endswith('.apk') and 'f-droid' not in name_lower and 'fdroid' not in name_lower:
+        if name_lower.endswith('.apk') and architecture in name_lower:
             return asset
 
     return None
@@ -70,10 +58,14 @@ def fetch_latest_release_links() -> dict[str, str]:
         response = requests.get('https://api.github.com/repos/2dust/v2rayNG/releases/latest', timeout=10)
         if response.status_code == 200:
             releases = response.json()
-            apk = select_v2rayng_apk(releases.get('assets', []))
-            if apk:
-                links['v2rayng-apk'] = apk['browser_download_url']
-                log(f"✅ v2rayNG: {os.path.basename(apk['browser_download_url'])}")
+            apk_v8 = select_v2rayng_apk(releases.get('assets', []), 'arm64-v8a')
+            apk_v7 = select_v2rayng_apk(releases.get('assets', []), 'armeabi-v7a')
+            if apk_v8:
+                links['v2rayng-apk-v8'] = apk_v8['browser_download_url']
+                log(f"✅ v2rayNG (v8): {os.path.basename(apk_v8['browser_download_url'])}")
+            if apk_v7:
+                links['v2rayng-apk-v7'] = apk_v7['browser_download_url']
+                log(f"✅ v2rayNG (v7): {os.path.basename(apk_v7['browser_download_url'])}")
         else:
             log(f"⚠️ Ошибка GitHub API для v2rayNG: {response.status_code}")
     except Exception as e:

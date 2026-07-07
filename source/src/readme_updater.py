@@ -34,15 +34,22 @@ def update_readme_download_links(links: dict[str, str], vc_runtime_link: str | N
 
     original_content = content
 
-    # Обновляем ссылку на v2rayNG APK
-    if 'v2rayng-apk' in links:
-        # Паттерн для поиска ссылки на v2rayNG APK в формате: [Ссылка](https://github.com/.../v2rayNG_..._universal.apk)
-        v2rayng_pattern = r'(\*\*1\.\*\* Скачиваем \*\*«v2rayNG»\*.*?\[Ссылка\]\()https://github\.com/2dust/v2rayNG/releases/download/[^)]+(\))'
-        if re.search(v2rayng_pattern, content):
-            content = re.sub(v2rayng_pattern, rf'\1{links["v2rayng-apk"]}\2', content)
-            log(f"✅ Ссылка на v2rayNG обновлена в README.md")
+    # Обновляем ссылки на v2rayNG APK
+    if 'v2rayng-apk-v8' in links:
+        v2rayng_pattern_v8 = r'(<summary>📱 Гайд для Android</summary>[\s\S]*?\*\*1\.\*\* Скачиваем \*\*«v2rayNG»\*\* — \[Ссылка\]\()https://github\.com/2dust/v2rayNG/releases/download/[^)]+(\))'
+        if re.search(v2rayng_pattern_v8, content):
+            content = re.sub(v2rayng_pattern_v8, rf'\1{links["v2rayng-apk-v8"]}\2', content)
+            log(f"✅ Ссылка на v2rayNG (Android) обновлена в README.md")
         else:
-            log("⚠️ Не найдена ссылка на v2rayNG в README.md")
+            log("⚠️ Не найдена ссылка на v2rayNG (Android) в README.md")
+
+    if 'v2rayng-apk-v7' in links:
+        v2rayng_pattern_v7 = r'(<summary>📺 Гайд для Android TV</summary>[\s\S]*?\*\*1\.\*\* Скачиваем \*\*«v2rayNG»\*\* — \[Ссылка\]\()https://github\.com/2dust/v2rayNG/releases/download/[^)]+(\))'
+        if re.search(v2rayng_pattern_v7, content):
+            content = re.sub(v2rayng_pattern_v7, rf'\1{links["v2rayng-apk-v7"]}\2', content)
+            log(f"✅ Ссылка на v2rayNG (Android TV) обновлена в README.md")
+        else:
+            log("⚠️ Не найдена ссылка на v2rayNG (Android TV) в README.md")
 
     # Обновляем ссылки на Throne
     if 'throne-win10' in links:
