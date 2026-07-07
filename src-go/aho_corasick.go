@@ -14,12 +14,23 @@ type acNode struct {
 func NewAhoCorasick(patterns []string) *AhoCorasick {
 	root := &acNode{}
 	for _, pattern := range patterns {
+		// Skip patterns containing non-ASCII bytes entirely —
+		// stripping only non-ASCII bytes would leave broken fragments
+		// (e.g. "честныйзнак.рф" → "." which matches everything)
+		hasNonASCII := false
+		for i := 0; i < len(pattern); i++ {
+			if pattern[i] >= 128 {
+				hasNonASCII = true
+				break
+			}
+		}
+		if hasNonASCII || len(pattern) == 0 {
+			continue
+		}
+
 		curr := root
 		for i := 0; i < len(pattern); i++ {
 			b := pattern[i]
-			if b >= 128 {
-				continue // ASCII only support for domain/SNI names
-			}
 			if curr.children[b] == nil {
 				curr.children[b] = &acNode{}
 			}
