@@ -158,7 +158,7 @@ def create_filtered_configs() -> str:
 
     total_insecure_filtered_26 = 0
     with concurrent.futures.ThreadPoolExecutor(
-        max_workers=min(4, len(EXTRA_URLS_FOR_26))
+        max_workers=max(1, min(4, len(EXTRA_URLS_FOR_26)))
     ) as executor:
         for future in concurrent.futures.as_completed(
             [executor.submit(_load_extra_configs, u) for u in EXTRA_URLS_FOR_26]
