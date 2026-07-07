@@ -1,8 +1,4 @@
 .env/
-src-python/__pycache__/
-src-python/src/__pycache__/
-src-python/githubmirror/
-
-# Go builds
-src-go/goida-vpn-configs
-src-go/goida-vpn-configs.exe
+source/__pycache__/
+source/src/__pycache__/
+source/githubmirror/
