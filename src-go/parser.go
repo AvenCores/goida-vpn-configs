@@ -19,7 +19,7 @@ var protocolPrefixes = []string{
 }
 
 var protoRegex = regexp.MustCompile(`(?i)(vmess|vless|trojan|ss|ssr|tuic|hysteria|hysteria2|hy2|socks5|socks4|wireguard|ssh|snell|brook|juicity)://`)
-var insecureRegex = regexp.MustCompile(`(?i)(?:[?&;]|3%b|%3b)(allowinsecure|allow_insecure|insecure)=(?:1|true|yes)(?:[&;#]|\s|$)`)
+var insecureRegex = regexp.MustCompile(`(?i)(?:[?&;]|3%[bB])(allowinsecure|allow_insecure|insecure)=(?:1|true|yes)(?:[&;#]|$|(?:\s|$))`)
 
 func hasProtocolPrefix(s string) bool {
 	lower := strings.ToLower(s)
@@ -90,7 +90,7 @@ func unescapeConfig(s string) string {
 		decodedHtml = html.UnescapeString(s)
 	}
 	if strings.Contains(decodedHtml, "%") {
-		decodedUrl, err := url.QueryUnescape(decodedHtml)
+		decodedUrl, err := url.PathUnescape(decodedHtml)
 		if err == nil {
 			return decodedUrl
 		}
