@@ -415,7 +415,7 @@ python main.py                  # конфиги появятся в ../githubmi
 
 <details>
 
-<summary>🔄 Обновление конфигов в NekoRay</summary>
+<summary>🔄 Обновление конфигов в Throne</summary>
 
 **1.** Нажимаем на кнопку **«Настройки»**.
 
