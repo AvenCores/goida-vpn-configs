@@ -90,7 +90,7 @@ def update_readme_download_links(links: dict[str, str], vc_runtime_link: str | N
         log("ℹ️ Ссылки на скачивание не требуют изменений")
 
 
-def update_readme_table():
+def update_readme_table(repo_stats: dict | None = None):
     """Обновляет таблицы в README.md локально."""
     if not os.path.exists(README_PATH):
         log("❌ README.md не найден")
@@ -139,7 +139,8 @@ def update_readme_table():
     table_pattern = r"\| № \| Файл \| Источник \| Время \| Дата \|[\s\S]*?\|--\|--\|--\|--\|--\|[\s\S]*?(\n\n## |$)"
     new_content = re.sub(table_pattern, new_table + r"\1", old_content)
 
-    repo_stats = get_repo_stats()
+    if repo_stats is None:
+        repo_stats = get_repo_stats()
     if repo_stats:
         stats_section = "## 📊 Статистика репозитория\n" + build_repo_stats_table(repo_stats) + "\n"
         stats_pattern = r"## 📊 Статистика репозитория\s*\n[\s\S]*?(?=\n## |\Z)"

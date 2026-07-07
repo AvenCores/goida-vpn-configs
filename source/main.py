@@ -7,6 +7,7 @@ from src.logger import updated_files, _UPDATED_FILES_LOCK, LOGS_BY_FILE
 from src.file_manager import download_and_save, create_filtered_configs
 from src.release_fetcher import fetch_latest_release_links, fetch_vc_runtime_link
 from src.readme_updater import update_readme_download_links, update_readme_table
+from src.github_api import get_repo_stats
 from src.git_ops import git_commit_and_push
 
 # Настройка кодировки вывода для избежания ошибок UnicodeEncodeError на Windows
@@ -35,12 +36,20 @@ def main(dry_run: bool = False):
         with _UPDATED_FILES_LOCK:
             updated_files.add(26)
 
+    # Независимые сетевые запросы выполняем параллельно, чтобы не ждать
+    # их последовательно (release links, VC runtime, статистика репозитория).
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as net_pool:
+        f_releases = net_pool.submit(fetch_latest_release_links)
+        f_vc = net_pool.submit(fetch_vc_runtime_link)
+        f_stats = net_pool.submit(get_repo_stats)
+        release_links = f_releases.result()
+        vc_runtime_link = f_vc.result()
+        repo_stats = f_stats.result()
+
     # Обновляем ссылки на скачивание v2rayNG, Throne и Visual C++ Runtimes
-    release_links = fetch_latest_release_links()
-    vc_runtime_link = fetch_vc_runtime_link()
     update_readme_download_links(release_links, vc_runtime_link)
 
-    update_readme_table()
+    update_readme_table(repo_stats=repo_stats)
     git_commit_and_push(dry_run=dry_run)
 
     # Вывод логов
