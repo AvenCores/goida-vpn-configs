@@ -15,13 +15,17 @@
 
 # 📖 Описание проекта
 
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://github.com/AvenCores/goida-vpn-configs)
-[![GPL-3.0 License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](./LICENSE)
-[![Website](https://img.shields.io/badge/Website-Goida%20VPN-207e5c?style=for-the-badge&logo=firefox)](https://avencores.github.io/goida-vpn-site/)
-[![GitHub stars](https://img.shields.io/github/stars/AvenCores/goida-vpn-configs?style=for-the-badge)](https://github.com/AvenCores/goida-vpn-configs/stargazers)
-![GitHub forks](https://img.shields.io/github/forks/AvenCores/goida-vpn-configs?style=for-the-badge)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/AvenCores/goida-vpn-configs?style=for-the-badge)](https://github.com/AvenCores/goida-vpn-configs/pulls)
-[![GitHub issues](https://img.shields.io/github/issues/AvenCores/goida-vpn-configs?style=for-the-badge)](https://github.com/AvenCores/goida-vpn-configs/issues)
+<p align="center">
+  <a href="https://github.com/AvenCores/goida-vpn-configs"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" alt="GPL-3.0 License"></a>
+  <a href="https://avencores.github.io/goida-vpn-site/"><img src="https://img.shields.io/badge/Website-Goida%20VPN-207e5c?style=for-the-badge&logo=firefox" alt="Website"></a>
+  <a href="https://github.com/AvenCores/goida-vpn-configs/stargazers"><img src="https://img.shields.io/github/stars/AvenCores/goida-vpn-configs?style=for-the-badge" alt="GitHub stars"></a>
+  <img src="https://img.shields.io/github/forks/AvenCores/goida-vpn-configs?style=for-the-badge" alt="GitHub forks">
+  <a href="https://github.com/AvenCores/goida-vpn-configs/watchers">
+  <img src="https://img.shields.io/github/watchers/AvenCores/goida-vpn-configs?style=for-the-badge" alt="GitHub Watchers"></a>
+  <a href="https://github.com/AvenCores/goida-vpn-configs/pulls"><img src="https://img.shields.io/github/issues-pr/AvenCores/goida-vpn-configs?style=for-the-badge" alt="GitHub pull requests"></a>
+  <a href="https://github.com/AvenCores/goida-vpn-configs/issues"><img src="https://img.shields.io/github/issues/AvenCores/goida-vpn-configs?style=for-the-badge" alt="GitHub issues"></a>
+</p>
 
 Автоматически обновляемая коллекция публичных VPN-конфигов (`V2Ray` / `VLESS` / `Hysteria` / `Trojan` / `VMess` / `Reality` / `Shadowsocks`) для быстрого обхода блокировок.
   
