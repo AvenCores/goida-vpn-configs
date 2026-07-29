@@ -15,24 +15,23 @@ jobs:
         uses: actions/checkout@v6
         with:
           token: ${{ secrets.MY_TOKEN }}
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.x"
-
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Upgrade pip
-        run: python -m pip install --upgrade pip
+          cache: pip
+          cache-dependency-path: source/requirements.txt
 
       - name: Install dependencies
-        run: cd source && pip install --no-cache-dir -r requirements.txt
+        run: cd source && pip install -r requirements.txt
 
       - name: Run script
         env:
           MY_TOKEN: ${{ secrets.MY_TOKEN }}
+          GIT_AUTHOR_NAME: "github-actions[bot]"
+          GIT_AUTHOR_EMAIL: "github-actions[bot]@users.noreply.github.com"
+          GIT_COMMITTER_NAME: "github-actions[bot]"
+          GIT_COMMITTER_EMAIL: "github-actions[bot]@users.noreply.github.com"
         run: cd source && python main.py

@@ -4,8 +4,20 @@ from src.config import GITHUB_TOKEN, REPO_NAME
 # -------------------- GITHUB API (только для статистики) --------------------
 _repo_stats_client = None
 REPO = None
+_initialized = False
 
-if GITHUB_TOKEN:
+
+def _ensure_initialized():
+    """Ленивая инициализация GitHub-клиента (не блокирует импорт модуля)."""
+    global _repo_stats_client, REPO, _initialized
+    if _initialized:
+        return
+    _initialized = True
+
+    if not GITHUB_TOKEN:
+        log("⚠️ MY_TOKEN не задан — статистика репозитория недоступна")
+        return
+
     try:
         from github import Github, Auth
         _repo_stats_client = Github(auth=Auth.Token(GITHUB_TOKEN))
@@ -20,8 +32,6 @@ if GITHUB_TOKEN:
             log(f"⚠️ Не удалось проверить лимиты GitHub API: {e}")
     except ImportError:
         log("⚠️ PyGithub не установлен — статистика репозитория недоступна")
-else:
-    log("⚠️ MY_TOKEN не задан — статистика репозитория недоступна")
 
 
 def _traffic_counts(traffic) -> tuple[int, int]:
@@ -65,6 +75,7 @@ def _sum_traffic_items(items) -> tuple[int, int]:
 
 
 def get_repo_stats() -> dict | None:
+    _ensure_initialized()
     if REPO is None:
         return None
     stats: dict[str, int] = {}

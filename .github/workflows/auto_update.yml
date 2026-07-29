@@ -5,6 +5,10 @@ on:
     - cron: "*/9 * * * *"
   workflow_dispatch:
 
+concurrency:
+  group: auto-update
+  cancel-in-progress: true
+
 jobs:
   update-files:
     runs-on: ubuntu-latest
@@ -17,6 +21,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           token: ${{ secrets.MY_TOKEN }}
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -25,15 +30,14 @@ jobs:
           cache: pip
           cache-dependency-path: source/requirements.txt
 
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Install dependencies
         run: cd source && pip install -r requirements.txt
 
       - name: Run script
         env:
           MY_TOKEN: ${{ secrets.MY_TOKEN }}
+          GIT_AUTHOR_NAME: "github-actions[bot]"
+          GIT_AUTHOR_EMAIL: "github-actions[bot]@users.noreply.github.com"
+          GIT_COMMITTER_NAME: "github-actions[bot]"
+          GIT_COMMITTER_EMAIL: "github-actions[bot]@users.noreply.github.com"
         run: cd source && python main.py

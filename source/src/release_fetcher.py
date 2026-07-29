@@ -1,7 +1,7 @@
-import requests
 import re
 import os
 from src.logger import log
+from src.network import REQUESTS_SESSION
 
 # -------------------- ССЫЛКИ НА СКАЧИВАНИЕ --------------------
 
@@ -11,7 +11,7 @@ def fetch_vc_runtime_link() -> str | None:
     
     try:
         log("🔍 Получение ссылки на Visual C++ Runtimes...")
-        response = requests.get(url, timeout=15)
+        response = REQUESTS_SESSION.get(url, timeout=15)
         response.raise_for_status()
         
         # Ищем ссылку на скачивание через regex (без BeautifulSoup для минимизации зависимостей)
@@ -55,7 +55,7 @@ def fetch_latest_release_links() -> dict[str, str]:
     try:
         # v2rayNG
         log("🔍 Получение v2rayNG...")
-        response = requests.get('https://api.github.com/repos/2dust/v2rayNG/releases/latest', timeout=10)
+        response = REQUESTS_SESSION.get('https://api.github.com/repos/2dust/v2rayNG/releases/latest', timeout=10)
         if response.status_code == 200:
             releases = response.json()
             apk_v8 = select_v2rayng_apk(releases.get('assets', []), 'arm64-v8a')
@@ -74,7 +74,7 @@ def fetch_latest_release_links() -> dict[str, str]:
     try:
         # Throne
         log("🔍 Получение Throne...")
-        response = requests.get('https://api.github.com/repos/throneproj/Throne/releases/latest', timeout=10)
+        response = REQUESTS_SESSION.get('https://api.github.com/repos/throneproj/Throne/releases/latest', timeout=10)
         if response.status_code == 200:
             releases = response.json()
             throne_win10 = next((a for a in releases.get('assets', []) if 'windows64' in a['name'] and 'legacy' not in a['name']), None)
