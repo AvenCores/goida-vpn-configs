@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-12-Aug-2026 19:24
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-12-Aug-2026 20:22
 vless://f692629b-3557-488a-9c9b-60775331e423@185.238.191.26:443?security=reality&amp;encryption=none&amp;pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fi1-cosmostechnology.ru#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
 vless://f692629b-3557-488a-9c9b-60775331e423@132.243.225.182:443?security=reality&amp;encryption=none&amp;pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=fi1-cosmostechnology.ru#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
 vless://f692629b-3557-488a-9c9b-60775331e423@84.21.189.231:443?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA&amp;type=grpc&amp;serviceName=fi1cosmos&amp;sni=fi1-cosmostechnology.ru#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
@@ -119,10 +119,6 @@ vless://376b9861-2fc6-4647-959c-18185cd9c95a@104.31.16.36:443?path=%2Ffflsws&amp
 vless://ffffffff-17ad-45e7-aaa1-f2baaa08e930@141.101.113.89:443?path=%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;host=watashi.free.hkpublic.moh539.link&amp;type=ws&amp;sni=watashi.free.hkpublic.moh539.link#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://CONFIG-WANCLOUDFA@49.12.64.220:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://52e194ba-cdf5-4a7d-d146-d8b06f8a698b@51.75.91.144:23300?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.126.61.199:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.209.78:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.71.113:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.84.121:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.105.116:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.236.79.105:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.48.146:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
@@ -137,6 +133,8 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.219.154:22222?encryption=none
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.162.237:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.45.65:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.186.181:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.186.181:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.187.187.6:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 vless://73435d4e-2ac1-4dba-900e-81aac3dc5913@no-fardad.oorluma.ir:6800?security=reality&amp;encryption=none&amp;pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&amp;headerType=none&amp;fp=qq&amp;type=tcp&amp;sni=play.google.com#%40FreeLand8
 vless://XpnTeam-23@140.248.186.45:443?path=%2F&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=Appxdn.global.ssl.fastly.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ssl.fastly.com#%40FreeLand8
 vless://eaaa8fbf-b84b-40a9-9e9e-5ad6aa8f8561@dashboard.fizikade.ir:443?security=reality&amp;encryption=none&amp;pbk=Ju82xy3HYihrTt6t1ZVKLAWr3BMi-x-ug7HCUdkVlV0&amp;headerType=http&amp;fp=safari&amp;spx=%2Fnaranv2ray&amp;type=tcp&amp;sni=play.google.com&amp;sid=4469c0#%40FreeLand8
@@ -932,10 +930,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@tt.hsrdnr.ir:2044?secu
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@tt.hsrdnr.ir:2044?security=none&amp;type=tcp#fa…
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@page.hsrdnr.ir:2044?security=none&amp;type=tcp#fast%F0%9F%87%A9%F0%9F%87%AA-test
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@185.215.228.132:2044?security=none&amp;type=tcp#fast%F0%9F%87%A9%F0%9F%87%AA-test
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@3.126.61.199:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.209.78:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.71.113:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.84.121:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.105.116:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.236.79.105:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.48.146:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
@@ -950,6 +944,8 @@ ss://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.219.154:22222?encryption=none&am
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.162.237:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.45.65:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.186.181:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.186.181:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@63.187.187.6:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 ss://73435d4e-2ac1-4dba-900e-81aac3dc5913@no-fardad.oorluma.ir:6800?security=reality&amp;encryption=none&amp;pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&amp;headerType=none&amp;fp=qq&amp;type=tcp&amp;sni=play.google.com#%40FreeLand8
 ss://XpnTeam-23@140.248.186.45:443?path=%2F&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=Appxdn.global.ssl.fastly.net&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=ssl.fastly.com#%40FreeLand8
 ss://eaaa8fbf-b84b-40a9-9e9e-5ad6aa8f8561@dashboard.fizikade.ir:443?security=reality&amp;encryption=none&amp;pbk=Ju82xy3HYihrTt6t1ZVKLAWr3BMi-x-ug7HCUdkVlV0&amp;headerType=http&amp;fp=safari&amp;spx=%2Fnaranv2ray&amp;type=tcp&amp;sni=play.google.com&amp;sid=4469c0#%40FreeLand8
