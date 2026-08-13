@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-13-Aug-2026 19:24
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Thu-13-Aug-2026 20:21
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.132.221:22223?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
 vless://35f955ac-6904-4eae-81d5-432dbb545c21@85.234.69.247:2083?security=none&amp;encryption=none&amp;host=icloud.com&amp;headerType=http&amp;type=tcp#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.132.221:22222?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
@@ -110,8 +110,6 @@ vless://376b9861-2fc6-4647-959c-18185cd9c95a@104.31.16.36:443?path=%2Ffflsws&amp
 vless://ffffffff-17ad-45e7-aaa1-f2baaa08e930@141.101.113.89:443?path=%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;host=watashi.free.hkpublic.moh539.link&amp;type=ws&amp;sni=watashi.free.hkpublic.moh539.link#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://CONFIG-WANCLOUDFA@49.12.64.220:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://52e194ba-cdf5-4a7d-d146-d8b06f8a698b@51.75.91.144:23300?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.58.164.47:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.188.149.16:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.25.66:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.219.154:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.162.237:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
@@ -126,15 +124,8 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.183.73.255:22222?encryption=none
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.37.153.184:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.189.189:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.212.143:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
-vless://22199ed8-5f22-4906-9917-67e3609d8776@95.216.160.158:443?security=reality&amp;encryption=none&amp;pbk=XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg&amp;headerType=none&amp;fp=firefox&amp;spx=%2F&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=29fd3dc0210c#%40FREELAND8
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.173:443?security=reality&amp;encryption=none&amp;pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=yahoo.com&amp;sid=c39cc7310a#%40FREELAND8
-vless://22199ed8-5f22-4906-9917-67e3609d8776@95.216.161.19:443?security=reality&amp;encryption=none&amp;pbk=XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg&amp;headerType=none&amp;fp=firefox&amp;spx=%2F&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=29fd3dc0210c#%40FREELAND8
-vless://8033102198@95.85.246.104:443?security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;headerType=none&amp;fp=firefox&amp;type=tcp&amp;allowInsecure=0&amp;flow=xtls-rprx-vision&amp;sni=pl7.fast-connect-service.site#%40FREELAND8
-vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?security=reality&amp;encryption=none&amp;pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com#%40FREELAND8
-vless://22199ed8-5f22-4906-9917-67e3609d8776@95.216.165.65:443?security=reality&amp;encryption=none&amp;pbk=XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg&amp;headerType=none&amp;fp=firefox&amp;spx=%2F&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=29fd3dc0210c#%40FREELAND8
-vless://74ed8b25-5ff1-40bf-bcd7-3db03be19f53@31.220.86.213:443?mode=auto&amp;path=%2F&amp;security=reality&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%224194304-8388608%22%2C%22uplinkHTTPMethod%22%3A%22POST%22%2C%22seqPlacement%22%3A%22query%22%2C%22uplinkChunkSize%22%3A%2232768-65536%22%7D&amp;pbk=VHidBoU58xA5kEh8pmXf0gQYzvz-KVH9-XAuM4TrMUs&amp;host=status.play.google.com&amp;fp=ios&amp;spx=%2F&amp;type=xhttp&amp;sni=status.play.google.com&amp;sid=49bcf0de6392f0#%40FREELAND8
-vless://50414e45-4c5f-5a45-5553-e51c9f11c5d6@esfahan-translation.ir:2096?path=%2Fstream%2FPANEL_ZEUS%2Fe51c9f11c5d6&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=o7zvpfehumrs.yaza08e0urxs.workers.dev&amp;fp=ios&amp;type=ws&amp;allowInsecure=0&amp;sni=o7zvpfehumrs.yaza08e0urxs.workers.dev#%40FREELAND8
-vless://22199ed8-5f22-4906-9917-67e3609d8776@95.216.160.158:443?security=reality&amp;encryption=none&amp;pbk=XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg&amp;headerType=none&amp;fp=firefox&amp;spx=%2F&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=29fd3dc0210c#%40FREELAND8
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.250.68:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.114.204:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 vless://511c1563-2cb6-4064-abc6-a59ee49818a8@5.253.30.99:40443?security=reality&amp;encryption=none&amp;pbk=cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0&amp;headerType=none&amp;fp=qq&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=deepl.com&amp;sid=88b6#%40FreeLand8
 vless://795d5f5b-318c-49a6-844f-ee2ab63bbe94@35.180.187.82:12228?security=reality&amp;encryption=none&amp;pbk=hvyaRhFtrj3cGv1Ya5uXpE256i2PoUi2fOgU0KlvKmI&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.tesla.com&amp;sid=59625eb3275249ca#%40FreeLand8
 vless://661f395d-b153-4199-a04b-693f5fe7f261@158.69.112.254:443?security=reality&amp;encryption=none&amp;pbk=wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.speedtest.net&amp;sid=3d3c1e645f763ee3#%40FreeLand8
@@ -382,6 +373,7 @@ vless://14b48651-3738-4926-bc09-4c04e87ff80b@static.lotussec.com:443?mode=stream
 vless://e0bb3250-1873-4b9d-b9b5-7aa6c863885f@95.85.233.181:443?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y&amp;fp=firefox&amp;type=grpc&amp;sni=c.primarymaster.online&amp;sid=c56c3ba3b9f676c5#@v2rayng3
 vless://431fe973-a43a-4fac-bf83-2a772e0d0625@180.178.60.253:10000?security=none&amp;encryption=none&amp;type=tcp&amp;headerType=none#@v2rayng3
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.187.187.6:22224?security=none&amp;headerType=none&amp;type=tcp&amp;encryption=none#@v2rayng3
+vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?type=ws&amp;security=none&amp;encryption=none&amp;host=parsi.parsi.sbs&amp;path=%2F#@v2rayng3
 vless://40de6299-d792-4868-8a82-411ead0aa943@144.124.246.55:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=firefox&amp;pbk=L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww&amp;security=reality&amp;sid=ed7b9bdfedb9b8e5&amp;sni=gateway.icloud.com&amp;type=tcp#
 vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@www.true.th:443?&amp;security=tls&amp;fp=chrome&amp;sni=d1yxsk0zprgivr.cloudfront.net&amp;type=ws&amp;headerType=none&amp;host=d1yxsk0zprgivr.cloudfront.net&amp;path=%2F#
 vless://eeb6823c-b926-4ea2-866a-5542edd26e59@104.16.72.41:443?path=/&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#
@@ -926,8 +918,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@tt.hsrdnr.ir:2044?secu
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@tt.hsrdnr.ir:2044?security=none&amp;type=tcp#fa…
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@page.hsrdnr.ir:2044?security=none&amp;type=tcp#fast%F0%9F%87%A9%F0%9F%87%AA-test
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@185.215.228.132:2044?security=none&amp;type=tcp#fast%F0%9F%87%A9%F0%9F%87%AA-test
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@52.58.164.47:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
-ss://e4514801-0d5a-42ba-869f-39bd605aef9e@15.188.149.16:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@51.45.25.66:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.219.154:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.162.237:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
@@ -942,15 +932,8 @@ ss://e4514801-0d5a-42ba-869f-39bd605aef9e@63.183.73.255:22222?encryption=none&am
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.37.153.184:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.189.189:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.212.143:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
-ss://22199ed8-5f22-4906-9917-67e3609d8776@95.216.160.158:443?security=reality&amp;encryption=none&amp;pbk=XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg&amp;headerType=none&amp;fp=firefox&amp;spx=%2F&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=29fd3dc0210c#%40FREELAND8
-ss://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.173:443?security=reality&amp;encryption=none&amp;pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=yahoo.com&amp;sid=c39cc7310a#%40FREELAND8
-ss://22199ed8-5f22-4906-9917-67e3609d8776@95.216.161.19:443?security=reality&amp;encryption=none&amp;pbk=XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg&amp;headerType=none&amp;fp=firefox&amp;spx=%2F&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=29fd3dc0210c#%40FREELAND8
-ss://8033102198@95.85.246.104:443?security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;headerType=none&amp;fp=firefox&amp;type=tcp&amp;allowInsecure=0&amp;flow=xtls-rprx-vision&amp;sni=pl7.fast-connect-service.site#%40FREELAND8
-ss://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?security=reality&amp;encryption=none&amp;pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com#%40FREELAND8
-ss://22199ed8-5f22-4906-9917-67e3609d8776@95.216.165.65:443?security=reality&amp;encryption=none&amp;pbk=XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg&amp;headerType=none&amp;fp=firefox&amp;spx=%2F&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=29fd3dc0210c#%40FREELAND8
-ss://74ed8b25-5ff1-40bf-bcd7-3db03be19f53@31.220.86.213:443?mode=auto&amp;path=%2F&amp;security=reality&amp;encryption=none&amp;extra=%7B%22scMaxEachPostBytes%22%3A%224194304-8388608%22%2C%22uplinkHTTPMethod%22%3A%22POST%22%2C%22seqPlacement%22%3A%22query%22%2C%22uplinkChunkSize%22%3A%2232768-65536%22%7D&amp;pbk=VHidBoU58xA5kEh8pmXf0gQYzvz-KVH9-XAuM4TrMUs&amp;host=status.play.google.com&amp;fp=ios&amp;spx=%2F&amp;type=xhttp&amp;sni=status.play.google.com&amp;sid=49bcf0de6392f0#%40FREELAND8
-ss://50414e45-4c5f-5a45-5553-e51c9f11c5d6@esfahan-translation.ir:2096?path=%2Fstream%2FPANEL_ZEUS%2Fe51c9f11c5d6&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=o7zvpfehumrs.yaza08e0urxs.workers.dev&amp;fp=ios&amp;type=ws&amp;allowInsecure=0&amp;sni=o7zvpfehumrs.yaza08e0urxs.workers.dev#%40FREELAND8
-ss://22199ed8-5f22-4906-9917-67e3609d8776@95.216.160.158:443?security=reality&amp;encryption=none&amp;pbk=XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg&amp;headerType=none&amp;fp=firefox&amp;spx=%2F&amp;type=tcp&amp;sni=www.cloudflare.com&amp;sid=29fd3dc0210c#%40FREELAND8
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.250.68:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.114.204:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 ss://511c1563-2cb6-4064-abc6-a59ee49818a8@5.253.30.99:40443?security=reality&amp;encryption=none&amp;pbk=cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0&amp;headerType=none&amp;fp=qq&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=deepl.com&amp;sid=88b6#%40FreeLand8
 ss://795d5f5b-318c-49a6-844f-ee2ab63bbe94@35.180.187.82:12228?security=reality&amp;encryption=none&amp;pbk=hvyaRhFtrj3cGv1Ya5uXpE256i2PoUi2fOgU0KlvKmI&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.tesla.com&amp;sid=59625eb3275249ca#%40FreeLand8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#%40FreeLand8
@@ -1234,6 +1217,7 @@ ss://14b48651-3738-4926-bc09-4c04e87ff80b@static.lotussec.com:443?mode=stream-on
 ss://e0bb3250-1873-4b9d-b9b5-7aa6c863885f@95.85.233.181:443?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y&amp;fp=firefox&amp;type=grpc&amp;sni=c.primarymaster.online&amp;sid=c56c3ba3b9f676c5#@v2rayng3
 ss://431fe973-a43a-4fac-bf83-2a772e0d0625@180.178.60.253:10000?security=none&amp;encryption=none&amp;type=tcp&amp;headerType=none#@v2rayng3
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@63.187.187.6:22224?security=none&amp;headerType=none&amp;type=tcp&amp;encryption=none#@v2rayng3
+ss://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?type=ws&amp;security=none&amp;encryption=none&amp;host=parsi.parsi.sbs&amp;path=%2F#@v2rayng3
 ss://40de6299-d792-4868-8a82-411ead0aa943@144.124.246.55:443?encryption=none&amp;flow=xtls-rprx-vision&amp;fp=firefox&amp;pbk=L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww&amp;security=reality&amp;sid=ed7b9bdfedb9b8e5&amp;sni=gateway.icloud.com&amp;type=tcp#
 ss://7ce54bb3-d612-4aa7-be08-089d3c461d53@www.true.th:443?&amp;security=tls&amp;fp=chrome&amp;sni=d1yxsk0zprgivr.cloudfront.net&amp;type=ws&amp;headerType=none&amp;host=d1yxsk0zprgivr.cloudfront.net&amp;path=%2F#
 ss://eeb6823c-b926-4ea2-866a-5542edd26e59@104.16.72.41:443?path=/&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=t1s1.rittbo.kdns.fr&amp;type=ws&amp;allowInsecure=0&amp;sni=t1s1.rittbo.kdns.fr#
