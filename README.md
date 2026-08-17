@@ -80,9 +80,9 @@
 | 10 | [`10.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/10.txt) | [mheidari98/.proxy](https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless) | 02:33 (МСК) | 18.08.2026 |
 | 11 | [`11.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/11.txt) | [youfoundamin/V2rayCollector](https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt) | 23:31 (МСК) | 17.08.2026 |
 | 12 | [`12.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/12.txt) | [VOID-Anonymity/V.O.I.D-VPN_Bypass](https://github.com/VOID-Anonymity/V.O.I.D-VPN_Bypass/raw/refs/heads/main/url_work.txt) | 02:33 (МСК) | 18.08.2026 |
-| 13 | [`13.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/13.txt) | [cbusifabcap/daily_free_vpn](https://github.com/cbusifabcap/daily_free_vpn/raw/refs/heads/main/Z.txt) | 02:33 (МСК) | 18.08.2026 |
+| 13 | [`13.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/13.txt) | [cbusifabcap/daily_free_vpn](https://github.com/cbusifabcap/daily_free_vpn/raw/refs/heads/main/Z.txt) | 02:51 (МСК) | 18.08.2026 |
 | 14 | [`14.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/14.txt) | [LalatinaHub/Mineral](https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes) | 00:43 (МСК) | 18.08.2026 |
-| 15 | [`15.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/15.txt) | [miladtahanian/Config-Collector](https://raw.githubusercontent.com/miladtahanian/Config-Collector/refs/heads/main/mixed_iran.txt) | 02:33 (МСК) | 18.08.2026 |
+| 15 | [`15.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/15.txt) | [miladtahanian/Config-Collector](https://raw.githubusercontent.com/miladtahanian/Config-Collector/refs/heads/main/mixed_iran.txt) | 02:51 (МСК) | 18.08.2026 |
 | 16 | [`16.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/16.txt) | [Pawdroid/Free-servers](https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub) | 02:08 (МСК) | 18.08.2026 |
 | 17 | [`17.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/17.txt) | [MhdiTaheri/V2rayCollector_Py](https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt) | 01:51 (МСК) | 18.08.2026 |
 | 18 | [`18.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/18.txt) | [free18/v2ray](https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt) | 08:02 (МСК) | 17.08.2026 |
@@ -93,7 +93,7 @@
 | 23 | [`23.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt) | [igareck/vpn-configs-for-russia](https://github.com/igareck/vpn-configs-for-russia/raw/refs/heads/main/BLACK_VLESS_RUS.txt) | 01:51 (МСК) | 18.08.2026 |
 | 24 | [`24.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt) | [Mr-Meshky/vify](https://github.com/Mr-Meshky/vify/raw/refs/heads/main/configs/vless.txt) | 02:33 (МСК) | 18.08.2026 |
 | 25 | [`25.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt) | [V2RayRoot/V2RayConfig](https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt) | 12:55 (МСК) | 07.07.2026 |
-| 26 | [`26.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | [Обход SNI/CIDR белых списков](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | 02:33 (МСК) | 18.08.2026 |
+| 26 | [`26.txt`](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | [Обход SNI/CIDR белых списков](https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt) | 02:51 (МСК) | 18.08.2026 |
 
 ## 📊 Статистика репозитория
 | Показатель | Значение |
