@@ -1,3 +1,6 @@
+vless://58a38ebd-30e6-48bd-a1ab-d0babb1da37f@de2.mehab.me:443?encryption=none&security=tls&type=tcp#🇩🇪[openproxylist.com] vless-DE
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@144.31.171.143:443?security=reality&encryption=none&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=eu-central.cendora.ru&sid=00bca5982f82d083#🇵🇱[openproxylist.com] vless-PL
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@153.76.248.251:443?security=reality&encryption=none&pbk=eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=asia.cendora.ru&sid=e53048e82bb20077#🏳[openproxylist.com] vless-
 vless://d71aecee-ef16-418e-baf5-2b2458122d5a@89.125.124.178:8443?encryption=none&security=tls&sni=gb.wlrus.cfd&fp=chrome&type=tcp&headerType=none#🇬🇧[openproxylist.com] vless-GB
 vless://ee71862e-816b-4d26-97d2-f200898e385d@212.118.40.187:443?encryption=none&pbk=MfOXevYFoqnwIn6dUiPZvWYRfYHyb5lzBy3R1OSsrWg&security=reality&headerType=none&spx=/&flow=xtls-rprx-vision&type=tcp&sni=www.cisco.com&fp=chrome&sid=f3e8b2b1#🇳🇱[openproxylist.com] vless-NL
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cf.levikogjgfdd.ir:2095?path=/&security=none&encryption=none&host=fangbinxingnmsl.pusytroller.gq&type=ws#🇺🇸[openproxylist.com] vless-US
@@ -10,22 +13,22 @@ vless://423b1d79-08c4-403f-9d5e-c541f791b55f@150.241.73.137:443?flow=xtls-rprx-v
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@46.226.163.243:443?headerType=none&fp=chrome&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&sid=dd3ff38418d29d22&flow=xtls-rprx-vision&security=reality&sni=eu-west.cendora.ru&type=tcp&encryption=none#🇬🇧[openproxylist.com] vless-GB
 trojan://bptHV5U91mWneB61rRKhCQ8f@87.121.218.169:443?security=tls&amp;insecure=0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;allowInsecure=0&amp;sni=87.121.218.169#🇩🇪[openproxylist.com] trojan-DE
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@144.31.213.188:443?security=reality&encryption=none&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=eu-west.cendora.ru&sid=dd3ff38418d29d22#🇬🇧[openproxylist.com] vless-GB
-vless://f7c25743-140c-4d32-a296-a53bc49682d8@direct-nl.bachidze.com:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=direct-nl.bachidze.com&fp=chrome&pbk=E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw&allowinsecure=0&type=tcp&headerType=none#🇳🇱[openproxylist.com] vless-NL
+vless://f7c25743-140c-4d32-a296-a53bc49682d8@direct-nl.bachidze.com:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw&sni=direct-nl.bachidze.com#🇳🇱[openproxylist.com] vless-NL
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@2.26.231.40:443?security=reality&encryption=none&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=eu-west.cendora.ru&sid=dd3ff38418d29d22#🇳🇱[openproxylist.com] vless-NL
 trojan://oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1@109.206.241.10:449?security=tls&amp;insecure=0&amp;headerType=none&amp;type=tcp&amp;allowInsecure=0&amp;sni=russiapower.accesscam.org#🇪🇪[openproxylist.com] trojan-EE
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6R1FxYnFPWHV4WkVOekFRTk5CTkhOMWYwRzk4UDN0OTI5dmY5MzJxWWNsdz0@161.118.220.20:56927#🇸🇬[openproxylist.com] ss-SG
-vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443?security=reality&amp;encryption=none&amp;pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&amp;headerType=none&amp;fp=firefox&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=deepl.com&amp;sid=beb4#🇳🇱[openproxylist.com] vless-NL
+vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443?security=reality&encryption=none&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=beb4#🏳[openproxylist.com] vless-
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@144.31.76.198:13443?security=reality&encryption=none&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=auto.cendora.ru&sid=a7f3c91b2e6d84c0#🇩🇪[openproxylist.com] vless-DE
 trojan://PQ05174892@54.169.228.116:443?allowInsecure=0&sni=amusing-grub.rooster465.autos#🇸🇬[openproxylist.com] trojan-SG
 trojan://PQ05174892@13.212.174.21:443?allowInsecure=0&sni=fleet-pony.rooster465.autos#🇸🇬[openproxylist.com] trojan-SG
-vless://7c49a866-4f78-4dd0-bb4a-430e75d4ee70@37.252.20.41:204?&type=tcp&headerType=none&path=%2F#🇳🇱[openproxylist.com] vless-NL
+vless://7c49a866-4f78-4dd0-bb4a-430e75d4ee70@37.252.20.41:204?&type=tcp&headerType=none&path=/#🇳🇱[openproxylist.com] vless-NL
 vless://85819b3c-fe18-40bb-bd9a-f3cd194a8d28@43.167.239.81:443?&security=tls&fp=chrome&sni=43.167.239.81&type=ws&headerType=none&host=43.167.239.81&path=%2Fws#🇯🇵[openproxylist.com] vless-JP
 vless://d65cc14c-f53f-4fe2-b262-97856601319c@169.40.42.104:443?security=reality&type=tcp&packetEncoding=xudp&sni=yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=c39cc7310a&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg#🇺🇸[openproxylist.com] vless-US
 trojan://PQ05174892@intense-monarch.rooster465.autos:443?allowInsecure=0#🇸🇬[openproxylist.com] trojan-SG
 trojan://PQ05174892@pleased-albacore.rooster465.autos:443?allowInsecure=0&sni=pleased-albacore.rooster465.autos#🇸🇬[openproxylist.com] trojan-SG
 trojan://PQ05174892@champion-alien.rooster465.autos:443?allowInsecure=0#🇯🇵[openproxylist.com] trojan-JP
 trojan://AE62539071@grateful-crawdad.rooster465.autos:443?security=tls#🇯🇵[openproxylist.com] trojan-JP
-vmess://eyJhZGQiOiI3NC40OC4yOC4xOTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNGVkNTg5NzQtNDhjZC00NzJlLWM4MTgtZmI4NDdiOGM1NTFmIiwibmV0Ijoid3MiLCJwYXRoIjoiXC9jY3R2MTMubTN1OCIsInBvcnQiOiI4MCIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsInNjeSI6ImFlcy0xMjgtZ2NtIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
+vmess://eyJhZGQiOiI3NC40OC4yOC4xOTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNGVkNTg5NzQtNDhjZC00NzJlLWM4MTgtZmI4NDdiOGM1NTFmIiwibmV0Ijoid3MiLCJwYXRoIjoiXC9jY3R2MTMubTN1OCIsInBvcnQiOiI4MCIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsInNjeSI6ImFlcy0xMjgtZ2NtIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 vless://06c4e938-2954-478f-a870-ca1b163e30e9@estproxy4.lockdwn.com:443?&type=ws&headerType=none&host=estproxy4.lockdwn.com&path=%2F#🇪🇪[openproxylist.com] vless-EE
 trojan://HC04361579@key-barnacle.rooster465.autos:443?security=tls&sni=key-barnacle.rooster465.autos#🇰🇷[openproxylist.com] trojan-KR
 trojan://FH72359861@aware-coyote.rooster465.autos:443?security=tls#🇰🇷[openproxylist.com] trojan-KR
@@ -33,16 +36,14 @@ trojan://FH72359861@funny-squid.rooster465.autos:443?security=tls#🇯🇵[openp
 trojan://FH72359861@wise-gibbon.rooster465.autos:443?security=tls#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@light-filly.rooster465.autos:443?security=tls#🇯🇵[openproxylist.com] trojan-JP
 trojan://AE62539071@13.229.94.200:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=massive-terrapin.rooster465.autos#🇸🇬[openproxylist.com] trojan-SG
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@95.85.247.155:443?security=reality&amp;encryption=none&amp;pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=eu-west.cendora.ru&amp;sid=dd3ff38418d29d22#🇳🇱[openproxylist.com] vless-NL
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@64.188.77.13:443?fp=chrome&type=tcp&flow=xtls-rprx-vision&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&security=reality&sni=eu-west.cendora.ru&sid=dd3ff38418d29d22&headerType=none&encryption=none#🇳🇱[openproxylist.com] vless-NL
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@95.85.247.155:443?security=reality&encryption=none&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=eu-west.cendora.ru&sid=dd3ff38418d29d22#🏳[openproxylist.com] vless-
 vmess://eyJhZGQiOiI3NC40OC4yOC4xOTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNGVkNTg5NzQtNDhjZC00NzJlLWM4MTgtZmI4NDdiOGM1NTFmIiwibmV0Ijoid3MiLCJwYXRoIjoiXC9jY3R2MTMubTN1OCIsInBvcnQiOiI4MCIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsInNjeSI6ImFlcy0xMjgtZ2NtIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplUXZLa3lrQkViQ2t5NXA0QlZnaE8w@144.31.168.176:45640#🇩🇪[openproxylist.com] ss-DE
 vless://14da77da-4fb3-4e49-ac4f-7881ea19b267@neth6.lckdwn.ru:443?&type=ws&headerType=none&host=neth6.lckdwn.ru&path=/#🇺🇸[openproxylist.com] vless-US
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.204:10901#🇮🇹[openproxylist.com] ss-IT
-vless://4907461d-bd34-418a-b4b9-6106f979c686@germany.panelbaz.com:5000?security=reality&amp;encryption=none&amp;pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&amp;headerType=none&amp;fp=qq&amp;type=tcp&amp;sni=play.google.com#🇩🇪[openproxylist.com] vless-DE
 trojan://SEYnpOitNLndBhDtkZyeAShl@nl-vk.tkbvpcompany.site:443?security=tls&sni=nl-vk.tkbvpcompany.site#🇳🇱[openproxylist.com] trojan-NL
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@31.76.4.103:443?security=reality&encryption=none&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=eu-central.cendora.ru&sid=00bca5982f82d083#🇨🇭[openproxylist.com] vless-CH
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@91.196.35.146:443?security=reality&encryption=none&pbk=uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=russia.cendora.ru&sid=bef240e96a8474a3#🇷🇺[openproxylist.com] vless-RU
+vless://bc155a59-a4db-45e7-addf-db634b79757b@103.118.252.45:13131?security=none&encryption=none&headerType=none&type=tcp#🏳[openproxylist.com] vless-
 trojan://FH72359861@touching-ostrich.rooster465.autos:443?security=tls&sni=touching-ostrich.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@adapted-quetzal.rooster465.autos:443?security=tls&sni=adapted-quetzal.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@magical-airedale.rooster465.autos:443?security=tls&sni=magical-airedale.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
@@ -51,29 +52,30 @@ trojan://FH72359861@casual-stallion.rooster465.autos:443?security=tls&sni=casual
 trojan://FH72359861@emerging-porpoise.rooster465.autos:443?security=tls&sni=emerging-porpoise.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@adapting-giraffe.rooster465.autos:443?security=tls&sni=adapting-giraffe.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@needed-gelding.rooster465.autos:443?security=tls&sni=needed-gelding.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
-trojan://FH72359861@flying-swift.rooster465.autos:443?security=tls&sni=flying-swift.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
+trojan://FH72359861@flying-swift.rooster465.autos:443?security=tls&sni=flying-swift.rooster465.autos#🏳[openproxylist.com] trojan-
 trojan://FH72359861@noted-cougar.rooster465.autos:443?security=tls&sni=noted-cougar.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@internal-mongoose.rooster465.autos:443?security=tls&sni=internal-mongoose.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@pretty-adder.rooster465.autos:443?security=tls&sni=pretty-adder.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@45.147.251.25:443?security=reality&encryption=none&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=eu-west.cendora.ru&sid=dd3ff38418d29d22#🇪🇸[openproxylist.com] vless-ES
 vless://2a650f3b-d95b-4bd6-aadf-16ccc0717155@45.151.30.127:9873?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&amp;fp=qq&amp;type=grpc&amp;serviceName=grpc-tunnel&amp;sni=dl.google.com#🇺🇸[openproxylist.com] vless-US
 trojan://FH72359861@summary-firefly.rooster465.autos:443?security=tls#🇮🇪[openproxylist.com] trojan-IE
-trojan://FH72359861@many-pangolin.rooster465.autos:443?security=tls#🏳[openproxylist.com] trojan-
-trojan://FH72359861@helping-shark.rooster465.autos:443?security=tls#🇯🇵[openproxylist.com] trojan-JP
+trojan://FH72359861@many-pangolin.rooster465.autos:443?security=tls&sni=many-pangolin.rooster465.autos#🏳[openproxylist.com] trojan-
+trojan://FH72359861@helping-shark.rooster465.autos:443?security=tls&sni=helping-shark.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@complete-narwhal.rooster465.autos:443?security=tls&sni=complete-narwhal.rooster465.autos#🇰🇷[openproxylist.com] trojan-KR
 trojan://FH72359861@worthy-perch.rooster465.autos:443?security=tls#🇸🇬[openproxylist.com] trojan-SG
 trojan://FH72359861@one-dove.rooster465.autos:443?security=tls#🇰🇷[openproxylist.com] trojan-KR
-trojan://FH72359861@endless-kiwi.rooster465.autos:443?security=tls#🇯🇵[openproxylist.com] trojan-JP
+trojan://FH72359861@endless-kiwi.rooster465.autos:443?security=tls&sni=endless-kiwi.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@natural-swan.rooster465.autos:443?security=tls#🏳[openproxylist.com] trojan-
-trojan://FH72359861@champion-panther.rooster465.autos:443?security=tls#🇯🇵[openproxylist.com] trojan-JP
+trojan://FH72359861@champion-panther.rooster465.autos:443?security=tls&sni=champion-panther.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@balanced-stag.rooster465.autos:443?security=tls&headerType=&type=tcp&sni=balanced-stag.rooster465.autos#🇰🇷[openproxylist.com] trojan-KR
 trojan://FH72359861@warm-aardvark.rooster465.autos:443?security=tls&headerType=&type=tcp&sni=warm-aardvark.rooster465.autos#🇺🇸[openproxylist.com] trojan-US
 trojan://AE62539071@firm-krill.rooster465.autos:443?security=tls&sni=firm-krill.rooster465.autos#🇰🇷[openproxylist.com] trojan-KR
 trojan://AE62539071@capable-jay.rooster465.autos:443?security=tls&sni=capable-jay.rooster465.autos#🇰🇷[openproxylist.com] trojan-KR
 trojan://AE62539071@viable-serval.rooster465.autos:443?security=tls&sni=viable-serval.rooster465.autos#🇰🇷[openproxylist.com] trojan-KR
 trojan://AE62539071@eager-camel.rooster465.autos:443?security=tls&sni=eager-camel.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
-trojan://FH72359861@pro-crane.rooster465.autos:443?security=tls#🇳🇱[openproxylist.com] trojan-NL
+trojan://FH72359861@pro-crane.rooster465.autos:443?security=tls#🏳[openproxylist.com] trojan-
 trojan://AE62539071@sharing-duck.rooster465.autos:443?security=tls&sni=sharing-duck.rooster465.autos#🇺🇸[openproxylist.com] trojan-US
-vmess://eyJhZGQiOiJub2RlLXVrLmNvbm5lY3RzdWl0ZS5vcmciLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHBcLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IiIsImlkIjoiNzJmMmNiZTQtMjg3NC00NWI3LWI2YWEtYjkzMDc3YzEwYzcyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIyMDUzIiwicHMiOiJcdWQ4M2NcdWRkZWNcdWQ4M2NcdWRkZTdbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUdCIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==
+vmess://eyJhZGQiOiJub2RlLXVrLmNvbm5lY3RzdWl0ZS5vcmciLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHBcLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IiIsImlkIjoiNzJmMmNiZTQtMjg3NC00NWI3LWI2YWEtYjkzMDc3YzEwYzcyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIyMDUzIiwicHMiOiJcdWQ4M2NcdWRmZjNbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLSIsInNjeSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=
 vmess://eyJhZGQiOiIxOTMuMTExLjc4LjEwNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIyNmI2ZmQzMi0wNGU2LTQzZmYtYTA2NS1iZWEzNmY3NDg2NTUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsInBjcyI6IiIsInBvcnQiOiI1ODMwNCIsInBzIjoiXHVkODNjXHVkZGY5XHVkODNjXHVkZGY3W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1UUiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
 trojan://FH72359861@primary-leech.rooster465.autos:443?security=tls&sni=primary-leech.rooster465.autos#🇵🇱[openproxylist.com] trojan-PL
 trojan://FH72359861@magnetic-caiman.rooster465.autos:443?security=tls&sni=magnetic-caiman.rooster465.autos#🇵🇱[openproxylist.com] trojan-PL
@@ -81,47 +83,48 @@ trojan://FH72359861@modern-bedbug.rooster465.autos:443?security=tls&sni=modern-b
 trojan://FH72359861@darling-mongrel.rooster465.autos:443?security=tls&sni=darling-mongrel.rooster465.autos#🇮🇪[openproxylist.com] trojan-IE
 vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@laoye.in-gect.fun:2083?type=grpc&security=tls&fp=chrome&mode=gun&serviceName=grpc#🇱🇻[openproxylist.com] vless-LV
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@149.104.109.252:8882#🇵🇭[openproxylist.com] ss-PH
-vless://099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc@194.26.229.219:4100?encryption=none&security=none&type=ws&path=/v1#🇩🇪[openproxylist.com] vless-DE
+vless://9b44bfb4-9d28-4870-9fc3-5154d6d462ff@194.87.161.60:4100?type=ws&security=none&path=/v1#🇩🇪[openproxylist.com] vless-DE
+vless://e58a0802-443e-4ba3-992b-73687bb5b9f0@194.26.229.217:4100?&type=ws&headerType=none&path=/v1#🇩🇪[openproxylist.com] vless-DE
 vless://7e85ed3f-3829-45b1-8b1c-6a2e45ebc967@164.68.127.108:24144?security=none&encryption=none&headerType=none&type=tcp#🇫🇷[openproxylist.com] vless-FR
-vless://25f3beef-a4b6-40bc-aa74-17a0f89f683c@finite-node.rtxconfigz.com:443?encryption=none&host=telegram.us&path=/&security=tls&sni=finite-node.rtxconfigz.com&type=ws#🇫🇷[openproxylist.com] vless-FR
+vless://25f3beef-a4b6-40bc-aa74-17a0f89f683c@finite-node.rtxconfigz.com:443?encryption=none&host=telegram.us&path=%2F&security=tls&sni=finite-node.rtxconfigz.com&type=ws#🇫🇷[openproxylist.com] vless-FR
 ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@15.204.247.124:2375#🇺🇸[openproxylist.com] ss-US
-vless://e0454af2-6fe9-4983-a55d-05e1da202602@199.232.78.159:443?encryption=none&host=lsjaoijji.global.ssl.fastly.neT.&path=/&security=tls&sni=ssl.fastly.com&type=ws#🇩🇪[openproxylist.com] vless-DE
+vless://e0454af2-6fe9-4983-a55d-05e1da202602@199.232.78.159:443?encryption=none&host=lsjaoijji.global.ssl.fastly.neT.&path=%2F&security=tls&sni=ssl.fastly.com&type=ws#🇩🇪[openproxylist.com] vless-DE
 ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@149.104.107.41:8090#🇨🇴[openproxylist.com] ss-CO
 trojan://FH72359861@loyal-molly.rooster465.autos:443?security=tls&sni=loyal-molly.rooster465.autos#🇰🇷[openproxylist.com] trojan-KR
-trojan://FH72359861@summary-lemming.rooster465.autos:443?security=tls&sni=summary-lemming.rooster465.autos#🇩🇪[openproxylist.com] trojan-DE
+trojan://FH72359861@35.159.21.7:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=summary-lemming.rooster465.autos#🇩🇪[openproxylist.com] trojan-DE
 trojan://FH72359861@balanced-heron.rooster465.autos:443?security=tls&headerType=&type=tcp&sni=balanced-heron.rooster465.autos#🇮🇪[openproxylist.com] trojan-IE
 trojan://FH72359861@classic-pug.rooster465.autos:443?security=tls&sni=classic-pug.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@charming-ox.rooster465.autos:443?security=tls&headerType=&type=tcp&sni=charming-ox.rooster465.autos#🇸🇬[openproxylist.com] trojan-SG
 trojan://FH72359861@engaged-lionfish.rooster465.autos:443?security=tls&sni=engaged-lionfish.rooster465.autos#🏳[openproxylist.com] trojan-
-trojan://FH72359861@communal-troll.rooster465.autos:443?security=tls&sni=communal-troll.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
+trojan://FH72359861@communal-troll.rooster465.autos:443?security=tls&sni=communal-troll.rooster465.autos#🏳[openproxylist.com] trojan-
 trojan://FH72359861@bright-quagga.rooster465.autos:443?security=tls&sni=bright-quagga.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@welcome-owl.rooster465.autos:443?security=tls&sni=welcome-owl.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
-vless://4e7eb9d5-022a-4b0a-ba37-2d1be458947b@2.26.71.73:443?security=reality&amp;encryption=none&amp;pbk=YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM&amp;headerType=none&amp;fp=firefox&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=www.cloudflare.com&amp;sid=3f0a7e6b#🇩🇪[openproxylist.com] vless-DE
-vless://928e6cce-8ced-4243-9a48-a6642edd09b0@103.149.183.198:13779?security=reality&amp;encryption=none&amp;pbk=llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=tesla.com&amp;sid=af1bdd293097b664#🇭🇰[openproxylist.com] vless-HK
+vless://928e6cce-8ced-4243-9a48-a6642edd09b0@103.149.183.198:13779?security=reality&encryption=none&pbk=llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tesla.com&sid=af1bdd293097b664#🇭🇰[openproxylist.com] vless-HK
 vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6IjE1Ny4yNTQuMjI3Ljg3IiwicG9ydCI6NDQzLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6IjViNDExMzA4LWQ3OTYtNDY5NC1iNThkLWQyNTJlMzViYjQ3NSIsInNuaSI6InhjMTYyLm1laXppYmE1NTY2LmNvbSIsInBhdGgiOiJcL2QyNTJlMzViYjQ3NSIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
 vless://b748a230-b157-4401-8423-f8e44df31b5e@82.117.255.87:443?type=tcp&amp;headerType=none&amp;security=reality&amp;encryption=none&amp;sni=www.cloudflare.com&amp;fp=chrome&amp;pbk=1xxZM10W-A8nuj6MOXFd1kA9lS7bEy-5SO5j-jrd_Cg&amp;sid=b70076439f4a1340&amp;flow=xtls-rprx-vision#🇷🇴[openproxylist.com] vless-RO
-vmess://eyJhZGQiOiJydXNoLTZpdDZiLnRlZW9wcC5xdWVzdCIsImFpZCI6MCwiaG9zdCI6InJ1c2gtNml0NmIudGVlb3BwLnF1ZXN0IiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsInBvcnQiOjQ0MywicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVVTIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIifQ==
+vmess://eyJhZGQiOiJydXNoLTZpdDZiLnRlZW9wcC5xdWVzdCIsImFpZCI6MCwiaG9zdCI6InJ1c2gtNml0NmIudGVlb3BwLnF1ZXN0IiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsInBvcnQiOjQ0MywicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVVTIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8ifQ==
 vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVkXHVkODNjXHVkZGYwW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ISyIsImFkZCI6IjE1Ni4yNDUuMjMyLjIzOSIsInBvcnQiOiIzNTA0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiMTVlNDgxZC0xN2U0LTQxYTgtODRjMi0yM2Q0ZjA1MTRkOWEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJob3N0IjoiIiwidGxzIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
 vmess://eyJhZGQiOiI0Ny4yNDMuMzkuMjUxIiwiYWlkIjoiMCIsImhvc3QiOiIiLCJpZCI6IjQ3NTA2NzEzLTUwOGUtNDQxYS1iYjAyLTU2ZWI2NzliNGRjOSIsIm5ldCI6IndzIiwicGF0aCI6IlwvIiwicG9ydCI6IjMyOTEzIiwicHMiOiJcdWQ4M2NcdWRkZWRcdWQ4M2NcdWRkZjBbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUhLIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-vless://e0454af2-6fe9-4983-a55d-05e1da202602@199.232.78.159:443?&security=tls&fp=chrome&sni=ssl.fastly.com&type=ws&headerType=none&host=lsjaoijji.global.ssl.fastly.neT&path=%2F#🇩🇪[openproxylist.com] vless-DE
+vless://e0454af2-6fe9-4983-a55d-05e1da202602@199.232.78.159:443?&security=tls&fp=chrome&sni=ssl.fastly.com&type=ws&headerType=none&host=lsjaoijji.global.ssl.fastly.neT.&path=/#🇩🇪[openproxylist.com] vless-DE
 trojan://FH72359861@renewed-porpoise.rooster465.autos:443?security=tls#🇩🇪[openproxylist.com] trojan-DE
 trojan://AE62539071@wanted-marmoset.rooster465.autos:443?security=tls&sni=wanted-marmoset.rooster465.autos#🇦🇺[openproxylist.com] trojan-AU
-vmess://eyJhZGQiOiIxOTguMjMuMTg0LjEyMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI2OTEwZjc4ZS0zYzM4LTQ2YTEtYjI4Ny04MzcyNzlhZDliNGEiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLzgzNzI3OWFkOWI0YSIsInBjcyI6IiIsInBvcnQiOiI0NDMiLCJwcyI6Ilx1ZDgzY1x1ZGRmYVx1ZDgzY1x1ZGRmOFtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtVVMiLCJzY3kiOiJhdXRvIiwic25pIjoieGMxNjMubWVpemliYTU1NjYuY29tIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
-vmess://eyJhZGQiOiIyMTYuMTI4LjE3Ni4xNjYiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZWJjYTU1OWMtYTRhMS00MDYyLTk0NTMtNjQxMmQ4ZmY1MjU1IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9lYmNhNTU5Yy1hNGExLTQwNjItOTQ1My02NDEyZDhmZjUyNTUiLCJwb3J0IjoiMjg4MDkiLCJwcyI6Ilx1ZDgzY1x1ZGRlOFx1ZDgzY1x1ZGRlNltvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtQ0EiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
-vless://22696950-587f-42c0-af24-c1ffab17d0cd@91.197.3.43:52463?security=reality&encryption=none&pbk=zOv4BhJVbINHdcULln0vQ_6sxKiGjJPj4uyMttX9pWo&headerType=none&fp=chrome&spx=/&type=tcp&sni=yahoo.com&sid=cdaed92e1d0c#🇱🇻[openproxylist.com] vless-LV
-trojan://FH72359861@trusting-elf.rooster465.autos:443?security=tls#🇯🇵[openproxylist.com] trojan-JP
+vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6IjE5OC4yMy4xODQuMTIyIiwicG9ydCI6NDQzLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJpZCI6IjY5MTBmNzhlLTNjMzgtNDZhMS1iMjg3LTgzNzI3OWFkOWI0YSIsInNuaSI6InhjMTYzLm1laXppYmE1NTY2LmNvbSIsInBhdGgiOiJcLzgzNzI3OWFkOWI0YSIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
+vmess://eyJhZGQiOiIyMTYuMTI4LjE3Ni4xNjYiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiZWJjYTU1OWMtYTRhMS00MDYyLTk0NTMtNjQxMmQ4ZmY1MjU1IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9lYmNhNTU5Yy1hNGExLTQwNjItOTQ1My02NDEyZDhmZjUyNTUiLCJwb3J0IjoiMjg4MDkiLCJwcyI6Ilx1ZDgzY1x1ZGRlOFx1ZDgzY1x1ZGRlNltvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtQ0EiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
+vless://22696950-587f-42c0-af24-c1ffab17d0cd@91.197.3.43:52463?security=reality&encryption=none&pbk=zOv4BhJVbINHdcULln0vQ_6sxKiGjJPj4uyMttX9pWo&headerType=none&fp=random&spx=%2F&type=tcp&sni=yahoo.com&sid=cdaed92e1d0c#🇱🇻[openproxylist.com] vless-LV
+trojan://FH72359861@trusting-elf.rooster465.autos:443?security=tls#🏳[openproxylist.com] trojan-
 trojan://FH72359861@kind-grizzly.rooster465.autos:443?security=tls#🇰🇷[openproxylist.com] trojan-KR
-vless://9f61cdf4-810d-4052-bbc7-2da0c8e20104@83.147.18.3:443?type=tcp&headerType=none&security=reality&encryption=none&sni=www.cloudflare.com&fp=chrome&pbk=3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA&sid=fd8cf7e1173f0edb&flow=xtls-rprx-vision#🏳[openproxylist.com] vless-
+vless://9f61cdf4-810d-4052-bbc7-2da0c8e20104@83.147.18.3:443?type=tcp&amp;headerType=none&amp;security=reality&amp;encryption=none&amp;sni=www.cloudflare.com&amp;fp=chrome&amp;pbk=3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA&amp;sid=fd8cf7e1173f0edb&amp;flow=xtls-rprx-vision#🇬🇧[openproxylist.com] vless-GB
+vless://e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0@45.90.56.231:443?type=tcp&amp;headerType=none&amp;security=reality&amp;encryption=none&amp;sni=www.cloudflare.com&amp;fp=chrome&amp;pbk=KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0&amp;sid=e2e66f4537770cef&amp;flow=xtls-rprx-vision#🇨🇭[openproxylist.com] vless-CH
 trojan://FH72359861@great-wasp.rooster465.autos:443?security=tls&sni=great-wasp.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://FH72359861@absolute-bobcat.rooster465.autos:443?security=tls&sni=absolute-bobcat.rooster465.autos#🇰🇷[openproxylist.com] trojan-KR
 trojan://FH72359861@good-hound.rooster465.autos:443?security=tls&sni=good-hound.rooster465.autos#🇰🇷[openproxylist.com] trojan-KR
 trojan://FH72359861@apt-whippet.rooster465.autos:443?security=tls#🇰🇷[openproxylist.com] trojan-KR
-trojan://FH72359861@massive-ocelot.rooster465.autos:443?security=tls#🇰🇷[openproxylist.com] trojan-KR
+trojan://FH72359861@massive-ocelot.rooster465.autos:443?security=tls#🏳[openproxylist.com] trojan-
 trojan://AE62539071@13.114.122.131:443?security=tls&sni=whole-grub.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
-trojan://AE62539071@52.194.223.176:443?security=tls&sni=clear-heron.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
+trojan://AE62539071@clear-heron.rooster465.autos:443?security=tls&sni=clear-heron.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://AE62539071@54.64.255.224:443?security=tls&sni=maximum-elk.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://AE62539071@52.68.175.30:443?security=tls&sni=on-roughy.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
-trojan://AE62539071@18.183.182.132:443?security=tls&sni=exciting-grizzly.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
+trojan://AE62539071@exciting-grizzly.rooster465.autos:443?security=tls&sni=exciting-grizzly.rooster465.autos#🇯🇵[openproxylist.com] trojan-JP
 trojan://AE62539071@54.95.128.248:443?security=tls&sni=engaged-ram.rooster465.autos#🏳[openproxylist.com] trojan-
 vless://65c56e1f-5c41-40bc-b0b5-9346772476ca@www.visa.cn:443?&security=tls&fp=edge&sni=tl.520783.xyz&type=ws&headerType=none&host=tl.520783.xyz&path=%2Fassets%2Fdist%2Fapp-update-payload.dat#🇹🇭[openproxylist.com] vless-TH
 vmess://eyJhZGQiOiJ3d3cudHJ1ZS50aCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZDdwdTVtenI5YzRiMC5jbG91ZGZyb250Lm5ldCIsImlkIjoiYTE1MGQ1NTQtZTk2Mi00NjMyLTgyOWYtZWU1ODNhZGEzZjk1IiwibmV0Ijoid3MiLCJwYXRoIjoiXC9odHVuIiwicG9ydCI6IjgwIiwicHMiOiJcdWQ4M2NcdWRkZjlcdWQ4M2NcdWRkZWRbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVRIIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
@@ -130,12 +133,7 @@ vmess://eyJhZGQiOiIxNDAuODMuNTcuMjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9z
 trojan://AE62539071@humorous-llama.rooster465.autos:443?security=tls&sni=humorous-llama.rooster465.autos#🇦🇺[openproxylist.com] trojan-AU
 vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1ERSIsImFkZCI6ImRlYXBwLmppc3V5dW4udG9wIiwicG9ydCI6IjIwNTMiLCJpZCI6IjlhMWEwNWQ5LTY5YmUtNDVkMy1lMzI2LWM2NjIxZWRmN2IzMSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJkZWFwcC5qaXN1eXVuLnRvcCIsInBhdGgiOiJcL2Rldm0iLCJ0bHMiOiJ0bHMiLCJzbmkiOiJkZWFwcC5qaXN1eXVuLnRvcCIsImFscG4iOiIiLCJmcCI6IiIsImFsbG93aW5zZWN1cmUiOiIxIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
 trojan://AE62539071@strong-haddock.rooster465.autos:443?security=tls&sni=strong-haddock.rooster465.autos#🇭🇰[openproxylist.com] trojan-HK
+vless://91d0fa43-e557-43e7-a731-f0c3d1fb306a@89.105.208.125:443?type=tcp&security=reality&sni=n1.cloudgaming.one&fp=firefox&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&sid=6d6f13013d3e1d0c&flow=xtls-rprx-vision#🇳🇱[openproxylist.com] vless-NL
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVOVlBb3FCZ2c1VnlHQmM2dlF2MXNO@194.61.121.93:7538#🇵🇱[openproxylist.com] ss-PL
-vless://d8523317-503e-43ad-b2c3-e5f77d725848@31.76.46.138:20422?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=ZUQTvwYk_hDqSrw36uc18MkeEIXIGZZGsf5XWVwdqAQ&sid=90&spx=/&type=tcp&headerType=none#🇫🇮[openproxylist.com] vless-FI
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZSHRlc1owcXZndGc@38.180.135.156:8388#🇺🇸[openproxylist.com] ss-US
-trojan://AE62539071@relative-locust.rooster465.autos:443?security=tls#🇵🇱[openproxylist.com] trojan-PL
-trojan://AE62539071@main-impala.rooster465.autos:443?security=tls#🇯🇵[openproxylist.com] trojan-JP
-trojan://AE62539071@tolerant-mosquito.rooster465.autos:443?security=tls&sni=tolerant-mosquito.rooster465.autos#🏳[openproxylist.com] trojan-
-trojan://AE62539071@thorough-falcon.rooster465.autos:443?security=tls#🇳🇱[openproxylist.com] trojan-NL
-trojan://AE62539071@sacred-hound.rooster465.autos:443?security=tls#🇰🇷[openproxylist.com] trojan-KR
-trojan://AE62539071@literate-cow.rooster465.autos:443?security=tls#🇯🇵[openproxylist.com] trojan-JP
+vless://d8523317-503e-43ad-b2c3-e5f77d725848@31.76.46.138:20422?security=reality&encryption=none&pbk=ZUQTvwYk_hDqSrw36uc18MkeEIXIGZZGsf5XWVwdqAQ&headerType=none&fp=chrome&spx=/&type=tcp&sni=yahoo.com&sid=90#🇫🇮[openproxylist.com] vless-FI
+vless://ad17ed00-5bb6-4fa4-8be1-a545a9fbda6e@45.84.1.247:8443?security=reality&encryption=none&pbk=E_hcnZ6IvHDD2IFy8UGRvwWXHSqRrF--Ply0hJXSd30&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=rbc.ru&sid=849cac6150823b#🇷🇺[openproxylist.com] vless-RU
