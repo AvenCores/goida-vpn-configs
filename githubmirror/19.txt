@@ -1,4 +1,4 @@
-trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-02-Sep-2026 18:24
+trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%94%84%20LATEST-UPDATE%20%F0%9F%93%85%20Wed-02-Sep-2026 21:51
 vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@213.130.137.90:443?mode=auto&amp;path=%2F&amp;security=reality&amp;encryption=none&amp;pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&amp;host=panel.freesavesafe.com&amp;fp=firefox&amp;type=xhttp&amp;sni=panel.freesavesafe.com&amp;sid=812609fa663c57fb#%F0%9F%87%AB%F0%9F%87%B7%40FreakConfig
 vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@213.130.137.140:443?mode=auto&amp;path=%2F&amp;security=reality&amp;encryption=none&amp;pbk=BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8&amp;host=panel.freesavesafe.com&amp;fp=firefox&amp;type=xhttp&amp;sni=panel.freesavesafe.com&amp;sid=812609fa663c57fb#%F0%9F%87%AB%F0%9F%87%B7%40FreakConfig
 vless://60e2a548-96aa-4850-a279-1edab743c39b@185.194.177.120:2096?security=reality&amp;encryption=none&amp;pbk=pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI&amp;headerType=none&amp;fp=firefox&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=conrad.de&amp;sid=e3e76808b9fcd591#%F0%9F%87%A9%F0%9F%87%AA%40FreakConfig
@@ -128,6 +128,8 @@ vless://376b9861-2fc6-4647-959c-18185cd9c95a@104.31.16.36:443?path=%2Ffflsws&amp
 vless://ffffffff-17ad-45e7-aaa1-f2baaa08e930@141.101.113.89:443?path=%2F%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;host=watashi.free.hkpublic.moh539.link&amp;type=ws&amp;sni=watashi.free.hkpublic.moh539.link#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://CONFIG-WANCLOUDFA@49.12.64.220:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://52e194ba-cdf5-4a7d-d146-d8b06f8a698b@51.75.91.144:23300?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.182.220:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.37.75.61:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.134.200.6:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.135.176.1:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@16.61.111.198:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
@@ -140,6 +142,8 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.42.235.201:22222?encryption=none
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.42.235.201:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.24.184.231:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.56.123.186:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.179.45.135:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.134.70.15:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 vless://86c2939c-4506-4028-cdc9-6fe073890e81@a2.arshia-nova.ir:443?path=%2F&amp;security=tls&amp;alpn=h2&amp;encryption=none&amp;insecure=0&amp;host=c12.com&amp;fp=firefox&amp;type=ws&amp;allowInsecure=0&amp;sni=ssl.fastly.com#%40FREELAND8
 vless://e6281288-8e4d-498c-a519-839f01c429be@www.jerryliang.cn:443?path=%2Fapi1%2Fupdate&amp;security=tls&amp;encryption=mlkem768x25519plus.native.0rtt.sgc46QJO9hCiinBskTDKXpBIuXLlmqyCY28Q3JrcfQE&amp;insecure=0&amp;host=lukashost.irandoc.info&amp;fp=firefox&amp;type=ws&amp;allowInsecure=0&amp;sni=lukas.irandoc.info#%40FREELAND8
 vless://86c2939c-4506-4028-cdc9-6fe073890e81@k2.cloud--vpn.site:443?path=%2F&amp;security=tls&amp;alpn=h2&amp;encryption=none&amp;insecure=0&amp;host=c12.com&amp;fp=firefox&amp;type=ws&amp;allowInsecure=0&amp;sni=ssl.fastly.com#%40FREELAND8
@@ -1101,6 +1105,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@tt.hsrdnr.ir:2044?secu
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@tt.hsrdnr.ir:2044?security=none&amp;type=tcp#fa…
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@page.hsrdnr.ir:2044?security=none&amp;type=tcp#fast%F0%9F%87%A9%F0%9F%87%AA-test
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@185.215.228.132:2044?security=none&amp;type=tcp#fast%F0%9F%87%A9%F0%9F%87%AA-test
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.182.220:22222?encryption=none&amp;security=none&amp;type=tcp#(S103)
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.37.75.61:22222?encryption=none&amp;security=none&amp;type=tcp#(S104)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.134.200.6:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.135.176.1:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@16.61.111.198:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
@@ -1113,6 +1119,8 @@ ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.42.235.201:22222?encryption=none&am
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.42.235.201:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@51.24.184.231:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
 ss://e4514801-0d5a-42ba-869f-39bd605aef9e@52.56.123.186:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@35.179.45.135:22222?encryption=none&amp;security=none&amp;type=tcp#(S101)
+ss://e4514801-0d5a-42ba-869f-39bd605aef9e@13.134.70.15:22222?encryption=none&amp;security=none&amp;type=tcp#(S102)
 ss://86c2939c-4506-4028-cdc9-6fe073890e81@a2.arshia-nova.ir:443?path=%2F&amp;security=tls&amp;alpn=h2&amp;encryption=none&amp;insecure=0&amp;host=c12.com&amp;fp=firefox&amp;type=ws&amp;allowInsecure=0&amp;sni=ssl.fastly.com#%40FREELAND8
 ss://e6281288-8e4d-498c-a519-839f01c429be@www.jerryliang.cn:443?path=%2Fapi1%2Fupdate&amp;security=tls&amp;encryption=mlkem768x25519plus.native.0rtt.sgc46QJO9hCiinBskTDKXpBIuXLlmqyCY28Q3JrcfQE&amp;insecure=0&amp;host=lukashost.irandoc.info&amp;fp=firefox&amp;type=ws&amp;allowInsecure=0&amp;sni=lukas.irandoc.info#%40FREELAND8
 ss://86c2939c-4506-4028-cdc9-6fe073890e81@k2.cloud--vpn.site:443?path=%2F&amp;security=tls&amp;alpn=h2&amp;encryption=none&amp;insecure=0&amp;host=c12.com&amp;fp=firefox&amp;type=ws&amp;allowInsecure=0&amp;sni=ssl.fastly.com#%40FREELAND8
